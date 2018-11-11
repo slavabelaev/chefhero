@@ -1,0 +1,29 @@
+@import "variables";
+@import "fonts";
+
+body {
+	font-family: "Belbo-Book", sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	color: #5f6368;
+}
+h1 {
+	font-family: "TiemposHeadline-Black", sans-serif;
+	margin-top: 0;
+}
+h2 {
+	color: $primary;
+}
+h3, h4, h5, h6 {
+	font-weight: 500;
+	color: $accent;
+}
+sup {
+	font-size: .75rem;
+}
+address > dl {
+	display: flex;
+}
+address > dl > dd {
+	margin-left: 12px;
+}

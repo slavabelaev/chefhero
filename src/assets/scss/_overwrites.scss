@@ -1,0 +1,33 @@
+.md-app-content.md-content.md-theme-default {
+    height: initial;
+	background-color: #f8f9fa;
+}
+
+.md-app {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.md-drawer {
+    width: 280px;
+    max-width: calc(100vw - 125px);
+}
+
+.md-stepper-number {
+	min-width: 24px;
+}
+.md-stepper-text {
+	white-space: normal;
+	font-size: 1rem;
+	line-height: 1.25;
+}
+.md-steppers.md-vertical .md-stepper-header {
+	height: 72px;
+}
+.md-steppers.md-vertical .md-stepper:after {
+    bottom: -16px;    
+    top: 56px;
+}
