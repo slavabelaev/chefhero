@@ -2,24 +2,32 @@
   <md-app md-waterfall md-mode="fixed">
     <!-- Toolbar -->
     <md-app-toolbar class="md-primary">
-      <md-button class="md-icon-button" v-if="false">
-        <md-icon>menu</md-icon>
-      </md-button>
-      <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
-      <div class="md-toolbar-section-end">
-        <md-button download href="<%= BASE_URL %>/content/The_Ultimate_Guide_to_Running_a_Restaurant.pdf">
-          <md-icon>save_alt</md-icon>
-          <span>Download the guide</span>
-        </md-button>
-        <md-button @click="isActiveAboutDialog = true" class="md-icon-button">
-          <md-icon>help_outline</md-icon>
-        </md-button>
+      <div class="md-toolbar-row">
+        <div class="md-toolbar-section-start show-on-small">
+          <md-button class="md-icon-button" @click="isActiveDrawer = !isActiveDrawer">
+            <md-icon>menu</md-icon>
+          </md-button>
+        </div>
+        <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
+
+        <div class="md-toolbar-section-end">
+          <md-button download href="assets/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="hide-on-small">
+            <md-icon>save_alt</md-icon>
+            <span>Download the guide</span>
+          </md-button>
+          <md-button download href="assets/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="md-icon-button show-on-small">
+            <md-icon>save_alt</md-icon>
+          </md-button>
+          <md-button @click="isActiveAboutDialog = true" class="md-icon-button">
+            <md-icon>help_outline</md-icon>
+          </md-button>
+        </div>
       </div>
     </md-app-toolbar>
     <!-- /Toolbar -->
 
     <!-- Drawer -->
-    <md-app-drawer md-permanent="full">
+    <md-app-drawer md-permanent="full" :md-active.sync="isActiveDrawer">
       <app-logo></app-logo>
       <app-navigation></app-navigation>
     </md-app-drawer>
@@ -33,7 +41,7 @@
 					<md-button class="md-raised md-default" @click="goBack()" v-if="$route.path != '/'">Back</md-button>
 				</md-speed-dial>
         
-        <md-content id="app-content" class="md-elevation-5">
+        <md-content id="app-content">
           <router-view></router-view>
         </md-content>
 
@@ -56,7 +64,8 @@
 export default {
   data() {
     return {
-      isActiveAboutDialog: false
+      isActiveAboutDialog: false,
+      isActiveDrawer: false
     } 
   },
   methods: {
