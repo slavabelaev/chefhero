@@ -42,7 +42,9 @@
 				</md-speed-dial>
         
         <md-content id="app-content">
-          <router-view></router-view>
+          <transition>
+            <router-view></router-view>
+          </transition>
         </md-content>
 
         <!-- About Dialog -->
@@ -68,7 +70,15 @@ export default {
       isActiveDrawer: false
     } 
   },
+  watch: {
+    $route (to, from) {
+      this.pageScrollToTop();
+    }
+  },
   methods: {
+    pageScrollToTop() {
+      document.querySelector('.md-app-scroller').scrollTop = 0;
+    },
     getCurrentChapter() {
       return +this.$route.path.match(/(?!chapter\/)\d*$/)[0];
     },
