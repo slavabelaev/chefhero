@@ -43,7 +43,7 @@
 
     <md-app-content>
         <md-speed-dial class="md-bottom-right" md-direction="bottom">
-					<md-button class="md-raised md-accent" @click="goNext()" v-if="$route.name != 'conclusion'">Next</md-button>
+					<md-button class="md-raised md-primary" @click="goNext()" v-if="$route.name != 'conclusion'">Next</md-button>
 				</md-speed-dial>
 				<md-speed-dial class="md-bottom-left" md-direction="bottom">
 					<md-button class="md-raised md-default" @click="goBack()" v-if="$route.name != 'introduction'">Back</md-button>
