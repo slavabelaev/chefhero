@@ -9,7 +9,6 @@
           </md-button>
         </div>
         <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
-
         <div class="md-toolbar-section-end">
           <md-button download href="assets/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="hide-on-small">
             <md-icon>save_alt</md-icon>
@@ -29,7 +28,16 @@
     <!-- Drawer -->
     <md-app-drawer md-permanent="full" :md-active.sync="isActiveDrawer">
       <app-logo></app-logo>
-      <app-navigation></app-navigation>
+      <md-steppers :md-active-step="$route.name" md-vertical>
+        <md-step :id="route.name"
+                 :md-label="route.meta.title" 
+                 :md-description="route.meta.description"
+                 :to="route.path"
+                 :md-done.sync="doneRoutes[route.name]"
+                 v-for="route in $router.options.routes"
+                 v-if="route.name != 'introduction' && route.name != 'about'"
+                 :key="route.id"></md-step>
+      </md-steppers>
     </md-app-drawer>
     <!-- /Drawer -->
 
@@ -67,11 +75,14 @@ export default {
   data() {
     return {
       isActiveAboutDialog: false,
-      isActiveDrawer: false
+      isActiveDrawer: false,
+      doneRoutes: {}
     } 
   },
   watch: {
-    $route () {
+    $route (to) {
+      document.title = to.meta.title;
+      document.querySelector('meta[name="description"]').content = to.meta.description;
       this.pageScrollToTop();
     }
   },
@@ -84,13 +95,22 @@ export default {
     },
     goNext() {
       const routes = this.$router.options.routes;
-      let routeIndex = this.getRouteIndex() + 1;
-      if (routeIndex <= routes.length) this.$router.push(routes[routeIndex]);
+      let routeIndex = this.getRouteIndex();
+      if (routeIndex < routes.length) {
+        const doneRoute = routes[routeIndex];
+        this.doneRoutes[doneRoute.name] = true;
+        routeIndex++;
+        const navigateToRoute = routes[routeIndex];
+        this.$router.push(navigateToRoute);
+      }
     },
     goBack() {
       const routes = this.$router.options.routes;
-      let routeIndex = this.getRouteIndex() - 1;
-      if (routeIndex >= 0) this.$router.push(routes[routeIndex]);
+      let routeIndex = this.getRouteIndex();
+      if (routeIndex > 0) {
+        routeIndex--;
+        this.$router.push(routes[routeIndex]);
+      }
     }
   }
 }
