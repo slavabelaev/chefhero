@@ -54,6 +54,8 @@
         <p>Modern customers, in all industries, have high expectations for customer service. But in restaurants, where there’s so much competition, providing customer service that wows your guests is necessary if you want to stand out. Restaurant owners know that repeat business is a vital part of any eatery’s success. Great customer service will beget happy, loyal customers who visit over and over again, which lays the foundation for years of success.</p>
         <p>Customer service is what motivates people to come back to your restaurant. But your menu is what makes it profitable (or not). In the next section, we will go over strategies to help you optimize your menu to be more profitable.</p>
     </section>
-    <img src="#" alt="We appreciate your feedback!">
+    <!-- Form -->
+    <feedback-form></feedback-form>
+    <!-- /Form -->
 </article>
 </template>

@@ -1,20 +1,20 @@
 <template>
   <figure class="chart-figure">
     <figcaption class="chart-figure__title">Why do customers stop frequenting a restaurant?</figcaption>
-    <ul class="charts-figure__list">
-      <li class="charts-figure__list-item">
+    <div class="md-layout">
+      <div class="md-layout-item md-small-size-100">
         <figure class="chart-figure__item">
           <canvas :id="chartId"></canvas>
           <figcaption>73% cited rude staff as issue.</figcaption>
         </figure>
-      </li>
-      <li class="charts-figure__list-item">
+      </div>
+      <div class="md-layout-item md-small-size-100">
         <figure class="chart-figure__item">
           <canvas :id="secondChartId"></canvas>
           <figcaption>55% cited issues that weren't resolved in timely manner.</figcaption>
         </figure>
-      </li>
-    </ul>
+      </div>
+    </div>
   </figure>
 </template>
 
@@ -86,19 +86,6 @@ export default {
     text-align: center;
     padding: 0;
     margin: 0;
-  }
-  .charts-figure__list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .charts-figure__list-item {
-    flex: 1;
-    min-width: 240px;
-    margin-bottom: 12px;
   }
   .chart-figure__title {
     margin-bottom: 24px;

@@ -1,3 +1,5 @@
+@import "variables";
+
 .md-app-content.md-content.md-theme-default {
     height: initial;
 }
@@ -29,4 +31,10 @@
 .md-steppers.md-vertical .md-stepper:after {
     bottom: -16px;    
     top: 56px;
+}
+
+form .md-title {
+  text-align: center;
+  color: $accent;
+  font-weight: bold;
 }
