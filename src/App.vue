@@ -84,6 +84,7 @@ export default {
       document.title = to.meta.title;
       document.querySelector('meta[name="description"]').content = to.meta.description;
       this.pageScrollToTop();
+      this.isActiveDrawer = false;
     }
   },
   methods: {
