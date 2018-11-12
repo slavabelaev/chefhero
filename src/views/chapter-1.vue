@@ -52,10 +52,9 @@
         <h3>So How Do You Create A Budget Plan?</h3>
         <p>There’s a basic, general formula that provides a good starting point for any restaurateur who’s planning a budget: The <strong>68 percent formula</strong>. What this means is that your restaurant’s overhead expenses should account for right around 68 percent of your budget (with a little bit of wiggle room, because every restaurant is different).</p>
         <p>The breakdown for this is around 30 percent for food and supplies, 25 percent for payroll, 3 percent on utilities ( including gas, electric, phone bill and internet), and 10 percent on rent or the mortgage for the building space. The remaining 32 percent should be profit.</p>
-        <figure class="figure">
-            <figcaption class="figure-caption">The 68 Percent Formula Budget Plan</figcaption>
-            <img src="#" alt="GRAPHIC" class="figure-img">
-        </figure>
+        <!-- Budget Chart -->
+        <budget-plan-chart></budget-plan-chart>
+        <!-- /Budget Chart -->
         <p>With those percentages in mind, here’s a basic road map for actually planning out your budget<sup><a target="_blank" href="https://upserve.com/restaurant-insider/3-quick-steps-managing-restaurant-budget/">[2]</a></sup>:</p>
         <p>First, evaluate your current reality. This can’t just be an educated guess. Pull all your receipts, your purchase orders, your payroll. You need an accurate picture of your expenses and income right at this moment.</p>
         <p>Next, calculate the return on investment (ROI) for everything in your budget. You need to know inside and out how much profit margin you’re getting for each dish on your menu. You have to balance that against the cost of hav-ing staff on the clock. If you have too many staff on at a time, the ROI on your staffing expenses won’t be great. If you’re overspending on ingredients, the ROI on your menu may need improvement. Figure out where you’re at now, and maybe set some goals about where you’d like to be.</p>

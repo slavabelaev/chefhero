@@ -24,10 +24,9 @@
         <p>First, some general tips for getting a high-quality staff in place — and then keeping them there.</p>
         <p>You’ll never win on salary. You may think you’re offering the best salary around, but there’s always somewhere that can pay the same or even more than you. And that somewhere else is also probably able to offer better hours or perks. Don’t believe it? Give it time, and your turnover rate will prove it.</p>
         <p>So where do you even start looking for someone with all of the qualities you want in an employee? A restaurant-centric job board is probably a good place to start, but the most qualified and talented individuals probably won’t be out of work and looking.</p>
-        <figure class="figure">
-            <figcaption class="figure-caption">Annual Employee Turnover Rates (%)</figcaption>
-            <img src="#" alt="Annual Employee Turnover Rates (%)">
-        </figure>
+        <!-- Chart -->
+        <annual-employee-turnover-rates-chart></annual-employee-turnover-rates-chart>
+        <!-- /Chart -->
         <p>You can consider hiring internally by promoting a sous chef, or externally by looking for personal or private chefs who might be interested in running a restaurant kitchen instead, scouting for soon-to-be graduates at cooking schools, or even going to a recruiting agency to help you entice a chef to make the jump from another restaurant to yours.</p>
         <p>If you want to attract the best talent this starts with writing the best job description, clearly outlining an employee’s du-ties and salary expectations.</p>
         <p>Don’t be afraid to get creative with your job descriptions — you’ll never be the only fish ‘n’ chips place, or even the place that pays the most, so what makes your location unique and attractive?</p>
@@ -55,10 +54,9 @@
     <section>
         <h3>Hiring Good Employees Goes Beyond a Competitive Salary</h3>
         <p>Instead of trying to beat out your competition on salary, fo-cus on your culture — that’s what will keep good talent under your roof and away from your competitors. How can you fos-ter team engagement and culture? How can you reward your people in non-monetary ways? How can you provide helpful coaching and feedback to your staff to help them grow as they work for you? These should be your first considerations.</p>
-        <figure class="figure">
-            <figcaption class="figure-caption">Top Reasons Employees Quit</figcaption>
-            <img src="#" alt="Top Reasons Employees Quit">
-        </figure>
+        <!-- Chart -->
+        <top-reasons-employees-quit-chart></top-reasons-employees-quit-chart>
+        <!-- /Chart -->
         <p>One of the main ways you can foster a culture that will lead you to loyal employees is to give your staff autonomy. Give them guidance to steer them in the right direction, but then let them figure out how to be successful on their own. They’re on the floor every shift. They know best. And if they’re talented people, they’ll create procedures that will have your restaurant running smoothly in no time.</p>
         <p>An added bonus to this is you won’t end up with depend-ent employees. When you fill your restaurant with people you trust, who are empowered to do good work, you have the freedom to let them run the show, with or without your presence. Win-win.</p>
         <p>What’s important when it comes to retaining staff is to treat them well. Once you have a well-trained staff in place, especially if you hire people with experience and talent, there’s always the risk that they’ll get poached by another restaurant. The good news is that in the restaurant industry, many workers face long hours and low wages<sup><a href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[15]</a></sup>. You can beat out much of your competition for good staff just by offering a living wage and flexible hours.</p>
@@ -68,10 +66,9 @@
         <p>Yep, finding your chef is one of your most important jobs when you’re getting your restaurant up and running. And it’s one of the hardest.</p>
         <p>It’s expected that some servers, line cooks, dishwashers and other lower level staff are going to come and go. Ideally, though, your chef should be a long-term employee<sup><a href="https://www.webstaurantstore.com/article/119/how-to-hire-a-chef.html" target="_blank">[16]</a></sup>. This is the person who is going to take your concept and turn it into actual, delicious food. You should do everything you can to hire the best and then keep them under your roof.</p>
         <p>One of the first things you should look for in your chef is experience and education. Certification isn’t required for all chefs, but if you can find someone who is certified, you know you’re getting a chef who has put in some serious time and work.</p>
-        <figure class="figure">
-            <figcaption class="figure-caption">Average Chef Salaries by position (in Can$)</figcaption>
-            <img src="#" alt="Average Chef Salaries by position (in Can$)">
-        </figure>
+        <!-- Chart -->
+        <average-chef-salaries-by-position-chart></average-chef-salaries-by-position-chart>
+        <!-- /Chart -->
         <p>But certification is not all a good chef should possess. You will also want someone with:</p>
         <ul>
             <li>An excellent palate for tasting and distinguishing flavors accurately</li>

@@ -40,7 +40,7 @@
 				<md-speed-dial class="md-bottom-left" md-direction="bottom">
 					<md-button class="md-raised md-default" @click="goBack()" v-if="$route.path != '/'">Back</md-button>
 				</md-speed-dial>
-        
+
         <md-content id="app-content">
           <transition>
             <router-view></router-view>
@@ -71,7 +71,7 @@ export default {
     } 
   },
   watch: {
-    $route (to, from) {
+    $route () {
       this.pageScrollToTop();
     }
   },
