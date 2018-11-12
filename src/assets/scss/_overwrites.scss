@@ -33,6 +33,10 @@
     top: 56px;
 }
 
+.md-steppers.md-vertical .md-stepper-content.md-active {
+    padding: 0;
+}
+
 form .md-title {
   text-align: center;
   color: $accent;

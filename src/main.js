@@ -8,8 +8,6 @@ import AppAbout from './views/About.vue'
 Vue.component('app-about', AppAbout)
 import AppLogo from './components/Logo.vue'
 Vue.component('app-logo', AppLogo)
-import AppNavigation from './components/Navigation.vue'
-Vue.component('app-navigation', AppNavigation)
 
 import BudgetPlanChart from './components/charts/BudgetPlanChart.vue'
 Vue.component('budget-plan-chart', BudgetPlanChart)
