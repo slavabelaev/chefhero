@@ -35,10 +35,9 @@
         <p>If you feel like there may be some gaps in your customer ser-vice, go to your best resource: your customers themselves. Start employing comment cards, email surveys or some oth-er method to collect guest feedback. Not only does this give you specific action items you can address to improve your food and service, but it makes the customers feel that their experiences and their thoughts matter.</p>
         <p>You may be reading this and thinking that providing excellent customer service takes a lot of work. It does. But, it’s well worth the time and effort you invest. Happy customers are repeat customers, and there’s data to prove it: A Harvard Business School study on Starbucks customers found that satisfied customers visited, on average, 4.3 times per month, spending $4.06 per visit and remaining customers for 4.4 years<sup><a href="https://www.webstaurantstore.com/article/119/how-to-hire-a-chef.html" target="_blank">[22]</a></sup>.</p>
         <p>That’s pretty good, right? That same study found that highly satisfied customers visited, on average, 7.2 times per month, spending $4.42 each visit and remaining customers for 8.3 years. That’s a huge jump in revenue.</p>
-        <figure class="figure">
-            <figcaption class="figure-caption">Why do customers stop frequenting a restaurant?</figcaption>
-            <img src="#" alt="Why do customers stop frequenting a restaurant?">
-        </figure>
+        <!-- Chart -->
+        <reasons-for-stopping-visiting-restaurants-chart></reasons-for-stopping-visiting-restaurants-chart>
+        <!-- /Chart -->
         <p>o what about the flip side? A Customer Experience Report survey found that rude customer service was one of the top reasons customers will abandon a brand, beating out other reasons by 18 percent <sup><a href="https://www.slideshare.net/RightNow/2010-customer-experience-impact" target="_blank">[23]</a></sup>.</p>
         <p>These two studies show why customer service is so vital for restaurants: it truly can make or break your brand.</p>
     </section>

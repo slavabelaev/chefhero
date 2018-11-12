@@ -21,6 +21,9 @@ Vue.component('average-chef-salaries-by-position-chart', AverageChefSalariesByPo
 Vue.component('budget-plan-chart', BudgetPlanChart)
 import TopReasonsEmployeesQuitChart from './components/charts/TopReasonsEmployeesQuitChart.vue'
 Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
+Vue.component('budget-plan-chart', BudgetPlanChart)
+import ReasonsForStoppingVisitingRestaurantsChart from './components/charts/ReasonsForStoppingVisitingRestaurantsChart.vue'
+Vue.component('reasons-for-stopping-visiting-restaurants-chart', ReasonsForStoppingVisitingRestaurantsChart)
 
 import App from './App.vue'
 import router from './router'
