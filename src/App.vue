@@ -35,10 +35,10 @@
 
     <md-app-content>
         <md-speed-dial class="md-bottom-right" md-direction="bottom">
-					<md-button class="md-raised md-accent" @click="goNext()" v-if="$route.path != '/conclusion'">Next</md-button>
+					<md-button class="md-raised md-accent" @click="goNext()" v-if="$route.name != 'conclusion'">Next</md-button>
 				</md-speed-dial>
 				<md-speed-dial class="md-bottom-left" md-direction="bottom">
-					<md-button class="md-raised md-default" @click="goBack()" v-if="$route.path != '/'">Back</md-button>
+					<md-button class="md-raised md-default" @click="goBack()" v-if="$route.name != 'introduction'">Back</md-button>
 				</md-speed-dial>
 
         <md-content id="app-content">
@@ -79,21 +79,18 @@ export default {
     pageScrollToTop() {
       document.querySelector('.md-app-scroller').scrollTop = 0;
     },
-    getCurrentChapter() {
-      return +this.$route.path.match(/(?!chapter\/)\d*$/)[0];
+    getRouteIndex() {
+      return this.$router.options.routes.findIndex(route => route.name == this.$route.name);
     },
     goNext() {
-      let currentPage = this.getCurrentChapter(),
-          nextPage = currentPage + 1;
-      if (nextPage === 12) this.$router.push('/conclusion');
-      if (nextPage < 12) this.$router.push('/chapter/' + nextPage);
+      const routes = this.$router.options.routes;
+      let routeIndex = this.getRouteIndex() + 1;
+      if (routeIndex <= routes.length) this.$router.push(routes[routeIndex]);
     },
     goBack() {
-      let currentPage = this.getCurrentChapter(),
-          prevPage = currentPage - 1;
-      if (prevPage === -1) this.$router.push('/chapter/11');
-      if (prevPage === 0) this.$router.push('/');
-      if (prevPage > 0) this.$router.push('/chapter/' + prevPage);
+      const routes = this.$router.options.routes;
+      let routeIndex = this.getRouteIndex() - 1;
+      if (routeIndex >= 0) this.$router.push(routes[routeIndex]);
     }
   }
 }

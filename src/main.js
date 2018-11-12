@@ -1,12 +1,10 @@
 import Vue from 'vue'
-import Vuelidate from 'vuelidate'
-Vue.use(Vuelidate)
 import VueMaterial from 'vue-material'
 Vue.use(VueMaterial)
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 
-import AppAbout from './views/about.vue'
+import AppAbout from './views/About.vue'
 Vue.component('app-about', AppAbout)
 import AppLogo from './components/Logo.vue'
 Vue.component('app-logo', AppLogo)

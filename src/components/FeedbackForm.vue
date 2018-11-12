@@ -3,7 +3,7 @@
     <form novalidate class="md-layout" @submit.prevent="validateFeedbackForm">
       <div class="md-layout-item md-small-size-100">
         <md-card-header>
-          <div class="md-title">We appreciate your feedback!</div>
+          <h2 class="md-title">We appreciate your feedback!</h2>
         </md-card-header>
 
         <md-card-content>

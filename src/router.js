@@ -10,72 +10,128 @@ export default new Router({
     {
       path: '/',
       name: 'introduction',
-      component: () => import('./views/introduction.vue')
+      meta: {
+        title: 'Introduction',
+        description: ''
+      },
+      component: () => import('./views/Introduction.vue')
     },
     {
       path: '/chapter/1',
       name: 'chapter-1',
-      component: () => import('./views/chapter-1.vue')
+      meta: {
+        title: 'Restaurant Budgeting:',
+        description: 'Getting Your Numbers Right'
+      },
+      component: () => import('./views/Chapter-1.vue')
     },
     {
       path: '/chapter/2',
       name: 'chapter-2',
-      component: () => import('./views/chapter-2.vue')
+      meta: {
+        title: 'Location, Space, & Personality:',
+        description: 'Setting the Scene for a Winning Restaurant'
+      },
+      component: () => import('./views/Chapter-2.vue')
     },
     {
       path: '/chapter/3',
       name: 'chapter-3',
-      component: () => import('./views/chapter-3.vue')
+      meta: {
+        title: 'Restaurant Branding:',
+        description: 'Concept, Brand Identity, Naming, and Logos'
+      },
+      component: () => import('./views/Chapter-3.vue')
     },
     {
       path: '/chapter/4',
       name: 'chapter-4',
-      component: () => import('./views/chapter-4.vue')
+      meta: {
+        title: '5 Steps to Kickstart',
+        description: 'Your New Restaurant Business'
+      },
+      component: () => import('./views/Chapter-4.vue')
     },
     {
       path: '/chapter/5',
       name: 'chapter-5',
-      component: () => import('./views/chapter-5.vue')
+      meta: {
+        title: 'Build the Best Team:',
+        description: 'Finding and Managing Your Restaurant’s A-Team'
+      },
+      component: () => import('./views/Chapter-5.vue')
     },
     {
       path: '/chapter/6',
       name: 'chapter-6',
-      component: () => import('./views/chapter-6.vue')
+      meta: {
+        title: 'Taking Restaurant Customer Service to the Next Level:',
+        description: 'Strategies and Results'
+      },
+      component: () => import('./views/Chapter-6.vue')
     },
     {
       path: '/chapter/7',
       name: 'chapter-7',
-      component: () => import('./views/chapter-7.vue')
+      meta: {
+        title: 'Menu Hacking:',
+        description: 'Cost Per Meal & Smart Design to Maximize Profits'
+      },
+      component: () => import('./views/Chapter-7.vue')
     },
     {
       path: '/chapter/8',
       name: 'chapter-8',
-      component: () => import('./views/chapter-8.vue')
+      meta: {
+        title: '14 Essential Restaurant Metrics Every Owner',
+        description: 'Should Measure and Track'
+      },
+      component: () => import('./views/Chapter-8.vue')
     },
     {
       path: '/chapter/9',
       name: 'chapter-9',
-      component: () => import('./views/chapter-9.vue')
+      meta: {
+        title: 'The 19 Tech Tools You Need to Run',
+        description: 'a Successful Restaurant'
+      },
+      component: () => import('./views/Chapter-9.vue')
     },
     {
       path: '/chapter/10',
       name: 'chapter-10',
-      component: () => import('./views/chapter-10.vue')
+      meta: {
+        title: 'Greener Tomorrow:',
+        description: 'A Step-By-Step Guide to Running an Eco-Conscious Restaurant'
+      },
+      component: () => import('./views/Chapter-10.vue')
     },
     {
       path: '/chapter/11',
       name: 'chapter-11',
-      component: () => import('./views/chapter-11.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('./views/about.vue')
+      meta: {
+        title: 'A Starter Guide to Instagram',
+        description: 'Marketing for Restaurateurs'
+      },
+      component: () => import('./views/Chapter-11.vue')
     },
     {
       path: '/conclusion',
       name: 'conclusion',
-      component: () => import('./views/conclusion.vue')
+      meta: {
+        title: 'Conclusion',
+        description: ''
+      },
+      component: () => import('./views/Conclusion.vue')
     },
+    {
+      path: '/about',
+      name: 'about',
+      meta: {
+        title: 'About ChefHero',
+        description: ''
+      },
+      component: () => import('./views/About.vue')
+    }
   ]
 })
