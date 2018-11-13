@@ -6,7 +6,7 @@
         <address>
             <dl>
                 <dt>Written by:</dt>
-                <dd>Sean Hurley</dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
         </address>
     </header>

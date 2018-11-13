@@ -6,7 +6,7 @@
         <address>
             <dl>
                 <dt>Written by:</dt>
-                <dd>Hiba Amin</dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin</a></dd>
             </dl>
         </address>
     </header>

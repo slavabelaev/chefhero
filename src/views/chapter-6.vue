@@ -6,7 +6,7 @@
         <address>
             <dl>
                 <dt>Written by:</dt>
-                <dd>Ben Lucier</dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b8ebd7a03ce6447fa53656c">Ben Lucier</a></dd>
             </dl>
         </address>
     </header>

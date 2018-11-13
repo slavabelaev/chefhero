@@ -8,52 +8,64 @@ body {
 	line-height: 1.5;
 	color: #5f6368;
 }
-h1 {
-	font-family: "TiemposHeadline-Black", sans-serif;
-    margin-top: 0;
-	margin-bottom: 0;
-	color: #212121;
-}
-h2 {
-	font-size: 1.8rem;
-	color: $primary;
-}
-h3 {
-	font-size: 1.5rem;
-}
-h3, h4, h5, h6 {
-	font-weight: 500;
-	color: $accent;
-}
-sup {
-	font-size: .75rem;
-}
-address > dl {
-	display: flex;
-}
-address > dl > dd {
-	margin-left: 12px;
-}
-hr {
-	border-width: 1px;
-    max-width: 60px;
-    border-color: $accent;
-}
-
-.lead {
-	font-family: "TiemposHeadline-Regular", sans-serif;
-	font-size: 1.25rem;
-	color: #424242;
+article {
+	* {
+		margin-top: 0;
+	}
+	h1 {
+		font-family: "TiemposHeadline-Black", sans-serif;
+		color: #212121;
+	}
+	h2 {
+		font-size: 1.8rem;
+		color: $primary;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+	h2, h3, h4, h5, h6 {
+		margin-bottom: .5rem;
+	}
+	h3, h4, h5, h6 {
+		font-weight: 500;
+		color: $accent;
+	}
+	sup {
+		font-size: .75rem;
+	}
+	address > dl {
+		display: flex;
+		font-style: normal;
+		dt {
+			font-weight: bold;
+		}
+		dd {
+			margin-left: 12px;
+		}
+	}
+	
+	hr {
+		border-width: 1px;
+		max-width: 60px;
+		border-color: $accent;
+	}
+	.lead {
+		font-family: "TiemposHeadline-Regular", sans-serif;
+		font-size: 1.25rem;
+		color: #424242;
+	}
 }
 
 @media (min-width: 992px) {
-	h1 {
-		font-size: 2.5rem;
-		line-height: 1.25;
-		text-align: center;
-	}
-	.lead {
-		font-size: 1.5rem;
-		line-height: 1.4;
+	article {
+		h1 {
+			font-size: 2.5rem;
+			line-height: 1.25;
+			text-align: center;
+		}
+		.lead {
+			font-size: 1.5rem;
+			line-height: 1.4;
+		}
 	}
 }
