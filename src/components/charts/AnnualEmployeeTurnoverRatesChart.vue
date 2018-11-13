@@ -1,9 +1,13 @@
 <template>
-  <canvas :id="chartId"></canvas>
+  <figure class="chart-figure">
+    <figcaption class="chart-figure__title">Annual Employee Turnover Rates (%)</figcaption>
+    <canvas :id="chartId" class="chart-figure__canvas"></canvas>
+  </figure>
 </template>
 
 <script>
 import Chart from 'chart.js';
+import 'chartjs-plugin-labels';
 
 export default {
   data() {
@@ -38,7 +42,7 @@ export default {
             }
           },
           title: {
-            display: true,
+            display: false,
             text: 'Annual Employee Turnover Rates (%)',
             fontSize: 20,
             lineHeight: 1.5,
@@ -65,6 +69,14 @@ export default {
                 display: false
               }
             }]
+          },
+          plugins: {
+            labels: {
+              render: 'value',
+              fontFamily: "'Belbo-Book', sans-serif",
+              fontColor: '#076A73',
+              fontSize: 12
+            }
           }
         }
       }

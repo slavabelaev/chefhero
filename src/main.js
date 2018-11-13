@@ -21,6 +21,12 @@ import TopReasonsEmployeesQuitChart from './components/charts/TopReasonsEmployee
 Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
 import ReasonsForStoppingVisitingRestaurantsChart from './components/charts/ReasonsForStoppingVisitingRestaurantsChart.vue'
 Vue.component('reasons-for-stopping-visiting-restaurants-chart', ReasonsForStoppingVisitingRestaurantsChart)
+Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
+import TotalRestaurantOperatingCostsChart from './components/charts/TotalRestaurantOperatingCostsChart.vue'
+Vue.component('total-restaurant-operating-costs-chart', TotalRestaurantOperatingCostsChart)
+
+import ExtremeAversionFigure from './components/figures/ExtremeAversionFigure.vue'
+Vue.component('extreme-aversion-figure', ExtremeAversionFigure)
 
 import FeedbackForm from './components/FeedbackForm.vue'
 Vue.component('feedback-form', FeedbackForm)

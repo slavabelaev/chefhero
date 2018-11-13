@@ -187,10 +187,9 @@
             <h3>When to calculate:</h3>
             <p>At least once per month, or each time you purchase a large amount of goods.</p>
         </section>
-        <figure class="figure">
-            <figcaption class="figure-caption">Total Restaurant Operating Costs</figcaption>
-            <img src="#" alt="Total Restaurant Operating Costs">
-        </figure>
+        <!-- Chart -->
+        <total-restaurant-operating-costs-chart></total-restaurant-operating-costs-chart>
+        <!-- /Chart -->
     </section>
     <section>
         <h2>Metric #4: Food Cost Percentage (Theoretical)</h2>

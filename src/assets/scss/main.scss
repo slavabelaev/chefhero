@@ -36,6 +36,17 @@
 	color: $primary;
 }
 
+.chart-figure {
+	margin: 0;
+	margin-bottom: 1rem;
+}
+.chart-figure__title {
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	color: #616161;
+}
+
 @media (min-width: 601px) {
 	#app-content {
 		max-width: 800px;

@@ -1,9 +1,13 @@
 <template>
-  <canvas :id="chartId"></canvas>
+  <figure class="chart-figure">
+    <figcaption class="chart-figure__title">Typical Restaurant Expenses</figcaption>
+    <canvas :id="chartId" class="chart-figure__canvas"></canvas>
+  </figure>
 </template>
 
 <script>
 import Chart from 'chart.js';
+import 'chartjs-plugin-labels';
 
 export default {
   data() {
@@ -41,15 +45,16 @@ export default {
           responsive: true,
           cutoutPercentage: 60,
           legend: {
-            position: 'bottom',
+            position: 'right',
             labels: {
               fontFamily: "'Belbo-Book', sans-serif",
-              fontSize: 14,
-              usePointStyle: true
+              fontSize: 16,
+              usePointStyle: true,
+              padding: 24
             }
           },
           title: {
-            display: true,
+            display: false,
             text: 'Typical Restaurant Expenses',
             fontSize: 20,
             lineHeight: 1.5,
@@ -58,6 +63,14 @@ export default {
           },
           tooltips: {
             intersect: true
+          },
+          plugins: {
+            labels: {
+              render: 'percentage',
+              fontColor: '#FFFFFF',
+              fontStyle: 'bold',
+              fontSize: 14
+            }
           }
         }
       }

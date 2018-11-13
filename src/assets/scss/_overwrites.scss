@@ -18,6 +18,16 @@
     max-width: calc(100vw - 125px);
 }
 
+.md-dialog,
+.md-card,
+.md-button:not(.md-stepper-header) {
+    border-radius: 4px;
+}
+
+.md-speed-dial {
+    z-index: 99;
+}
+
 .md-stepper-number {
 	min-width: 24px;
 }

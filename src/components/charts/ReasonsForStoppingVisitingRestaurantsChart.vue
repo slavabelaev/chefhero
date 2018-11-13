@@ -3,15 +3,15 @@
     <figcaption class="chart-figure__title">Why do customers stop frequenting a restaurant?</figcaption>
     <div class="md-layout">
       <div class="md-layout-item md-small-size-100">
-        <figure class="chart-figure__item">
+        <figure class="chart-figure">
           <canvas :id="chartId"></canvas>
-          <figcaption>73% cited rude staff as issue.</figcaption>
+          <figcaption class="chart-figure__title">73% cited rude staff as issue.</figcaption>
         </figure>
       </div>
       <div class="md-layout-item md-small-size-100">
-        <figure class="chart-figure__item">
+        <figure class="chart-figure">
           <canvas :id="secondChartId"></canvas>
-          <figcaption>55% cited issues that weren't resolved in timely manner.</figcaption>
+          <figcaption class="chart-figure__title">55% cited issues that weren't resolved in timely manner.</figcaption>
         </figure>
       </div>
     </div>
@@ -20,6 +20,7 @@
 
 <script>
 import Chart from 'chart.js';
+import 'chartjs-plugin-labels';
 
 export default {
   data() {
@@ -36,14 +37,7 @@ export default {
               '#D9EBE3'
             ],
             borderWidth: 0
-          }],
-          labels: [
-            'food and supplies',
-            'payroll',
-            'utilities',
-            'rent or morgage',
-            'profit'
-          ]
+          }]
         },
         options: {
           responsive: true,
@@ -53,6 +47,15 @@ export default {
           },
           tooltips: {
             intersect: true
+          },
+          plugins: {
+            labels: {
+              render: 'percentage',
+              fontFamily: "'Belbo-Book', sans-serif",
+              fontColor: '#FFFFFF',
+              fontStyle: 'bold',
+              fontSize: 24
+            }
           }
         }
       }
@@ -79,18 +82,5 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-  .chart-figure__item,
-  .chart-figure {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-  .chart-figure__title {
-    margin-bottom: 24px;
-    font-size: 1.25rem;
-  }
-</style>
 
 

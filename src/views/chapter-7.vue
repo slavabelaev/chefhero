@@ -116,44 +116,9 @@
             <p>Use these calculations and “menu hacking” tricks to maximize your revenue and increase your profits.</p>
             <p>In the next section, we will be focusing on some more key numbers and metrics you should be measuring or looking out for as a restaurateur or chef.</p>
         </section>
-        <section class="text-center">
-            <h3>Extreme Aversion</h3>
-            <ul class="row align-items-stretch list-unstyled">
-                <li class="col">
-                    <figure class="card bg-light h-100">
-                        <img class="card-img-top" src="#" alt="BURGER IMAGE">
-                        <figcaption class="card-body">
-                            <h4 class="card-title">$1</h4>
-                            <dl class="card-text">
-                                <dt>Risk:</dt>
-                                <dd>Trying to save money. May be too small.</dd>
-                            </dl>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="col">
-                    <figure class="card bg-light h-100">
-                        <img class="card-img-top" src="#" alt="BURGER IMAGE">
-                        <figcaption class="card-body">
-                            <h4 class="card-title">$5</h4>
-                            <p class="card-text">The comfortable middle</p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="col">
-                    <figure class="card bg-light h-100">
-                        <img class="card-img-top" src="#" alt="BURGER IMAGE">
-                        <figcaption class="card-body">
-                            <h4 class="card-title">$8</h4>
-                            <dl class="card-text">
-                                <dt>Risk:</dt>
-                                <dd>Spending too much. May be too large</dd>
-                            </dl>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
+        <!-- Figure -->
+        <extreme-aversion-figure></extreme-aversion-figure>
+        <!-- /Figure -->
     </section>
 </article>
 </template>

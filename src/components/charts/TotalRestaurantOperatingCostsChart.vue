@@ -1,6 +1,6 @@
 <template>
   <figure class="chart-figure">
-    <figcaption class="chart-figure__title">Average Chef Salaries by position (in Can$)</figcaption>
+    <figcaption class="chart-figure__title">Total Restaurant Operating Cost</figcaption>
     <canvas :id="chartId" class="chart-figure__canvas"></canvas>
   </figure>
 </template>
@@ -14,19 +14,22 @@ export default {
     return {
       chartId: this.generateId(),
       chartConfig: {
-        type: 'bar',
+        type: 'pie',
         data: {
-          labels: ['Full-time chefs', 'Executive chefs', 'Sous chefs', 'Personal Chefs'],
           datasets: [{
-            backgroundColor: '#076A73',
-            borderWidth: 0,
-            data: [33280, 57000, 40000, 35000],
-          }, {
-            backgroundColor: '#4F969E',
-            borderWidth: 0,
-            data: [52000, 80000, 53000, 45000]
-          }]
-
+            data: [33.33, 33.33, 33.33],
+            backgroundColor: [
+              '#ff3641',
+              '#D9EBE3',
+              '#076A73',
+            ],
+            borderWidth: 0
+          }],
+          labels: [
+            'OVERHEAD \nCOSTS',
+            'LABOUR \nCOSTS',
+            'COST OF \nGOODS SOLD',
+          ]
         },
         options: {
           responsive: true,
@@ -36,7 +39,7 @@ export default {
           },
           title: {
             display: false,
-            text: 'Average Chef Salaries by position (in Can$)',
+            text: 'Total Restaurant Operating Cost',
             fontSize: 20,
             lineHeight: 1.5,
             fontFamily: "'Belbo-Book', sans-serif",
@@ -45,30 +48,13 @@ export default {
           tooltips: {
             intersect: true
           },
-          scales: {
-            yAxes: [{
-              stacked: true,
-              ticks: {
-                beginAtZero: true
-              },
-              gridLines: {
-                display: false
-              }
-            }],
-						xAxes: [{
-              stacked: true,
-              gridLines: {
-                display: false
-              }
-						}],
-          },
           plugins: {
             labels: {
-              render: 'value',
+              render: 'label',
               fontFamily: "'Belbo-Book', sans-serif",
+              fontColor: '#FFFFFF',
               fontStyle: 'bold',
-              fontColor: '#076A73',
-              fontSize: 14
+              fontSize: 16
             }
           }
         }
