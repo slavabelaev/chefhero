@@ -34,9 +34,14 @@ address > dl {
 address > dl > dd {
 	margin-left: 12px;
 }
+hr {
+	border-width: 1px;
+    max-width: 60px;
+    border-color: $accent;
+}
 
 .lead {
-	font-family: "TiemposHeadline-Light", sans-serif;
+	font-family: "TiemposHeadline-Regular", sans-serif;
 	font-size: 1.25rem;
 	color: #424242;
 }
