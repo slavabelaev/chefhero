@@ -28,6 +28,7 @@
     <!-- Drawer -->
     <md-app-drawer md-permanent="full" :md-active.sync="isActiveDrawer">
       <app-logo></app-logo>
+      <md-divider></md-divider>
       <md-steppers :md-active-step="$route.name" md-vertical>
         <md-step :id="route.name"
                  :md-label="route.meta.title" 
@@ -38,6 +39,10 @@
                  v-if="route.name != 'introduction' && route.name != 'about'"
                  :key="route.id"></md-step>
       </md-steppers>
+      <md-divider></md-divider>
+      <div align="center">
+        <md-button target="_blank" href="https://www.chefhero.com/" class="md-primary">Go to Website</md-button>
+      </div>
     </md-app-drawer>
     <!-- /Drawer -->
 
