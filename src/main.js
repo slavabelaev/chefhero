@@ -24,6 +24,9 @@ Vue.component('reasons-for-stopping-visiting-restaurants-chart', ReasonsForStopp
 Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
 import TotalRestaurantOperatingCostsChart from './components/charts/TotalRestaurantOperatingCostsChart.vue'
 Vue.component('total-restaurant-operating-costs-chart', TotalRestaurantOperatingCostsChart)
+Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
+import RestaurantPrimeCostChart from './components/charts/RestaurantPrimeCostChart.vue'
+Vue.component('restaurant-prime-cost-chart', RestaurantPrimeCostChart)
 
 import ExtremeAversionFigure from './components/figures/ExtremeAversionFigure.vue'
 Vue.component('extreme-aversion-figure', ExtremeAversionFigure)

@@ -336,10 +336,9 @@
             <h3>When to calculate:</h3>
             <p>At least once per month, or each time you need to make a crucial purchase for your business.</p>
         </section>
-        <figure class="figure">
-            <figcaption class="figure-caption">Restaurant "Prime" Cost</figcaption>
-            <img src="#" alt="Restaurant Prime Cost">
-        </figure>
+        <!-- Chart -->
+        <restaurant-prime-cost-chart></restaurant-prime-cost-chart>
+        <!-- /Chart -->
     </section>
     <section>
         <h2>Metric #7: Gross Margin</h2>
