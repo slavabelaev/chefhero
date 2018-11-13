@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-11">
     <header>
+        <div class="chapter-title">Chapter 11</div>
         <h1>A starter guide to Instagram marketing for restaurateurs</h1>
         <p class="lead">No matter how great you are with words, nothing can sell your food better than a mouth-watering photo.</p>
         <address>

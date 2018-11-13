@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-8">
     <header>
+        <div class="chapter-title">Chapter 8</div>
         <h1>14 Essential Restaurant Metrics Every Owner Should Measure and Track</h1>
         <p class="lead">Whether you’re just starting to price out your dream restaurant or checking on the overall health of your business, there are several metrics you should continually keep track of.</p>
         <address>

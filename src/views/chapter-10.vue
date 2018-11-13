@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-10">
     <header>
+        <div class="chapter-title">Chapter 10</div>
         <h1>Greener Tomorrow: <br>A Step-By-Step Guide to Running an Eco-Conscious Restaurant</h1>
         <p class="lead">It’s no secret that consumers are becoming more eco-conscious. They want green products, sustainable manufacturing and ethically sourced products.</p>
         <address>

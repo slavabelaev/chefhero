@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-1">
     <header>
+        <div class="chapter-title">Chapter 1</div>
         <h1>Restaurant budgeting: <br>Getting your numbers right</h1>
         <p class="lead">Whether you’re opening your dream restaurant from scratch, or taking over an existing establishment, what’s the one thing that can make or break your restaurateur dreams?</p>
         <address>

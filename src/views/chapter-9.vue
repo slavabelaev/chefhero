@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-9">
     <header>
+        <div class="chapter-title">Chapter 9</div>
         <h1>The 19 Tech Tools You Need to Run a Successful Restaurant</h1>
         <p class="lead">Running a restaurant isn’t easy. Between the stress, the long hours, the startup costs and the razor-thin profit margins, you have enough on your plate.</p>
         <address>

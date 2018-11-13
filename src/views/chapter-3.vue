@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-3">
     <header>
+        <div class="chapter-title">Chapter 3</div>
         <h1>Restaurant Branding: <br>Concept, Brand Identity, Naming, and Logos</h1>
         <p class="lead">Who are you? Or, who do you want to be? That may seem like a weird question to ask when thinking about a restaurant. But it’s totally valid when you think about the important role of branding.</p>
         <address>

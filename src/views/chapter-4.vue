@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-4">
     <header>
+        <div class="chapter-title">Chapter 4</div>
         <h1>Kickstarting Your New Restaurant Business</h1>
         <p class="lead">Always dreamed of opening your own restaurant but weren’t sure where to start? Of course, there are many factors that go into planning your restaurant. But, getting the basics right is absolutely critical to success.</p>
         <address>

@@ -1,6 +1,7 @@
 <template>
 <article id="chapter-2">
     <header>
+        <div class="chapter-title">Chapter 2</div>
         <h1>Location, Space and Personality: <br>Setting the Scene for a Winning Restaurant</h1>
         <p class="lead"><ins>Location, location, location.</ins> Those are the three most important parts of real estate, as the old saying goes. And that’s true for your restaurant, as well — your location is one of the most important choices you face as a new owner or manager.</p>
         <address>
