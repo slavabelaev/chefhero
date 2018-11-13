@@ -10,7 +10,7 @@
         </div>
         <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
         <div class="md-toolbar-section-end">
-          <md-button download href="assets/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="hide-on-small">
+          <md-button download href="assets/docs/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="hide-on-small">
             <md-icon>save_alt</md-icon>
             <span>Download the guide</span>
           </md-button>
