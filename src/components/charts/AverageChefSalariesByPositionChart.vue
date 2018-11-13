@@ -1,7 +1,8 @@
 <template>
   <figure class="chart-figure">
-    <figcaption class="chart-figure__title">Average Chef Salaries by position (in Can$)</figcaption>
+    <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
     <canvas :id="chartId" class="chart-figure__canvas"></canvas>
+    <cite class="chart-figure__source">Source: Government of Canada 2014-15 Statistics</cite>
   </figure>
 </template>
 
@@ -24,7 +25,7 @@ export default {
           }, {
             backgroundColor: '#4F969E',
             borderWidth: 0,
-            data: [52000, 80000, 53000, 45000]
+            data: [18720, 23000, 13000, 10000]
           }]
 
         },
@@ -64,11 +65,14 @@ export default {
           },
           plugins: {
             labels: {
-              render: 'value',
-              fontFamily: "'Belbo-Book', sans-serif",
-              fontStyle: 'bold',
-              fontColor: '#076A73',
-              fontSize: 14
+              render: function(args) {
+                if (args.index === 0) return '33,280-52k';
+                if (args.index === 1) return '57k-80k';
+                if (args.index === 2) return '40k-53k';
+                if (args.index === 3) return '35k-45k';
+              },
+              fontColor: '#FFFFFF',
+              fontStyle: 'bold'
             }
           }
         }

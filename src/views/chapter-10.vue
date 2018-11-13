@@ -32,19 +32,17 @@
         <p>You can also install a high-efficiency water heater in order to use less energy as you heat water for kitchen use. If possible, install energy efficient insulation, duct sealing and weather-stripping to cut down on heating and cooling consumption. And plan on keeping your indoor temperature moderate and using a programmable thermostat, so heating and cooling can be reduced during off hours.</p>
         <p>Reduce water usage by using low-flow faucets and toilets and installing a water filtration system in house. Some res-taurants even use rain barrels to catch water to reuse.</p>
         <p>And reduce waste by carefully highlighting expirations dates, using digital inventory management tools, donating leftover food or ingredients and repurposing tonight’s leftovers and tomorrow night’s special<sup><a href="http://www.buzztime.com/business/blog/restaurant-sustainability-11-ways-limit-environmental-footprint/" target="_blank">[32]</a></sup>. Additionally, join the wave of restaurants pledging to cut down on plastic straw pollution in oceans by joining The Last Plastic Straw — and encourage your customers to take the pledge, too<sup><a href="http://www.plasticpollutioncoalition.org/no-straw-please/" target="_blank">[33]</a></sup>.</p>
-        <figure class="figure">
-            <figcaption class="figure-caption">Restaurant Energy Use</figcaption>
-            <img src="#" alt="Restaurant Energy Use">
-        </figure>
+        <!-- Chart -->
+        <restaurant-energy-use-chart></restaurant-energy-use-chart>
+        <!-- /Chart -->
     </section>
     <section>
         <h2>Reuse</h2>
         <p>The second step is to reuse as many resources as possible in your day-to-day operations. Consider using cloth table-cloths and napkins that can be washed and reused over and over. Purchase pre-owned kitchen appliances and furniture instead of buying brand new ones — you can even reuphol-ster or refinish an old dining set to make it look brand new. And if you’re replacing any appliances or furniture in your restaurant, consider donating your old equipment for an-other kitchen to use.</p>
         <p>Additionally, make sure you are carefully managing your in-ventory to ensure you’re using all of your products and ingre-dients before they spoil. An inventory management program can really help with this, and periodic menu and inventory audits will ensure you’re making inventory changes to keep your supplies as efficient as possible. Finding creative ways to reuse scraps and leftovers is a great idea; for example, start a composting program to support a restaurant garden.</p>
-        <figure class="figure">
-            <figcaption class="figure-caption">Restaurant Waste Profile</figcaption>
-            <img src="#" alt="Restaurant Waste Profile">
-        </figure>
+        <!-- Chart -->
+        <restaurant-waste-profile-chart></restaurant-waste-profile-chart>
+        <!-- /Chart -->
     </section>
     <section>
         <h2>Recycle</h2>

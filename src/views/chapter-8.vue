@@ -429,10 +429,9 @@
             <h3>When to calculate:</h3>
             <p>At the end of each fiscal period, or whenever you’d like a pulse on your business’ finances.</p>
         </section>
-        <figure class="figure">
-            <figcaption class="figure-caption">Average Restaurant Operating Costs</figcaption>
-            <img src="#" alt="Average Restaurant Operating Costs">
-        </figure>
+        <!-- Chart -->
+        <average-restaurant-operating-costs-chart></average-restaurant-operating-costs-chart>
+        <!-- /Chart -->
     </section>
     <section>
         <h2>Metric #9: profit Margin</h2>

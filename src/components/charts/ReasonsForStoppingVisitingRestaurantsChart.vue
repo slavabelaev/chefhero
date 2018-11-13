@@ -5,13 +5,13 @@
       <div class="md-layout-item md-small-size-100">
         <figure class="chart-figure">
           <canvas :id="chartId"></canvas>
-          <figcaption class="chart-figure__title">73% cited rude staff as issue.</figcaption>
+          <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
         </figure>
       </div>
       <div class="md-layout-item md-small-size-100">
         <figure class="chart-figure">
           <canvas :id="secondChartId"></canvas>
-          <figcaption class="chart-figure__title">55% cited issues that weren't resolved in timely manner.</figcaption>
+          <figcaption class="chart-figure__title">{{secondChartConfig.options.title.text}}</figcaption>
         </figure>
       </div>
     </div>
@@ -45,6 +45,10 @@ export default {
             position: 'bottom',
             labels: false
           },
+          title: {
+            display: false,
+            text: '73% cited rude staff as issue.'
+          },
           tooltips: {
             intersect: true
           },
@@ -58,13 +62,31 @@ export default {
             }
           }
         }
+      },
+      secondChartConfig: {
+        data: {
+          datasets: [{
+            data: [55, 45],
+            backgroundColor: [
+              '#076A73',
+              '#D9EBE3'
+            ],
+            borderWidth: 0
+          }]
+        },
+        options: {
+          title: {
+            text: '55% cited issues that weren\'t resolved in timely manner.'
+          }
+        }
       }
     }
   },
   mounted() {
     this.createChart(this.chartId, this.chartConfig);
     let secondChartConfig = this.chartConfig;
-    secondChartConfig.data.datasets[0].data = [55, 45];
+    secondChartConfig.data = this.secondChartConfig.data;
+    secondChartConfig.options.title.text = this.secondChartConfig.options.title.text;
     this.createChart(this.secondChartId, secondChartConfig);
   },
   methods: {

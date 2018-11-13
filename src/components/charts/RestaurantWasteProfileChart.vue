@@ -2,6 +2,14 @@
   <figure class="chart-figure">
     <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
     <canvas :id="chartId" class="chart-figure__canvas"></canvas>
+    <div class="md-layout">
+      <div class="md-layout-item md-small-size-100">
+        <small class="chart-figure__note">Note: This is a representation of Total Waste generated and does not depict what is diverted from landfill throught recycling and/or composting</small>
+      </div>
+      <div class="md-layout-item md-small-size-100">
+        <cite class="chart-figure__source">Source: <a target="_blank" href="https://possector.com/">possector.com</a></cite>
+      </div>
+    </div>
   </figure>
 </template>
 
@@ -14,32 +22,47 @@ export default {
     return {
       chartId: this.generateId(),
       chartConfig: {
-        type: 'pie',
+        type: 'doughnut',
         data: {
           datasets: [{
-            data: [33.33, 33.33, 33.33],
+            data: [9, 4, 10, 10, 67],
             backgroundColor: [
-              '#ff3641',
+              '#F2C9C9',
+              '#E8A6A6',
+              '#FA5C66',
+              '#42AB7D',
+              '#8FCCB0',
               '#D9EBE3',
-              '#076A73',
+              '#176B73',
+              '#4F969E',
+              '#176B73',
+              '#0D363B'
             ],
             borderWidth: 0
           }],
           labels: [
-            'OVERHEAD \nCOSTS',
-            'LABOUR \nCOSTS',
-            'COST OF \nGOODS SOLD',
+            'Recyclable Paper \nProducts & Packaging',
+            'Commingled Recycling \nBottle and Cans',
+            'Waste',
+            'Cardboard',
+            'Organics'
           ]
         },
         options: {
           responsive: true,
+          cutoutPercentage: 60,
           legend: {
-            position: 'bottom',
-            labels: false
+            position: 'right',
+            labels: {
+              fontFamily: "'Belbo-Book', sans-serif",
+              fontSize: 16,
+              usePointStyle: true,
+              padding: 24
+            }
           },
           title: {
             display: false,
-            text: 'Total Restaurant Operating Cost',
+            text: 'Restaurant Waste Profile',
             fontSize: 20,
             lineHeight: 1.5,
             fontFamily: "'Belbo-Book', sans-serif",
@@ -50,11 +73,11 @@ export default {
           },
           plugins: {
             labels: {
-              render: 'label',
-              fontFamily: "'Belbo-Book', sans-serif",
-              fontColor: '#FFFFFF',
+              render: 'percentage',
+              precision: 2,
+              fontColor: (data) => (data.index === 6 ? 'transparent' : '#FFFFFF'),
               fontStyle: 'bold',
-              fontSize: 16
+              fontSize: 14
             }
           }
         }

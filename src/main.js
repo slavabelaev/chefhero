@@ -21,12 +21,16 @@ import TopReasonsEmployeesQuitChart from './components/charts/TopReasonsEmployee
 Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
 import ReasonsForStoppingVisitingRestaurantsChart from './components/charts/ReasonsForStoppingVisitingRestaurantsChart.vue'
 Vue.component('reasons-for-stopping-visiting-restaurants-chart', ReasonsForStoppingVisitingRestaurantsChart)
-Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
 import TotalRestaurantOperatingCostsChart from './components/charts/TotalRestaurantOperatingCostsChart.vue'
 Vue.component('total-restaurant-operating-costs-chart', TotalRestaurantOperatingCostsChart)
-Vue.component('top-reasons-employees-quit-chart', TopReasonsEmployeesQuitChart)
 import RestaurantPrimeCostChart from './components/charts/RestaurantPrimeCostChart.vue'
 Vue.component('restaurant-prime-cost-chart', RestaurantPrimeCostChart)
+import AverageRestaurantOperatingCostsChart from './components/charts/AverageRestaurantOperatingCostsChart.vue'
+Vue.component('average-restaurant-operating-costs-chart', AverageRestaurantOperatingCostsChart)
+import RestaurantEnergyUseChart from './components/charts/RestaurantEnergyUseChart.vue'
+Vue.component('restaurant-energy-use-chart', RestaurantEnergyUseChart)
+import RestaurantWasteProfileChart from './components/charts/RestaurantWasteProfileChart.vue'
+Vue.component('restaurant-waste-profile-chart', RestaurantWasteProfileChart)
 
 import ExtremeAversionFigure from './components/figures/ExtremeAversionFigure.vue'
 Vue.component('extreme-aversion-figure', ExtremeAversionFigure)

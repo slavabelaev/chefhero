@@ -2,6 +2,7 @@
   <figure class="chart-figure">
     <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
     <canvas :id="chartId" class="chart-figure__canvas"></canvas>
+    <cite class="chart-figure__source">Source: Energy Information Office 2003</cite>
   </figure>
 </template>
 
@@ -14,32 +15,52 @@ export default {
     return {
       chartId: this.generateId(),
       chartConfig: {
-        type: 'pie',
+        type: 'doughnut',
         data: {
           datasets: [{
-            data: [33.33, 33.33, 33.33],
+            data: [9.8, 3.7, 5.6, 16.6, 6.8, .5, .5, 24.4, 15.7, 16.4],
             backgroundColor: [
-              '#ff3641',
+              '#F2C9C9',
+              '#E8A6A6',
+              '#FA5C66',
+              '#42AB7D',
+              '#8FCCB0',
               '#D9EBE3',
-              '#076A73',
+              '#176B73',
+              '#4F969E',
+              '#176B73',
+              '#0D363B'
             ],
             borderWidth: 0
           }],
           labels: [
-            'OVERHEAD \nCOSTS',
-            'LABOUR \nCOSTS',
-            'COST OF \nGOODS SOLD',
+            'Lighting',
+            'Other',
+            'Ventilation',
+            'Heating',
+            'Cooling',
+            'Computers',
+            'Office Equipment',
+            'Food Prep',
+            'Sanitation',
+            'Refrigiration'
           ]
         },
         options: {
           responsive: true,
+          cutoutPercentage: 60,
           legend: {
-            position: 'bottom',
-            labels: false
+            position: 'right',
+            labels: {
+              fontFamily: "'Belbo-Book', sans-serif",
+              fontSize: 16,
+              usePointStyle: true,
+              padding: 24
+            }
           },
           title: {
             display: false,
-            text: 'Total Restaurant Operating Cost',
+            text: 'Restaurant Energy Use',
             fontSize: 20,
             lineHeight: 1.5,
             fontFamily: "'Belbo-Book', sans-serif",
@@ -50,11 +71,11 @@ export default {
           },
           plugins: {
             labels: {
-              render: 'label',
-              fontFamily: "'Belbo-Book', sans-serif",
-              fontColor: '#FFFFFF',
+              render: 'percentage',
+              precision: 2,
+              fontColor: (data) => (data.index === 6 ? 'transparent' : '#FFFFFF'),
               fontStyle: 'bold',
-              fontSize: 16
+              fontSize: 14
             }
           }
         }

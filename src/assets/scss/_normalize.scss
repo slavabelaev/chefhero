@@ -1,6 +1,9 @@
 @import "variables";
 @import "fonts";
 
+* {
+	-webkit-overflow-scrolling: touch;
+}
 body {
 	font-family: "Belbo-Book", sans-serif;
 	font-weight: 500;

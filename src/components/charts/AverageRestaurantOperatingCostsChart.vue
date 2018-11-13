@@ -17,18 +17,18 @@ export default {
         type: 'pie',
         data: {
           datasets: [{
-            data: [33.33, 33.33, 33.33],
+            data: [29, 28, 43],
             backgroundColor: [
               '#ff3641',
               '#D9EBE3',
               '#076A73',
             ],
-            borderWidth: 0
+            borderWidth: 10
           }],
           labels: [
-            'OVERHEAD \nCOSTS',
-            'LABOUR \nCOSTS',
-            'COST OF \nGOODS SOLD',
+            'FOOD \nCOST',
+            'LABOR \nCOST',
+            'OTHER \nOPERATING \nCOSTS',
           ]
         },
         options: {
@@ -39,7 +39,7 @@ export default {
           },
           title: {
             display: false,
-            text: 'Total Restaurant Operating Cost',
+            text: 'Average Restaurant Operating Costs',
             fontSize: 20,
             lineHeight: 1.5,
             fontFamily: "'Belbo-Book', sans-serif",
@@ -49,13 +49,23 @@ export default {
             intersect: true
           },
           plugins: {
-            labels: {
-              render: 'label',
-              fontFamily: "'Belbo-Book', sans-serif",
-              fontColor: '#FFFFFF',
-              fontStyle: 'bold',
-              fontSize: 16
-            }
+            labels: [
+              {
+                render: 'label',
+                fontFamily: "'Belbo-Book', sans-serif",
+                fontColor: '#FFFFFF',
+                fontStyle: 'bold',
+                fontSize: 16
+              },
+              {
+                render: 'percentage',
+                position: 'outside',
+                fontFamily: "'Belbo-Book', sans-serif",
+                fontSize: 32,
+                fontStyle: 'bold',
+                fontColor: '#212121'
+              }
+            ]
           }
         }
       }

@@ -1,6 +1,6 @@
 <template>
   <figure class="chart-figure">
-    <figcaption class="chart-figure__title">Typical Restaurant Expenses</figcaption>
+    <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
     <canvas :id="chartId" class="chart-figure__canvas"></canvas>
   </figure>
 </template>
