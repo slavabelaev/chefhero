@@ -34,6 +34,8 @@ Vue.component('restaurant-waste-profile-chart', RestaurantWasteProfileChart)
 
 import ExtremeAversionFigure from './components/figures/ExtremeAversionFigure.vue'
 Vue.component('extreme-aversion-figure', ExtremeAversionFigure)
+import HowToOptimizeSeatingCapacityFigure from './components/figures/HowToOptimizeSeatingCapacityFigure.vue'
+Vue.component('how-to-optimize-seating-capacity-figure', HowToOptimizeSeatingCapacityFigure)
 
 import FeedbackForm from './components/FeedbackForm.vue'
 Vue.component('feedback-form', FeedbackForm)

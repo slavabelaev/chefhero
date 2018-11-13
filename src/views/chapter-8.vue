@@ -554,21 +554,9 @@
                 <li><strong>Divide the total amount of space by 15 (assuming 15 square feet of space per average diner).</strong></li>
             </ol>
         </section>
-        <figure class="figure">
-            <figcaption class="figure-caption">How to Optimize Seating Capacity</figcaption>
-            <div class="row">
-                <div class="col-md-8">
-                    <img src="#" alt="GRAPH">
-                </div>
-                <div class="col-md-4">
-                    <ol>
-                        <li><strong>Measure the total square footage of your restaurant's front of house area</strong></li>
-                        <li><strong>Measure and subtract the square footage of any non-dining space (e.g., waiting area, beverage station, cash register, etc).</strong></li>
-                        <li><strong>Divide the total amount of space by 15 (assuming 15 square feet of space per average diner).</strong></li>
-                    </ol>
-                </div>
-            </div>
-        </figure>
+        <!-- Figure -->
+        <how-to-optimize-seating-capacity-figure></how-to-optimize-seating-capacity-figure>
+        <!-- /Figure -->
     </section>
     <section>
         <h2>Metric #14: Percentage of  Repeat Customers</h2>
