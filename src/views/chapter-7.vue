@@ -1,7 +1,7 @@
 <template>
 <article id="chapter-7">
     <header>
-        <h1>Menu Hacking: Cost Per Meal & Smart Design to Maximize profits</h1>
+        <h1>Menu Hacking: <br>Cost Per Meal & Smart Design to Maximize profits</h1>
         <p class="lead">The key to running a successful, profitable restaurant isn’t the food or the service. Of course, those things are critical. It’s a nonstarter — without good food and good service, people just won’t eat at your restaurant.</p>
         <address>
             <dl>

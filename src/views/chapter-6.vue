@@ -1,7 +1,7 @@
 <template>
 <article id="chapter-6">
     <header>
-        <h1>Taking Restaurant Customer Service to the Next Level: Strategies and Results</h1>
+        <h1>Taking Restaurant Customer Service to the Next Level: <br>Strategies and Results</h1>
         <p class="lead">Welcome to the age of customer service. More and more, consumers are choosing where to spend their money based on where they get the best service. Excellence isn’t a nice surprise — today’s diners expect it, and to compete, you need to deliver.</p>
         <address>
             <dl>

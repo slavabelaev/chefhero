@@ -1,7 +1,7 @@
 <template>
 <article id="chapter-5">
     <header>
-        <h1>Build the Best Team: Finding and Managing Your Restaurant's A-Team</h1>
+        <h1>Build the Best Team: <br>Finding and Managing Your Restaurant's A-Team</h1>
         <p class="lead">From creating a concept that will succeed, to finding a killer space, to decorating and equipping and training. Starting a restaurant involves a lot of work, and a lot of moving pieces.</p>
         <address>
             <dl>
