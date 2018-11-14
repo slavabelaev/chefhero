@@ -10,6 +10,12 @@
         font-size: 1.125rem;
     }
 }
+.figure_style_primary {
+	background-color: $primary;
+	.figure__description {
+		color: #fff;
+	}
+}
 .figure__title {
 	text-align: center;
 	margin-bottom: 1rem;
@@ -32,5 +38,7 @@
 }
 .figure__description {
 	font-size: 1.125rem;
-	font-weight: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #212121;
 }

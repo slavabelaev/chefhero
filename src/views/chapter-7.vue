@@ -77,7 +77,7 @@
         <p>Namely, this is the tendency of most customers to look first at the upper-middle section of a menu, followed by the upper right then upper left corners.</p>
         <p>Experts recommend placing your most profitable dishes in this Golden Triangle for optimal viewing. This does not necessarily mean the most expensive items live here, but, instead, your most profitable ones.</p>
     </section>
-    <img src="#" alt="BIG IMAGE">
+    <img :src="require('../assets/images/chapter__7_image_1.jpg')" alt="">
     <section>
         <h2>Menu Design Meets Psychology</h2>
         <p>ehavioural psychology is one of the most fascinating  and overlooked fields for an aspiring business owner.</p>
@@ -85,18 +85,22 @@
         <p>In addition, it’s great to maintain an informed perspective on your patrons and industry overall.</p>
         <section>
             <h3>Menu Colour</h3>
-            <p>The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
-            <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
+            <div columns="2">
+                <div>
+                    <p class="mt-0">The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
+                    <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
+                </div>
+                <div>
+                    <img :src="require('../assets/images/chapter__7_image_2.jpg')" alt="">
+                </div>
+            </div>
         </section>
-        <div class="row">
-            <div class="col">
-                <img src="#" alt="Image">
+        <div columns="2" class="mt-1">
+            <div>
+                <img :src="require('../assets/images/chapter__7_image_3.jpg')" alt="">
             </div>
-            <div class="col">
-                <img src="#" alt="Image">
-            </div>
-            <div class="col">
-                <img src="#" alt="Image">
+            <div>
+                <img :src="require('../assets/images/chapter__7_image_4.jpg')" alt="">
             </div>
         </div>
         <section>

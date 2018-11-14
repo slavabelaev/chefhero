@@ -46,9 +46,13 @@ article {
 			margin-left: 12px;
 		}
 	}
-
-	dt {
+	dd {
+		margin-left: 2rem;
+		margin-bottom: 1rem;
+	}
+	dt, strong, b {
 		font-weight: bold;
+		color: #212121;
 	}
 	
 	hr {
@@ -60,6 +64,49 @@ article {
 		font-family: "TiemposHeadline-Regular", sans-serif;
 		font-size: 1.25rem;
 	}
+	blockquote {
+		margin: 0;
+		font-style: italic;
+		color: #212121;
+		cite {
+			display: block;
+			text-align: right;
+			font-size: 1rem;
+		}
+	}
+	cite {
+		font-style: normal;
+	}
+}
+
+.dl-inline {
+	display: flex;
+	dd {
+		margin-left: 12px;
+		margin-bottom: 0;
+	}
+}
+
+[class*=alert_] {
+	padding: 1rem;
+	margin: 0;
+	margin-bottom: 1rem;
+}
+.alert_color_primary {
+	background-color: $primary;
+	color: #fff;
+}
+.bg-primary {
+	background-color: $primary;
+}
+.mt-0 {
+	margin-top: 0!important;
+}
+.mt-1 {
+	margin-top: 1rem!important;
+}
+.p-1 {
+	padding: 1rem!important;
 }
 
 #introduction {
@@ -77,5 +124,13 @@ article {
 			line-height: 1.4;
 		}
 	}
-	[columns="2"] { columns: 2; }
+	[columns="2"] {
+		display: flex;
+		flex-wrap: wrap;
+		& > * {
+			flex: 1 50%;
+		}
+		& > *:nth-child(even) { padding-right: 1rem; }
+		& > *:nth-child(odd) { padding-right: 1rem; }
+	}
 }

@@ -1,6 +1,6 @@
 <template>
-  <figure class="extreme-aversion-figure">
-    <figcaption class="extreme-aversion-figure__title">Extreme Aversion</figcaption>
+  <figure class="figure extreme-aversion-figure">
+    <figcaption class="figure__title">Extreme Aversion</figcaption>
     <div class="md-layout md-gutter">
       <div class="md-layout-item md-small-size-100">
         <md-card>
@@ -40,31 +40,32 @@
 </template>
 
 <style lang="scss">
-  .extreme-aversion-figure {
-    margin: 0;
-    padding: 0;
+.extreme-aversion-figure {
+  .md-card {
+    margin-left: 0;
+    margin-right: 0;
     text-align: center;
-    .md-card {
-      margin: 0;
-    }
-    .md-card-header {
-      margin-top: -80px;
-    }
-    .md-title {
-      margin-bottom: 40px;
-    }
+    background-color: #F0F0F5;
   }
-  .extreme-aversion-figure__title {
-    text-align: center;
+  .md-card-header {
+    background-color: #F0F0F5;
+  }
+  .md-subhead {
+    opacity: 1;
+    font-size: 1rem;
+  }
+  .md-title {
     margin-bottom: 1rem;
+    font-weight: bold;
   }
-  .extreme-aversion-figure__media {
-    min-height: 200px;
-    background-size: 100px;
-    background-position: center 20px;
-    background-repeat: no-repeat;
-    background-color: #FFEBEE;
-    border-radius: 4px 4px 0 0;
-    z-index: -1;
-  }
+}
+.extreme-aversion-figure__media {
+  min-height: 150px;
+  background-size: 100px;
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  background-color: #E8A6A6;
+  border-radius: 4px 4px 0 0;
+  z-index: -1;
+}
 </style>

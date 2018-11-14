@@ -11,3 +11,9 @@
         </figcaption>
     </figure>
 </template>
+
+<style lang="scss">
+.figure__description {
+    text-align: left;
+}
+</style>

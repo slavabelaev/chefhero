@@ -37,25 +37,25 @@
         <section>
             <h3>Accounting Software</h3>
             <p>Before you start hiring, spending money, or tracking all of your finances it’s a great time to find an easy-to-use business accounting tool. This tool should connect to your business banking accounts, credit cards, payment tools, and everything else under the sun!</p>
-            <dl>
+            <dl class="dl-inline">
                 <dt>Free Option:</dt>
                 <dd><a target="_blank" href="https://www.waveapps.com/">Wave Account</a></dd>
             </dl>
-            <blockquote class="blockquote">
+            <blockquote>
                 <p>“Not only is Wave the best free small business accounting website, but it's one of the best online resources period for its target small business audience.”</p>
-                <footer class="blockquote-footer">
-                    <cite title="PCMAG.COM">PCMAG.COM</cite>
-                </footer>
+                <cite title="PCMAG.COM">
+                    <a href="https://www.pcmag.com/" target="_blank">PCMAG.COM</a>
+                </cite>
             </blockquote>
-            <dl>
+            <dl class="dl-inline">
                 <dt>Paid Option:</dt>
                 <dd><a target="_blank" href="https://quickbooks.intuit.com/">Intuit Quickbooks</a></dd>
             </dl>
-            <blockquote class="blockquote">
+            <blockquote>
                 <p>“Of all the accounting software we reviewed, QuickBooks Online offers some of the best pricing, with four service tiers designed to accommodate the needs of different business types.”</p>
-                <footer class="blockquote-footer">
-                    <cite title="BUSINESSNEWSDAILY.COM">BUSINESSNEWSDAILY.COM</cite>
-                </footer>
+                <cite title="BUSINESSNEWSDAILY.COM">
+                    <a href="https://www.businessnewsdaily.com/" target="_blank">BUSINESSNEWSDAILY.COM</a>
+                </cite>
             </blockquote>
         </section>
     </section>
@@ -71,7 +71,7 @@
             <dl>
                 <dt>Length:</dt>
                 <dd>Is it easy to remember? Keep it as short as you can.</dd>
-                <dt>TLD (top-level domain)</dt>
+                <dt>TLD (top-level domain):</dt>
                 <dd> - the characters after the “dot”: Examples would be .com, .ca, .food, etc<sup><a href="https://en.wikipedia.org/wiki/Top-level_domain" target="_blank">[13]</a></sup>. Now with more than a hundred TDL options to choose from, you can get really creative with the domain name you choose for your restaurant. Of course, getting a “.com” is probably still your first choice. But people are quickly getting used to other domain endings, so don’t be afraid to try another option.</dd>
                 <dt>Price:</dt>
                 <dd>Domain names should range from $9.99 to 59.99 for most common TLDs. This will cover your domain registration for 12 months. If you’re looking at a “premium” domain that will cost a lot more, you may want to wait until you have established your business further.</dd>
@@ -109,7 +109,7 @@
             </ul>
             <p>Of course, there are a million other sites out there that maybe could list your restaurant. But these are the most popular and they’re critical to set up as early as possible.</p>
         </section>
-        <img src="#" alt="BIG IMAGE">
+        <img :src="require('../assets/images/chapter__3_image_1.png')" alt="">
     </section>
     <section>
         <h2>Step #3: Decide How to Build Your Website</h2>
@@ -136,8 +136,13 @@
     </section>
     <section>
         <h2>Step #4: Establish Your Social Media Presence</h2>
-        <p>Looking beyond just your website, you also need to start to build a brand for your restaurant online <sup><a href="https://www.chefhero.com/blog/2018/7/2/restaurant-branding-concept-brand-identity-naming-and-logos" target="_blank">[14]</a></sup>. You probably know that social media is a great way to connect with potential diners, share updates, and market your business.</p>
-        <p>For step 4, let’s walk through the basics of establishing your presence on social and what you need to know.</p>
+        <div columns="2">
+            <div>
+                <p>Looking beyond just your website, you also need to start to build a brand for your restaurant online <sup><a href="https://www.chefhero.com/blog/2018/7/2/restaurant-branding-concept-brand-identity-naming-and-logos" target="_blank">[14]</a></sup>. You probably know that social media is a great way to connect with potential diners, share updates, and market your business.</p>
+                <p>For step 4, let’s walk through the basics of establishing your presence on social and what you need to know.</p>
+            </div>
+            <img :src="require('../assets/images/chapter__3_image_2.png')" alt="" class="mt-1">
+        </div>
         <section>
             <h3>Decide Which Channels are for You</h3>
             <p>It seems like every week, there is a new app or social site that is taking over the world. Resist the urge to jump on every new trend or fad.</p>

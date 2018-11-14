@@ -89,6 +89,7 @@
         <p>A restaurant in a rural town with a low cost of living might be able to get away with a salary on the lower end of that range, but a restaurant in, say, Vancouver, B.C., where the cost of living is much higher, will have to pay a chef much more to compete with other restaurants and entice the best talent. </p>
         <p>And if you plan on poaching a personal chef, you may need to be prepared to pay more<sup><a href="https://www.theglobeandmail.com/report-on-business/careers/career-advice/life-at-work/i-want-to-be-a-personal-chef-what-will-my-salary-be/article13112144/" target="_blank">[17]</a></sup> — personal chefs’ salaries average between $35,000 and $45,000 per year (but can be much higher) in addition to schedules that often include several days off each week and vacation time each year. It’ll take an attractive salary to lure a chef away from a position that has those kinds of hours.</p>
         <p>Your staff is the backbone of your restaurant. Staffing is one of the most important decisions you’ll make as you get your establishment up and running. It’s part of what makes staffing (and staff retention) so difficult. But once you have a high-quality staff in place, it’ll pay off in spades with good food, excellent customer service and a restaurant that can run efficiently and autonomously.</p>
+        <img :src="require('../assets/images/chapter__5_image_1.jpg')" alt="">
     </section>
 </article>
 </template>
