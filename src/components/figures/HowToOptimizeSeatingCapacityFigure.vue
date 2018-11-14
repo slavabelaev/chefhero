@@ -13,7 +13,7 @@
 </template>
 
 <style lang="scss">
-.figure__description {
+.figure__description > ol {
     text-align: left;
 }
 </style>

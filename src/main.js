@@ -6,8 +6,6 @@ import 'vue-material/dist/theme/default.css'
 
 import AppAbout from './views/About.vue'
 Vue.component('app-about', AppAbout)
-import AppLogo from './components/Logo.vue'
-Vue.component('app-logo', AppLogo)
 
 import BudgetPlanChart from './components/charts/BudgetPlanChart.vue'
 Vue.component('budget-plan-chart', BudgetPlanChart)
@@ -36,9 +34,6 @@ import ExtremeAversionFigure from './components/figures/ExtremeAversionFigure.vu
 Vue.component('extreme-aversion-figure', ExtremeAversionFigure)
 import HowToOptimizeSeatingCapacityFigure from './components/figures/HowToOptimizeSeatingCapacityFigure.vue'
 Vue.component('how-to-optimize-seating-capacity-figure', HowToOptimizeSeatingCapacityFigure)
-
-import FeedbackForm from './components/FeedbackForm.vue'
-Vue.component('feedback-form', FeedbackForm)
 
 import App from './App.vue'
 import router from './router'

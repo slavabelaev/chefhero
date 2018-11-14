@@ -27,7 +27,9 @@
 
     <!-- Drawer -->
     <md-app-drawer md-permanent="full" :md-active.sync="isActiveDrawer">
-      <app-logo></app-logo>
+      <router-link to="/" class="app-logo">
+        <img :src="require('./assets/logo.svg')" alt="ChefHero" class="app-logo__image">
+      </router-link>
       <md-divider></md-divider>
       <md-steppers :md-active-step="$route.name" md-vertical>
         <md-step :id="route.name"
