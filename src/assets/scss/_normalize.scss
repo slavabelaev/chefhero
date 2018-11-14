@@ -11,13 +11,11 @@ body {
 	line-height: 1.5;
 }
 article {
-	* {
-		margin-top: 0;
-		color: #535B5B;
-	}
+	color: #535B5B;
 	h1 {
 		font-family: "TiemposHeadline-Black", sans-serif;
 		color: #212121;
+		margin-top: 0;
 	}
 	h2 {
 		font-size: 1.8rem;
