@@ -37,16 +37,16 @@
         <p>While yes, you may get more applications this way, you’ll then have to weed through hundreds of applications spread over several different platforms to determine the top quality candidates for your industry.</p>
         <p>Find the right job board and focus your efforts on 1-2 select-ed platforms to get better quality over quantity candidates.</p>
         <p>Some platforms to check out:</p>
-        <ul>
-            <li>Hired</li>
-            <li>Glassdoor</li>
-            <li>Indeed</li>
-            <li>Workopolis</li>
-            <li>JobShop.ca</li>
-            <li>Job Bank</li>
-            <li>HireMe</li>
-            <li>Working.com</li>
-            <li>Facebook Groups</li>
+        <ul columns="2">
+            <li><a href="https://hired.com/" target="_blank">Hired</a></li>
+            <li><a href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></li>
+            <li><a href="https://www.indeed.com/" target="_blank">Indeed</a></li>
+            <li><a href="https://www.workopolis.com/" target="_blank">Workopolis</a></li>
+            <li><a href="http://jobshop.ca/" target="_blank">JobShop.ca</a></li>
+            <li><a href="https://www.jobbank.gc.ca/" target="_blank">Job Bank</a></li>
+            <li><a href="http://hireme.com/" target="_blank">HireMe</a></li>
+            <li><a href="http://www.working.com/" target="_blank">Working.com</a></li>
+            <li><a href="https://www.facebook.com/groups/" target="_blank">Facebook Groups</a></li>
         </ul>
         <p>Remember that when it comes down to it, the people you bring on will make or break your restaurant.</p>
         <p>It doesn’t matter how cool your concept is or even how great your food tastes, if you don’t get the right people in the build-ing, you’ll never keep customers coming through the door. So, focus on finding, hiring, and keeping the right people.</p>

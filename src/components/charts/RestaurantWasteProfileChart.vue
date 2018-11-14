@@ -1,13 +1,13 @@
 <template>
-  <figure class="chart-figure">
-    <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
-    <canvas :id="chartId" class="chart-figure__canvas"></canvas>
+  <figure class="figure">
+    <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
+    <canvas :id="chartId" class="figure__chart"></canvas>
     <div class="md-layout">
       <div class="md-layout-item md-small-size-100">
-        <small class="chart-figure__note">Note: This is a representation of Total Waste generated and does not depict what is diverted from landfill throught recycling and/or composting</small>
+        <small class="figure__note">Note: This is a representation of Total Waste generated and does not depict what is diverted from landfill throught recycling and/or composting</small>
       </div>
       <div class="md-layout-item md-small-size-100">
-        <cite class="chart-figure__source">Source: <a target="_blank" href="https://possector.com/">possector.com</a></cite>
+        <cite class="figure__source">Source: <a target="_blank" href="https://possector.com/">possector.com</a></cite>
       </div>
     </div>
   </figure>

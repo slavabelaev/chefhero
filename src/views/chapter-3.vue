@@ -38,13 +38,13 @@
             <p>The concept plan is the actual written document outlining the look and feel of your restaurant in addition to the aforementioned problem solving. This will be included as part of your business plan. A simple map to follow when one is lost can be found below.</p>
             <p>Restaurant concepts can be cyclical and they can go in and out of style over time. They’re driven largely by consumer tastes and market demand — so it’s important to consider those when deciding which direction to take.</p>
             <figure class="figure">
-                <figcaption class="figure-caption">Transforming a Restaurant Idea Into a Plan</figcaption>
-                <ul class="row list-unstyled">
-                    <li class="col">Choose a Theme</li>
-                    <li class="col">Research the Market</li>
-                    <li class="col">Decide Branding, Name &  Logo  Design</li>
-                    <li class="col">Consider Location & Decor</li>
-                    <li class="col">Write a Complete Business Plan</li>
+                <figcaption class="figure__title">Transforming a Restaurant Idea Into a Plan</figcaption>
+                <ul class="step-list-figure">
+                    <li>Choose a Theme</li>
+                    <li>Research the Market</li>
+                    <li>Decide Branding, Name &  Logo  Design</li>
+                    <li>Consider Location & Decor</li>
+                    <li>Write a Complete Business Plan</li>
                 </ul>
             </figure>
         </section>
@@ -53,13 +53,13 @@
             <p>The Ultimate Guide to Running a Restaurant16More Than Just Food</p>
             <p>What’s important to remember is most restaurants today don’t just sell food and beverages, they also sell atmosphere, culture, and guest experience. When designing a concept, play on all five senses to elevate your space. Your restaurant’s concept should be:</p>
             <figure class="figure">
-                <figcaption class="figure-caption">Characteristics of a Successful Restaurant Concept</figcaption>
-                <ul class="row list-unstyled">
-                    <li class="col">Sustainable</li>
-                    <li class="col">Consistent</li>
-                    <li class="col">Scalable</li>
-                    <li class="col">Profitable</li>
-                    <li class="col">Memorable</li>
+                <figcaption class="figure__title">Characteristics of a Successful Restaurant Concept</figcaption>
+                <ul class="step-list-figure_shape_rounded">
+                    <li><md-icon>flash_on</md-icon>Sustainable</li>
+                    <li><md-icon>security</md-icon>Consistent</li>
+                    <li><md-icon>tune</md-icon>Scalable</li>
+                    <li><md-icon>attach_money</md-icon>Profitable</li>
+                    <li><md-icon>fingerprint</md-icon>Memorable</li>
                 </ul>
             </figure>
         </section>
@@ -85,7 +85,11 @@
             <p>Starting out with a clear idea of who you are will actually make life easier!</p>
             <p>When something doesn't quite fit with your brand or vision, instead of agonizing over the decision whether or not to keep it, you can immediately throw it out without hesitation. A clear brand identity and vision for your business can help you stay true to what brought you to the industry in the first place, while swiftly and simultaneously helping to neutralize competing interests.</p>
             <p>When your “why” is your guiding principle, the brand identity makes up the visual and emotional components that convert non-believers to disciples. It will also allow you as an owner-operator to make clear, educated decisions regarding future design attributes, financing, and the hiring of a team that meet your values and messaging — key factors which will assist in controlling future labor costs.</p>
-            <img src="#" alt="Image">
+            <ol class="questions-figure">
+                <li>What?</li>
+                <li>How?</li>
+                <li>Why?</li>
+            </ol>
             <p>David A. Aaker, the godfather of brand identity, has suggested looking at your restaurant from the following viewpoints, and asking yourself these accompanying questions to begin understanding your restaurant and brand identity from a marketing standpoint.</p>
         </section>
         <section>
@@ -137,7 +141,7 @@
         <p>While you probably think a good name and logo won't make or break your business, it will allow potential customers to immediately identify your concept and brand identity from a distance, well before they set foot into your restaurant or lift a fork for their first bite. A logo and name are a representation of what your brand is all about, and are often one of the first interactions a customer will have with your business.</p>
         <section>
             <h3>Choosing a Name</h3>
-            <p>While the saying, "it’s all in a name," may be a little bit of an exaggeration, it’s also not entirely off base.</p>
+            <p>While the saying, "it’s all in a name" may be a little bit of an exaggeration, it’s also not entirely off base.</p>
             <p>The name of your restaurant is something you’re going to stand behind for years to come. It should reflect who you are, what you want to portray to your future diners, and, most of all, give at least some indication of your business and ex-pected experience.</p>
             <p>Sure, names can be all over the place in terms of actual restaurant experience, but think about it; naming your restaurant “Richard’s Eatery” conjures up different mental images than “Rick’s Eatery,” or even “Rick’s Pub.</p>
             <p>Here’s where to start:</p>
@@ -174,7 +178,7 @@
                 <li><strong>Abstract logos</strong> usually contain obscure graphics or symbols which may or may not have anything to do with the business at all. That doesn’t mean that the logo is so far removed from the brand’s concept that consumers cannot make an association, but instead often has the opposite effect. Consider Nike’s swoosh or Adidas’ three stripes, both of which have very little to do with the act of selling shoes, but have become iconic in the minds of their consumers.</li>
             </ol>
             <p>Just think of marketing your name and logo as setting your-self up for a great first impression. Keep in mind who you are and what you want the feel of the restaurant to be, then do your best to accurately set your customers expectations with this first touch-point.</p>
-            <figure class="brands">
+            <figure class="brands-figure">
                 <img src="../assets/images/logos/Noodles-and-company_logo.svg" alt="Noodles and company" width="160">
                 <img src="../assets/images/logos/In-N-Out_logo.svg" alt="In-N-Out" width="160">
                 <img src="../assets/images/logos/Red-Lobster_logo.svg" alt="Red Lobster" width="160">
@@ -213,17 +217,17 @@
             <p>Try them out and see which one speaks to you.</p>
             <p>We like Logojoy, not just for their reasonable prices, but also for the inspirational logo generation processes.</p>
             <p>Here are a few other fantastic options to get you started:</p>
-            <ul class="row">
-                <li class="col-6"><a target="_blank" href="https://www.designcrowd.com/">Designcrowd</a></li>
-                <li class="col-6"><a target="_blank" href="https://www.canadacreate.com/">CanadaCreate</a></li>
-                <li class="col-6"><a target="_blank" href="https://99designs.com/">99Designs</a></li>
-                <li class="col-6"><a target="_blank" href="https://www.upwork.com/">Upwork</a></li>
-                <li class="col-6"><a target="_blank" href="https://www.fiverr.com">Fiverr</a></li>
-                <li class="col-6"><a target="_blank" href="https://www.vistaprint.com/">VistaPrint</a></li>
-                <li class="col-6"><a target="_blank" href="https://waldendesign.com/">Waldendesign</a></li>
-                <li class="col-6"><a target="_blank" href="https://www.logomaker.com/">Logomaker</a></li>
-                <li class="col-6"><a target="_blank" href="http://brushfire.design/">Brushfiredesign</a></li>
-                <li class="col-6"><a target="_blank" href="https://www.deluxe.ca/">Deluxe.ca</a></li>
+            <ul columns="2">
+                <li><a target="_blank" href="https://www.designcrowd.com/">Designcrowd</a></li>
+                <li><a target="_blank" href="https://www.canadacreate.com/">CanadaCreate</a></li>
+                <li><a target="_blank" href="https://99designs.com/">99Designs</a></li>
+                <li><a target="_blank" href="https://www.upwork.com/">Upwork</a></li>
+                <li><a target="_blank" href="https://www.fiverr.com">Fiverr</a></li>
+                <li><a target="_blank" href="https://www.vistaprint.com/">VistaPrint</a></li>
+                <li><a target="_blank" href="https://waldendesign.com/">Waldendesign</a></li>
+                <li><a target="_blank" href="https://www.logomaker.com/">Logomaker</a></li>
+                <li><a target="_blank" href="http://brushfire.design/">Brushfiredesign</a></li>
+                <li><a target="_blank" href="https://www.deluxe.ca/">Deluxe.ca</a></li>
             </ul>
         </section>
     </section>

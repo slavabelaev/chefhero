@@ -1,7 +1,7 @@
 <template>
-  <figure class="chart-figure">
-    <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
-    <canvas :id="chartId" class="chart-figure__canvas"></canvas>
+  <figure class="figure">
+    <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
+    <canvas :id="chartId" class="figure__chart"></canvas>
   </figure>
 </template>
 

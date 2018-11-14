@@ -1,0 +1,36 @@
+@import "figures/step-list-figure";
+@import "figures/step-list-figure_shape_rounded";
+@import "figures/questions-figure";
+@import "figures/brands-figure";
+
+.figure {
+	margin: 0;
+    margin-bottom: 1rem;
+    .figure .figure__title {
+        font-size: 1.125rem;
+    }
+}
+.figure__title {
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	color: #616161;
+}
+.figure__note,
+.figure__source {
+	display: block;
+	font-style: normal;
+	font-size: 12px;
+	color: $primary;
+	margin-top: 1rem;
+}
+.figure__source {
+	text-align: right;
+}
+.figure__image {
+	margin-bottom: 1rem;
+}
+.figure__description {
+	font-size: 1.125rem;
+	font-weight: normal;
+}

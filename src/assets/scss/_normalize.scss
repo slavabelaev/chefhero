@@ -28,6 +28,7 @@ article {
 	}
 	h1, h2, h3, h4, h5, h6 {
 		margin-bottom: .5rem;
+		line-height: 1.25;
 	}
 	h3, h4, h5, h6 {
 		font-weight: 500;
@@ -41,12 +42,15 @@ article {
 		justify-content: flex-end;
 		font-style: normal;
 		dt {
-			font-weight: bold;
 			color: #212121;
 		}
 		dd {
 			margin-left: 12px;
 		}
+	}
+
+	dt {
+		font-weight: bold;
 	}
 	
 	hr {
@@ -60,11 +64,14 @@ article {
 	}
 }
 
+#introduction {
+	text-align: center;
+}
+
 @media (min-width: 992px) {
 	article {
 		h1 {
 			font-size: 2.5rem;
-			line-height: 1.25;
 			text-align: center;
 		}
 		.lead {
@@ -72,4 +79,5 @@ article {
 			line-height: 1.4;
 		}
 	}
+	[columns="2"] { columns: 2; }
 }

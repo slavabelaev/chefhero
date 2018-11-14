@@ -1,8 +1,8 @@
 <template>
-  <figure class="chart-figure">
-    <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
-    <canvas :id="chartId" class="chart-figure__canvas"></canvas>
-    <cite class="chart-figure__source">Source: Government of Canada 2014-15 Statistics</cite>
+  <figure class="figure">
+    <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
+    <canvas :id="chartId" class="figure__chart"></canvas>
+    <cite class="figure__source">Source: Government of Canada 2014-15 Statistics</cite>
   </figure>
 </template>
 

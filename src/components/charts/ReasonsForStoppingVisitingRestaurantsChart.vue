@@ -1,17 +1,17 @@
 <template>
-  <figure class="chart-figure">
-    <figcaption class="chart-figure__title">Why do customers stop frequenting a restaurant?</figcaption>
+  <figure class="figure">
+    <figcaption class="figure__title">Why do customers stop frequenting a restaurant?</figcaption>
     <div class="md-layout">
       <div class="md-layout-item md-small-size-100">
-        <figure class="chart-figure">
+        <figure class="figure">
           <canvas :id="chartId"></canvas>
-          <figcaption class="chart-figure__title">{{chartConfig.options.title.text}}</figcaption>
+          <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
         </figure>
       </div>
       <div class="md-layout-item md-small-size-100">
-        <figure class="chart-figure">
+        <figure class="figure">
           <canvas :id="secondChartId"></canvas>
-          <figcaption class="chart-figure__title">{{secondChartConfig.options.title.text}}</figcaption>
+          <figcaption class="figure__title">{{secondChartConfig.options.title.text}}</figcaption>
         </figure>
       </div>
     </div>
@@ -86,7 +86,6 @@ export default {
     this.createChart(this.chartId, this.chartConfig);
     let secondChartConfig = this.chartConfig;
     secondChartConfig.data = this.secondChartConfig.data;
-    secondChartConfig.options.title.text = this.secondChartConfig.options.title.text;
     this.createChart(this.secondChartId, secondChartConfig);
   },
   methods: {

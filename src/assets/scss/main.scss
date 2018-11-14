@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons');
+@import 'variables';
 @import 'normalize';
 @import 'overwrites';
-@import 'variables';
 @import 'theme';
+
+@import 'figures';
 
 .app-logo {
 	display: block;
@@ -18,9 +20,6 @@
 	max-width: 180px;
 }
 
-#introduction {
-	text-align: center;
-}
 #app-about {
 	padding: 24px;
 	overflow: auto;
@@ -37,41 +36,6 @@
 	font-weight: bold;
 	letter-spacing: 4px;
 	color: $primary;
-}
-
-.chart-figure {
-	margin: 0;
-	margin-bottom: 1rem;
-}
-.figure__title,
-.chart-figure__title {
-	text-align: center;
-	margin-bottom: 1rem;
-	font-size: 1.5rem;
-	color: #616161;
-}
-.chart-figure__note,
-.chart-figure__source {
-	display: block;
-	font-style: normal;
-	font-size: 12px;
-	color: $primary;
-	margin-top: 1rem;
-}
-.chart-figure__source {
-	text-align: right;
-}
-.figure__image {
-	margin-bottom: 1rem;
-}
-.figure__description {
-	font-size: 1.125rem;
-	font-weight: normal;
-}
-
-.brands > img {
-	padding: 20px;
-	width: 160px;
 }
 
 @media (min-width: 601px) {
