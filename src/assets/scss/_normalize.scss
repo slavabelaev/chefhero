@@ -9,11 +9,11 @@ body {
 	font-weight: 500;
 	font-size: 1.25rem;
 	line-height: 1.5;
-	color: #5f6368;
 }
 article {
 	* {
 		margin-top: 0;
+		color: #535B5B;
 	}
 	h1 {
 		font-family: "TiemposHeadline-Black", sans-serif;
@@ -42,6 +42,7 @@ article {
 		font-style: normal;
 		dt {
 			font-weight: bold;
+			color: #212121;
 		}
 		dd {
 			margin-left: 12px;
@@ -56,7 +57,6 @@ article {
 	.lead {
 		font-family: "TiemposHeadline-Regular", sans-serif;
 		font-size: 1.25rem;
-		color: #424242;
 	}
 }
 
