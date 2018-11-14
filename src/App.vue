@@ -90,6 +90,7 @@ export default {
     $route (to) {
       document.title = to.meta.title;
       document.querySelector('meta[name="description"]').content = to.meta.description;
+      document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
       this.pageScrollToTop();
       this.isActiveDrawer = false;
     }
