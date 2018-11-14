@@ -10,6 +10,7 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
         </address>
+        <img :src="require('../assets/images/chapter__9_image_1.png')" alt="">
     </header>
     <section>
         <h3>In this chapter:</h3>
@@ -44,6 +45,7 @@
             <h3><a href="https://www.letseat.at/" target="_blank">Let’s Eat Free Website Builder for Restaurants</a></h3>
             <p>More than 15,000 restaurants use Let’s Eat for their web hosting and design, and it’s easy to see why. A simple in-terface and plenty of useful, restaurant industry-specific features make it user friendly and provide everything you need for your restaurant’s web presence.</p>
         </section>
+        <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="">
         <section>
             <header>
                 <h3>Comparison</h3>
@@ -136,7 +138,7 @@
             <h3><a href="https://revelsystems.com/pos-systems/type/restaurant/" target="_blank">Revel Systems POS</a></h3>
             <p>Revel Systems offers one of the most customizable and scalable POS systems out there, allowing you to size your platform for your needs, and integrate only the features that will be most helpful for your business.</p>
         </section>
-        <img src="#" alt="BIG IMAGE">
+        <img :src="require('../assets/images/chapter__9_image_3.png')" alt="">
         <section>
             <header>
                 <h3>Comparison</h3>
@@ -378,6 +380,7 @@
                 </table>
             </figure>
         </section>
+        <img :src="require('../assets/images/chapter__9_image_4.png')" alt="">
     </section>
     <section>
         <header>

@@ -66,7 +66,7 @@
             <app-about></app-about>
           </md-content>
           <md-dialog-actions>
-            <md-button target="_blank" href="https://www.chefhero.com/" class="md-primary">Get to know us</md-button>
+            <md-button target="_blank" href="https://www.chefhero.com/" class="md-primary md-raised">Get to know us</md-button>
             <md-button class="md-primary" @click="isActiveAboutDialog = false">Close</md-button>
           </md-dialog-actions>
         </md-dialog>
