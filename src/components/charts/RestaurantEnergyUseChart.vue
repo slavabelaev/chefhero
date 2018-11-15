@@ -50,7 +50,7 @@ export default {
           responsive: true,
           cutoutPercentage: 60,
           legend: {
-            position: 'right',
+            position:  (window.outerWidth > 1200) ? 'right' : 'bottom',
             labels: {
               fontFamily: "'Belbo-Book', sans-serif",
               fontSize: 16,

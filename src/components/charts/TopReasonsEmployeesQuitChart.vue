@@ -47,7 +47,7 @@ export default {
           responsive: true,
           cutoutPercentage: 60,
           legend: {
-            position: 'right',
+            position: (window.outerWidth > 1200) ? 'right' : 'bottom',
             labels: {
               fontSize: 16,
               usePointStyle: true,
