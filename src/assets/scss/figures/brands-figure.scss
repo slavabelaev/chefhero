@@ -1,7 +1,14 @@
 .brands-figure {
 	margin: 0;
+	text-align: center;
 	& > img {
 		margin: 1rem;
+		width: 135px;
+	}
+}
+
+@media (min-width: 600px) {
+	.brands-figure > img {
 		width: 155px;
 	}
 }

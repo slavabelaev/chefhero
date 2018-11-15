@@ -38,3 +38,19 @@
         &.bg-dark { background-color: $dark; }
     }
 }
+
+@media (max-width: 960px) {
+    .table {
+        tbody, tr, th, td {
+            display: block;
+            width: 100%;
+        }
+        thead {
+            display: none;
+        }
+        tr {
+            border: $primary 4px solid;
+            margin-bottom: 1rem;
+        }
+    }
+}
