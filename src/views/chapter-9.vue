@@ -58,7 +58,7 @@
                         <tr>
                             <th width="120"></th>
                             <th width="100" class="bg-primary">Price</th>
-                            <th width="150" class="bg-dark">Premium Plans</th>
+                            <th width="150" class="bg-primary-light">Premium Plans</th>
                             <th width="100" class="bg-success">Mobile Friendly?</th>
                             <th class="bg-danger">Key Features</th>
                         </tr>

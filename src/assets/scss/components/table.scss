@@ -1,5 +1,7 @@
 @import '../variables';
 
+$border-color: rgba(0,0,0,.12);
+
 .figure_is_table {
     margin-bottom: 2rem;
     .figure__title {
@@ -14,8 +16,17 @@
     border-spacing: 0;
     border-collapse: separate;
     color: #212121;
+    tbody td {
+        &:first-child {
+            border-left: 1px solid $border-color;
+        }
+        &:last-child {
+            border-right: 1px solid $border-color;
+        }
+    }
     td, th {
         padding: 12px;
+        border-bottom: 1px solid $border-color;
         &:nth-child(1) {
             font-size: 1.125rem;
             color: $primary;
@@ -32,9 +43,12 @@
         background-color: #D9EBE3;
         color: #fff;
         &.bg-primary { background-color: $primary; }
+        &.bg-primary-light { background-color: $primary-light; }
         &.bg-danger { background-color: $accent; }
         &.bg-success { background-color: $success; }
-        &.bg-dark { background-color: $dark; }
+        &:not(:first-child) {
+            border-bottom: rgba(0,0,0,.12) 6px solid;
+        }
     }
 }
 
