@@ -609,7 +609,9 @@
                 <li><strong>Divide the number of unique customers</strong> by the <strong>number of total customers</strong> within that time period.</li>
             </ol>
         </section>
-        <img :src="require('../assets/images/chapter__8_image_2.jpg')" alt="">
+        <a :href="require('../assets/images/chapter__8_image_2.jpg')" target="_blank" data-fancybox="gallery">
+            <img :src="require('../assets/images/chapter__8_image_2.jpg')" alt="">
+        </a>
     </section>
     <section>
         <h2>How to Measure and Use These Metrics</h2>

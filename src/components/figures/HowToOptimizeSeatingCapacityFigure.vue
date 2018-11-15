@@ -1,7 +1,9 @@
 <template>
     <figure class="figure">
         <figcaption class="figure__title">How to Optimize Seating Capacity</figcaption>
-        <img :src="require('../../assets/images/Schema_of_Optimize_Seating_Capacity.svg')" alt="Optimization Schema" class="figure__image">
+        <a :href="require('../../assets/images/Schema_of_Optimize_Seating_Capacity.svg')" target="_blank" data-fancybox="gallery">
+            <img :src="require('../../assets/images/Schema_of_Optimize_Seating_Capacity.svg')" alt="Optimization Schema" class="figure__image">
+        </a>
         <figcaption class="figure__description">
             <ol>
                 <li>Measure the total square footage of your restaurant's front of house area.</li>

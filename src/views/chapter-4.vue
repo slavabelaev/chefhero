@@ -109,7 +109,9 @@
             </ul>
             <p>Of course, there are a million other sites out there that maybe could list your restaurant. But these are the most popular and they’re critical to set up as early as possible.</p>
         </section>
-        <img :src="require('../assets/images/chapter__3_image_1.png')" alt="">
+        <a :href="require('../assets/images/chapter__3_image_1.png')" target="_blank" data-fancybox="gallery">
+            <img :src="require('../assets/images/chapter__3_image_1.png')" alt="">
+        </a>
     </section>
     <section>
         <h2>Step #3: Decide How to Build Your Website</h2>
@@ -142,7 +144,9 @@
                 <p>For step 4, let’s walk through the basics of establishing your presence on social and what you need to know.</p>
             </div>
             <div class="md-layout-item md-small-size-100">
-                <img :src="require('../assets/images/chapter__3_image_2.png')" alt="">
+                <a :href="require('../assets/images/chapter__3_image_2.png')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__3_image_2.png')" alt="">
+                </a>
             </div>
         </div>
         <section>

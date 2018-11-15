@@ -26,15 +26,21 @@
         <p>Across most industries, the core principles of customer ser-vice remain the same. What does “customer service” really mean? Put in the simplest way possible, it’s the act of taking care of a customer’s needs<sup><a href="https://study.com/academy/lesson/what-is-customer-service-definition-types-role-in-marketing.html" target="_blank">[18]</a></sup>. But there are some ways to take that idea a little further, to go from standard customer service to a consistently excellent experience that will wow your guests<sup><a href="https://restaurantengine.com/deliver-excellent-customer-service/" target="_blank">[19]</a></sup>.</p>
         <p>For example, great customer service means giving professional, helpful service before, during and after a transaction is made. In other words, customer service isn’t just about making a sale. It’s about providing a consistently excellent experience all the time, not just when the customer is actively giving you money.</p>
         <p>Delivering quality customer service also means being prompt, and that is multifaceted. From the minute a custom-er walks through your door, it’s time to start giving them that excellent experience. Greet them immediately when they enter your restaurant, but be authentic. No one likes walking into a restaurant feeling like the greeting they just received was scripted. Listen to customers intently. And don’t make them wait. Try to get the first round of drinks or appetizers to the table as quickly as possible — drinks within 10 minutes of their arrival and appetizers within 15-20 minutes of their arrival ideally<sup><a href="https://www.quora.com/What-is-the-average-waiting-time-for-a-meal-to-be-served-after-the-customer-has-ordered-in-a-restaurant" target="_blank">[20]</a></sup>. Promptness can be the difference between a happy guest who becomes a repeat customer, and a hangry one who never comes back.</p>
-        <img :src="require('../assets/images/chapter__6_image_1.png')" alt="">
+        <a :href="require('../assets/images/chapter__6_image_1.png')" target="_blank" data-fancybox="gallery">
+            <img :src="require('../assets/images/chapter__6_image_1.png')" alt="">
+        </a>
         <figure class="figure mb-0">
             <figcaption class="figure__title">Restaurants can experience a 216% increase in revenue for going above & beyond.</figcaption>
             <div class="md-layout">
                 <div class="md-layout-item md-small-size-100">
-                    <img :src="require('../assets/images/chapter__6_image_2.png')" alt="">
+                    <a :href="require('../assets/images/chapter__6_image_2.png')" target="_blank" data-fancybox="gallery">
+                        <img :src="require('../assets/images/chapter__6_image_2.png')" alt="">
+                    </a>
                 </div>
                 <div class="md-layout-item md-small-size-100">
-                    <img :src="require('../assets/images/chapter__6_image_3.png')" alt="">
+                    <a :href="require('../assets/images/chapter__6_image_3.png')" target="_blank" data-fancybox="gallery">
+                        <img :src="require('../assets/images/chapter__6_image_3.png')" alt="">
+                    </a>
                 </div>
             </div>
         </figure>
@@ -62,6 +68,8 @@
         <p>Modern customers, in all industries, have high expectations for customer service. But in restaurants, where there’s so much competition, providing customer service that wows your guests is necessary if you want to stand out. Restaurant owners know that repeat business is a vital part of any eatery’s success. Great customer service will beget happy, loyal customers who visit over and over again, which lays the foundation for years of success.</p>
         <p>Customer service is what motivates people to come back to your restaurant. But your menu is what makes it profitable (or not). In the next section, we will go over strategies to help you optimize your menu to be more profitable.</p>
     </section>
-    <img :src="require('../assets/images/chapter__6_image_4.png')" alt="">
+    <a :href="require('../assets/images/chapter__6_image_4.png')" target="_blank" data-fancybox="gallery">
+        <img :src="require('../assets/images/chapter__6_image_4.png')" alt="" class="mb-0">
+    </a>
 </article>
 </template>
