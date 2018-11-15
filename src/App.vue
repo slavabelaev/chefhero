@@ -31,12 +31,12 @@
         <img :src="require('./assets/logo.svg')" alt="ChefHero" class="app-logo__image">
       </router-link>
       <md-divider></md-divider>
-      <md-steppers :md-active-step="$route.name" md-vertical>
+      <md-steppers :md-active-step="$route.name" md-vertical :md-changed="checkDone()">
         <md-step :id="route.name"
                  :md-label="route.meta.title" 
                  :md-description="route.meta.description"
                  :to="route.path"
-                 :md-done.sync="doneRoutes[route.name]"
+                 :md-done="doneRoutes[route.name]"
                  v-for="route in $router.options.routes"
                  v-if="route.name != 'introduction' && route.name != 'about'"
                  :key="route.id"></md-step>
@@ -101,14 +101,14 @@ export default {
     }
   },
   methods: {
-    getScrollPosition($event) {
-      console.log('scroll', $event);
-    },
     pageScrollToTop() {
       document.querySelector('.md-app-scroller').scrollTop = 0;
     },
     getRouteIndex() {
       return this.$router.options.routes.findIndex(route => route.name == this.$route.name);
+    },
+    checkDone() {
+      console.log('event12', this);
     },
     goNext() {
       const routes = this.$router.options.routes;
