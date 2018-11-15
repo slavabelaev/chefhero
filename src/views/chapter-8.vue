@@ -37,19 +37,29 @@
                 <li>This means that your restaurant begins turning a profit after selling <strong>$9,333.33</strong> worth of goods or services.</li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Break Even Point</small> =
-                </div>
-                <div class="col-auto text-center">
-                    <small>Total Fixed Costs</small>
-                    <hr class="my-0 bg-danger">
-                    <small>[(Total Sales - Total Variable Costs) / Total Sales]</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Break Even Point</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Total Fixed Costs</span>
+                        <hr class="formula__delimiter">
+                        <div class="formula__expression-item">
+                            <span>[(</span>
+                            <span class="formula__variable">Total Sales</span>
+                            <span class="formula__operator">-</span>
+                            <span class="formula__variable">Total Variable Costs</span>
+                            <span>)</span>
+                            <span class="formula__operator">/</span>
+                            <span class="formula__variable">Total Sales</span>
+                            <span>]</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <ul>
@@ -117,29 +127,31 @@
             <h3>When to calculate:</h3>
             <p>One’s overhead can be calculated using actual figures (from past bills and receipts) or projected figures (by making an educated guess). Using projected figures is a great way to determine a forecasted overhead rate, which can be useful when mapping out operational processes before opening your business. Using actual figures shows how the operational tweaks you make impact your day-to-day business.</p>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center mb-3">
-                <div class="col-auto">
-                    <small>Total Hours  Open for Month</small> =
-                </div>
-                <div class="col-auto text-center">
-                    <small>Total hours open per day</small>
-                    <span class="text-danger">X</span>
-                    <small>Total days in month</small>
-                </div>
-            </div>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Overhead Rate</small> =
-                </div>
-                <div class="col-auto text-center">
-                    <small>Total Fixed Costs</small>
-                    <hr class="my-0 bg-danger">
-                    <small>Total Hours Open  for Month</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Total Hours Open for Month</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total hours open per day</span>
+                        <span class="formula__operator">X</span>
+                        <span class="formula__variable">Total days in month</span>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Overhead Rate</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Total Fixed Costs</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Total Hours Open for Month</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
     </section>
     <section>
         <h2>Metric #3: Food Costs</h2>
@@ -163,17 +175,24 @@
                 <li><strong>Add this new number</strong> (the difference) to your total purchases to determine your CoGS.</li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Food Cost</small> =
-                </div>
-                <div class="col text-center">
-                    <small>Total Purchases + (Total Leftover Inventory <br>from Previous Month - Total Ending Inventory)</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Food Cost</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total Purchases</span> 
+                        <span class="formula__operator">+</span> 
+                        <span>(</span>
+                        <span class="formula__variable">Total Leftover Inventory from Previous Month</span> 
+                        <span class="formula__operator">-</span> 
+                        <span class="formula__variable">Total Ending Inventory</span>
+                        <span>)</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <ul>
@@ -213,23 +232,22 @@
                 <li><strong>Multiple by 100 to get a percentage.</strong></li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Food Cost %</small> =
-                </div>
-                <div class="col text-center">
-                    <small>Estimated Food Cost</small>
-                    <hr class="my-0 bg-danger">
-                    <small>Menu Price</small>
-                </div>
-                <div class="col-auto">
-                    <span class="text-danger">X</span>
-                    <small>100</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Food Cost %</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Estimated Food Cost</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Menu Price</span>
+                    </div>
+                    <span class="formula__operator">X</span>
+                    <span class="formula__variable">100</span>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <ul>
@@ -260,19 +278,20 @@
                 <li><strong>Move decimal 2 places</strong> to the right to get a percentage.</li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Labour Cost %</small> =
-                </div>
-                <div class="col text-center">
-                    <small>Labour Cost</small>
-                    <hr class="my-0 bg-danger">
-                    <small>Total Gross Sales</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Labour Cost %</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Labour Cost</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Total Gross Sales</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <p>Let’s continue using the month of July where your total gross food sales were $20,000. For this same period, you determined your labour costs were $2,000.</p>
@@ -311,17 +330,20 @@
                 <li><strong>Move decimal 2 places</strong> to the right to get a percentage.</li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Prime Cost</small> =
-                </div>
-                <div class="col text-center">
-                    <small>CoGS + Labour Cost</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Prime Cost</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">CoGS</span>
+                        <span class="formula__operator">X</span>
+                        <span class="formula__variable">Labour Cost</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <p>As determined above, for the month of July, your food costs totalled $3,000, and your labour costs totalled $2,000.</p>
@@ -359,17 +381,20 @@
                 <li><strong>Subtract your CoGS from your total gross sales</strong> to determine a gross margin.</li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Gross Margin</small> =
-                </div>
-                <div class="col text-center">
-                    <small>Total Gross Sales - CoGS</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Gross Margin</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total Gross Sales</span>
+                        <span class="formula__operator">-</span>
+                        <span class="formula__variable">CoGS</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <ul>
@@ -405,17 +430,22 @@
                 <li><strong>Subtract your total costs from your total gross sales</strong> to determine a net profit.</li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>Net profit</small> =
-                </div>
-                <div class="col text-center">
-                    <small>Total Gross Sales - Prime Costs - Overhead</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Net profit</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total Gross Sales</span>
+                        <span class="formula__operator">-</span>
+                        <span class="formula__variable">Prime Costs</span>
+                        <span class="formula__operator">-</span>
+                        <span class="formula__variable">Overhead</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <ol>
@@ -450,19 +480,20 @@
                 <li><strong>Multiply by 100 to get a percentage.</strong></li>
             </ol>
         </section>
-        <section>
-            <h3>Equation:</h3>
-            <div class="bg-light row align-items-center">
-                <div class="col-auto">
-                    <small>profit Margin %</small> =
-                </div>
-                <div class="col text-center">
-                    <small>Net profit</small>
-                    <hr class="my-0 bg-danger">
-                    <small>Total Gross Sales</small>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">profit Margin %</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Net profit</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Total Gross Sales</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </figure>
         <section>
             <h3>Example:</h3>
             <ol>
