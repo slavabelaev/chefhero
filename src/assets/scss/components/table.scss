@@ -1,7 +1,6 @@
 @import '../variables';
 
 .figure_is_table {
-    overflow: auto;
     margin-bottom: 2rem;
     .figure__title {
         background-color: #D9EBE3;
@@ -51,6 +50,7 @@
         tr {
             border: $primary 4px solid;
             margin-bottom: 1rem;
+            border-radius: 4px;
         }
     }
 }

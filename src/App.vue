@@ -49,30 +49,32 @@
     <!-- /Drawer -->
 
     <md-app-content>
-        <md-speed-dial class="md-bottom-right" md-direction="bottom">
-					<md-button class="md-raised md-primary" @click="goNext()" v-if="$route.name != 'conclusion'">Next</md-button>
-				</md-speed-dial>
-				<md-speed-dial class="md-bottom-left" md-direction="bottom">
-					<md-button class="md-raised md-default" @click="goBack()" v-if="$route.name != 'introduction'">Back</md-button>
-				</md-speed-dial>
+      <md-content id="app-content">
+        <transition>
+          <router-view></router-view>
+        </transition>
+      </md-content>
+      
+      <div id="app-content-actions">
+        <md-button class="md-raised md-default" 
+                    @click="goBack()" 
+                    v-if="$route.name != 'introduction'">Back</md-button>
+        <md-button class="md-raised md-primary" 
+                   @click="goNext()" 
+                   v-if="$route.name != 'conclusion'">Next</md-button>
+      </div>
 
-        <md-content id="app-content">
-          <transition>
-            <router-view></router-view>
-          </transition>
+      <!-- About Dialog -->
+      <md-dialog :md-active.sync="isActiveAboutDialog">
+        <md-content id="app-about">
+          <app-about></app-about>
         </md-content>
-
-        <!-- About Dialog -->
-        <md-dialog :md-active.sync="isActiveAboutDialog">
-          <md-content id="app-about">
-            <app-about></app-about>
-          </md-content>
-          <md-dialog-actions>
-            <md-button target="_blank" href="https://www.chefhero.com/" class="md-primary md-raised">Get to know us</md-button>
-            <md-button class="md-primary" @click="isActiveAboutDialog = false">Close</md-button>
-          </md-dialog-actions>
-        </md-dialog>
-        <!-- /About Dialog -->
+        <md-dialog-actions>
+          <md-button target="_blank" href="https://www.chefhero.com/" class="md-primary md-raised">Get to know us</md-button>
+          <md-button class="md-primary" @click="isActiveAboutDialog = false">Close</md-button>
+        </md-dialog-actions>
+      </md-dialog>
+      <!-- /About Dialog -->
     </md-app-content>
   </md-app>
 </template>
@@ -86,6 +88,9 @@ export default {
       doneRoutes: {}
     } 
   },
+  created() {
+    console.log(11111);
+  },
   watch: {
     $route (to) {
       document.title = to.meta.title;
@@ -96,6 +101,9 @@ export default {
     }
   },
   methods: {
+    getScrollPosition($event) {
+      console.log('scroll', $event);
+    },
     pageScrollToTop() {
       document.querySelector('.md-app-scroller').scrollTop = 0;
     },
