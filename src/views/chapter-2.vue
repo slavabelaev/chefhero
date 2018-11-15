@@ -53,20 +53,28 @@
                 <p>You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
             </div>
             <div class="md-layout-item md-small-size-100">
-                <img :src="require('../assets/images/chapter__2_image_2.png')" alt="">
+                <a :href="require('../assets/images/chapter__2_image_2.png')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__2_image_2.png')" alt="">
+                </a>
             </div>
         </div>
          <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
-                <img :src="require('../assets/images/chapter__2_image_3.png')" alt="">
+                <a :href="require('../assets/images/chapter__2_image_3.png')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__2_image_3.png')" alt="">
+                </a>
             </div>
             <div class="md-layout-item md-small-size-100">
-                <img :src="require('../assets/images/chapter__2_image_4.png')" alt="">
+                <a :href="require('../assets/images/chapter__2_image_4.png')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__2_image_4.png')" alt="">
+                </a>
             </div>
         </div>
          <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
-                <img :src="require('../assets/images/chapter__2_image_5.png')" alt="">
+                <a :href="require('../assets/images/chapter__2_image_5.png')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__2_image_5.png')" alt="">
+                </a>
             </div>
             <div class="md-layout-item md-small-size-100">
                 <p>Another way to add some life to your space is to offer non-traditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
@@ -79,10 +87,14 @@
         </figure>
         <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
-                <img :src="require('../assets/images/chapter__2_image_6.jpg')" alt="">
+                <a :href="require('../assets/images/chapter__2_image_6.jpg')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__2_image_6.jpg')" alt="">
+                </a>
             </div>
             <div class="md-layout-item md-small-size-100">
-                <img :src="require('../assets/images/chapter__2_image_7.png')" alt="">
+                <a :href="require('../assets/images/chapter__2_image_7.png')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__2_image_7.png')" alt="">
+                </a>
             </div>
         </div>
         <h3>Moving Up and Out</h3>

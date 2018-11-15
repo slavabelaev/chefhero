@@ -45,7 +45,9 @@
         <p>A well-researched and carefully planned budget will keep you from overspending on food, ingredients, alcohol, kitchen supplies and cleaning supplies. It will also ensure you are keeping administrative costs like payroll and marketing cost-effective.</p>
         <p>A budget plan should also help you design a menu with good profit margins. If you’re designing your establishment’s menu from scratch, your budget plan can be instrumental in deciding what dishes to include.</p>
         <figure class="figure">
-            <img :src="require('../assets/images/chapter__1_image_1.png')" alt="" class="figure__image">
+            <a :href="require('../assets/images/chapter__1_image_1.png')" target="_blank" data-fancybox="gallery">
+                <img :src="require('../assets/images/chapter__1_image_1.png')" alt="" class="figure__image">
+            </a>
             <figcaption class="figure__description">Managers should be involved in setting the budgets they need to run their departments.</figcaption>
         </figure>
     </section>
@@ -71,7 +73,9 @@
         <p>First, your venue. Market cost for a restaurant-friendly commercial space will vary wildly depending on your chosen lo-cation. In Chicago, for example, commercial space is now trending over $40 per square foot<sup><a target="_blank" href="https://www.chicagotribune.com/business/columnists/ct-prime-office-rents-ryan-ori-0321-biz-20170317-column.html">[4]</a></sup>. Compare that to Toron-to, where restaurant real estate can be as high as $100 per square foot in high-traffic neighborhoods<sup><a target="_blank" href="https://www.theglobeandmail.com/news/toronto/rising-rent-is-starving-torontos-restaurateurs/article35061520/">[5]</a></sup>.</p>
         <p>As a general rule to follow when picking a location, your rent or lease agreement should not exceed 6 to 10 percent of your projected gross annual sales. If you can, get an assignable lease. That way, if a restaurant goes under, you’re able to  re-assign your lease to someone else and avoid bearing the cost after you close your doors.</p>
         <figure class="figure">
-            <img :src="require('../assets/images/chapter__1_image_2.png')" alt="" class="figure__image">
+            <a :href="require('../assets/images/chapter__1_image_2.png')" target="_blank" data-fancybox="gallery">
+                <img :src="require('../assets/images/chapter__1_image_2.png')" alt="" class="figure__image">
+            </a>
             <figcaption class="figure__description">Opening a new, 90-seat restaurant, can run anywhere from <strong>$3,064 to $4,444</strong> per seat or <strong>$275k-$4000k</strong>.</figcaption>
         </figure>
         <p>Then there are the costs for fitting out your restaurant (on average, $300 to $500 per square foot) and supplying all the equipment for both the front and back of house (on average, $150 to $300 per square foot). We’re already over several hundred thousand dollars here.</p>

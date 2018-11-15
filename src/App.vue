@@ -31,7 +31,7 @@
         <img :src="require('./assets/logo.svg')" alt="ChefHero" class="app-logo__image">
       </router-link>
       <md-divider></md-divider>
-      <md-steppers :md-active-step="$route.name" md-vertical :md-changed="checkDone()">
+      <md-steppers :md-active-step="$route.name" md-vertical>
         <md-step :id="route.name"
                  :md-label="route.meta.title" 
                  :md-description="route.meta.description"
@@ -88,9 +88,6 @@ export default {
       doneRoutes: {}
     } 
   },
-  created() {
-    console.log(11111);
-  },
   watch: {
     $route (to) {
       document.title = to.meta.title;
@@ -106,9 +103,6 @@ export default {
     },
     getRouteIndex() {
       return this.$router.options.routes.findIndex(route => route.name == this.$route.name);
-    },
-    checkDone() {
-      console.log('event12', this);
     },
     goNext() {
       const routes = this.$router.options.routes;

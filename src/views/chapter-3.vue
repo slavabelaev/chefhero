@@ -179,32 +179,84 @@
             </ol>
             <p>Just think of marketing your name and logo as setting your-self up for a great first impression. Keep in mind who you are and what you want the feel of the restaurant to be, then do your best to accurately set your customers expectations with this first touch-point.</p>
             <figure class="brands-figure">
-                <img :src="require('../assets/images/logos/Noodles-and-company_logo.svg')" alt="Noodles and company" width="160">
-                <img :src="require('../assets/images/logos/In-N-Out_logo.svg')" alt="In-N-Out" width="160">
-                <img :src="require('../assets/images/logos/Red-Lobster_logo.svg')" alt="Red Lobster" width="160">
-                <img :src="require('../assets/images/logos/McDonalds_logo.svg')" alt="McDonalds" width="160">
-                <img :src="require('../assets/images/logos/Hardees_logo.svg')" alt="Hardees" width="160">
-                <img :src="require('../assets/images/logos/BurgerKing_logo.svg')" alt="Burger King" width="160">
-                <img :src="require('../assets/images/logos/Dennys_logo.svg')" alt="Denny's" width="160">
-                <img :src="require('../assets/images/logos/ihop_logo.svg')" alt="ihop" width="160">
-                <img :src="require('../assets/images/logos/Outback_Steakhouse_logo.svg')" alt="Outback Steakhouse" width="160">
-                <img :src="require('../assets/images/logos/KFC_logo.svg')" alt="KFC" width="160">
-                <img :src="require('../assets/images/logos/Dominos_pizza_logo.svg')" alt="Dominos pizza" width="160">
-                <img :src="require('../assets/images/logos/Pizza-Hut_logo.svg')" alt="Pizza Hut" width="160">
-                <img :src="require('../assets/images/logos/Dairy_Queen_logo.svg')" alt="Dairy Queen" width="160">
-                <img :src="require('../assets/images/logos/Subway_logo.svg')" alt="Subway" width="160">
-                <img :src="require('../assets/images/logos/Tgi_fridays_logo.svg')" alt="Tgi fridays" width="160">
-                <img :src="require('../assets/images/logos/Buffalo-Wild-Wings_logo.svg')" alt="Buffalo Wild Wings" width="160">
-                <img :src="require('../assets/images/logos/Chipotle_logo.svg')" alt="Chipotle" width="160">
-                <img :src="require('../assets/images/logos/Jack_in_the_Box_logo.svg')" alt="Jack in the Box" width="160">
-                <img :src="require('../assets/images/logos/Hooters_logo.svg')" alt="Hooters" width="160">
-                <img :src="require('../assets/images/logos/Chilis_logo.svg')" alt="Chilis" width="160">
-                <img :src="require('../assets/images/logos/Sonic_Drive-In_logo.svg')" alt="Sonic" width="160">
-                <img :src="require('../assets/images/logos/Applebees_logo.svg')" alt="Applebees" width="160">
-                <img :src="require('../assets/images/logos/Wendys_logo.svg')" alt="Wendys" width="160">
-                <img :src="require('../assets/images/logos/All_American_Food_logo.svg')" alt="All American Food" width="160">
-                <img :src="require('../assets/images/logos/Dunkin_Donuts_logo.svg')" alt="Dunkin Donuts" width="160">
-                <img :src="require('../assets/images/logos/Krispy_Kreme_logo.svg')" alt="Krispy Kreme" width="160">
+                <a :href="require('../assets/images/logos/Wendys_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Wendys_logo.svg')" alt="Wendys">
+                </a>
+                <a :href="require('../assets/images/logos/ihop_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/ihop_logo.svg')" alt="ihop">
+                </a>
+                <a :href="require('../assets/images/logos/Pizza-Hut_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Pizza-Hut_logo.svg')" alt="Pizza Hut">
+                </a>
+                <a :href="require('../assets/images/logos/Noodles-and-company_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Noodles-and-company_logo.svg')" alt="Noodles and company">
+                </a>
+                <a :href="require('../assets/images/logos/In-N-Out_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/In-N-Out_logo.svg')" alt="In-N-Out">
+                </a>
+                <a :href="require('../assets/images/logos/Dennys_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Dennys_logo.svg')" alt="Denny's">
+                </a>
+                <a :href="require('../assets/images/logos/Hardees_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Hardees_logo.svg')" alt="Hardees">
+                </a>
+                <a :href="require('../assets/images/logos/Dairy_Queen_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Dairy_Queen_logo.svg')" alt="Dairy Queen">
+                </a>
+                <a :href="require('../assets/images/logos/Outback_Steakhouse_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Outback_Steakhouse_logo.svg')" alt="Outback Steakhouse">
+                </a>
+                <a :href="require('../assets/images/logos/BurgerKing_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/BurgerKing_logo.svg')" alt="Burger King">
+                </a>
+                <a :href="require('../assets/images/logos/Tgi_fridays_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Tgi_fridays_logo.svg')" alt="Tgi fridays">
+                </a>
+                <a :href="require('../assets/images/logos/KFC_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/KFC_logo.svg')" alt="KFC">
+                </a>
+                <a :href="require('../assets/images/logos/Subway_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Subway_logo.svg')" alt="Subway">
+                </a>
+                <a :href="require('../assets/images/logos/Chipotle_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Chipotle_logo.svg')" alt="Chipotle">
+                </a>
+                <a :href="require('../assets/images/logos/Buffalo-Wild-Wings_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Buffalo-Wild-Wings_logo.svg')" alt="Buffalo Wild Wings">
+                </a>
+                <a :href="require('../assets/images/logos/McDonalds_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/McDonalds_logo.svg')" alt="McDonalds">
+                </a>
+                <a :href="require('../assets/images/logos/Applebees_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Applebees_logo.svg')" alt="Applebees">
+                </a>
+                <a :href="require('../assets/images/logos/Dominos_pizza_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Dominos_pizza_logo.svg')" alt="Dominos pizza">
+                </a>
+                <a :href="require('../assets/images/logos/Sonic_Drive-In_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Sonic_Drive-In_logo.svg')" alt="Sonic">
+                </a>
+                <a :href="require('../assets/images/logos/Jack_in_the_Box_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Jack_in_the_Box_logo.svg')" alt="Jack in the Box">
+                </a>
+                <a :href="require('../assets/images/logos/Dunkin_Donuts_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Dunkin_Donuts_logo.svg')" alt="Dunkin Donuts">
+                </a>
+                <a :href="require('../assets/images/logos/Krispy_Kreme_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Krispy_Kreme_logo.svg')" alt="Krispy Kreme">
+                </a>
+                <a :href="require('../assets/images/logos/Red-Lobster_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Red-Lobster_logo.svg')" alt="Red Lobster">
+                </a>
+                <a :href="require('../assets/images/logos/All_American_Food_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/All_American_Food_logo.svg')" alt="All American Food">
+                </a>
+                <a :href="require('../assets/images/logos/Hooters_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Hooters_logo.svg')" alt="Hooters">
+                </a>
+                <a :href="require('../assets/images/logos/Chilis_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
+                    <img :src="require('../assets/images/logos/Chilis_logo.svg')" alt="Chilis">
+                </a>
             </figure>
             <p>Next, consider the implications of the logo choice.</p>
             <p>Are you going to have uniforms in your restaurant? Eventually want to give out t-shirts or stickers? How will your logo design look when reproduced across various platforms and mediums? Will this design be easy to translate to black and white or will you continually be producing in colour? This is fine but address what this could mean for cost and adjust your marketing budget accordingly.</p>

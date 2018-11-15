@@ -1,14 +1,21 @@
 .brands-figure {
 	margin: 0;
 	text-align: center;
-	& > img {
-		margin: 1rem;
-		width: 135px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	img {
+		margin-bottom: 0;
 	}
+}
+.brands-figure__link {
+	margin: 1rem;
+	width: 135px;
 }
 
 @media (min-width: 600px) {
-	.brands-figure > img {
+	.brands-figure__link {
 		width: 155px;
 	}
 }

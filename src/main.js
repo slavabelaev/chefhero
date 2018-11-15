@@ -4,6 +4,10 @@ Vue.use(VueMaterial)
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 
+window.jQuery = require('jquery/dist/jquery.slim');
+require('@fancyapps/fancybox/dist/jquery.fancybox');
+import '@fancyapps/fancybox/dist/jquery.fancybox.min.css';
+
 import AppAbout from './views/About.vue'
 Vue.component('app-about', AppAbout)
 
