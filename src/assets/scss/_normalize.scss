@@ -12,10 +12,14 @@ body {
 }
 article {
 	color: #535B5B;
+	* {
+		margin-top: 0;
+	}
 	h1 {
 		font-family: "TiemposHeadline-Black", sans-serif;
 		color: #212121;
 		margin-top: 0;
+		text-align: center;
 	}
 	h2 {
 		font-size: 1.8rem;
@@ -35,6 +39,9 @@ article {
 	sup {
 		font-size: .75rem;
 	}
+	img {
+		margin-bottom: 1rem;
+	}
 	address > dl {
 		display: flex;
 		justify-content: flex-end;
@@ -44,6 +51,7 @@ article {
 		}
 		dd {
 			margin-left: 12px;
+			margin-bottom: 0;
 		}
 	}
 	dd {
@@ -72,6 +80,7 @@ article {
 			display: block;
 			text-align: right;
 			font-size: 1rem;
+			margin-bottom: 1rem;
 		}
 	}
 	cite {
@@ -99,8 +108,8 @@ article {
 .bg-primary {
 	background-color: $primary;
 }
-.mt-0 {
-	margin-top: 0!important;
+.mb-0 {
+	margin-bottom: 0!important;
 }
 .mt-1 {
 	margin-top: 1rem!important;
@@ -113,24 +122,28 @@ article {
 	text-align: center;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 961px) {
 	article {
 		h1 {
 			font-size: 2.5rem;
-			text-align: center;
 		}
 		.lead {
 			font-size: 1.5rem;
 			line-height: 1.4;
 		}
 	}
+	.md-layout-item { 
+		margin-left: .5rem; 
+		margin-right: .5rem;
+	}
+	.md-layout-item:first-child {
+		margin-left: 0;
+	}
+	.md-layout-item:last-child {
+		margin-right: 0;
+	}
+
 	[columns="2"] {
-		display: flex;
-		flex-wrap: wrap;
-		& > * {
-			flex: 1 50%;
-		}
-		& > *:nth-child(even) { padding-right: 1rem; }
-		& > *:nth-child(odd) { padding-right: 1rem; }
+		column-count: 2;
 	}
 }

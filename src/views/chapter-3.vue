@@ -50,7 +50,7 @@
         </section>
         <section>
             <h3>More Than Just Food</h3>
-            <p>The Ultimate Guide to Running a Restaurant16More Than Just Food</p>
+            <p>When designing a restaurant, you’re able to choose from a variety of cuisines, or add your own twist to a certain style in the culinary sphere. Will your restaurant follow a long-standing family tradition, or put a 3018 spin on a dish while we’re out here living in 2018?</p>
             <p>What’s important to remember is most restaurants today don’t just sell food and beverages, they also sell atmosphere, culture, and guest experience. When designing a concept, play on all five senses to elevate your space. Your restaurant’s concept should be:</p>
             <figure class="figure">
                 <figcaption class="figure__title">Characteristics of a Successful Restaurant Concept</figcaption>

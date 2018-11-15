@@ -85,21 +85,21 @@
         <p>In addition, it’s great to maintain an informed perspective on your patrons and industry overall.</p>
         <section>
             <h3>Menu Colour</h3>
-            <div columns="2">
-                <div>
-                    <p class="mt-0">The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
+            <div class="md-layout">
+                <div class="md-layout-item md-small-size-100">
+                    <p>The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
                     <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
                 </div>
-                <div>
+                <div class="md-layout-item md-small-size-100">
                     <img :src="require('../assets/images/chapter__7_image_2.jpg')" alt="">
                 </div>
             </div>
         </section>
-        <div columns="2" class="mt-1">
-            <div>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
                 <img :src="require('../assets/images/chapter__7_image_3.jpg')" alt="">
             </div>
-            <div>
+            <div class="md-layout-item md-small-size-100">
                 <img :src="require('../assets/images/chapter__7_image_4.jpg')" alt="">
             </div>
         </div>

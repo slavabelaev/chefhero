@@ -136,12 +136,14 @@
     </section>
     <section>
         <h2>Step #4: Establish Your Social Media Presence</h2>
-        <div columns="2">
-            <div>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
                 <p>Looking beyond just your website, you also need to start to build a brand for your restaurant online <sup><a href="https://www.chefhero.com/blog/2018/7/2/restaurant-branding-concept-brand-identity-naming-and-logos" target="_blank">[14]</a></sup>. You probably know that social media is a great way to connect with potential diners, share updates, and market your business.</p>
                 <p>For step 4, let’s walk through the basics of establishing your presence on social and what you need to know.</p>
             </div>
-            <img :src="require('../assets/images/chapter__3_image_2.png')" alt="" class="mt-1">
+            <div class="md-layout-item md-small-size-100">
+                <img :src="require('../assets/images/chapter__3_image_2.png')" alt="">
+            </div>
         </div>
         <section>
             <h3>Decide Which Channels are for You</h3>
@@ -152,7 +154,7 @@
         <section>
             <h3>Choose a Handle</h3>
             <p>When it comes time to select your social media accounts and set up your online presence, keep these few tips in mind to choose the perfect handle for your business.</p>
-            <p>If possible, use the same handle across all channels. For example: facebook.com/AwesomeRestaurant,  @AwesomeRestaurant on Instagram & Twitter, and  www.awesomerestaurant.ca on the web. It’s just good for branding.</p>
+            <p>If possible, use the same handle across all channels. For example: facebook.com / AwesomeRestaurant,  @AwesomeRestaurant on Instagram & Twitter, and  www.awesomerestaurant.ca on the web. It’s just good for branding.</p>
             <p>Double check the exact same name is available with all other channels you’re going to use to grow your brand before reg-istering an account with any platform. With any marketing or branding strategy, consistency across all channels is key.</p>
         </section>
     </section>

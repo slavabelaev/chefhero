@@ -52,7 +52,7 @@
                 <p>Looking for specific features or price point for your website? Find the platform that best suits your needs here.</p>
             </header>
             <figure class="figure">
-                <figcaption class="figure-caption">Restaurant Website Builders</figcaption>
+                <figcaption class="figure__title">Restaurant Website Builders</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
                         <tr>
@@ -145,7 +145,7 @@
                 <p>Find the exact features and price point you’re looking for below.</p>
             </header>
             <figure class="figure">
-                <figcaption class="figure-caption">P.O.S. Systems</figcaption>
+                <figcaption class="figure__title">P.O.S. Systems</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
                         <tr>
@@ -200,7 +200,7 @@
                 <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, see below.</p>
             </header>
             <figure class="figure">
-                <figcaption class="figure-caption">Accounting</figcaption>
+                <figcaption class="figure__title">Accounting</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
                         <tr>
@@ -279,7 +279,7 @@
                 <p>Find the best talent without having to shell out for a recruiter using these budget-friendly online job boards.</p>
             </header>
             <figure class="figure">
-                <figcaption class="figure-caption">Hiring</figcaption>
+                <figcaption class="figure__title">Hiring</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
                         <tr>
@@ -342,11 +342,11 @@
             <h3><a href="https://www.doordash.com/" target="_blank">Doordash</a></h3>
             <p>A delivery service that also puts effort into decreasing food waste.</p>
         </section>
-        <img src="#" alt="BIG IMAGE">
+        <img :src="require('../assets/images/chapter__9_image_4.png')" alt="">
         <section>
             <h3>Comparison</h3>
             <figure class="figure">
-                <figcaption class="figure-caption">Delivery Aids</figcaption>
+                <figcaption class="figure__title">Delivery Aids</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
                         <tr>
@@ -380,7 +380,6 @@
                 </table>
             </figure>
         </section>
-        <img :src="require('../assets/images/chapter__9_image_4.png')" alt="">
     </section>
     <section>
         <header>

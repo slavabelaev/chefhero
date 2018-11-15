@@ -1,7 +1,7 @@
 <template>
   <figure class="figure extreme-aversion-figure">
     <figcaption class="figure__title">Extreme Aversion</figcaption>
-    <div class="md-layout md-gutter">
+    <div class="md-layout">
       <div class="md-layout-item md-small-size-100">
         <md-card>
           <md-card-media 

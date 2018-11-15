@@ -48,26 +48,42 @@
         <p>How you decorate will depend a great deal on your restaurant concept. For example, a fast-casual restaurant and a fine dining establishment will not look the same.</p>
         <p>But there are some design principles that any restaurateur can implement to make a space look its best on a budget.</p>
         <p>Outfit the space with good-looking but low maintenance plants, like ferns or succulents. Greenery can make an indoor space look much brighter and more inviting.</p>
-        <div columns="2">
-            <p>You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
-            <div class="mt-1"><img :src="require('../assets/images/chapter__2_image_2.png')" alt=""></div>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <p>You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
+            </div>
+            <div class="md-layout-item md-small-size-100">
+                <img :src="require('../assets/images/chapter__2_image_2.png')" alt="">
+            </div>
         </div>
-         <div columns="2" class="mt-1">
-            <div><img :src="require('../assets/images/chapter__2_image_3.png')" alt=""></div>
-            <div><img :src="require('../assets/images/chapter__2_image_4.png')" alt=""></div>
+         <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <img :src="require('../assets/images/chapter__2_image_3.png')" alt="">
+            </div>
+            <div class="md-layout-item md-small-size-100">
+                <img :src="require('../assets/images/chapter__2_image_4.png')" alt="">
+            </div>
         </div>
-         <div columns="2" class="mt-1">
-            <div><img :src="require('../assets/images/chapter__2_image_5.png')" alt=""></div>
-            <p>Another way to add some life to your space is to offer non-traditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
+         <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <img :src="require('../assets/images/chapter__2_image_5.png')" alt="">
+            </div>
+            <div class="md-layout-item md-small-size-100">
+                <p>Another way to add some life to your space is to offer non-traditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
+            </div>
         </div>
     </section>
     <section>
         <figure class="figure figure_style_primary p-1">
             <figcaption class="figure__description">An easy way to add decor to your restaurant without having to drop a lot of cash is to open your space to local artists to exhibit their work. You’ll get a rotating set of decor for free, and build goodwill in the community while you’re at it.</figcaption>
         </figure>
-        <div columns="2" class="mt-1">
-            <div><img :src="require('../assets/images/chapter__2_image_6.jpg')" alt=""></div>
-            <div><img :src="require('../assets/images/chapter__2_image_7.png')" alt=""></div>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <img :src="require('../assets/images/chapter__2_image_6.jpg')" alt="">
+            </div>
+            <div class="md-layout-item md-small-size-100">
+                <img :src="require('../assets/images/chapter__2_image_7.png')" alt="">
+            </div>
         </div>
         <h3>Moving Up and Out</h3>
         <p>Moving is a huge hassle for a restaurant, but sometimes it needs to happen. Maybe your old lease is up and the landlord isn’t interested in renewing. Maybe you’ve outgrown your current space. Whatever the reason for a move, there are ways to make it as painless as possible<sup><a href="https://www.modernrestaurantmanagement.com/tips-for-moving-your-restaurant-to-a-new-location/" target="_blank"></a></sup>.</p>

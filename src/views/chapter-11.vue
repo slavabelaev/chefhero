@@ -41,35 +41,35 @@
         <h2>When should you post?</h2>
         <p>Ideally, you should be posting to your Instagram daily, or even multiple times per day. Try out regular, daily posts, like posting photos and descriptions of your specials.</p>
         <p>But you should also definitely take advantage of Instagram when special events are happening.</p>
-        <div columns="2">
-            <div>
-                <p class="mt-0">If your restaurant is involved in a fair or festival, promote that on Instagram! Take photos of your setup at the event. Broadcast a live video showing crowds and excitement at the event, and encourage more followers to come out and find you there. You can even use photos or stories to chron-icle something disastrous, like a rainstorm in the middle of a festival. Have fun with it, and your followers are sure to enjoy the content.</p>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <p>If your restaurant is involved in a fair or festival, promote that on Instagram! Take photos of your setup at the event. Broadcast a live video showing crowds and excitement at the event, and encourage more followers to come out and find you there. You can even use photos or stories to chron-icle something disastrous, like a rainstorm in the middle of a festival. Have fun with it, and your followers are sure to enjoy the content.</p>
                 <p>But also be on the lookout for day-to-day events that you can promote on Instagram. If you’re introducing a new food or signature drink, use your Instagram account to show it off and welcome your guests to try out new menu items.</p>
             </div>
-            <div>
+            <div class="md-layout-item md-small-size-100">
                 <img :src="require('../assets/images/chapter__11_image_3.png')" alt="">
             </div>
         </div>
-        <p class="mt-0">You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
+        <p>You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
     </section>
     <section>
         <h2>What should you post?</h2>
         <p>While everything in this guide will help you create the best In-stagram account possible, nothing matters as much as what you post. Your content is what will gain you followers, and turn those followers into guests who show up for your food.</p>
-        <div columns="2">
-            <div>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
                 <img :src="require('../assets/images/chapter__11_image_4.jpg')" alt="">
             </div>
-            <div>
+            <div class="md-layout-item md-small-size-100">
                 <p>First and foremost, you have to post photos of your food and drinks. Remember that example at the beginning? What’s more effective: a really well-written description of a cheese-burger? Or this:</p>
+                <p>You’re getting hungry just looking at it, right?</p>
             </div>
         </div>
-        <div columns="2">
-            <div>
-                <p>You’re getting hungry just looking at it, right?</p>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
                 <p>But if you’re going to post food pics, they have to look as great as the food tastes. That means you can’t just take any photo. Does this look as appetizing?</p>
                 <p>The answer is no. It’s dark. It’s blurry. The angle doesn’t show off the ingredients.</p>
             </div>
-            <div>
+            <div class="md-layout-item md-small-size-100">
                 <img :src="require('../assets/images/chapter__11_image_5.jpg')" alt="">
             </div>
         </div>

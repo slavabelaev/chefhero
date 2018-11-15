@@ -1,4 +1,7 @@
-.brands-figure > img {
-	padding: 12px;
-	width: 165px;
+.brands-figure {
+	margin: 0;
+	& > img {
+		margin: 1rem;
+		width: 155px;
+	}
 }
