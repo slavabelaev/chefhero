@@ -111,11 +111,11 @@ article {
 .mb-0 {
 	margin-bottom: 0!important;
 }
-.mt-1 {
-	margin-top: 1rem!important;
-}
 .p-1 {
 	padding: 1rem!important;
+}
+.text-center {
+	text-align: center;
 }
 
 #introduction {
@@ -133,14 +133,14 @@ article {
 		}
 	}
 	.md-layout-item { 
-		margin-left: .5rem; 
-		margin-right: .5rem;
+		padding-left: .5rem; 
+		padding-right: .5rem;
 	}
 	.md-layout-item:first-child {
-		margin-left: 0;
+		padding-left: 0;
 	}
 	.md-layout-item:last-child {
-		margin-right: 0;
+		padding-right: 0;
 	}
 
 	[columns="2"] {

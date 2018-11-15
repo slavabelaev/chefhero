@@ -47,19 +47,19 @@
         </section>
         <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="">
         <section>
-            <header>
+            <header class="text-center">
                 <h3>Comparison</h3>
                 <p>Looking for specific features or price point for your website? Find the platform that best suits your needs here.</p>
             </header>
-            <figure class="figure">
+            <figure class="figure figure_is_table">
                 <figcaption class="figure__title">Restaurant Website Builders</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
                         <tr>
-                            <th width="150"></th>
-                            <th width="150" class="bg-primary">Price</th>
+                            <th width="120"></th>
+                            <th width="100" class="bg-primary">Price</th>
                             <th width="150" class="bg-dark">Premium Plans</th>
-                            <th width="150" class="bg-success">Mobile Friendly?</th>
+                            <th width="100" class="bg-success">Mobile Friendly?</th>
                             <th class="bg-danger">Key Features</th>
                         </tr>
                     </thead>
@@ -116,35 +116,39 @@
         </section>
     </section>
     <section>
-        <h2>Make Point of Sale (POS) Efficient and Simple</h2>
-        <p>Ever been working when the POS went down? It’s a night-mare for everyone in the restaurant, from management to service staff to customers. Avoid that by getting the best POS software out there.</p>
-        <section>
-            <h3><a href="https://pos.toasttab.com/" target="_blank">Toast</a></h3>
-            <p>Toast is one of the very few Android POS systems on the market, which gives it increased flexibility and affordability. Toast also comes with a community where users share best use tips.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.touchbistro.com/" target="_blank">TouchBistro</a></h3>
-            <p>TouchBistro is iPad based, which keeps hardware costs low. It also offers a free trial program so you can test run it before you commit.</p>
-        </section>
-        <section>
-            <h3><a href="https://squareup.com/pos" target="_blank">Square POS</a></h3>
-            <p>Square supports Windows, Mac, Android and iOS to offer all the essential POS capabilities in a simple interface. There’s a reason it’s one of the most popular POS platforms on the market, and has been for years.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.lightspeedhq.com/pos/restaurant/" target="_blank">Lightspeed Restaurant</a></h3>
-            <p>Lightspeed Restaurant is cloud-based, and streamlines the entire process of managing your restaurant, with useful features and a built-in accounting system.</p>
-        </section>
+        <header class="text-center">
+            <h2>Make Point of Sale (POS) Efficient and Simple</h2>
+            <p>Ever been working when the POS went down? It’s a night-mare for everyone in the restaurant, from management to service staff to customers. Avoid that by getting the best POS software out there.</p>
+        </header>
+        <div class="md-layout">
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://pos.toasttab.com/" target="_blank">Toast</a></h3>
+                <p>Toast is one of the very few Android POS systems on the market, which gives it increased flexibility and affordability. Toast also comes with a community where users share best use tips.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.touchbistro.com/" target="_blank">TouchBistro</a></h3>
+                <p>TouchBistro is iPad based, which keeps hardware costs low. It also offers a free trial program so you can test run it before you commit.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://squareup.com/pos" target="_blank">Square POS</a></h3>
+                <p>Square supports Windows, Mac, Android and iOS to offer all the essential POS capabilities in a simple interface. There’s a reason it’s one of the most popular POS platforms on the market, and has been for years.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.lightspeedhq.com/pos/restaurant/" target="_blank">Lightspeed Restaurant</a></h3>
+                <p>Lightspeed Restaurant is cloud-based, and streamlines the entire process of managing your restaurant, with useful features and a built-in accounting system.</p>
+            </section>
+        </div>
         <section>
             <h3><a href="https://revelsystems.com/pos-systems/type/restaurant/" target="_blank">Revel Systems POS</a></h3>
             <p>Revel Systems offers one of the most customizable and scalable POS systems out there, allowing you to size your platform for your needs, and integrate only the features that will be most helpful for your business.</p>
         </section>
         <img :src="require('../assets/images/chapter__9_image_3.png')" alt="">
         <section>
-            <header>
+            <header class="text-center">
                 <h3>Comparison</h3>
                 <p>Find the exact features and price point you’re looking for below.</p>
             </header>
-            <figure class="figure">
+            <figure class="figure figure_is_table">
                 <figcaption class="figure__title">P.O.S. Systems</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
@@ -176,30 +180,31 @@
         </section>
     </section>
     <section>
-        <h2>Handle your Books, Don’t Let Them Handle you</h2>
-        <p></p>
+        <h2 class="text-center">Handle your Books, Don’t Let Them Handle you</h2>
+        <div class="md-layout">
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.xero.com/us/" target="_blank">Xero</a></h3>
+                <p>Xero is one of the most popular small business accounting platforms available. It offers real-time reporting and features that will help streamline your entire accounting process.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://quickbooks.intuit.com/industry/restaurants/" target="_blank">Quickbooks</a></h3>
+                <p>Most business owners are already familiar with Quickbooks, one of the most popular accounting platforms for all small business. With a host of restaurant-specific features, Quick-books is ready to streamline your restaurant accounting.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.waveapps.com/" target="_blank">Wave</a></h3>
+                <p>Wave makes it easy to handle your accounting essentials, all in the cloud so your information is accessible from anywhere.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://restaurant365.com/" target="_blank">Restaurant365</a></h3>
+                <p>Restaurant365 is, obviously, designed specifically for res-taurants, meaning it offers all the features that will make integration with your business as smooth as possible.</p>
+            </section>
+        </div>
         <section>
-            <h3><a href="https://www.xero.com/us/" target="_blank">Xero</a></h3>
-            <p>Xero is one of the most popular small business accounting platforms available. It offers real-time reporting and features that will help streamline your entire accounting process.</p>
-        </section>
-        <section>
-            <h3><a href="https://quickbooks.intuit.com/industry/restaurants/" target="_blank">Quickbooks</a></h3>
-            <p>Most business owners are already familiar with Quickbooks, one of the most popular accounting platforms for all small business. With a host of restaurant-specific features, Quick-books is ready to streamline your restaurant accounting.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.waveapps.com/" target="_blank">Wave</a></h3>
-            <p>Wave makes it easy to handle your accounting essentials, all in the cloud so your information is accessible from anywhere.</p>
-        </section>
-        <section>
-            <h3><a href="https://restaurant365.com/" target="_blank">Restaurant365</a></h3>
-            <p>Restaurant365 is, obviously, designed specifically for res-taurants, meaning it offers all the features that will make integration with your business as smooth as possible.</p>
-        </section>
-        <section>
-            <header>
+            <header class="text-center">
                 <h3>Comparison</h3>
                 <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, see below.</p>
             </header>
-            <figure class="figure">
+            <figure class="figure figure_is_table">
                 <figcaption class="figure__title">Accounting</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
@@ -253,32 +258,34 @@
         </section>
     </section>
     <section>
-        <header>
+        <header class="text-center">
             <h2>Find the Right Talent</h2>
             <p>One of the most important parts of running your restaurant is having talented, skilled staff. Try these recruiting apps and sites to find the best.</p>
         </header>
+        <div class="md-layout">
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></h3>
+                <p>A job board, but also a roundup of crowdsourced  information on what it’s like to work for a company.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></h3>
+                <p>LinkedIn is one of the most-utilized job-searching tools available, meaning you’ll find a ton of quality applicants.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.indeed.com/" target="_blank">Indeed</a></h3>
+                <p>One of the top job sites on the web, with 200 million visi-tors each month.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.monster.com/" target="_blank">Monster</a></h3>
+                <p>A popular, well-known job searching site where plenty of qualified applicants will see your posting.</p>
+            </section>
+        </div>
         <section>
-            <h3><a href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></h3>
-            <p>A job board, but also a roundup of crowdsourced  information on what it’s like to work for a company.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></h3>
-            <p>LinkedIn is one of the most-utilized job-searching tools available, meaning you’ll find a ton of quality applicants.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.indeed.com/" target="_blank">Indeed</a></h3>
-            <p>One of the top job sites on the web, with 200 million visi-tors each month.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.monster.com/" target="_blank">Monster</a></h3>
-            <p>A popular, well-known job searching site where plenty of qualified applicants will see your posting.</p>
-        </section>
-        <section>
-            <header>
+            <header class="text-center">
                 <h3>Comparison</h3>
                 <p>Find the best talent without having to shell out for a recruiter using these budget-friendly online job boards.</p>
             </header>
-            <figure class="figure">
+            <figure class="figure figure_is_table">
                 <figcaption class="figure__title">Hiring</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
@@ -322,37 +329,39 @@
         </section>
     </section>
     <section>
-        <header>
+        <header class="text-center">
             <h2>Get the Food Out  the Door… Fast</h2>
             <p>In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
         </header>
-        <section>
-            <h3><a href="https://www.ubereats.com/" target="_blank">Ubereats</a></h3>
-            <p>Deliver meals to Uber customers quickly and conveniently. Orders can even be placed while riding in an Uber, and timed to arrive concurrently.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.seamless.com/" target="_blank">Seamless</a></h3>
-            <p>Customers order online to have their favorites brought to their door, with daily discounts and deals.</p>
-        </section>
-        <section>
-            <h3><a href="https://postmates.com/" target="_blank">Postmates</a></h3>
-            <p>Postmates delivers from restaurants in major markets, but also from other types of retail stores, making it a go-to for many customers.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.doordash.com/" target="_blank">Doordash</a></h3>
-            <p>A delivery service that also puts effort into decreasing food waste.</p>
-        </section>
+        <div class="md-layout">
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.ubereats.com/" target="_blank">Ubereats</a></h3>
+                <p>Deliver meals to Uber customers quickly and conveniently. Orders can even be placed while riding in an Uber, and timed to arrive concurrently.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.seamless.com/" target="_blank">Seamless</a></h3>
+                <p>Customers order online to have their favorites brought to their door, with daily discounts and deals.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://postmates.com/" target="_blank">Postmates</a></h3>
+                <p>Postmates delivers from restaurants in major markets, but also from other types of retail stores, making it a go-to for many customers.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.doordash.com/" target="_blank">Doordash</a></h3>
+                <p>A delivery service that also puts effort into decreasing food waste.</p>
+            </section>
+        </div>
         <img :src="require('../assets/images/chapter__9_image_4.png')" alt="">
         <section>
-            <h3>Comparison</h3>
-            <figure class="figure">
+            <h3 class="text-center">Comparison</h3>
+            <figure class="figure figure_is_table">
                 <figcaption class="figure__title">Delivery Aids</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
                         <tr>
-                            <td width="150"></td>
-                            <td class="bg-primary">Price</td>
-                            <td class="bg-danger">Available In</td>
+                            <th width="150"></th>
+                            <th class="bg-primary">Price</th>
+                            <th class="bg-danger">Available In</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -382,26 +391,28 @@
         </section>
     </section>
     <section>
-        <header>
+        <header class="text-center">
             <h2>Get Social with your Customers</h2>
             <p>One of the most important parts of running your restaurant is having talented, skilled staff. Try these recruiting apps and sites to find the best.</p>
         </header>
-        <section>
-            <h3><a href="https://www.facebook.com/" target="_blank">Facebook</a></h3>
-            <p>The most-used social media platform allows you to share status updates, restaurant contact and location information, and customer reviews — all for free. You can also pay for ads and “boosted” posts, guaranteeing more potential custom-ers will see your content.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.instagram.com/" target="_blank">Instagram</a></h3>
-            <p>Great for posting dinner specials and mouth-watering cus-tomer pics, Instagram is a photo-based platform that will really let you show off how appetizing your wares look. With a business account, you can link straight to your website from your profile page.</p>
-        </section>
-        <section>
-            <h3><a href="https://twitter.com/" target="_blank">Twitter</a></h3>
-            <p>Good for short updates and interacting with customers, a strong Twitter presence will make your customer service stand out from the crowd.</p>
-        </section>
-        <section>
-            <h3><a href="https://www.youtube.com/" target="_blank">YouTube</a></h3>
-            <p>Want to walk customers through your menu, give a video tour of the restaurant or introduce your staff? YouTube’s video sharing platform is the place to do it.</p>
-        </section>
+        <div class="md-layout">
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.facebook.com/" target="_blank">Facebook</a></h3>
+                <p>The most-used social media platform allows you to share status updates, restaurant contact and location information, and customer reviews — all for free. You can also pay for ads and “boosted” posts, guaranteeing more potential custom-ers will see your content.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.instagram.com/" target="_blank">Instagram</a></h3>
+                <p>Great for posting dinner specials and mouth-watering cus-tomer pics, Instagram is a photo-based platform that will really let you show off how appetizing your wares look. With a business account, you can link straight to your website from your profile page.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://twitter.com/" target="_blank">Twitter</a></h3>
+                <p>Good for short updates and interacting with customers, a strong Twitter presence will make your customer service stand out from the crowd.</p>
+            </section>
+            <section class="md-layout-item md-size-50 md-small-size-100">
+                <h3><a href="https://www.youtube.com/" target="_blank">YouTube</a></h3>
+                <p>Want to walk customers through your menu, give a video tour of the restaurant or introduce your staff? YouTube’s video sharing platform is the place to do it.</p>
+            </section>
+        </div>
         <section>
             <h3>Comparison</h3>
             <p>Almost all social media profiles are free, and since they all of-fer different features and reach a different kind of audience, the more of them you use, the better.</p>
