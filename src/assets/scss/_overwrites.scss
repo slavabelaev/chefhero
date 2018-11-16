@@ -9,7 +9,12 @@
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0;	
+    opacity: 0;
+	transition: .7s;
+	&.initialized {
+		opacity: 1;
+	}
 }
 
 .md-drawer {
@@ -69,4 +74,17 @@ form .md-title {
   text-align: center;
   color: $accent;
   font-weight: bold;
+}
+
+@media (min-width: 601px) {
+	.md-app-content.md-content.md-theme-default {
+		background-color: transparent;
+	}
+	.md-app.md-fixed .md-app-scroller {
+		overflow: auto;
+		background-color: $light;
+		background-image: url(/img/bg.256d2edf.png);
+		background-attachment: fixed;
+		background-size: 20%;
+	}
 }
