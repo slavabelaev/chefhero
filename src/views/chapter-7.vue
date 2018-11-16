@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Understanding and calculating cost per meal</li>
+                <li>How to maximize your menu's real estate</li>
+                <li>Mixing menu design with psychology for maximum profit</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Understanding and calculating cost per meal</li>
-            <li>How to maximize your menu's real estate</li>
-            <li>Mixing menu design with psychology for maximum profit</li>
-        </ul>
-    </section>
     <p>But when you dig into what actually sets apart the most successful restaurants, chains, and franchises, it’s not because they have the best dish or the nicest staff.</p>
     <p>It’s the math that makes the business work.</p>
     <p>The bottom line for any restaurant is that it’s a numbers game. In order to survive, you can’t just create great food, have stellar marketing, or provide an awesome experience; you have to nail the operations part, too. And that means knowing your numbers and understanding how to manipulate the numbers in order to keep your business profitable and sustainable.</p>

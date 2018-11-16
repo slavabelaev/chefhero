@@ -9,16 +9,16 @@
                 <dt>Written by:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
-        </address>
+        </address>        
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>What to consider when choosing a location</li>
+                <li>How to add personality to the space and make it your own</li>
+                <li>What to think about if you're re-locating</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>What to consider when choosing a location</li>
-            <li>How to add personality to the space and make it your own</li>
-            <li>What to think about if you're re-locating</li>
-        </ul>
-    </section>
     <p>Choosing and styling your location may seem daunting. But even though this is one of your biggest decisions, it doesn’t have to be as hard as it sounds. There’s a lot of good ad-vice out there that can help you make smart choices when it comes to your restaurant location and real estate.</p>
     <section>
         <h3>How to Choose the Right Space</h3>

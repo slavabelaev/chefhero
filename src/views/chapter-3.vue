@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Defining your restaurant's concept</li>
+                <li>Establishing your restaurants identity</li>
+                <li>Using tools to help you build a memorable brand</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Defining your restaurant's concept</li>
-            <li>Establishing your restaurants identity</li>
-            <li>Using tools to help you build a memorable brand</li>
-        </ul>
-    </section>
     <p>Branding your restaurant is about making it unique and memorable. It’s about answering questions like:</p>
     <ul>
         <li>Who are you?</li>

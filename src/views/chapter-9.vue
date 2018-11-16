@@ -10,18 +10,18 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
         </address>
-        <a :href="require('../assets/images/chapter__9_image_1.png')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__9_image_1.png')" alt="">
-        </a>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>The tools you need to build and run a website</li>
+                <li>Technology tools to consider for your FoH and BoH operations</li>
+                <li>The applications you need to get social with customers</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>The tools you need to build and run a website</li>
-            <li>Technology tools to consider for your FoH and BoH operations</li>
-            <li>The applications you need to get social with customers</li>
-        </ul>
-    </section>
+    <a :href="require('../assets/images/chapter__9_image_1.png')" target="_blank" data-fancybox="gallery">
+        <img :src="require('../assets/images/chapter__9_image_1.png')" alt="">
+    </a>
     <p>It’s 2018, and there are countless applications and other technology tools that can help make the modern restaurateur’s job easier — or, at the very least, a little more efficient.</p>
     <p>Technology can’t run the restaurant for you (yet), but it can sure help. Here are some of our top picks for apps and tech tools that will help streamline the job.</p>
     <section>

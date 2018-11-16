@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b8ebd7a03ce6447fa53656c">Ben Lucier</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Learning the basics of customer service</li>
+                <li>The monetary implications of awesome customer service</li>
+                <li>How to take your customer service to the next level</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Learning the basics of customer service</li>
-            <li>The monetary implications of awesome customer service</li>
-            <li>How to take your customer service to the next level</li>
-        </ul>
-    </section>
     <p>Making a conscious decision to up your customer service game is just the first step. Good service is multifaceted, and it’s going to take time and work to identify the changes you need to make in your establishment and to actually make those changes. But once you do, you’ll be rewarded with customers who recognize and appreciate great service, and spend their money loyally when they feel well cared for.</p>
     <p>Here’s how to get started.</p>
     <section>

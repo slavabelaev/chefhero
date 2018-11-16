@@ -29,18 +29,89 @@
 	padding: 24px;
 	overflow: auto;
 }
+#about h1,
+#conclusion h1 {
+	text-align: center;
+}
 
 .show-on-small {
 	display: none;
 }
 
 .chapter-title {
-	text-align: center;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
 	font-weight: bold;
 	letter-spacing: 4px;
-	color: $primary;
+}
+
+[id^="chapter-"] {
+	& > header,
+	.chapter-title,
+	address > dl dt,
+	h1 {
+		color: #fff;
+	}
+	address > dl dd > a {
+		color: #fff !important;
+	}
+}
+#chapter-1 {
+	header { background-color: $accent; }
+	#in-this-chapter * { color: $accent; }
+}
+#chapter-2 {
+	header { background-color: $success; }
+	#in-this-chapter * { color: $success; }
+}
+#chapter-3 {
+	header { background-color: #3A5B5E; }
+	#in-this-chapter * { color: #3A5B5E; }
+}
+#chapter-4 {
+	header { background-color: #52979D; }
+	#in-this-chapter * { color: #52979D; }
+}
+#chapter-5 {
+	header { background-color: #FFA6AA; }
+	#in-this-chapter * { color: #FFA6AA; }
+}
+#chapter-6 {
+	header { background-color: #FFA443; }
+	#in-this-chapter * { color: #FFA443; }
+}
+#chapter-7 {
+	header { background-color: #2C7453; }
+	#in-this-chapter * { color: #2C7453; }
+}
+#chapter-8 {
+	header { background-color: #04494F; }
+	#in-this-chapter * { color: #04494F; }
+}
+#chapter-9 {
+	header { background-color: #77C2A1; }
+	#in-this-chapter * { color: #77C2A1; }
+}
+#chapter-10 {
+	header { background-color: #FFA257; }
+	#in-this-chapter * { color: #FFA257; }
+}
+#chapter-11 {
+	header { background-color: #FF5C66; }
+	#in-this-chapter * { color: #FF5C66; }
+}
+
+#in-this-chapter {
+    background-color: #fff;
+    color: $accent;
+	padding: 1.5rem;
+    display: inline-block;
+	margin-left: -1.5rem;
+	margin-bottom: 1.5rem;
+	ul {
+		margin-bottom: 0;
+	}
 }
 
 @media (min-width: 601px) {
@@ -58,6 +129,15 @@
 		border-radius: 4px;
 		box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
 	}
+	[id^="chapter-"] {
+		& > header {
+			margin: -1.5rem;
+			margin-bottom: 1.5rem;
+			padding: 1.5rem;
+			border-radius: 4px 4px 0 0;
+			color: #fff;
+		}
+	}
 }
 
 @media (max-width: 600px) {
@@ -69,6 +149,13 @@
 	}
 	.show-on-small {
 		display: initial;
+	}
+	[id^="chapter-"] {
+		& > header {
+			margin: -1rem;
+			margin-bottom: 1.5rem;
+			padding: 1rem;
+		}
 	}
 }
 

@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>How to recruit high-quality staff and retain them</li>
+                <li>Compensation that goes beyond salary</li>
+                <li>Key considerations for finding and hiring your chef</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>How to recruit high-quality staff and retain them</li>
-            <li>Compensation that goes beyond salary</li>
-            <li>Key considerations for finding and hiring your chef</li>
-        </ul>
-    </section>
     <p>By far one of the greatest challenges would-be restaurateurs face is finding a superstar staff that will flawlessly execute their concept, all while making great food and providing top-tier customer service. The restaurant simply cannot run with-out a staff. But not just any staff will make your restaurant flourish. You want to best talent possible. Here’s how to find (and keep) them.</p>
     <section>
         <h3>When it Comes to Staffing your Restaurant…</h3>

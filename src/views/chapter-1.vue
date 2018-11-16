@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Why restaurant budgeting is so important</li>
+                <li>What should be involved in budget planning</li>
+                <li>How to create your budget, even if you're starting  from scratch</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Why restaurant budgeting is so important</li>
-            <li>What should be involved in budget planning</li>
-            <li>How to create your budget, even if you're starting  from scratch</li>
-        </ul>
-    </section>
     <section>
         <h3>Your Budget.</h3>
         <p>It will dictate what’s possible for your restaurant (and what’s not).</p>

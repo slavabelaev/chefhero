@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Setting up your Instagram account</li>
+                <li>Types of content that drive engagement</li>
+                <li>How to engage and build relationships with customers</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Setting up your Instagram account</li>
-            <li>Types of content that drive engagement</li>
-            <li>How to engage and build relationships with customers</li>
-        </ul>
-    </section>
     <p>Diners eat with their eyes first, and that’s what makes In-stagram a vital marketing tool for restaurants. It provides a cost-effective way for you to get images of your food in front of potential guests. By giving these hungry guests a craving for the real thing, you’ll have them lining up at your doorstep in no time.</p>
     <p>But if you think filters are for coffee, feeds are for farm an-imals, and hashtags are for… well, who knows what, you might need a little Insta-assistance. And that’s where this guide comes in. From setting up your Instagram to creating and curating the perfect posts, this post has everything you need to get started on your #InstaSuccess.</p>
     <a :href="require('../assets/images/chapter__11_image_1.jpg')" target="_blank" data-fancybox="gallery">

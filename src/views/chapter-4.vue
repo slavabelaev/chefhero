@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Getting your office back in order</li>
+                <li>Establishing your online presence: website, social and more</li>
+                <li>Finding the right talent (sneak peak)</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Getting your office back in order</li>
-            <li>Establishing your online presence: website, social and more</li>
-            <li>Finding the right talent (sneak peak)</li>
-        </ul>
-    </section>
     <p>Let’s look at five of the most important steps you can take to get off on the right foot and set yourself up for years of success in the restaurant industry.</p>
     <section>
         <h2>Step #1: Get Your Office Back In Order</h2>

@@ -10,14 +10,14 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Calculations to help you understand how food costs are  affecting your bottom line</li>
+                <li>Tools to help you understand if you're putting the appropriate amount of money into each part of your business</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Calculations to help you understand how food costs are  affecting your bottom line</li>
-            <li>Tools to help you understand if you're putting the appropriate amount of money into each part of your business</li>
-        </ul>
-    </section>
     <p>These metrics represent different ways of looking at the health of a business-allowing you to set goals, identify trends both positive and negative, and accurately gauge results of the operational tweaks you may make to your restaurant.</p>
     <section>
         <h2>Metric #1: Break-Even Point</h2>

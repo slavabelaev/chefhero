@@ -70,12 +70,6 @@
     padding: 0;
 }
 
-form .md-title {
-  text-align: center;
-  color: $accent;
-  font-weight: bold;
-}
-
 @media (min-width: 601px) {
 	.md-app-content.md-content.md-theme-default {
 		background-color: transparent;
@@ -87,4 +81,9 @@ form .md-title {
 		background-attachment: fixed;
 		background-size: 20%;
 	}
+}
+@media (max-width: 600px) {
+    .md-dialog {
+        border-radius: 0;
+    }
 }

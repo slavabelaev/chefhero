@@ -10,15 +10,15 @@
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin</a></dd>
             </dl>
         </address>
+        <section id="in-this-chapter">
+            <h3>In this chapter:</h3>
+            <ul>
+                <li>Learn about the ways to reduce your restaurants footprint</li>
+                <li>Food safe ways to reuse materials</li>
+                <li>How to improve your recycling program</li>
+            </ul>
+        </section>
     </header>
-    <section>
-        <h3>In this chapter:</h3>
-        <ul>
-            <li>Learn about the ways to reduce your restaurants footprint</li>
-            <li>Food safe ways to reuse materials</li>
-            <li>How to improve your recycling program</li>
-        </ul>
-    </section>
     <p>And restaurants can benefit from this push for sustainabil-ity<sup><a href="https://canadabusiness.ca/business-planning/writing-your-business-plan/#toc6" target="_blank">[30]</a></sup>. Many modern-day consumers are willing to pay more for ethically sourced, sustainably manufactured goods and services<sup><a href="https://www.sustridge.com/single-post/Sustainability-in-the-Restaurant-Industry-Time-to-Fire-It-Up" target="_blank">[31]</a></sup>. And that means diners are often willing to pay more to eat at restaurants that practice environmentalism.</p>
     <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especial-ly those who strive to reduce their impact in their own lives.</p>
     <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especial-ly those who strive to reduce their impact in their own lives.No matter what changes you make to your restaurant to make it more sustainable and environmentally friendly, be sure to let your local community know about them. Adver-tise on your website or social media. Tell your diners when they come to your restaurant. Word will spread, and it’ll bring more and more eco-conscious diners to your door.</p>

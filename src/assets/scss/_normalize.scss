@@ -18,7 +18,6 @@ article {
 		font-family: "TiemposHeadline", sans-serif;
 		color: #212121;
 		margin-top: 0;
-		text-align: center;
 	}
 	h2 {
 		font-size: 1.8rem;
@@ -43,10 +42,10 @@ article {
 	}
 	address > dl {
 		display: flex;
-		justify-content: flex-end;
 		font-style: normal;
 		dt {
 			color: #212121;
+			font-weight: bold;
 		}
 		dd {
 			margin-left: 12px;
@@ -58,7 +57,7 @@ article {
 		margin-bottom: 1rem;
 	}
 	dt, strong, b {
-		font-weight: 600;
+		font-weight: bold;
 		color: #212121;
 	}
 	
@@ -68,7 +67,6 @@ article {
 		max-width: 60px;
 	}
 	.lead {
-		font-family: "TiemposHeadline", sans-serif;
 		font-size: 1.25rem;
 	}
 	blockquote {
