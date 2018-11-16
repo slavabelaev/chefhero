@@ -1,6 +1,21 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import Introduction from './views/Introduction.vue';
+import Chapter1 from './views/Chapter-1.vue';
+import Chapter2 from './views/Chapter-2.vue';
+import Chapter3 from './views/Chapter-3.vue';
+import Chapter4 from './views/Chapter-4.vue';
+import Chapter5 from './views/Chapter-5.vue';
+import Chapter6 from './views/Chapter-6.vue';
+import Chapter7 from './views/Chapter-7.vue';
+import Chapter8 from './views/Chapter-8.vue';
+import Chapter9 from './views/Chapter-9.vue';
+import Chapter10 from './views/Chapter-10.vue';
+import Chapter11 from './views/Chapter-11.vue';
+import Conclusion from './views/Conclusion.vue';
+import About from './views/About.vue';
+
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -14,7 +29,8 @@ export default new Router({
         description: '',
         keywords: ''
       },
-      component: () => import('./views/Introduction.vue')
+      component: Introduction
+      //component: () => import('./views/Introduction.vue')
     },
     {
       path: '/chapter/1',
@@ -24,7 +40,8 @@ export default new Router({
         description: 'Getting Your Numbers Right',
         keywords: ''
       },
-      component: () => import('./views/Chapter-1.vue')
+      component: Chapter1
+      //component: () => import('./views/Chapter-1.vue')
     },
     {
       path: '/chapter/2',
@@ -34,7 +51,8 @@ export default new Router({
         description: 'Setting the Scene for a Winning Restaurant',
         keywords: ''
       },
-      component: () => import('./views/Chapter-2.vue')
+      component: Chapter2
+      //component: () => import('./views/Chapter-2.vue')
     },
     {
       path: '/chapter/3',
@@ -44,7 +62,8 @@ export default new Router({
         description: 'Concept, Brand Identity, Naming, and Logos',
         keywords: ''
       },
-      component: () => import('./views/Chapter-3.vue')
+      component: Chapter3
+      //component: () => import('./views/Chapter-3.vue')
     },
     {
       path: '/chapter/4',
@@ -54,7 +73,8 @@ export default new Router({
         description: 'Your New Restaurant Business',
         keywords: ''
       },
-      component: () => import('./views/Chapter-4.vue')
+      component: Chapter4
+      //component: () => import('./views/Chapter-4.vue')
     },
     {
       path: '/chapter/5',
@@ -64,7 +84,8 @@ export default new Router({
         description: 'Finding and Managing Your Restaurant’s A-Team',
         keywords: ''
       },
-      component: () => import('./views/Chapter-5.vue')
+      component: Chapter5
+      //component: () => import('./views/Chapter-5.vue')
     },
     {
       path: '/chapter/6',
@@ -74,7 +95,8 @@ export default new Router({
         description: 'Strategies and Results',
         keywords: ''
       },
-      component: () => import('./views/Chapter-6.vue')
+      component: Chapter6
+      //component: () => import('./views/Chapter-6.vue')
     },
     {
       path: '/chapter/7',
@@ -84,7 +106,8 @@ export default new Router({
         description: 'Cost Per Meal & Smart Design to Maximize Profits',
         keywords: ''
       },
-      component: () => import('./views/Chapter-7.vue')
+      component: Chapter7
+      //component: () => import('./views/Chapter-7.vue')
     },
     {
       path: '/chapter/8',
@@ -94,7 +117,8 @@ export default new Router({
         description: 'Should Measure and Track',
         keywords: ''
       },
-      component: () => import('./views/Chapter-8.vue')
+      component: Chapter8
+      //component: () => import('./views/Chapter-8.vue')
     },
     {
       path: '/chapter/9',
@@ -104,7 +128,8 @@ export default new Router({
         description: 'a Successful Restaurant',
         keywords: ''
       },
-      component: () => import('./views/Chapter-9.vue')
+      component: Chapter9
+      //component: () => import('./views/Chapter-9.vue')
     },
     {
       path: '/chapter/10',
@@ -114,7 +139,8 @@ export default new Router({
         description: 'A Step-By-Step Guide to Running an Eco-Conscious Restaurant',
         keywords: ''
       },
-      component: () => import('./views/Chapter-10.vue')
+      component: Chapter10
+      //component: () => import('./views/Chapter-10.vue')
     },
     {
       path: '/chapter/11',
@@ -124,7 +150,8 @@ export default new Router({
         description: 'Marketing for Restaurateurs',
         keywords: ''
       },
-      component: () => import('./views/Chapter-11.vue')
+      component: Chapter11
+      //component: () => import('./views/Chapter-11.vue')
     },
     {
       path: '/conclusion',
@@ -134,7 +161,8 @@ export default new Router({
         description: '',
         keywords: ''
       },
-      component: () => import('./views/Conclusion.vue')
+      component: Conclusion
+      //component: () => import('./views/Conclusion.vue')
     },
     {
       path: '/about',
@@ -144,7 +172,8 @@ export default new Router({
         description: '',
         keywords: ''
       },
-      component: () => import('./views/About.vue')
+      component: About
+      //component: () => import('./views/About.vue')
     }
   ]
 })
