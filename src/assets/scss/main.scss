@@ -67,6 +67,9 @@
 }
 
 @media (max-width: 600px) {
+	#app-content-actions {
+		margin-top: 1rem;
+	}
 	.hide-on-small {
 		display: none;
 	}
