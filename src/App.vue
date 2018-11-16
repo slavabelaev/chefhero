@@ -41,7 +41,7 @@
                  :to="route.path"
                  :md-done="doneRoutes[route.name]"
                  v-for="route in $router.options.routes"
-                 v-if="route.name != 'introduction' && route.name != 'about'"
+                 v-if="route.meta.needToShowInNavigation"
                  :key="route.id"></md-step>
       </md-steppers>
       <md-divider></md-divider>
@@ -58,7 +58,7 @@
         </transition>
       </md-content>
       
-      <div id="app-content-actions">
+      <div id="app-content-actions" v-if="$route.meta.needToShowInNavigation || $route.name == 'introduction'">
         <md-button class="md-raised md-default" 
                     @click="goBack()" 
                     v-if="$route.name != 'introduction'">Back</md-button>
@@ -105,6 +105,8 @@ export default {
       document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
       this.pageScrollToTop();
       this.isActiveDrawer = false;
+
+      console.log(to);
     }
   },
   methods: {

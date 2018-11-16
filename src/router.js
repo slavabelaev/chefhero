@@ -15,6 +15,7 @@ import Chapter10 from './views/Chapter-10.vue';
 import Chapter11 from './views/Chapter-11.vue';
 import Conclusion from './views/Conclusion.vue';
 import About from './views/About.vue';
+import NotFound from './views/NotFound.vue';
 
 Vue.use(Router)
 export default new Router({
@@ -38,7 +39,8 @@ export default new Router({
       meta: {
         title: 'Restaurant Budgeting:',
         description: 'Getting Your Numbers Right',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter1
       //component: () => import('./views/Chapter-1.vue')
@@ -49,7 +51,8 @@ export default new Router({
       meta: {
         title: 'Location, Space, & Personality:',
         description: 'Setting the Scene for a Winning Restaurant',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter2
       //component: () => import('./views/Chapter-2.vue')
@@ -60,7 +63,8 @@ export default new Router({
       meta: {
         title: 'Restaurant Branding:',
         description: 'Concept, Brand Identity, Naming, and Logos',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter3
       //component: () => import('./views/Chapter-3.vue')
@@ -71,7 +75,8 @@ export default new Router({
       meta: {
         title: '5 Steps to Kickstart',
         description: 'Your New Restaurant Business',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter4
       //component: () => import('./views/Chapter-4.vue')
@@ -82,7 +87,8 @@ export default new Router({
       meta: {
         title: 'Build the Best Team:',
         description: 'Finding and Managing Your Restaurant’s A-Team',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter5
       //component: () => import('./views/Chapter-5.vue')
@@ -93,7 +99,8 @@ export default new Router({
       meta: {
         title: 'Taking Restaurant Customer Service to the Next Level:',
         description: 'Strategies and Results',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter6
       //component: () => import('./views/Chapter-6.vue')
@@ -104,7 +111,8 @@ export default new Router({
       meta: {
         title: 'Menu Hacking:',
         description: 'Cost Per Meal & Smart Design to Maximize Profits',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter7
       //component: () => import('./views/Chapter-7.vue')
@@ -115,7 +123,8 @@ export default new Router({
       meta: {
         title: '14 Essential Restaurant Metrics Every Owner',
         description: 'Should Measure and Track',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter8
       //component: () => import('./views/Chapter-8.vue')
@@ -126,7 +135,8 @@ export default new Router({
       meta: {
         title: 'The 19 Tech Tools You Need to Run',
         description: 'a Successful Restaurant',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter9
       //component: () => import('./views/Chapter-9.vue')
@@ -137,7 +147,8 @@ export default new Router({
       meta: {
         title: 'Greener Tomorrow:',
         description: 'A Step-By-Step Guide to Running an Eco-Conscious Restaurant',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter10
       //component: () => import('./views/Chapter-10.vue')
@@ -148,7 +159,8 @@ export default new Router({
       meta: {
         title: 'A Starter Guide to Instagram',
         description: 'Marketing for Restaurateurs',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Chapter11
       //component: () => import('./views/Chapter-11.vue')
@@ -159,7 +171,8 @@ export default new Router({
       meta: {
         title: 'Conclusion',
         description: '',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: Conclusion
       //component: () => import('./views/Conclusion.vue')
@@ -174,6 +187,26 @@ export default new Router({
       },
       component: About
       //component: () => import('./views/About.vue')
-    }
+    },
+    { 
+      path: '/404',
+      name: 'not-found',
+      meta: {
+        title: 'Not Found',
+        description: '',
+        keywords: ''
+      },
+      component: NotFound
+      //component: () => import('./views/NotFound.vue')
+    },  
+    { 
+      path: '*',
+      meta: {
+        title: 'Not Found',
+        description: '',
+        keywords: ''
+      },
+      redirect: '/404' 
+    },  
   ]
 })
