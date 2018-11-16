@@ -49,7 +49,7 @@
         <md-button target="_blank" href="https://www.chefhero.com/" class="md-primary">Go to Website</md-button>
       </div>
     </md-app-drawer>
-    <!-- /Drawer -->
+    <!-- /Drawer --> 
 
     <md-app-content>
       <md-content id="app-content">
