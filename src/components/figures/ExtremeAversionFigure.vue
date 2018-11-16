@@ -38,34 +38,3 @@
     </div>
   </figure>
 </template>
-
-<style lang="scss">
-.extreme-aversion-figure {
-  .md-card {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    background-color: #F0F0F5;
-  }
-  .md-card-header {
-    background-color: #F0F0F5;
-  }
-  .md-subhead {
-    opacity: 1;
-    font-size: 1rem;
-  }
-  .md-title {
-    margin-bottom: 1rem;
-    font-weight: bold;
-  }
-}
-.extreme-aversion-figure__media {
-  min-height: 150px;
-  background-size: 100px;
-  background-position: center 20px;
-  background-repeat: no-repeat;
-  background-color: #E8A6A6;
-  border-radius: 4px 4px 0 0;
-  z-index: -1;
-}
-</style>

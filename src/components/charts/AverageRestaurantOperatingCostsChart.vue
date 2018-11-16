@@ -33,6 +33,7 @@ export default {
         },
         options: {
           responsive: true,
+          aspectRatio: (window.outerWidth <= 375) ? 1 : (window.outerWidth <= 960) ? 1.2 : 2,
           legend: {
             position: 'bottom',
             labels: false
@@ -55,13 +56,13 @@ export default {
                 fontFamily: "'Belbo-Book', sans-serif",
                 fontColor: '#FFFFFF',
                 fontStyle: 'bold',
-                fontSize: 16
+                fontSize: (window.outerWidth <= 375) ? 12 : 16
               },
               {
                 render: 'percentage',
                 position: 'outside',
                 fontFamily: "'Belbo-Book', sans-serif",
-                fontSize: 32,
+                fontSize: (window.outerWidth <= 320) ? 18 : (window.outerWidth <= 375) ? 22 : 32,
                 fontStyle: 'bold',
                 fontColor: '#212121'
               }

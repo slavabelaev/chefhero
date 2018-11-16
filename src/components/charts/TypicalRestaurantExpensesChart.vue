@@ -2,6 +2,12 @@
   <figure class="figure">
     <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
     <canvas :id="chartId" class="figure__chart"></canvas>
+    <ul class="figure__labels" v-if="!chartConfig.options.legend">
+      <li class="figure__label" v-for="(label, index) in chartConfig.data.labels" :key="index">
+        <i class="figure__label-point" :style="{ backgroundColor: chartConfig.data.datasets[0].backgroundColor[index] }"></i>
+        <span class="figure__label-text">{{label}}</span>
+      </li>
+    </ul>
   </figure>
 </template>
 
@@ -43,14 +49,15 @@ export default {
         },
         options: {
           responsive: true,
+          aspectRatio: (window.outerWidth <= 320) ? 1 : (window.outerWidth <= 960) ? 1.5 : 2,
           cutoutPercentage: 60,
-          legend: {
-            position: (window.outerWidth > 1200) ? 'right' : 'bottom',
+          legend: (window.outerWidth <= 960) ? false : {
+            position: 'right',
             labels: {
               fontFamily: "'Belbo-Book', sans-serif",
               fontSize: 16,
               usePointStyle: true,
-              padding: 24
+              padding: 16
             }
           },
           title: {

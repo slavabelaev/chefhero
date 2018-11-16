@@ -32,6 +32,7 @@ export default {
         },
         options: {
           responsive: true,
+          aspectRatio: (window.outerWidth < 960) ? 1.2 : 2,
           legend: {
             position: 'bottom',
             labels: {
@@ -71,7 +72,7 @@ export default {
             }]
           },
           plugins: {
-            labels: {
+            labels: (window.outerWidth < 960) ? false : {
               render: 'value',
               fontFamily: "'Belbo-Book', sans-serif",
               fontColor: '#076A73',

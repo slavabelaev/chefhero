@@ -41,6 +41,7 @@ export default {
         },
         options: {
           responsive: true,
+          aspectRatio: (window.outerWidth <= 320) ? 1 : (window.outerWidth <= 960) ? 1.5 : 2,
           legend: {
             position: 'bottom',
             labels: false

@@ -2,6 +2,12 @@
   <figure class="figure">
     <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
     <canvas :id="chartId" class="figure__chart"></canvas>
+    <ul class="figure__labels" v-if="!chartConfig.options.legend">
+      <li class="figure__label" v-for="(label, index) in chartConfig.data.labels" :key="index">
+        <i class="figure__label-point" :style="{ backgroundColor: chartConfig.data.datasets[0].backgroundColor[index] }"></i>
+        <span class="figure__label-text">{{label}}</span>
+      </li>
+    </ul>
     <cite class="figure__source">Source: Energy Information Office 2003</cite>
   </figure>
 </template>
@@ -48,9 +54,10 @@ export default {
         },
         options: {
           responsive: true,
+          aspectRatio: (window.outerWidth <= 320) ? 1 : (window.outerWidth <= 960) ? 1.2 : 2,
           cutoutPercentage: 60,
-          legend: {
-            position:  (window.outerWidth > 1200) ? 'right' : 'bottom',
+          legend: (window.outerWidth <= 960) ? false : {
+            position: 'right',
             labels: {
               fontFamily: "'Belbo-Book', sans-serif",
               fontSize: 16,
@@ -75,7 +82,7 @@ export default {
               precision: 2,
               fontColor: (data) => (data.index === 6 ? 'transparent' : '#FFFFFF'),
               fontStyle: 'bold',
-              fontSize: 14
+              fontSize: 16
             }
           }
         }
