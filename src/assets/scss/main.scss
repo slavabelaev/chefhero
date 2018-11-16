@@ -7,6 +7,13 @@
 @import 'figures';
 @import 'components';
 
+.md-app {
+	opacity: 0;
+	transition: .7s;
+	&.initialized {
+		opacity: 1;
+	}
+}
 .app-logo {
 	display: block;
 	margin: 12px 24px;

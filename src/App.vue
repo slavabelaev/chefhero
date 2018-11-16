@@ -1,5 +1,5 @@
 <template>
-  <md-app md-waterfall md-mode="fixed">
+  <md-app md-waterfall md-mode="fixed" :class="{ 'initialized': isInitializedApp }">
     <!-- Toolbar -->
     <md-app-toolbar class="md-primary">
       <div class="md-toolbar-row">
@@ -83,10 +83,14 @@
 export default {
   data() {
     return {
+      isInitializedApp: false,
       isActiveAboutDialog: false,
       isActiveDrawer: false,
       doneRoutes: {}
     } 
+  },
+  created() {
+    setTimeout(() => {this.isInitializedApp = true}, 1);
   },
   watch: {
     $route (to) {
