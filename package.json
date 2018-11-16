@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && cpx src/files/The_Ultimate_Guide_to_Running_a_Restaurant.pdf dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.2",
     "chart.js": "^2.7.3",
     "chartjs-plugin-labels": "^1.1.0",
+    "cpx": "^1.5.0",
     "jquery": "^3.3.1",
     "vue": "^2.5.17",
     "vue-material": "^1.0.0-beta-10.2",
