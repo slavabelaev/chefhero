@@ -53,9 +53,7 @@
 
     <md-app-content>
       <md-content id="app-content">
-        <transition name="fade">
-          <router-view></router-view>
-        </transition>
+        <router-view></router-view>
       </md-content>
       
       <div id="app-content-actions" v-if="$route.meta.needToShowInNavigation || $route.name == 'introduction'">
