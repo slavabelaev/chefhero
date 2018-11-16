@@ -37,7 +37,8 @@ export default {
               '#D9EBE3'
             ],
             borderWidth: 0
-          }]
+          }],
+          labels: ['', '']
         },
         options: {
           responsive: true,
@@ -73,7 +74,8 @@ export default {
               '#D9EBE3'
             ],
             borderWidth: 0
-          }]
+          }],
+          labels: ['', '']
         },
         options: {
           title: {

@@ -2,12 +2,6 @@
   <figure class="figure">
     <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
     <canvas :id="chartId" class="figure__chart"></canvas>
-    <ul class="figure__labels" v-if="!chartConfig.options.legend">
-      <li class="figure__label" v-for="(label, index) in chartConfig.data.labels" :key="index">
-        <i class="figure__label-point" :style="{ backgroundColor: chartConfig.data.datasets[0].backgroundColor[index] }"></i>
-        <span class="figure__label-text">{{label}}</span>
-      </li>
-    </ul>
     <div class="md-layout">
       <div class="md-layout-item md-small-size-100">
         <small class="figure__note">Note: This is a representation of Total Waste generated and does not depict what is diverted from landfill throught recycling and/or composting</small>

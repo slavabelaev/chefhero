@@ -46,36 +46,3 @@
     text-align: center;
     color: #212121;
 }
-
-.figure__labels {
-	list-style: none;
-	padding: 0;
-	display: flex;
-	align-items: flex-start;
-	flex-wrap: wrap;
-	margin-top: 1rem;
-	margin-bottom: 0;
-}
-.figure__label {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: flex-start;
-	padding-right: 1rem;
-	margin-bottom: 1rem;
-	font-size: 1.125rem;
-	line-height: 1.25rem;
-	text-overflow: ellipsis;
-	letter-spacing: 1px;
-}
-.figure__label:last-child {
-	margin-right: auto;
-}
-.figure__label-point {
-	display: inline-block;
-	line-height: 1.25;
-	vertical-align: middle;
-	min-width: 1.25rem;
-	height: 1.25rem;
-	margin-right: 1rem;
-	border-radius: 50%;
-}
