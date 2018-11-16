@@ -50,7 +50,7 @@
 
     <md-app-content>
       <md-content id="app-content">
-        <transition>
+        <transition name="fade">
           <router-view></router-view>
         </transition>
       </md-content>

@@ -21,6 +21,7 @@
 	text-align: center;
 	margin-bottom: 1rem;
 	font-size: 1.5rem;
+	font-weight: 600;
 	color: #616161;
 }
 .figure__note,
@@ -39,7 +40,8 @@
 }
 .figure__description {
 	font-size: 1.125rem;
-    font-weight: normal;
+	font-weight: normal;
+	letter-spacing: 1px;
     text-align: center;
     color: #212121;
 }

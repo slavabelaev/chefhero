@@ -6,7 +6,6 @@
 }
 body {
 	font-family: "Belbo-Book", sans-serif;
-	font-weight: 500;
 	font-size: 1.25rem;
 	line-height: 1.5;
 }
@@ -16,7 +15,7 @@ article {
 		margin-top: 0;
 	}
 	h1 {
-		font-family: "TiemposHeadline-Black", sans-serif;
+		font-family: "TiemposHeadline", sans-serif;
 		color: #212121;
 		margin-top: 0;
 		text-align: center;
@@ -33,7 +32,7 @@ article {
 		line-height: 1.25;
 	}
 	h3, h4, h5, h6 {
-		font-weight: 500;
+		font-weight: 600;
 		color: $accent;
 	}
 	sup {
@@ -59,7 +58,7 @@ article {
 		margin-bottom: 1rem;
 	}
 	dt, strong, b {
-		font-weight: bold;
+		font-weight: 600;
 		color: #212121;
 	}
 	
@@ -69,7 +68,7 @@ article {
 		max-width: 60px;
 	}
 	.lead {
-		font-family: "TiemposHeadline-Regular", sans-serif;
+		font-family: "TiemposHeadline", sans-serif;
 		font-size: 1.25rem;
 	}
 	blockquote {
