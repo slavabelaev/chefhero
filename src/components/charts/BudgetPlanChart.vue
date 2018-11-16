@@ -40,7 +40,7 @@ export default {
           cutoutPercentage: 60,
           legend: {
             position: (window.outerWidth > 1200) ? 'right' : 'bottom',
-            labels: {
+            labels: (window.outerWidth < 960) ? false : {
               fontFamily: "'Belbo-Book', sans-serif",
               fontSize: 16,
               usePointStyle: true,
@@ -63,7 +63,7 @@ export default {
               render: 'percentage',
               fontColor: '#FFFFFF',
               fontStyle: 'bold',
-              fontSize: 18
+              fontSize: 12
             }
           }
         }

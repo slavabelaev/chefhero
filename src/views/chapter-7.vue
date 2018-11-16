@@ -41,7 +41,7 @@
         <p>A dramatic change in overall food costs may also be a good time to revise your calculations. The more often you’re will-ing to run these numbers, the clearer a picture you’ll have.</p>
     </section>
     <figure class="figure">
-        <figcaption class="figure-caption">Maximizing Revenue and profit</figcaption>
+        <figcaption class="figure__title">Maximizing Revenue and profit</figcaption>
         <table class="table table-borderless">
             <thead>
                 <tr>
