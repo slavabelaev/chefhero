@@ -52,7 +52,7 @@
 		margin: 0 auto;
 	}
 	#app-content {
-		margin: 16px auto;
+		margin: 1rem auto;
 		padding: 24px;
 		border-width: 0;
 		border-radius: 4px;
@@ -71,3 +71,14 @@
 		display: initial;
 	}
 }
+
+@media only print {
+	.md-app {
+		position: relative;
+	}
+	#app-content-actions,
+	.md-app-toolbar,
+	.md-app-drawer {
+		display: none;
+	}
+ }
