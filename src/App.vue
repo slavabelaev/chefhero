@@ -10,12 +10,15 @@
         </div>
         <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
         <div class="md-toolbar-section-end">
-          <md-button download href="assets/docs/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="hide-on-small">
+          <md-button download href="assets/docs/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" v-if="isLargeScreen">
             <md-icon>save_alt</md-icon>
             <span>Download the guide</span>
           </md-button>
-          <md-button download href="assets/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="md-icon-button show-on-small">
+          <md-button download href="assets/The_Ultimate_Guide_to_Running_a_Restaurant.pdf" class="md-icon-button" v-if="!isLargeScreen">
             <md-icon>save_alt</md-icon>
+          </md-button>
+          <md-button v-if="supportPrint()" @click="printPage()" class="md-icon-button">
+            <md-icon>print</md-icon>
           </md-button>
           <md-button @click="isActiveAboutDialog = true" class="md-icon-button">
             <md-icon>help_outline</md-icon>
@@ -83,6 +86,7 @@
 export default {
   data() {
     return {
+      isLargeScreen: true,
       isInitializedApp: false,
       isActiveAboutDialog: false,
       isActiveDrawer: false,
@@ -90,7 +94,9 @@ export default {
     } 
   },
   created() {
-    setTimeout(() => {this.isInitializedApp = true}, 1);
+    this.isInitializedApp = true
+    this._isLargeScreen();
+    window.addEventListener('resize', this._isLargeScreen);
   },
   watch: {
     $route (to) {
@@ -107,6 +113,15 @@ export default {
     },
     getRouteIndex() {
       return this.$router.options.routes.findIndex(route => route.name == this.$route.name);
+    },
+    _isLargeScreen() {
+      this.isLargeScreen = window.outerWidth > 992;
+    },
+    supportPrint() {
+      return !!window.print;
+    },
+    printPage() {
+      window.print();
     },
     goNext() {
       const routes = this.$router.options.routes;
