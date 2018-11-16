@@ -1,5 +1,5 @@
 <template>
-  <md-app md-waterfall md-mode="fixed" :class="{ 'initialized': isInitializedApp }">
+  <md-app md-mode="fixed" :class="{ 'initialized': isInitializedApp }">
     <!-- Toolbar -->
     <md-app-toolbar class="md-primary">
       <div class="md-toolbar-row">
