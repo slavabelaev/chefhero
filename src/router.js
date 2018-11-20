@@ -19,7 +19,7 @@ import NotFound from './views/NotFound.vue';
 
 Vue.use(Router)
 export default new Router({
-  mode: process.env.NODE_ENV === 'production' ? 'hash' : 'history',
+  mode: process.env.NODE_ENV === 'production' ? 'hash' : 'hash',
   base: process.env.BASE_URL,
   routes: [
     {
