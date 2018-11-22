@@ -66,6 +66,17 @@
     }
 }
 
+.md-default {
+    &,
+    .md-icon {
+        color: $primary!important;
+    }
+}
+.md-button-content {
+    display: flex;
+    align-items: center;
+}
+
 .md-steppers.md-vertical .md-stepper-content.md-active {
     padding: 0;
 }

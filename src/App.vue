@@ -10,7 +10,7 @@
         </div>
         <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
         <div class="md-toolbar-section-end">
-          <md-button download target="_blank" href="https://gallery.mailchimp.com/03cd0c9f95408ab054f81b5d8/files/55917a52-a951-4ca5-96f5-92bbc4a90376/ChefHero_UltimateGuide.pdf" v-if="isLargeScreen">
+          <md-button download target="_blank" href="https://gallery.mailchimp.com/03cd0c9f95408ab054f81b5d8/files/55917a52-a951-4ca5-96f5-92bbc4a90376/ChefHero_UltimateGuide.pdf" v-if="isLargeScreen" class="md-raised md-default">
             <md-icon>save_alt</md-icon>
             <span>Download the guide</span>
           </md-button>
