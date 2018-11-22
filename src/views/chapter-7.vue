@@ -33,7 +33,7 @@
     <section>
         <h2>Calculating Cost Per Meal</h2>
         <p>This process can take quite a bit of time to master properly; don’t get discouraged or attack this task halfheartedly.</p>
-        <p>s with any calculation, the deeper you’re willing to go, the more accurate a picture you’ll paint.</p>
+        <p>As with any calculation, the deeper you’re willing to go, the more accurate a picture you’ll paint.</p>
         <p>Many chefs will go as far as adding in costs for utilities and labour per meal. This is up to your own personal preference, but as we said before, the more ways in which you can analyze your business finances, the clearer picture you’re going to get.</p>
         <p>For our purposes, we’re only going to analyze food costs when discussing cost per meal.</p>
         <p>Cost per meal is calculated by simply adding up the total cost of the ingredients used to make the dish. You can also turn this into a percentage by then dividing the cost by the menu price.</p>
