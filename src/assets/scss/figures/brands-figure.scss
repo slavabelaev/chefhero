@@ -10,12 +10,13 @@
 	}
 }
 .brands-figure__link {
-	margin: 1rem;
-	width: 135px;
+	margin: 0 .5rem .5rem;
+    width: 65px;
 }
 
 @media (min-width: 600px) {
 	.brands-figure__link {
-		width: 155px;
+		width: 110px;
+		margin: 0 1rem 1rem;
 	}
 }
