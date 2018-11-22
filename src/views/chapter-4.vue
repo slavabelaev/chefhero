@@ -110,7 +110,7 @@
             <p>Of course, there are a million other sites out there that maybe could list your restaurant. But these are the most popular and they’re critical to set up as early as possible.</p>
         </section>
         <a :href="require('../assets/images/chapter__3_image_1.png')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__3_image_1.png')" alt="">
+            <img :src="require('../assets/images/chapter__3_image_1.png')" alt="" class="figure">
         </a>
     </section>
     <section>

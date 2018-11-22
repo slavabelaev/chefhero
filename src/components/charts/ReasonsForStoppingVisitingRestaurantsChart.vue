@@ -3,13 +3,13 @@
     <figcaption class="figure__title">Why do customers stop frequenting a restaurant?</figcaption>
     <div class="md-layout">
       <div class="md-layout-item md-small-size-100">
-        <figure class="figure">
+        <figure class="figure my-0">
           <canvas :id="chartId"></canvas>
           <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
         </figure>
       </div>
       <div class="md-layout-item md-small-size-100">
-        <figure class="figure">
+        <figure class="figure my-0">
           <canvas :id="secondChartId"></canvas>
           <figcaption class="figure__title">{{secondChartConfig.options.title.text}}</figcaption>
         </figure>

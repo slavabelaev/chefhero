@@ -18,9 +18,9 @@
             </ul>
         </section>
     </header>
-    <p>Running a restaurant isn’t easy. Between the stress, the long hours, the startup costs and the razor-thin profit margins, you have enough on your plate.</p>
+    <p class="mb-0">Running a restaurant isn’t easy. Between the stress, the long hours, the startup costs and the razor-thin profit margins, you have enough on your plate.</p>
     <a :href="require('../assets/images/chapter__9_image_1.png')" target="_blank" data-fancybox="gallery">
-        <img :src="require('../assets/images/chapter__9_image_1.png')" alt="">
+        <img :src="require('../assets/images/chapter__9_image_1.png')" alt="" class="figure">
     </a>
     <p>It’s 2018, and there are countless applications and other technology tools that can help make the modern restaurateur’s job easier — or, at the very least, a little more efficient.</p>
     <p>Technology can’t run the restaurant for you (yet), but it can sure help. Here are some of our top picks for apps and tech tools that will help streamline the job.</p>
@@ -45,17 +45,17 @@
         </section>
         <section>
             <h3><a href="https://www.letseat.at/" target="_blank">Let’s Eat Free Website Builder for Restaurants</a></h3>
-            <p>More than 15,000 restaurants use Let’s Eat for their web hosting and design, and it’s easy to see why. A simple in-terface and plenty of useful, restaurant industry-specific features make it user friendly and provide everything you need for your restaurant’s web presence.</p>
+            <p class="mb-0">More than 15,000 restaurants use Let’s Eat for their web hosting and design, and it’s easy to see why. A simple in-terface and plenty of useful, restaurant industry-specific features make it user friendly and provide everything you need for your restaurant’s web presence.</p>
         </section>
         <a :href="require('../assets/images/chapter__9_image_2.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="">
+            <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="" class="figure">
         </a>
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
                 <p>Looking for specific features or price point for your website? Find the platform that best suits your needs here.</p>
             </header>
-            <figure class="figure figure_is_table">
+            <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Restaurant Website Builders</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
@@ -144,17 +144,17 @@
         </div>
         <section>
             <h3><a href="https://revelsystems.com/pos-systems/type/restaurant/" target="_blank">Revel Systems POS</a></h3>
-            <p>Revel Systems offers one of the most customizable and scalable POS systems out there, allowing you to size your platform for your needs, and integrate only the features that will be most helpful for your business.</p>
+            <p class="mb-0">Revel Systems offers one of the most customizable and scalable POS systems out there, allowing you to size your platform for your needs, and integrate only the features that will be most helpful for your business.</p>
         </section>
         <a :href="require('../assets/images/chapter__9_image_3.png')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__9_image_3.png')" alt="">
+            <img :src="require('../assets/images/chapter__9_image_3.png')" alt="" class="figure">
         </a>
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
                 <p>Find the exact features and price point you’re looking for below.</p>
             </header>
-            <figure class="figure figure_is_table">
+            <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">P.O.S. Systems</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
@@ -187,7 +187,7 @@
     </section>
     <section>
         <h2 class="text-center">Handle your Books, Don’t Let Them Handle you</h2>
-        <div class="md-layout">
+        <div class="md-layout figure__mb">
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.xero.com/us/" target="_blank">Xero</a></h3>
                 <p>Xero is one of the most popular small business accounting platforms available. It offers real-time reporting and features that will help streamline your entire accounting process.</p>
@@ -210,7 +210,7 @@
                 <h3>Comparison</h3>
                 <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, see below.</p>
             </header>
-            <figure class="figure figure_is_table">
+            <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Accounting</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
@@ -268,7 +268,7 @@
             <h2>Find the Right Talent</h2>
             <p>One of the most important parts of running your restaurant is having talented, skilled staff. Try these recruiting apps and sites to find the best.</p>
         </header>
-        <div class="md-layout">
+        <div class="md-layout figure__mb">
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></h3>
                 <p>A job board, but also a roundup of crowdsourced  information on what it’s like to work for a company.</p>
@@ -291,7 +291,7 @@
                 <h3>Comparison</h3>
                 <p>Find the best talent without having to shell out for a recruiter using these budget-friendly online job boards.</p>
             </header>
-            <figure class="figure figure_is_table">
+            <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Hiring</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">
@@ -339,7 +339,7 @@
             <h2>Get the Food Out  the Door… Fast</h2>
             <p>In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
         </header>
-        <div class="md-layout">
+        <div class="md-layout mb-1">
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.ubereats.com/" target="_blank">Ubereats</a></h3>
                 <p>Deliver meals to Uber customers quickly and conveniently. Orders can even be placed while riding in an Uber, and timed to arrive concurrently.</p>
@@ -358,11 +358,11 @@
             </section>
         </div>
         <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__9_image_4.png')" alt="">
+            <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="figure__mb">
         </a>
         <section>
             <h3 class="text-center">Comparison</h3>
-            <figure class="figure figure_is_table">
+            <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Delivery Aids</figcaption>
                 <table class="table table-borderless">
                     <thead class="text-white">

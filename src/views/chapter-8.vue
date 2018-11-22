@@ -602,7 +602,7 @@
         </section>
         <section>
             <h3>How to calculate:</h3>
-            <ol>
+            <ol class="mb-0">
                 <li><strong>Choose a time period (3 months, 6 months, 12 months).</strong></li>
                 <li><strong>Calculate the total number of customers</strong> served within that time period.</li>
                 <li><strong>Use your POS, CRM</strong>, or other technology to <strong>calculate the number of unique customers</strong> within that  time period.</li>
@@ -610,7 +610,7 @@
             </ol>
         </section>
         <a :href="require('../assets/images/chapter__8_image_2.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__8_image_2.jpg')" alt="">
+            <img :src="require('../assets/images/chapter__8_image_2.jpg')" alt="" class="figure">
         </a>
     </section>
     <section>

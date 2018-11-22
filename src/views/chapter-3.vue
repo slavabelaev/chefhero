@@ -85,7 +85,7 @@
             <p>Starting out with a clear idea of who you are will actually make life easier!</p>
             <p>When something doesn't quite fit with your brand or vision, instead of agonizing over the decision whether or not to keep it, you can immediately throw it out without hesitation. A clear brand identity and vision for your business can help you stay true to what brought you to the industry in the first place, while swiftly and simultaneously helping to neutralize competing interests.</p>
             <p>When your “why” is your guiding principle, the brand identity makes up the visual and emotional components that convert non-believers to disciples. It will also allow you as an owner-operator to make clear, educated decisions regarding future design attributes, financing, and the hiring of a team that meet your values and messaging — key factors which will assist in controlling future labor costs.</p>
-            <ol class="questions-figure">
+            <ol class="questions-figure figure__my">
                 <li>What?</li>
                 <li>How?</li>
                 <li>Why?</li>
@@ -178,7 +178,7 @@
                 <li><strong>Abstract logos</strong> usually contain obscure graphics or symbols which may or may not have anything to do with the business at all. That doesn’t mean that the logo is so far removed from the brand’s concept that consumers cannot make an association, but instead often has the opposite effect. Consider Nike’s swoosh or Adidas’ three stripes, both of which have very little to do with the act of selling shoes, but have become iconic in the minds of their consumers.</li>
             </ol>
             <p>Just think of marketing your name and logo as setting your-self up for a great first impression. Keep in mind who you are and what you want the feel of the restaurant to be, then do your best to accurately set your customers expectations with this first touch-point.</p>
-            <figure class="brands-figure">
+            <figure class="brands-figure figure">
                 <a :href="require('../assets/images/logos/Wendys_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
                     <img :src="require('../assets/images/logos/Wendys_logo.svg')" alt="Wendys">
                 </a>

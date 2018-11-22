@@ -5,12 +5,24 @@
 @import "figures/formula";
 @import "figures/extreme-aversion-figure";
 
+$font-size: 1.125rem;
+$margin: $font-size * 2;
+
 .figure {
-	margin: 0;
-    margin-bottom: 1rem;
+	margin: $margin 0;
     .figure .figure__title {
-        font-size: 1.125rem;
+        font-size: $font-size;
     }
+}
+.figure__mt {
+	margin-top: $margin;
+}
+.figure__mb {
+	margin-bottom: $margin;
+}
+.figure__my {
+	margin-bottom: $margin;
+	margin-top: $margin;
 }
 .figure_style_primary {
 	background-color: $primary;
@@ -40,7 +52,7 @@
 	margin-bottom: 1rem;
 }
 .figure__description {
-	font-size: 1.125rem;
+	font-size: 1rem;
 	font-weight: normal;
 	letter-spacing: 1px;
     text-align: center;

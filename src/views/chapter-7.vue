@@ -75,10 +75,10 @@
         <h2>Maximizing Prime Menu Real Estate</h2>
         <p>Menu experts agree on something called the “Golden Triangle” when it comes to menu placement.</p>
         <p>Namely, this is the tendency of most customers to look first at the upper-middle section of a menu, followed by the upper right then upper left corners.</p>
-        <p>Experts recommend placing your most profitable dishes in this Golden Triangle for optimal viewing. This does not necessarily mean the most expensive items live here, but, instead, your most profitable ones.</p>
+        <p class="mb-0">Experts recommend placing your most profitable dishes in this Golden Triangle for optimal viewing. This does not necessarily mean the most expensive items live here, but, instead, your most profitable ones.</p>
     </section>
     <a :href="require('../assets/images/chapter__7_image_1.jpg')" target="_blank" data-fancybox="gallery">
-        <img :src="require('../assets/images/chapter__7_image_1.jpg')" alt="">
+        <img :src="require('../assets/images/chapter__7_image_1.jpg')" alt="" class="figure">
     </a>
     <section>
         <h2>Menu Design Meets Psychology</h2>
