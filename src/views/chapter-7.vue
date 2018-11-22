@@ -42,19 +42,22 @@
     </section>
     <figure class="figure">
         <figcaption class="figure__title">Maximizing Revenue and profit</figcaption>
-        <table class="table table-borderless">
+        <table class="table table-borderless mx-auto">
             <thead>
                 <tr>
-                    <th scope="col" class="bg-primary text-white">Low Popularity</th>
-                    <th scope="col" class="bg-danger text-white">High Popularity</th>
+                    <th class="p-0"></th>
+                    <th scope="col" class="bg-primary">Low Popularity</th>
+                    <th scope="col" class="bg-danger">High Popularity</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <td class="p-0"></td>
                     <td class="bg-light">Downplay or remove</td>
                     <td>Create a premium version</td>
                 </tr>
                 <tr>
+                    <td class="p-0"></td>
                     <td class="bg-light">Promote as specials or use as a price anchor</td>
                     <td>Highlight these dishes prominently</td>
                 </tr>
@@ -64,7 +67,7 @@
     <section>
         <h2>Maximizing Revenue and profit</h2>
         <p>By analyzing your menu, either by hand or via the output from your POS, you’ll begin to notice some dishes will rise to the top and some will sink to the bottom.</p>
-        <p>There are many ways to look at this, but the general consensus is to approach analyzing your dishes by breaking them Cost per meal is calculated by simply adding up the total cost of the ingredients used to make the dish. You can also turn this into a percentage by then dividing the cost by the menu price.Calculate your food costs at least twice: once before you start selling the item, then again about a week after you’ve added it to your menu. The second calculation will ensure (or show) that you’re actually spending the same amount as your initial calculation.  A dramatic change in overall food costs may also be a good time to revise your calculations. The more often you’re will-ing to run these numbers, the clearer a picture you’ll have.into four segments. Do this for each section of your menu so you have a list for every section customers would potentially order from (Appetizers, Desserts, Mains, etc).</p>
+        <p>There are many ways to look at this, but the general consensus is to approach analyzing your dishes by breaking them Cost per meal is calculated by simply adding up the total cost of the ingredients used to make the dish. You can also turn this into a percentage by then dividing the cost by the menu price.Calculate your food costs at least twice: once before you start selling the item, then again about a week after you’ve added it to your menu. The second calculation will ensure (or show) that you’re actually spending the same amount as your initial calculation.  A dramatic change in overall food costs may also be a good time to revise your calculations. The more often you’re willing to run these numbers, the clearer a picture you’ll have.into four segments. Do this for each section of your menu so you have a list for every section customers would potentially order from (Appetizers, Desserts, Mains, etc).</p>
         <p>Be ruthless when you do this! Categorizing your menu in this way allows you to have an accurate sense of which dishes are your stars and which could stand to be reevaluated.</p>
         <p>Your menu can then be updated accordingly: High profit, High Popularity: Highlight these dishes and ensure your menu focuses on them prominently.</p>
         <p>Low profit, High Popularity: Crowd pleasers, don’t tuck them away but don’t focus all your energy on them. Consider adding a version that you can sell at a premium (such as a sampler that contains elements of several of these dishes), or provide add ons that can help you increase profits while adding to the experience.</p>
