@@ -89,11 +89,17 @@
         <p>Subtle forces that can influence and affect people’s behaviours are innumerable. There are a few that you should keep in mind when designing your menu, if for no other reason than to be aware of the possible effects your design decisions may have.</p>
         <p>In addition, it’s great to maintain an informed perspective on your patrons and industry overall.</p>
         <section>
-            <h3>Menu Colour</h3>
-            <div class="md-layout">
+            <h3>Menu Colour</h3>                    
+            <p>The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
+            <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
+            <div class="md-layout mb-1 pt-1">
                 <div class="md-layout-item md-small-size-100">
-                    <p>The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
-                    <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
+                    <a :href="require('../assets/images/chapter__7_image_3.jpg')" target="_blank" data-fancybox="gallery">
+                        <img :src="require('../assets/images/chapter__7_image_3.jpg')" alt="">
+                    </a>
+                    <a :href="require('../assets/images/chapter__7_image_4.jpg')" target="_blank" data-fancybox="gallery">
+                        <img :src="require('../assets/images/chapter__7_image_4.jpg')" alt="">
+                    </a>
                 </div>
                 <div class="md-layout-item md-small-size-100">
                     <a :href="require('../assets/images/chapter__7_image_2.jpg')" target="_blank" data-fancybox="gallery">
@@ -102,18 +108,6 @@
                 </div>
             </div>
         </section>
-        <div class="md-layout">
-            <div class="md-layout-item md-small-size-100">
-                <a :href="require('../assets/images/chapter__7_image_3.jpg')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__7_image_3.jpg')" alt="">
-                </a>
-            </div>
-            <div class="md-layout-item md-small-size-100">
-                <a :href="require('../assets/images/chapter__7_image_4.jpg')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__7_image_4.jpg')" alt="">
-                </a>
-            </div>
-        </div>
         <section>
             <h3>Menu Pricing</h3>
             <p>Pricing can be a matter of contrasts, with the second or third-most expensive menu items often being the top sellers (as opposed to the highest or lowest cost items).</p>
@@ -126,14 +120,14 @@
             <p>By the same token, the most and least expensive dishes on your menu may suffer from what is known as extremeness aversion — a documented phenomenon that essentially de-scribes human’s tendency to gravitate towards the middle of the pack when faced with choices representing a series of extremes<sup><a href="https://www.ezonomics.com/whatis/extremeness-aversion/" target="_blank">[28]</a></sup>.</p>
             <p>Keep this in mind when forecasting and planning your menu. Items on either side of the average may suffer from a lack of popularity, no matter how delicious they are.</p>
             <p>Consider listing items or sizes in an array that you can accommodate, and expect customers to gravitate towards the middle of the pack when presented with a range of choices.</p>
+            <!-- Figure -->
+            <extreme-aversion-figure></extreme-aversion-figure>
+            <!-- /Figure -->
             <p>At the end of the day, there are many factors that will make your restaurant successful and profitable.</p>
             <p>But one of the most important components — and the part that is often most difficult for restaurateurs — is getting the numbers right. Figuring out how to maximize the business operations can be a difficult and confusing challenge. But it’s not impossible.</p>
             <p>Use these calculations and “menu hacking” tricks to maximize your revenue and increase your profits.</p>
-            <p>In the next section, we will be focusing on some more key numbers and metrics you should be measuring or looking out for as a restaurateur or chef.</p>
+            <p class="mb-0">In the next section, we will be focusing on some more key numbers and metrics you should be measuring or looking out for as a restaurateur or chef.</p>
         </section>
-        <!-- Figure -->
-        <extreme-aversion-figure></extreme-aversion-figure>
-        <!-- /Figure -->
     </section>
 </article>
 </template>

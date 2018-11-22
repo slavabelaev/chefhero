@@ -9,7 +9,7 @@
             :style="{ backgroundImage: 'url(' + require('../../assets/images/low_burger.svg') + ')' }"></md-card-media>
           <md-card-header>
             <div class="md-title">$1</div>
-            <div class="md-subhead">Risk: <br>Trying to save money. <br>May be too small.</div>
+            <div class="md-subhead">Risk: Trying to save money. May be too small.</div>
           </md-card-header>
         </md-card>
       </div>
@@ -20,7 +20,7 @@
             :style="{ backgroundImage: 'url(' + require('../../assets/images/middle_burger.svg') + ')' }"></md-card-media>
           <md-card-header>
             <div class="md-title">$5</div>
-            <div class="md-subhead">The <br>comfortable <br>middle</div>
+            <div class="md-subhead">The comfortable middle</div>
           </md-card-header>
         </md-card>
       </div>
@@ -31,7 +31,7 @@
             :style="{ backgroundImage: 'url(' + require('../../assets/images/high_burger.svg') + ')' }"></md-card-media>
           <md-card-header>
             <div class="md-title">$8</div>
-            <div class="md-subhead">Risk: <br>Spending to much. <br>May be to large.</div>
+            <div class="md-subhead">Risk: Spending to much. May be to large.</div>
           </md-card-header>
         </md-card>
       </div>
