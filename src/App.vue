@@ -98,7 +98,7 @@ export default {
   },
   watch: {
     $route (to) {
-      document.title = to.meta.title;
+      document.title = to.meta.title + ' ' + to.meta.description;
       document.querySelector('meta[name="description"]').content = to.meta.description;
       document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
       this.pageScrollToTop();
