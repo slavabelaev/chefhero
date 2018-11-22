@@ -332,12 +332,15 @@
                     <span class="formula__equals-sign">=</span>
                     <div class="formula__expression formula__expression-item">
                         <span class="formula__variable">CoGS</span>
-                        <span class="formula__operator">X</span>
+                        <span class="formula__operator">+</span>
                         <span class="formula__variable">Labour Cost</span>
                     </div>
                 </div>
             </div>
         </figure>
+        <!-- Chart -->
+        <restaurant-prime-cost-chart></restaurant-prime-cost-chart>
+        <!-- /Chart -->
         <section>
             <h3>Example:</h3>
             <p>As determined above, for the month of July, your food costs totalled $3,000, and your labour costs totalled $2,000.</p>
@@ -352,9 +355,6 @@
             <h3>When to calculate:</h3>
             <p>At least once per month, or each time you need to make a crucial purchase for your business.</p>
         </section>
-        <!-- Chart -->
-        <restaurant-prime-cost-chart></restaurant-prime-cost-chart>
-        <!-- /Chart -->
     </section>
     <section>
         <h2>Metric #7: Gross Margin</h2>
