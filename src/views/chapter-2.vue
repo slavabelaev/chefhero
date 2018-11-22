@@ -49,35 +49,35 @@
         <p>But there are some design principles that any restaurateur can implement to make a space look its best on a budget.</p>
         <p>Outfit the space with good-looking but low maintenance plants, like ferns or succulents. Greenery can make an indoor space look much brighter and more inviting.</p>
         <div class="md-layout">
-            <div class="md-layout-item md-small-size-100">
-                <p>You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
+            <div class="md-layout-item md-small-size-100 p-0">
+                <p class="pr-1">You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
             </div>
-            <div class="md-layout-item md-small-size-100">
+            <div class="md-layout-item md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_2.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_2.png')" alt="">
+                    <img :src="require('../assets/images/chapter__2_image_2.png')" alt="" class="mb-0">
                 </a>
             </div>
         </div>
          <div class="md-layout">
-            <div class="md-layout-item md-small-size-100">
+            <div class="md-layout-item md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_3.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_3.png')" alt="">
+                    <img :src="require('../assets/images/chapter__2_image_3.png')" alt="" class="mb-0">
                 </a>
             </div>
-            <div class="md-layout-item md-small-size-100">
+            <div class="md-layout-item md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_4.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_4.png')" alt="">
+                    <img :src="require('../assets/images/chapter__2_image_4.png')" alt="" class="mb-0">
                 </a>
             </div>
         </div>
          <div class="md-layout">
-            <div class="md-layout-item md-small-size-100">
+            <div class="md-layout-item md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_5.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_5.png')" alt="">
+                    <img :src="require('../assets/images/chapter__2_image_5.png')" alt="" class="mb-0">
                 </a>
             </div>
-            <div class="md-layout-item md-small-size-100">
-                <p>Another way to add some life to your space is to offer non-traditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
+            <div class="md-layout-item md-small-size-100 p-0">
+                <p class="p-1">Another way to add some life to your space is to offer non-traditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
             </div>
         </div>
     </section>
