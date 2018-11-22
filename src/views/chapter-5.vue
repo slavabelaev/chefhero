@@ -83,15 +83,22 @@
         </ul>
         <p>Starting to see why a great chef can be hard to find?</p>
         <p>While your culture is going to be important when it comes to landing and keeping a quality chef, it's important to pay your chef competitively. A lot of factors go into setting an appropriate salary for your chef, including his or her level of experience, the working environment and your geographic location.</p>
-        <p>To give you a starting idea of what to budget for, though, Government of Canada statistics gathered between 2014 and 2015 showed that the national average salaries for full-time chefs ranged from around $16 per hour (about $33,280 annually) to $25 per hour (about $52,000 annually).</p>
-        <p>Remember though that these numbers don’t take into ac-count the different salaries between each type  of chef — for example, an executive chef's average salary is between $57,000 and $80,000 annually, while sous chefs are paid, on average, $40,000 to $53,000 per year.</p>
-        <p>You also have to take into consideration whether your prospective chef has any advanced training or certification, the cost of living where your restaurant is located, and the hours and environment in which your chef will be required to work. </p>
-        <p>A restaurant in a rural town with a low cost of living might be able to get away with a salary on the lower end of that range, but a restaurant in, say, Vancouver, B.C., where the cost of living is much higher, will have to pay a chef much more to compete with other restaurants and entice the best talent. </p>
+        
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <p>To give you a starting idea of what to budget for, though, Government of Canada statistics gathered between 2014 and 2015 showed that the national average salaries for full-time chefs ranged from around $16 per hour (about $33,280 annually) to $25 per hour (about $52,000 annually).</p>
+                <p>Remember though that these numbers don’t take into ac-count the different salaries between each type  of chef — for example, an executive chef's average salary is between $57,000 and $80,000 annually, while sous chefs are paid, on average, $40,000 to $53,000 per year.</p>
+                <p>You also have to take into consideration whether your prospective chef has any advanced training or certification, the cost of living where your restaurant is located, and the hours and environment in which your chef will be required to work.</p>
+                <p>A restaurant in a rural town with a low cost of living might be able to get away with a salary on the lower end of that range, but a restaurant in, say, Vancouver, B.C., where the cost of living is much higher, will have to pay a chef much more to compete with other restaurants and entice the best talent.</p>
+            </div>
+            <div class="md-layout-item md-small-size-100">
+                <a :href="require('../assets/images/chapter__5_image_1.jpg')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__5_image_1.jpg')" alt="" class="">
+                </a>
+            </div>
+        </div>
         <p>And if you plan on poaching a personal chef, you may need to be prepared to pay more<sup><a href="https://www.theglobeandmail.com/report-on-business/careers/career-advice/life-at-work/i-want-to-be-a-personal-chef-what-will-my-salary-be/article13112144/" target="_blank">[17]</a></sup> — personal chefs’ salaries average between $35,000 and $45,000 per year (but can be much higher) in addition to schedules that often include several days off each week and vacation time each year. It’ll take an attractive salary to lure a chef away from a position that has those kinds of hours.</p>
-        <p class="mb-0">Your staff is the backbone of your restaurant. Staffing is one of the most important decisions you’ll make as you get your establishment up and running. It’s part of what makes staffing (and staff retention) so difficult. But once you have a high-quality staff in place, it’ll pay off in spades with good food, excellent customer service and a restaurant that can run efficiently and autonomously.</p>
-        <a :href="require('../assets/images/chapter__5_image_1.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__5_image_1.jpg')" alt="" class="mb-0 figure">
-        </a>
+        <p>Your staff is the backbone of your restaurant. Staffing is one of the most important decisions you’ll make as you get your establishment up and running. It’s part of what makes staffing (and staff retention) so difficult. But once you have a high-quality staff in place, it’ll pay off in spades with good food, excellent customer service and a restaurant that can run efficiently and autonomously.</p>
     </section>
 </article>
 </template>
