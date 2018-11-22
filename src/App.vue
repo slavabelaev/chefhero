@@ -103,8 +103,6 @@ export default {
       document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
       this.pageScrollToTop();
       this.isActiveDrawer = false;
-
-      console.log(to);
     }
   },
   methods: {
