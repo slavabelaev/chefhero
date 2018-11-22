@@ -44,7 +44,7 @@
             <blockquote>
                 <p>“Not only is Wave the best free small business accounting website, but it's one of the best online resources period for its target small business audience.”</p>
                 <cite title="PCMAG.COM">
-                    <a href="https://www.pcmag.com/" target="_blank">PCMAG.COM</a>
+                    <a href="https://www.pcmag.com/" target="_blank">- PCMAG.COM</a>
                 </cite>
             </blockquote>
             <dl class="dl-inline">
@@ -54,7 +54,7 @@
             <blockquote>
                 <p>“Of all the accounting software we reviewed, QuickBooks Online offers some of the best pricing, with four service tiers designed to accommodate the needs of different business types.”</p>
                 <cite title="BUSINESSNEWSDAILY.COM">
-                    <a href="https://www.businessnewsdaily.com/" target="_blank">BUSINESSNEWSDAILY.COM</a>
+                    <a href="https://www.businessnewsdaily.com/" target="_blank">- BUSINESSNEWSDAILY.COM</a>
                 </cite>
             </blockquote>
         </section>
