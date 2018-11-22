@@ -2,7 +2,7 @@
 <article id="chapter-6">
     <header>
         <div class="chapter-title">Chapter 6</div>
-        <h1>Taking Restaurant Customer Service to the Next Level: <br>Strategies and Results</h1>
+        <h1>Taking Restaurant Customer Service to the Next Level: Strategies and Results</h1>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -29,7 +29,8 @@
         <a :href="require('../assets/images/chapter__6_image_1.png')" target="_blank" data-fancybox="gallery">
             <img :src="require('../assets/images/chapter__6_image_1.png')" alt="" class="mb-0">
         </a>
-        <figure class="figure">
+        <p>Another great way to deliver consistently excellent experiences is to personalize your customer service to each guest<sup><a href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[21]</a></sup>. Maintain a guest database and use it to offer special promotions to loyal customers. Encourage servers to get to know regulars and address them by name. Train your staff to know the menu well enough to offer suggestions based on what customers like or what they’ve already ordered. Recommending the perfect drink or dessert to compliment a meal will make a customer feel especially taken care of.</p>
+        <figure class="figure mb-1">
             <figcaption class="figure__title">Restaurants can experience a 216% increase in revenue for going above & beyond.</figcaption>
             <div class="md-layout">
                 <div class="md-layout-item md-small-size-100">
@@ -44,7 +45,6 @@
                 </div>
             </div>
         </figure>
-        <p>Another great way to deliver consistently excellent experiences is to personalize your customer service to each guest<sup><a href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[21]</a></sup>. Maintain a guest database and use it to offer special promotions to loyal customers. Encourage servers to get to know regulars and address them by name. Train your staff to know the menu well enough to offer suggestions based on what customers like or what they’ve already ordered. Recommending the perfect drink or dessert to compliment a meal will make a customer feel especially taken care of.</p>
         <p>Another necessary step to providing excellent customer ser-vice? Addressing problems immediately and to the custom-er’s satisfaction. If a guest has a complaint, listen intently without interrupting, and always offer empathy, not blame. Stay calm, especially if you don’t agree with the customer. Own the mistake, offer a genuine apology, and ask the guest what they would like — this will help start a conversation toward a solution you can both be happy with.</p>
         <p>If you feel like there may be some gaps in your customer ser-vice, go to your best resource: your customers themselves. Start employing comment cards, email surveys or some oth-er method to collect guest feedback. Not only does this give you specific action items you can address to improve your food and service, but it makes the customers feel that their experiences and their thoughts matter.</p>
         <p>You may be reading this and thinking that providing excellent customer service takes a lot of work. It does. But, it’s well worth the time and effort you invest. Happy customers are repeat customers, and there’s data to prove it: A Harvard Business School study on Starbucks customers found that satisfied customers visited, on average, 4.3 times per month, spending $4.06 per visit and remaining customers for 4.4 years<sup><a href="https://www.webstaurantstore.com/article/119/how-to-hire-a-chef.html" target="_blank">[22]</a></sup>.</p>
@@ -52,7 +52,7 @@
         <!-- Chart -->
         <reasons-for-stopping-visiting-restaurants-chart></reasons-for-stopping-visiting-restaurants-chart>
         <!-- /Chart -->
-        <p>o what about the flip side? A Customer Experience Report survey found that rude customer service was one of the top reasons customers will abandon a brand, beating out other reasons by 18 percent <sup><a href="https://www.slideshare.net/RightNow/2010-customer-experience-impact" target="_blank">[23]</a></sup>.</p>
+        <p>So what about the flip side? A Customer Experience Report survey found that rude customer service was one of the top reasons customers will abandon a brand, beating out other reasons by 18 percent <sup><a href="https://www.slideshare.net/RightNow/2010-customer-experience-impact" target="_blank">[23]</a></sup>.</p>
         <p>These two studies show why customer service is so vital for restaurants: it truly can make or break your brand.</p>
     </section>
     <section>

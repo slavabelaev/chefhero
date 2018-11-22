@@ -83,7 +83,6 @@
         </ul>
         <p>Starting to see why a great chef can be hard to find?</p>
         <p>While your culture is going to be important when it comes to landing and keeping a quality chef, it's important to pay your chef competitively. A lot of factors go into setting an appropriate salary for your chef, including his or her level of experience, the working environment and your geographic location.</p>
-        
         <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
                 <p>To give you a starting idea of what to budget for, though, Government of Canada statistics gathered between 2014 and 2015 showed that the national average salaries for full-time chefs ranged from around $16 per hour (about $33,280 annually) to $25 per hour (about $52,000 annually).</p>

@@ -121,7 +121,7 @@ article {
 	margin-bottom: 0!important;
 }
 .mb-1 {
-	margin-bottom: 1rem;
+	margin-bottom: 1rem!important;
 }
 .p-1 {
 	padding: 1rem!important;
@@ -129,11 +129,11 @@ article {
 .p-0 {
 	padding: 0!important;
 }
-.text-center {
-	text-align: center;
-}
 .pr-1 {
 	padding-right: 1rem!important;
+}
+.text-center {
+	text-align: center;
 }
 
 #introduction {
