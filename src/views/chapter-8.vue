@@ -76,16 +76,10 @@
             <h3>Good to know:</h3>
             <ul>
                 <li>
-                    <dl>
-                        <dt>Variable Costs = </dt>
-                        <dd>Costs that may change due to business or environmental factors. These could include food and labor costs based on how busy your restaurant is, heating and cooling in winter and summer months, or advertising and marketing.</dd>
-                    </dl>
+                    <p><strong>Variable Costs = </strong>Costs that may change due to business or environmental factors. These could include food and labor costs based on how busy your restaurant is, heating and cooling in winter and summer months, or advertising and marketing.</p>
                 </li>
                 <li>
-                    <dl>
-                        <dt>Fixed Costs = </dt>
-                        <dd>Costs which typically do not change, such as rent, utilities, and salary, also known as ‘overhead’ as outlined below.</dd>
-                    </dl>
+                    <p><strong>Fixed Costs = </strong>Costs which typically do not change, such as rent, utilities, and salary, also known as ‘overhead’ as outlined below.</p>
                 </li>
             </ul>
         </section>
