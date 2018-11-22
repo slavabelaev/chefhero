@@ -87,23 +87,25 @@
     }
 }
 
-[id^="chapter-"] > header {
-    position: relative;
-    background-position: bottom right;
-    background-size: 280px;
-    background-repeat: no-repeat;
+@media (min-width: 992px) {
+	[id^="chapter-"] > header {
+		position: relative;
+		background-position: bottom right;
+		background-size: 280px;
+		background-repeat: no-repeat;
+	}
+	#chapter-1 > header { background-image: url(assets/images/chapters/chapter-1__bg.svg); }
+	#chapter-2 > header { background-image: url(assets/images/chapters/chapter-2__bg.svg); }
+	#chapter-3 > header { background-image: url(assets/images/chapters/chapter-3__bg.svg); }
+	#chapter-4 > header { background-image: url(assets/images/chapters/chapter-4__bg.svg); }
+	#chapter-5 > header { background-image: url(assets/images/chapters/chapter-5__bg.svg); }
+	#chapter-6 > header { background-image: url(assets/images/chapters/chapter-6__bg.svg); }
+	#chapter-7 > header { background-image: url(assets/images/chapters/chapter-7__bg.svg); }
+	#chapter-8 > header { background-image: url(assets/images/chapters/chapter-8__bg.svg); }
+	#chapter-9 > header { background-image: url(assets/images/chapters/chapter-9__bg.svg); }
+	#chapter-10 > header { background-image: url(assets/images/chapters/chapter-10__bg.svg); }
+	#chapter-11 > header { background-image: url(assets/images/chapters/chapter-11__bg.svg); }
 }
-#chapter-1 > header { background-image: url(assets/images/chapters/chapter-1__bg.svg); }
-#chapter-2 > header { background-image: url(assets/images/chapters/chapter-2__bg.svg); }
-#chapter-3 > header { background-image: url(assets/images/chapters/chapter-3__bg.svg); }
-#chapter-4 > header { background-image: url(assets/images/chapters/chapter-4__bg.svg); }
-#chapter-5 > header { background-image: url(assets/images/chapters/chapter-5__bg.svg); }
-#chapter-6 > header { background-image: url(assets/images/chapters/chapter-6__bg.svg); }
-#chapter-7 > header { background-image: url(assets/images/chapters/chapter-7__bg.svg); }
-#chapter-8 > header { background-image: url(assets/images/chapters/chapter-8__bg.svg); }
-#chapter-9 > header { background-image: url(assets/images/chapters/chapter-9__bg.svg); }
-#chapter-10 > header { background-image: url(assets/images/chapters/chapter-10__bg.svg); }
-#chapter-11 > header { background-image: url(assets/images/chapters/chapter-11__bg.svg); }
 
 @media (min-width: 601px) {
 	[id^="chapter-"] {
