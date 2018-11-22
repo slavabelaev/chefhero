@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 8</div>
         <h1>14 Essential Restaurant Metrics Every Owner Should Measure and Track</h1>
-        <p class="lead">Whether you’re just starting to price out your dream restaurant or checking on the overall health of your business, there are several metrics you should continually keep track of.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -18,6 +17,7 @@
             </ul>
         </section>
     </header>
+    <p>Whether you’re just starting to price out your dream restaurant or checking on the overall health of your business, there are several metrics you should continually keep track of.</p>
     <p>These metrics represent different ways of looking at the health of a business-allowing you to set goals, identify trends both positive and negative, and accurately gauge results of the operational tweaks you may make to your restaurant.</p>
     <section>
         <h2>Metric #1: Break-Even Point</h2>

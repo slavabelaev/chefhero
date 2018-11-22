@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 5</div>
         <h1>Build the Best Team: <br>Finding and Managing Your Restaurant's A-Team</h1>
-        <p class="lead">From creating a concept that will succeed, to finding a killer space, to decorating and equipping and training. Starting a restaurant involves a lot of work, and a lot of moving pieces.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>From creating a concept that will succeed, to finding a killer space, to decorating and equipping and training. Starting a restaurant involves a lot of work, and a lot of moving pieces.</p>
     <p>By far one of the greatest challenges would-be restaurateurs face is finding a superstar staff that will flawlessly execute their concept, all while making great food and providing top-tier customer service. The restaurant simply cannot run with-out a staff. But not just any staff will make your restaurant flourish. You want to best talent possible. Here’s how to find (and keep) them.</p>
     <section>
         <h3>When it Comes to Staffing your Restaurant…</h3>

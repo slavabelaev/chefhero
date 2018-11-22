@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 2</div>
         <h1>Location, Space and Personality: <br>Setting the Scene for a Winning Restaurant</h1>
-        <p class="lead"><ins>Location, location, location.</ins> Those are the three most important parts of real estate, as the old saying goes. And that’s true for your restaurant, as well — your location is one of the most important choices you face as a new owner or manager.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p><ins>Location, location, location.</ins> Those are the three most important parts of real estate, as the old saying goes. And that’s true for your restaurant, as well — your location is one of the most important choices you face as a new owner or manager.</p>
     <p>Choosing and styling your location may seem daunting. But even though this is one of your biggest decisions, it doesn’t have to be as hard as it sounds. There’s a lot of good ad-vice out there that can help you make smart choices when it comes to your restaurant location and real estate.</p>
     <section>
         <h3>How to Choose the Right Space</h3>

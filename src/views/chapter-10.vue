@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 10</div>
         <h1>Greener Tomorrow: <br>A Step-By-Step Guide to Running an Eco-Conscious Restaurant</h1>
-        <p class="lead">It’s no secret that consumers are becoming more eco-conscious. They want green products, sustainable manufacturing and ethically sourced products.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>It’s no secret that consumers are becoming more eco-conscious. They want green products, sustainable manufacturing and ethically sourced products.</p>
     <p>And restaurants can benefit from this push for sustainabil-ity<sup><a href="https://canadabusiness.ca/business-planning/writing-your-business-plan/#toc6" target="_blank">[30]</a></sup>. Many modern-day consumers are willing to pay more for ethically sourced, sustainably manufactured goods and services<sup><a href="https://www.sustridge.com/single-post/Sustainability-in-the-Restaurant-Industry-Time-to-Fire-It-Up" target="_blank">[31]</a></sup>. And that means diners are often willing to pay more to eat at restaurants that practice environmentalism.</p>
     <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especial-ly those who strive to reduce their impact in their own lives.</p>
     <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especial-ly those who strive to reduce their impact in their own lives.No matter what changes you make to your restaurant to make it more sustainable and environmentally friendly, be sure to let your local community know about them. Adver-tise on your website or social media. Tell your diners when they come to your restaurant. Word will spread, and it’ll bring more and more eco-conscious diners to your door.</p>

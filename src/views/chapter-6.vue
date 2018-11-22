@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 6</div>
         <h1>Taking Restaurant Customer Service to the Next Level: <br>Strategies and Results</h1>
-        <p class="lead">Welcome to the age of customer service. More and more, consumers are choosing where to spend their money based on where they get the best service. Excellence isn’t a nice surprise — today’s diners expect it, and to compete, you need to deliver.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>Welcome to the age of customer service. More and more, consumers are choosing where to spend their money based on where they get the best service. Excellence isn’t a nice surprise — today’s diners expect it, and to compete, you need to deliver.</p>
     <p>Making a conscious decision to up your customer service game is just the first step. Good service is multifaceted, and it’s going to take time and work to identify the changes you need to make in your establishment and to actually make those changes. But once you do, you’ll be rewarded with customers who recognize and appreciate great service, and spend their money loyally when they feel well cared for.</p>
     <p>Here’s how to get started.</p>
     <section>

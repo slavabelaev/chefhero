@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 4</div>
         <h1>Kickstarting Your New Restaurant Business</h1>
-        <p class="lead">Always dreamed of opening your own restaurant but weren’t sure where to start? Of course, there are many factors that go into planning your restaurant. But, getting the basics right is absolutely critical to success.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>Always dreamed of opening your own restaurant but weren’t sure where to start? Of course, there are many factors that go into planning your restaurant. But, getting the basics right is absolutely critical to success.</p>
     <p>Let’s look at five of the most important steps you can take to get off on the right foot and set yourself up for years of success in the restaurant industry.</p>
     <section>
         <h2>Step #1: Get Your Office Back In Order</h2>

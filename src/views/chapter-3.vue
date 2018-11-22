@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 3</div>
         <h1>Restaurant Branding: <br>Concept, Brand Identity, Naming, and Logos</h1>
-        <p class="lead">Who are you? Or, who do you want to be? That may seem like a weird question to ask when thinking about a restaurant. But it’s totally valid when you think about the important role of branding.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>Who are you? Or, who do you want to be? That may seem like a weird question to ask when thinking about a restaurant. But it’s totally valid when you think about the important role of branding.</p>
     <p>Branding your restaurant is about making it unique and memorable. It’s about answering questions like:</p>
     <ul>
         <li>Who are you?</li>

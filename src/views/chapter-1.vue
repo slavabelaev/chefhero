@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 1</div>
         <h1>Restaurant budgeting: <br>Getting your numbers right</h1>
-        <p class="lead">Whether you’re opening your dream restaurant from scratch, or taking over an existing establishment, what’s the one thing that can make or break your restaurateur dreams?</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>Whether you’re opening your dream restaurant from scratch, or taking over an existing establishment, what’s the one thing that can make or break your restaurateur dreams?</p>
     <section>
         <h3>Your Budget.</h3>
         <p>It will dictate what’s possible for your restaurant (and what’s not).</p>

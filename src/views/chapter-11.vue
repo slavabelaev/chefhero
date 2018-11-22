@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 11</div>
         <h1>A starter guide to Instagram marketing for restaurateurs</h1>
-        <p class="lead">No matter how great you are with words, nothing can sell your food better than a mouth-watering photo.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>No matter how great you are with words, nothing can sell your food better than a mouth-watering photo.</p>
     <p>Diners eat with their eyes first, and that’s what makes In-stagram a vital marketing tool for restaurants. It provides a cost-effective way for you to get images of your food in front of potential guests. By giving these hungry guests a craving for the real thing, you’ll have them lining up at your doorstep in no time.</p>
     <p>But if you think filters are for coffee, feeds are for farm an-imals, and hashtags are for… well, who knows what, you might need a little Insta-assistance. And that’s where this guide comes in. From setting up your Instagram to creating and curating the perfect posts, this post has everything you need to get started on your #InstaSuccess.</p>
     <a :href="require('../assets/images/chapter__11_image_1.jpg')" target="_blank" data-fancybox="gallery">

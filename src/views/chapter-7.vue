@@ -3,7 +3,6 @@
     <header>
         <div class="chapter-title">Chapter 7</div>
         <h1>Menu Hacking: <br>Cost Per Meal & Smart Design to Maximize profits</h1>
-        <p class="lead">The key to running a successful, profitable restaurant isn’t the food or the service. Of course, those things are critical. It’s a nonstarter — without good food and good service, people just won’t eat at your restaurant.</p>
         <address>
             <dl>
                 <dt>Written by:</dt>
@@ -19,6 +18,7 @@
             </ul>
         </section>
     </header>
+    <p>The key to running a successful, profitable restaurant isn’t the food or the service. Of course, those things are critical. It’s a nonstarter — without good food and good service, people just won’t eat at your restaurant.</p>
     <p>But when you dig into what actually sets apart the most successful restaurants, chains, and franchises, it’s not because they have the best dish or the nicest staff.</p>
     <p>It’s the math that makes the business work.</p>
     <p>The bottom line for any restaurant is that it’s a numbers game. In order to survive, you can’t just create great food, have stellar marketing, or provide an awesome experience; you have to nail the operations part, too. And that means knowing your numbers and understanding how to manipulate the numbers in order to keep your business profitable and sustainable.</p>
