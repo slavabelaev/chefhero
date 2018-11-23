@@ -70,7 +70,21 @@ export default {
             fontStyle: 'normal'
           },
           tooltips: {
-            intersect: true
+            intersect: true,
+            callbacks: {
+              label: function(tooltipItem, data) {
+                //get the concerned dataset
+                var dataset = data.datasets[tooltipItem.datasetIndex];
+                //calculate the total of this data set
+                var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
+                  return previousValue + currentValue;
+                });
+                //get the current items value
+                var currentValue = dataset.data[tooltipItem.index];
+
+                return currentValue + "%";
+              }
+            }
           },
           plugins: {
             labels: {
