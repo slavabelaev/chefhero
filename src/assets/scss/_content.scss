@@ -117,8 +117,8 @@ article {
 		font-family: Material Icons;
 		font-size: 1rem;
 	}
-	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "title" };
-	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "description" };
+	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "class" };
+	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "short_text" };
 	&:nth-child(14) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "flag" };
 
 	&:nth-child(3) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "1" };
