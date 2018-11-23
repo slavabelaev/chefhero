@@ -16,7 +16,7 @@
 	letter-spacing: 4px;
 }
 
-[id^="chapter-"] {
+article {
 	& > header,
 	.chapter-title,
 	address > dl dt,
@@ -100,7 +100,7 @@
 }
 
 @media (min-width: 992px) {
-	[id^="chapter-"] > header {
+	article > header {
 		position: relative;
 		background-position: bottom right;
 		background-size: 280px;
@@ -117,6 +117,28 @@
 			right: 100px;
 		}
 	}
+
+	#introduction {
+		& > header {
+			background-image: 
+				url(assets/images/chapters/introduction__bg-1.svg),
+				url(assets/images/chapters/introduction__bg-2.svg),
+				url(assets/images/chapters/introduction__bg-3.svg);
+			background-position:
+				-50px -100px,
+				50% 150px,
+				110% 110%;
+			background-repeat: no-repeat;
+			&:after {
+				opacity: .12;
+				left: 100px;
+				top: 50px;
+				right: initial;
+				bottom: initial;
+			}
+		}
+	}
+
 	#chapter-1 > header { background-image: url(assets/images/chapters/chapter-1__bg.svg); }
 	#chapter-2 > header { background-image: url(assets/images/chapters/chapter-2__bg.svg); }
 	#chapter-3 > header { background-image: url(assets/images/chapters/chapter-3__bg.svg); }
@@ -138,8 +160,7 @@
 }
 
 @media (min-width: 601px) {
-	#introduction > header,
-	[id^="chapter-"] > header {
+	article > header {
 		margin: -1.5rem;
 		margin-bottom: 1.5rem;
 		padding: 1.5rem;
@@ -149,8 +170,7 @@
 }
 
 @media (max-width: 600px) {
-	#introduction > header,
-	[id^="chapter-"] > header {
+	article > header {
 		margin: -1rem;
 		margin-bottom: 1.5rem;
 		padding: 1rem;
