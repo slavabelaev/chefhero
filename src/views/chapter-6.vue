@@ -2,7 +2,7 @@
 <article id="chapter-6">
     <header>
         <div class="chapter-title">Chapter 6</div>
-        <h1>Taking Restaurant Customer Service to the Next Level: Strategies and Results</h1>
+        <h1>Taking Restaurant Customer Service to the Next Level: <br>Strategies and Results</h1>
         <address>
             <dl>
                 <dt>Written by:</dt>

@@ -1,8 +1,5 @@
 @import 'variables';
 
-#introduction {
-	text-align: center;
-}
 #app-about {
 	padding: 24px;
 	overflow: auto;
@@ -75,6 +72,19 @@
 	#in-this-chapter * { color: #FF5C66; }
 }
 
+#introduction > header {
+	background-color: $primary;
+	color: #fff;
+	h1 {
+		color: #fff;
+		small {
+			font-size: $font-size * 2;
+			font-family: 'Belbo-Book', sans-serif;
+			font-weight: 600;
+		}
+	}
+}
+
 #in-this-chapter {
     position: relative;
     background-color: #fff;
@@ -93,7 +103,7 @@
 	[id^="chapter-"] > header {
 		position: relative;
 		background-position: bottom right;
-		background-size: 260px;
+		background-size: 280px;
 		background-repeat: no-repeat;
 		&:after {
 			content: "";
@@ -103,8 +113,8 @@
 			border-radius: 50%;
 			background-color: rgba(255, 255, 255, 0.24);
 			position: absolute;
-			bottom: 40px;
-			right: 80px;
+			bottom: 50px;
+			right: 100px;
 		}
 	}
 	#chapter-1 > header { background-image: url(assets/images/chapters/chapter-1__bg.svg); }
@@ -118,27 +128,32 @@
 	#chapter-9 > header { background-image: url(assets/images/chapters/chapter-9__bg.svg); }
 	#chapter-10 > header { background-image: url(assets/images/chapters/chapter-10__bg.svg); }
 	#chapter-11 > header { background-image: url(assets/images/chapters/chapter-11__bg.svg); }
+
+	#conclusion {
+		background-image: url(assets/images/chapters/conclusion__bg.svg);
+		background-size: auto 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 }
 
 @media (min-width: 601px) {
-	[id^="chapter-"] {
-		& > header {
-			margin: -1.5rem;
-			margin-bottom: 1.5rem;
-			padding: 1.5rem;
-			border-radius: 4px 4px 0 0;
-			color: #fff;
-		}
+	#introduction > header,
+	[id^="chapter-"] > header {
+		margin: -1.5rem;
+		margin-bottom: 1.5rem;
+		padding: 1.5rem;
+		border-radius: 4px 4px 0 0;
+		color: #fff;
 	}
 }
 
 @media (max-width: 600px) {
-	[id^="chapter-"] {
-		& > header {
-			margin: -1rem;
-			margin-bottom: 1.5rem;
-			padding: 1rem;
-		}
+	#introduction > header,
+	[id^="chapter-"] > header {
+		margin: -1rem;
+		margin-bottom: 1.5rem;
+		padding: 1rem;
 	}
 }
 

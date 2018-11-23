@@ -43,12 +43,13 @@
     </section>
     <section>
         <h2>When should you post?</h2>
-        <p>Ideally, you should be posting to your Instagram daily, or even multiple times per day. Try out regular, daily posts, like posting photos and descriptions of your specials.</p>
-        <p>But you should also definitely take advantage of Instagram when special events are happening.</p>
         <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
+                <p>Ideally, you should be posting to your Instagram daily, or even multiple times per day. Try out regular, daily posts, like posting photos and descriptions of your specials.</p>     
+                <p>But you should also definitely take advantage of Instagram when special events are happening.</p>
                 <p>If your restaurant is involved in a fair or festival, promote that on Instagram! Take photos of your setup at the event. Broadcast a live video showing crowds and excitement at the event, and encourage more followers to come out and find you there. You can even use photos or stories to chron-icle something disastrous, like a rainstorm in the middle of a festival. Have fun with it, and your followers are sure to enjoy the content.</p>
                 <p>But also be on the lookout for day-to-day events that you can promote on Instagram. If you’re introducing a new food or signature drink, use your Instagram account to show it off and welcome your guests to try out new menu items.</p>
+                <p>You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
             </div>
             <div class="md-layout-item md-small-size-100">
                 <a :href="require('../assets/images/chapter__11_image_3.png')" target="_blank" data-fancybox="gallery">
@@ -56,33 +57,14 @@
                 </a>
             </div>
         </div>
-        <p>You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
     </section>
     <section>
         <h2>What should you post?</h2>
         <p>While everything in this guide will help you create the best In-stagram account possible, nothing matters as much as what you post. Your content is what will gain you followers, and turn those followers into guests who show up for your food.</p>
-        <div class="md-layout">
-            <div class="md-layout-item md-small-size-100">
-                <a :href="require('../assets/images/chapter__11_image_4.jpg')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__11_image_4.jpg')" alt="">
-                </a>
-            </div>
-            <div class="md-layout-item md-small-size-100">
-                <p>First and foremost, you have to post photos of your food and drinks. Remember that example at the beginning? What’s more effective: a really well-written description of a cheese-burger? Or this:</p>
-                <p>You’re getting hungry just looking at it, right?</p>
-            </div>
-        </div>
-        <div class="md-layout">
-            <div class="md-layout-item md-small-size-100">
-                <p>But if you’re going to post food pics, they have to look as great as the food tastes. That means you can’t just take any photo. Does this look as appetizing?</p>
-                <p>The answer is no. It’s dark. It’s blurry. The angle doesn’t show off the ingredients.</p>
-            </div>
-            <div class="md-layout-item md-small-size-100">
-                <a :href="require('../assets/images/chapter__11_image_5.jpg')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__11_image_5.jpg')" alt="">
-                </a>
-            </div>
-        </div>
+        <p>First and foremost, you have to post photos of your food and drinks. Remember that example at the beginning? What’s more effective: a really well-written description of a cheese-burger? Or this:</p>
+        <p>You’re getting hungry just looking at it, right?</p>
+        <p>But if you’re going to post food pics, they have to look as great as the food tastes. That means you can’t just take any photo. Does this look as appetizing?</p>
+        <p>The answer is no. It’s dark. It’s blurry. The angle doesn’t show off the ingredients.</p>
         <p>A few tips for getting the best possible food photography, even as a novice:</p>
         <ul>
             <li>Use a real camera, or your phone camera app, rather than taking your photos with Instagram’s limited in-app camera.</li>
@@ -92,9 +74,21 @@
             <li>Add texture. If you’re shooting something like soup, garnish it with herbs or croutons. Add fresh berries  to a sorbet. These little details add some contrast  to your shots and make them more interesting  (and tasty!).</li>
             <li>Embrace filters. Instagram comes with plenty of  pre-set filters that can help your photos pop, and apps like VSCO and Lightroom can also help you adjust colors and levels to make your shots look  even better.</li>
         </ul>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <a :href="require('../assets/images/chapter__11_image_4.jpg')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__11_image_4.jpg')" alt="" class="mb-0">
+                </a>
+            </div>
+            <div class="md-layout-item md-small-size-100"> 
+                <a :href="require('../assets/images/chapter__11_image_5.jpg')" target="_blank" data-fancybox="gallery">
+                    <img :src="require('../assets/images/chapter__11_image_5.jpg')" alt="">
+                </a>
+            </div>
+        </div>
         <p>But food shouldn’t be all you post. Instagram is also a great way to show the behind-the-scenes workings of your restaurant. Show off your ambiance. Introduce your staff. Let your followers follow along with a renovation project. Instagram can make your restaurant and its staff seem a little more human, so let it do just that.</p>
-        <p>While Instagram has always been a photo sharing platform, it’s introduced new ways to create content with video and stories. Take advantage of these! A video of a glass of wine being poured is a lot more interesting — and mouth-water-ing — than a still shot. A video tour of your kitchen can allow followers to meet your chef and see them in their element.</p>
-        <p>When it comes to daily content, don’t feel like you have to create it all yourself. Embrace the art of regramming — post-ing customers’ photos that they took at your restaurant. Your hashtags and location tags will really help with this. One note: Be sure to tag the original poster. It will let them know that you posted their content and it builds a way for you to con-nect with a customer--making the relationship even stronger.</p>
+        <p>While Instagram has always been a photo sharing platform, it’s introduced new ways to create content with video and stories. Take advantage of these! A video of a glass of wine being poured is a lot more interesting — and mouth-watering — than a still shot. A video tour of your kitchen can allow followers to meet your chef and see them in their element.</p>
+        <p>When it comes to daily content, don’t feel like you have to create it all yourself. Embrace the art of regramming — posting customers’ photos that they took at your restaurant. Your hashtags and location tags will really help with this. One note: Be sure to tag the original poster. It will let them know that you posted their content and it builds a way for you to connect with a customer-making the relationship even stronger.</p>
     </section>
     <section>
         <h2>Instagram is not a one-way street</h2>
