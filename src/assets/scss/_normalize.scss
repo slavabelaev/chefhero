@@ -167,8 +167,11 @@ article {
 .text-primary {
 	color: $primary;
 }
-.extra-h1 {
-	font-size: $font-size * 3;
+.text-accent {
+	color: $accent;
+}
+.border-accent {
+	border-color: $accent;
 }
 .lead {
 	font-size: $font-size * 1.25;
@@ -197,6 +200,9 @@ article {
 	}
 	.hide-on-large {
 		display: none!important;
+	}
+	.extra-h1 {
+		font-size: $font-size * 4;
 	}
 
 	[columns="2"] {

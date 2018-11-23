@@ -16,11 +16,18 @@
 	letter-spacing: 4px;
 }
 
+.large-button {
+	width: 100%;
+	max-width: 360px;
+	height: 80px;
+	font-size: $font-size;
+}
+
 article {
 	& > header,
 	.chapter-title,
 	address > dl dt,
-	h1 {
+	& > header > h1 {
 		color: #fff;
 	}
 	address > dl dd > a {
@@ -72,7 +79,7 @@ article {
 	#in-this-chapter * { color: #FF5C66; }
 }
 
-#introduction > header {
+#starter > header {
 	background-color: $primary;
 	color: #fff;
 	h1 {
@@ -99,35 +106,61 @@ article {
     }
 }
 
+#introduction .large-button {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
 @media (min-width: 992px) {
 	article > header {
 		position: relative;
 		background-position: bottom right;
 		background-size: 280px;
 		background-repeat: no-repeat;
-		&:after {
-			content: "";
-			display: block;
-			width: 180px;
-			height: 180px;
-			border-radius: 50%;
-			background-color: rgba(255, 255, 255, 0.24);
-			position: absolute;
-			bottom: 50px;
-			right: 100px;
-		}
 	}
 
-	#introduction {
+	#starter > header:before,
+	article > header:after {
+		content: "";
+		display: block;
+		width: 180px;
+		height: 180px;
+		border-radius: 50%;
+		background-color: rgba(255, 255, 255, 0.24);
+		position: absolute;
+		bottom: 50px;
+		right: 100px;
+	}
+
+	#starter {
+		h1 {
+			margin-bottom: 2rem;
+		}
 		& > header {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 75vh;
+			margin-bottom: -1.5rem;
+			border-radius: $border-radius;
 			background-image: 
-				url(assets/images/chapters/introduction__bg-1.svg),
-				url(assets/images/chapters/introduction__bg-2.svg),
-				url(assets/images/chapters/introduction__bg-3.svg);
+				url(assets/images/chapters/starter__bg-1.svg),
+				url(assets/images/chapters/starter__bg-2.svg),
+				url(assets/images/chapters/starter__bg-3.svg),
+				url(assets/images/chapters/starter__bg-4.svg),
+				url(assets/images/chapters/starter__bg-5.svg);
+			background-size: 
+				280px,
+				360px,
+				360px,
+				360px,
+				320px;
 			background-position:
-				-50px -100px,
-				50% 150px,
-				110% 110%;
+				-120px -60px,
+				120% -240px,
+				110% 110%,
+				-20% 160%,
+				50% -200px;
 			background-repeat: no-repeat;
 			&:after {
 				opacity: .12;
@@ -135,6 +168,9 @@ article {
 				top: 50px;
 				right: initial;
 				bottom: initial;
+			}
+			&:before {
+				opacity: .24;
 			}
 		}
 	}
@@ -151,11 +187,21 @@ article {
 	#chapter-10 > header { background-image: url(assets/images/chapters/chapter-10__bg.svg); }
 	#chapter-11 > header { background-image: url(assets/images/chapters/chapter-11__bg.svg); }
 
+	#introduction,
 	#conclusion {
-		background-image: url(assets/images/chapters/conclusion__bg.svg);
 		background-size: auto 100%;
 		background-position: center;
 		background-repeat: no-repeat;
+	}
+	#introduction { background-image: url(assets/images/chapters/introduction__bg.svg); }
+	#conclusion { background-image: url(assets/images/chapters/conclusion__bg.svg); }
+}
+
+@media (min-width: 992px) {
+	#starter .logo {
+		position: absolute;
+		top: 40px;
+		left: 40px;
 	}
 }
 

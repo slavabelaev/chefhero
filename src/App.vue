@@ -56,10 +56,10 @@
         <router-view></router-view>
       </md-content>
       
-      <div id="app-content-actions" v-if="$route.meta.needToShowInNavigation || $route.name == 'introduction'">
+      <div id="app-content-actions" v-if="$route.meta.needToShowInNavigation || ['starter'].indexOf($route.name) > -1">
         <md-button class="md-raised md-default" 
                     @click="goBack()" 
-                    v-if="$route.name != 'introduction'">Back</md-button>
+                    v-if="$route.name != 'starter'">Back</md-button>
         <md-button class="md-raised md-primary" 
                    @click="goNext()" 
                    v-if="$route.name != 'conclusion'">Next</md-button>
