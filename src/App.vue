@@ -34,7 +34,7 @@
         <img :src="require('./assets/logo.svg')" alt="ChefHero" class="app-logo__image">
       </a>
       <md-divider></md-divider>
-      <md-steppers :md-active-step="$route.name" md-vertical>
+      <md-steppers :md-active-step="$route.name" md-vertical id="app-navigation">
         <md-step :id="route.name"
                  :md-label="route.meta.title" 
                  :md-description="route.meta.description"

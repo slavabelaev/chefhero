@@ -111,6 +111,44 @@ article {
 	margin-bottom: 2rem;
 }
 
+#app-navigation .md-stepper {
+	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before,
+	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before,
+	&:nth-child(14) .md-stepper-header:not(.md-done) .md-stepper-number:before {
+		font-family: Material Icons;
+		font-size: 1rem;
+	}
+	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "title" };
+	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "description" };
+	&:nth-child(14) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "flag" };
+
+	&:nth-child(3) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "1" };
+	&:nth-child(4) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "2" };
+	&:nth-child(5) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "3" };
+	&:nth-child(6) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "4" };
+	&:nth-child(7) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "5" };
+	&:nth-child(8) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "6" };
+	&:nth-child(9) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "7" };
+	&:nth-child(10) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "8" };
+	&:nth-child(11) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "9" };
+	&:nth-child(12) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "10" };
+	&:nth-child(13) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "11" };
+
+	.md-stepper-number {
+		position: relative;
+		color: rgba(255,255,255,0);
+		&:before {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			color: rgba(255,255,255, 1);
+			border-radius: 50%;
+		}
+	}
+}
+
 @media (min-width: 992px) {
 	article > header {
 		position: relative;
@@ -140,7 +178,7 @@ article {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			min-height: 75vh;
+			min-height: 550px;
 			margin-bottom: -1.5rem;
 			border-radius: $border-radius;
 			background-image: 
