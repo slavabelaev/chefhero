@@ -458,7 +458,7 @@
         <!-- /Chart -->
     </section>
     <section>
-        <h2>Metric #9: profit Margin</h2>
+        <h2>Metric #9: Profit Margin</h2>
         <section>
             <h3>What it is:</h3>
             <p>Your profit margin is the percentage of your gross sales that then become net profit.</p>
@@ -478,7 +478,7 @@
             <figcaption class="figure__title">Equation:</figcaption>
             <div class="formula__wrapper">
                 <div class="formula">
-                    <span class="formula__variable">profit Margin %</span>
+                    <span class="formula__variable">Profit Margin %</span>
                     <span class="formula__equals-sign">=</span>
                     <div class="formula__expression">
                         <span class="formula__variable">Net profit</span>

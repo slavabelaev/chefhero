@@ -148,9 +148,8 @@ article {
 .text-white {
 	color: #fff;
 }
-
-#introduction {
-	text-align: center;
+.text-left {
+	text-align: left!important;
 }
 
 @media (min-width: 961px) {
@@ -172,6 +171,9 @@ article {
 	}
 	.md-layout-item:last-child {
 		padding-right: 0;
+	}
+	.hide-on-large {
+		display: none!important;
 	}
 
 	[columns="2"] {
