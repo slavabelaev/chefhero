@@ -63,9 +63,13 @@ $border-color: rgba(0,0,0,.12);
 
 @media (max-width: 960px) {
     .table {
-        tbody, tr, th, td {
+        &, tbody, tr, th, td {
             display: block;
             width: 100%;
+            border-width: 0!important;
+        }
+        tr {
+            border-width: 4px!important;
         }
         thead {
             display: none;

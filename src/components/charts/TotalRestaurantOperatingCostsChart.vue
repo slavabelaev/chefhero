@@ -50,12 +50,11 @@ export default {
             intersect: true,
             callbacks: {
               label: function(tooltipItem, data) {
-                //get the concerned dataset
-                var dataset = data.datasets[tooltipItem.datasetIndex];
-                //get the current items value
-                var currentValue = dataset.data[tooltipItem.index];
+                const dataset = data.datasets[tooltipItem.datasetIndex];
+                const value = dataset.data[tooltipItem.index];
+                const label = data.labels[tooltipItem.index];
 
-                return currentValue + "%";
+                return label + ': ' + value + "%";
               }
             }
           },

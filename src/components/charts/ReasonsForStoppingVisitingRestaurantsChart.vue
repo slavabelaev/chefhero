@@ -52,7 +52,16 @@ export default {
             text: '73% cited rude staff as issue.'
           },
           tooltips: {
-            intersect: true
+            intersect: true,
+            callbacks: {
+              label: function(tooltipItem, data) {
+                const dataset = data.datasets[tooltipItem.datasetIndex];
+                const value = dataset.data[tooltipItem.index];
+                const label = data.labels[tooltipItem.index];
+
+                return label + ': ' + value + "%";
+              }
+            }
           },
           plugins: {
             labels: {

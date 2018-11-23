@@ -17,7 +17,7 @@
 }
 
 .large-button {
-	width: 100%;
+	width: 90%;
 	max-width: 360px;
 	height: 80px;
 	font-size: $font-size;
@@ -85,7 +85,6 @@ article {
 	h1 {
 		color: #fff;
 		small {
-			font-size: $font-size * 2;
 			font-family: 'Belbo-Book', sans-serif;
 			font-weight: 600;
 		}
@@ -240,6 +239,9 @@ article {
 		position: absolute;
 		top: 40px;
 		left: 40px;
+	}
+	#starter > header h1 small {
+		font-size: $font-size * 2;
 	}
 }
 
