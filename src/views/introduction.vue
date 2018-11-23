@@ -1,7 +1,6 @@
 <template>
 <article id="introduction" class="text-center">
     <header>
-        <img :src="require('../assets/logo__style_light.svg')" width="240" alt="ChefHero" class="figure__mb">
         <h1 class="extra-h1">
             <small>The Ultimate Guide to</small>
             <div>Running a Restaurant</div>
