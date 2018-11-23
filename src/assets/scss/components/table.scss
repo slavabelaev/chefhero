@@ -70,6 +70,24 @@ $border-color: rgba(0,0,0,.12);
         thead {
             display: none;
         }
+        tbody {
+            td[data-title] { 
+                position: relative;
+                padding-top: 3rem;
+                &:before {
+                    content: attr(data-title);
+                    display: flex;
+                    align-items: center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: $primary;
+                    color: #fff;
+                    padding: .5rem 1rem;
+                }
+            }
+        }
         tr {
             border: $primary 4px solid;
             margin-bottom: 1rem;

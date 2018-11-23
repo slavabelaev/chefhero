@@ -94,26 +94,36 @@ export default {
   created() {
     this.isInitializedApp = true
     this._isLargeScreen();
+    setTimeout(this.adaptDataTables, 1);
     window.addEventListener('resize', this._isLargeScreen);
   },
   watch: {
-    $route (to) {
-      document.title = to.meta.title + ' ' + to.meta.description;
-      document.querySelector('meta[name="description"]').content = to.meta.description;
-      document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
-      this.pageScrollToTop();
+    $route () {
       this.isActiveDrawer = false;
+      setTimeout(this.adaptDataTables, 1);
     }
   },
   methods: {
-    pageScrollToTop() {
-      document.querySelector('.md-app-scroller').scrollTop = 0;
-    },
     getRouteIndex() {
       return this.$router.options.routes.findIndex(route => route.name == this.$route.name);
     },
     _isLargeScreen() {
       this.isLargeScreen = window.outerWidth > 992;
+    },
+    adaptDataTables(contentElementSelector) {
+      const contentElement = contentElementSelector ? document.querySelector(contentElementSelector) : document;
+      const tableElements = contentElement.querySelectorAll('table');
+      tableElements.forEach(tableElement => {
+          const headerElements = tableElement.querySelectorAll('thead > tr > *');
+          const rowElements = tableElement.querySelectorAll('tbody > tr');
+          rowElements.forEach(rowElement => {
+              const cellElements = rowElement.querySelectorAll('td');
+              cellElements.forEach((cellElement, index) => {
+                const textContent = headerElements[index].textContent;
+                if (textContent) cellElement.setAttribute('data-title', textContent)
+              });
+          });
+      });
     },
     supportPrint() {
       return !!window.print;

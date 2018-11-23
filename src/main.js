@@ -42,7 +42,13 @@ Vue.component('how-to-optimize-seating-capacity-figure', HowToOptimizeSeatingCap
 import App from './App.vue'
 import router from './router'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+
+router.afterEach((to) => {
+  document.title = to.meta.title + ' ' + to.meta.description;
+  document.querySelector('meta[name="description"]').content = to.meta.description;
+  document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
+})
 
 new Vue({
   router,

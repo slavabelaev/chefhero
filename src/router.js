@@ -208,5 +208,8 @@ export default new Router({
       },
       redirect: '/404' 
     },  
-  ]
+  ],
+  scrollBehavior() {
+    document.querySelector('.md-app-scroller').scrollTop = 0;
+  }
 })

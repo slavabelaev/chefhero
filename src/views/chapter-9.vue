@@ -254,7 +254,7 @@
                                 <p>Budgeting, sales forecasting, inventory management, POS integration, bank syncing, payroll, reporting, vendor management</p>
                                 <dl>
                                     <dt>With Professional plan:</dt>
-                                    <dd>Scheduling, recipes, smart ordering and prep, catering, enterprise reporting access</dd>
+                                    <dd class="m-0">Scheduling, recipes, smart ordering and prep, catering, enterprise reporting access</dd>
                                 </dl>
                             </td>
                         </tr>
@@ -338,6 +338,9 @@
         <header class="text-center">
             <h2>Get the Food Out  the Door… Fast</h2>
             <p>In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
+            <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery">
+                <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="mb-1">
+            </a>
         </header>
         <div class="md-layout mb-1">
             <section class="md-layout-item md-size-50 md-small-size-100">
@@ -357,9 +360,6 @@
                 <p>A delivery service that also puts effort into decreasing food waste.</p>
             </section>
         </div>
-        <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="figure__mb">
-        </a>
         <section>
             <h3 class="text-center">Comparison</h3>
             <figure class="figure figure_is_table mt-0">
