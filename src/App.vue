@@ -30,9 +30,9 @@
 
     <!-- Drawer -->
     <md-app-drawer md-permanent="full" :md-active.sync="isActiveDrawer">
-      <router-link to="/" class="app-logo">
+      <a target="_blank" href="https://www.chefhero.com/" class="app-logo">
         <img :src="require('./assets/logo.svg')" alt="ChefHero" class="app-logo__image">
-      </router-link>
+      </a>
       <md-divider></md-divider>
       <md-steppers :md-active-step="$route.name" md-vertical>
         <md-step :id="route.name"
@@ -56,7 +56,7 @@
         <router-view></router-view>
       </md-content>
       
-      <div id="app-content-actions" v-if="$route.meta.needToShowInNavigation || ['starter'].indexOf($route.name) > -1">
+      <div id="app-content-actions" v-if="$route.meta.needToShowInNavigation">
         <md-button class="md-raised md-default" 
                     @click="goBack()" 
                     v-if="$route.name != 'starter'">Back</md-button>

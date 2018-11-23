@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Starter from './views/Starter.vue';
+import Title from './views/Title.vue';
 import Introduction from './views/Introduction.vue';
 import Chapter1 from './views/Chapter-1.vue';
 import Chapter2 from './views/Chapter-2.vue';
@@ -25,14 +25,15 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'starter',
+      name: 'title',
       meta: {
-        title: 'Starter',
+        title: 'Title',
         description: '',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
-      component: Starter
-      //component: () => import('./views/Introduction.vue')
+      component: Title
+      //component: () => import('./views/Title.vue')
     },
     {
       path: '/introduction',
