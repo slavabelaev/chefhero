@@ -57,10 +57,10 @@
       </md-content>
       
       <div id="app-content-actions" v-if="$route.meta.needToShowInNavigation">
-        <md-button class="md-raised md-default" 
+        <md-button class="md-raised md-default button__go-back" 
                     @click="goBack()" 
                     v-if="$route.name != 'starter'">Back</md-button>
-        <md-button class="md-raised md-primary" 
+        <md-button class="md-raised md-primary button__go-next" 
                    @click="goNext()" 
                    v-if="$route.name != 'conclusion'">Next</md-button>
       </div>
