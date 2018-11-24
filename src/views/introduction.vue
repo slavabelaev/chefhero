@@ -8,6 +8,16 @@
         <p>So, when it comes to the ones that make it past the first 5 years, what are they doing right and what steps can you take to ensure that you’re on the path to success?</p>
         <p>This ultimate guide will provide you with the tools and knowledge you need to succeed as a restaurateur, from  pre-launch to actually running your establishment.</p>
     </div>
-    <md-button to="/chapter/1" class="md-accent md-raised large-button">LET'S GET STARTED <md-icon>chevron_right</md-icon></md-button>
+    <md-button @click="goNext()" class="md-accent md-raised large-button">LET'S GET STARTED <md-icon>chevron_right</md-icon></md-button>
 </article>
 </template>
+
+<script>
+export default {
+    methods: {
+        goNext() {
+            document.querySelector('.button__go-next').click()
+        }
+    }
+}
+</script>
