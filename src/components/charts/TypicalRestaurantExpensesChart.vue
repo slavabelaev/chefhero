@@ -52,7 +52,8 @@ export default {
               fontSize: 16,
               usePointStyle: true,
               padding: 16
-            }
+            },
+            onClick: (e) => e.stopPropagation()
           },
           title: {
             display: false,

@@ -52,7 +52,7 @@ export default new Router({
       name: 'chapter-1',
       meta: {
         title: 'Restaurant Budgeting:',
-        description: 'Getting Your Numbers Right',
+        description: 'Getting your Numbers Right',
         keywords: '',
         needToShowInNavigation: true
       },

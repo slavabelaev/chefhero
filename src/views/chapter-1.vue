@@ -2,7 +2,7 @@
 <article id="chapter-1">
     <header>
         <div class="chapter-title">Chapter 1</div>
-        <h1>Restaurant budgeting: <br>Getting your numbers right</h1>
+        <h1>Restaurant Budgeting: <br>Getting your Numbers Right</h1>
         <address>
             <dl>
                 <dt>Written By:</dt>
@@ -22,7 +22,7 @@
     <section>
         <h3>Your Budget.</h3>
         <p>It will dictate what’s possible for your restaurant (and what’s not).</p>
-        <p>Having a well-researched, strategically outlined budget is imperative for any restaurant, new or old. And with all the responsibilities already involved in running an eatery — greet-ing guests, writing specials, managing payroll, maintaining kitchen equipment — administrative tasks like budgeting are easy to let fall by the wayside.</p>
+        <p>Having a well-researched, strategically outlined budget is imperative for any restaurant, new or old. And with all the responsibilities already involved in running an eatery — greeting guests, writing specials, managing payroll, maintaining kitchen equipment — administrative tasks like budgeting are easy to let fall by the wayside.</p>
         <p>Don’t fall into that trap. Budget planning is the savvy restaurateur’s first step towards success and profit. Here’s how.</p>
     </section>
     <section>
@@ -35,7 +35,7 @@
     <section>
         <h3>Who Should Be Involved In Budget Planning?</h3>
         <p>Unlike many facets of running a restaurant, budget planning shouldn’t involve your entire staff. It’s a task that’s better left to administrative staff, managers, supervisors, and any partners or investors who are heavily involved in your restaurant’s operations.</p>
-        <p>Managers (which should include executive chefs and entertainment managers, if your restaurant employs those) should have a hands-on involvement in setting the monthly, quarter-ly or annual budgets that they need to run their departments.</p>
+        <p>Managers (which should include executive chefs and entertainment managers, if your restaurant employs those) should have a hands-on involvement in setting the monthly, quarterly or annual budgets that they need to run their departments.</p>
         <p>And when setting your budget, it might be a good idea to have an attorney or financial planner present to oversee agreements, spending reports and other pertinent information.</p>
     </section>
     <section>
@@ -60,7 +60,7 @@
         <!-- /Budget Chart -->
         <p>With those percentages in mind, here’s a basic road map for actually planning out your budget<sup><a target="_blank" href="https://upserve.com/restaurant-insider/3-quick-steps-managing-restaurant-budget/">[2]</a></sup>:</p>
         <p>First, evaluate your current reality. This can’t just be an educated guess. Pull all your receipts, your purchase orders, your payroll. You need an accurate picture of your expenses and income right at this moment.</p>
-        <p>Next, calculate the return on investment (ROI) for everything in your budget. You need to know inside and out how much profit margin you’re getting for each dish on your menu. You have to balance that against the cost of hav-ing staff on the clock. If you have too many staff on at a time, the ROI on your staffing expenses won’t be great. If you’re overspending on ingredients, the ROI on your menu may need improvement. Figure out where you’re at now, and maybe set some goals about where you’d like to be.</p>
+        <p>Next, calculate the return on investment (ROI) for everything in your budget. You need to know inside and out how much profit margin you’re getting for each dish on your menu. You have to balance that against the cost of having staff on the clock. If you have too many staff on at a time, the ROI on your staffing expenses won’t be great. If you’re overspending on ingredients, the ROI on your menu may need improvement. Figure out where you’re at now, and maybe set some goals about where you’d like to be.</p>
         <p>Next, do a careful audit of your current overhead and income, and identify places where you need to make adjustments. Keep the percentages from the 68 percent formula in mind as you tweak different parts of your budget.</p>
         <p>Finally, replace the old with the new. Now that you have a budget plan, implement it and stick with it.</p>
     </section>
@@ -70,7 +70,7 @@
         <p>Depending on the state in which you’re opening and licensing a restaurant, permit fees can run up to $7,000. And it’s only after that that you get into the real costs of opening a new space.</p>
         <p>In some cases, opening a new 90-seat restaurant can run anywhere from $275,000 ($3,064 per seat) to $400,000 ($4,444 per seat). And those are just the ends of the median costs. Any unexpected setbacks could cause that cost to rise even more</p>
         <p>Opening a new restaurant is far from cheap, which is why it’s absolutely necessary to have a good business plan and a budget when you start. Here are just a few of the startup costs you need to plan for:</p>
-        <p>First, your venue. Market cost for a restaurant-friendly commercial space will vary wildly depending on your chosen lo-cation. In Chicago, for example, commercial space is now trending over $40 per square foot<sup><a target="_blank" href="https://www.chicagotribune.com/business/columnists/ct-prime-office-rents-ryan-ori-0321-biz-20170317-column.html">[4]</a></sup>. Compare that to Toron-to, where restaurant real estate can be as high as $100 per square foot in high-traffic neighborhoods<sup><a target="_blank" href="https://www.theglobeandmail.com/news/toronto/rising-rent-is-starving-torontos-restaurateurs/article35061520/">[5]</a></sup>.</p>
+        <p>First, your venue. Market cost for a restaurant-friendly commercial space will vary wildly depending on your chosen location. In Chicago, for example, commercial space is now trending over $40 per square foot<sup><a target="_blank" href="https://www.chicagotribune.com/business/columnists/ct-prime-office-rents-ryan-ori-0321-biz-20170317-column.html">[4]</a></sup>. Compare that to  Toronto, where restaurant real estate can be as high as $100 per square foot in high-traffic neighborhoods<sup><a target="_blank" href="https://www.theglobeandmail.com/news/toronto/rising-rent-is-starving-torontos-restaurateurs/article35061520/">[5]</a></sup>.</p>
         <p>As a general rule to follow when picking a location, your rent or lease agreement should not exceed 6 to 10 percent of your projected gross annual sales. If you can, get an assignable lease. That way, if a restaurant goes under, you’re able to  re-assign your lease to someone else and avoid bearing the cost after you close your doors.</p>
         <figure class="figure">
             <a :href="require('../assets/images/chapter__1_image_2.png')" target="_blank" data-fancybox="gallery">

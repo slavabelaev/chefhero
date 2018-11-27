@@ -34,7 +34,8 @@ export default {
           aspectRatio: (window.outerWidth <= 320) ? 1 : (window.outerWidth <= 960) ? 1.2 : 2,
           legend: {
             position: 'bottom',
-            labels: false
+            labels: false,
+            onClick: (e) => e.stopPropagation()
           },
           title: {
             display: false,
