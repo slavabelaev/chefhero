@@ -40,24 +40,24 @@
         <p>Calculate your food costs at least twice: once before you start selling the item, then again about a week after you’ve added it to your menu. The second calculation will ensure (or show) that you’re actually spending the same amount as your initial calculation.</p>
         <p>A dramatic change in overall food costs may also be a good time to revise your calculations. The more often you’re willing to run these numbers, the clearer a picture you’ll have.</p>
     </section>
-    <figure class="figure">
-        <figcaption class="figure__title">Maximizing Revenue and profit</figcaption>
-        <table class="table table-borderless mx-auto">
+    <figure class="figure figure_is_table">
+        <figcaption class="figure__title">Maximizing Revenue and Profit</figcaption>
+        <table class="table table-borderless mx-auto" width="100%">
             <thead>
                 <tr>
-                    <th class="p-0"></th>
+                    <th></th>
                     <th scope="col" class="bg-primary">Low Popularity</th>
                     <th scope="col" class="bg-danger">High Popularity</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="p-0"></td>
+                    <td>$ Low Profit</td>
                     <td class="bg-light">Downplay or remove</td>
                     <td>Create a premium version</td>
                 </tr>
                 <tr>
-                    <td class="p-0"></td>
+                    <td>$$$ High Profit</td>
                     <td class="bg-light">Promote as specials or use as a price anchor</td>
                     <td>Highlight these dishes prominently</td>
                 </tr>
@@ -65,7 +65,7 @@
         </table>
     </figure>
     <section>
-        <h2>Maximizing Revenue and profit</h2>
+        <h2>Maximizing Revenue and Profit</h2>
         <p>By analyzing your menu, either by hand or via the output from your POS, you’ll begin to notice some dishes will rise to the top and some will sink to the bottom.</p>
         <p>There are many ways to look at this, but the general consensus is to approach analyzing your dishes by breaking them Cost per meal is calculated by simply adding up the total cost of the ingredients used to make the dish. You can also turn this into a percentage by then dividing the cost by the menu price.Calculate your food costs at least twice: once before you start selling the item, then again about a week after you’ve added it to your menu. The second calculation will ensure (or show) that you’re actually spending the same amount as your initial calculation.  A dramatic change in overall food costs may also be a good time to revise your calculations. The more often you’re willing to run these numbers, the clearer a picture you’ll have.into four segments. Do this for each section of your menu so you have a list for every section customers would potentially order from (Appetizers, Desserts, Mains, etc).</p>
         <p>Be ruthless when you do this! Categorizing your menu in this way allows you to have an accurate sense of which dishes are your stars and which could stand to be reevaluated.</p>
@@ -85,7 +85,7 @@
     </a>
     <section>
         <h2>Menu Design Meets Psychology</h2>
-        <p>ehavioural psychology is one of the most fascinating  and overlooked fields for an aspiring business owner.</p>
+        <p>Behavioural psychology is one of the most fascinating  and overlooked fields for an aspiring business owner.</p>
         <p>Subtle forces that can influence and affect people’s behaviours are innumerable. There are a few that you should keep in mind when designing your menu, if for no other reason than to be aware of the possible effects your design decisions may have.</p>
         <p>In addition, it’s great to maintain an informed perspective on your patrons and industry overall.</p>
         <section>

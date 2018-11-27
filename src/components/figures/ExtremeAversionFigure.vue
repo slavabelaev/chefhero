@@ -31,7 +31,7 @@
             :style="{ backgroundImage: 'url(' + require('../../assets/images/high_burger.svg') + ')' }"></md-card-media>
           <md-card-header>
             <div class="md-title">$8</div>
-            <div class="md-subhead">Risk: Spending to much. May be to large.</div>
+            <div class="md-subhead">Risk: Spending too much. May be too large</div>
           </md-card-header>
         </md-card>
       </div>

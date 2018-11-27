@@ -22,7 +22,7 @@
     <a :href="require('../assets/images/chapter__9_image_1.png')" target="_blank" data-fancybox="gallery">
         <img :src="require('../assets/images/chapter__9_image_1.png')" alt="" class="figure">
     </a>
-    <p>It’s 2018, and there are countless applications and other technology tools that can help make the modern restaurateur’s job easier — or, at the very least, a little more efficient.</p>
+    <p>There are there are countless applications and other technology tools that can help make the modern restaurateur’s job easier — or, at the very least, a little more efficient.</p>
     <p>Technology can’t run the restaurant for you (yet), but it can sure help. Here are some of our top picks for apps and tech tools that will help streamline the job.</p>
     <section>
         <h2>How to Develop a  Dazzling Website for  your Restaurant</h2>
@@ -53,7 +53,7 @@
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
-                <p>Looking for specific features or price point for your website? Find the platform that best suits your needs here.</p>
+                <p>Looking for specific features or price point for your website? Find the platform that best suits <br>your needs here.</p>
             </header>
             <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Restaurant Website Builders</figcaption>
@@ -120,7 +120,7 @@
         </section>
     </section>
     <section>
-        <header class="text-center">
+        <header>
             <h2>Make Point of Sale (POS) Efficient and Simple</h2>
             <p>Ever been working when the POS went down? It’s a nightmare for everyone in the restaurant, from management to service staff to customers. Avoid that by getting the best POS software out there.</p>
         </header>
@@ -186,7 +186,7 @@
         </section>
     </section>
     <section>
-        <h2 class="text-center">Handle your Books, Don’t Let Them Handle you</h2>
+        <h2>Handle your Books, Don’t Let Them Handle you</h2>
         <div class="md-layout figure__mb">
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.xero.com/us/" target="_blank">Xero</a></h3>
@@ -208,7 +208,7 @@
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
-                <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, see below.</p>
+                <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, <br>see below.</p>
             </header>
             <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Accounting</figcaption>
@@ -264,7 +264,7 @@
         </section>
     </section>
     <section>
-        <header class="text-center">
+        <header>
             <h2>Find the Right Talent</h2>
             <p>One of the most important parts of running your restaurant is having talented, skilled staff. Try these recruiting apps and sites to find the best.</p>
         </header>
@@ -289,7 +289,7 @@
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
-                <p>Find the best talent without having to shell out for a recruiter using these budget-friendly online job boards.</p>
+                <p>Find the best talent without having to shell out for a recruiter using these budget-friendly <br>online job boards.</p>
             </header>
             <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Hiring</figcaption>
@@ -335,8 +335,8 @@
         </section>
     </section>
     <section>
-        <header class="text-center">
-            <h2>Get the Food Out  the Door… Fast</h2>
+        <header>
+            <h2>Get Food Out the Door… Fast</h2>
             <p>In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
             <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery">
                 <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="mb-1">
@@ -399,7 +399,7 @@
         </section>
     </section>
     <section>
-        <header class="text-center">
+        <header>
             <h2>Get Social with your Customers</h2>
             <p>One of the most important parts of running your restaurant is having talented, skilled staff. Try these recruiting apps and sites to find the best.</p>
         </header>
