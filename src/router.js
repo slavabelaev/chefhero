@@ -27,7 +27,7 @@ export default new Router({
       path: '/',
       name: 'title',
       meta: {
-        title: 'Title',
+        title: 'Start',
         description: '',
         keywords: '',
         needToShowInNavigation: true
