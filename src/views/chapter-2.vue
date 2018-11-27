@@ -48,9 +48,9 @@
         <p>How you decorate will depend a great deal on your restaurant concept. For example, a fast-casual restaurant and a fine dining establishment will not look the same.</p>
         <p>But there are some design principles that any restaurateur can implement to make a space look its best on a budget.</p>
         <p>Outfit the space with good-looking but low maintenance plants, like ferns or succulents. Greenery can make an indoor space look much brighter and more inviting.</p>
-        <div class="md-layout">
+        <div class="md-layout figure mb-0">
             <div class="md-layout-item md-small-size-100 p-0">
-                <p class="pr-1">You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
+                <p class="pr-large-2">You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
             </div>
             <div class="md-layout-item md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_2.png')" target="_blank" data-fancybox="gallery">
@@ -77,7 +77,7 @@
                 </a>
             </div>
             <div class="md-layout-item md-small-size-100 p-0">
-                <p class="p-1">Another way to add some life to your space is to offer nontraditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
+                <p class="p-large-2">Another way to add some life to your space is to offer nontraditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
             </div>
         </div>
     </section>
@@ -88,12 +88,12 @@
         <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
                 <a :href="require('../assets/images/chapter__2_image_6.jpg')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_6.jpg')" alt="">
+                    <img :src="require('../assets/images/chapter__2_image_6.jpg')" alt="" class="figure mt-0">
                 </a>
             </div>
             <div class="md-layout-item md-small-size-100">
                 <a :href="require('../assets/images/chapter__2_image_7.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_7.png')" alt="">
+                    <img :src="require('../assets/images/chapter__2_image_7.png')" alt="" class="figure mt-0">
                 </a>
             </div>
         </div>

@@ -12,7 +12,7 @@
         <section id="in-this-chapter">
             <h3>In this chapter:</h3>
             <ul>
-                <li>Learn about the ways to reduce your restaurants footprint</li>
+                <li>Learn about the ways to reduce your restaurant’s footprint</li>
                 <li>Food safe ways to reuse materials</li>
                 <li>How to improve your recycling program</li>
             </ul>
@@ -21,7 +21,7 @@
     <p>It’s no secret that consumers are becoming more eco-conscious. They want green products, sustainable manufacturing and ethically sourced products.</p>
     <p>And restaurants can benefit from this push for sustainability<sup><a href="https://canadabusiness.ca/business-planning/writing-your-business-plan/#toc6" target="_blank">[30]</a></sup>. Many modern-day consumers are willing to pay more for ethically sourced, sustainably manufactured goods and services<sup><a href="https://www.sustridge.com/single-post/Sustainability-in-the-Restaurant-Industry-Time-to-Fire-It-Up" target="_blank">[31]</a></sup>. And that means diners are often willing to pay more to eat at restaurants that practice environmentalism.</p>
     <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especially those who strive to reduce their impact in their own lives.</p>
-    <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especially those who strive to reduce their impact in their own lives.No matter what changes you make to your restaurant to make it more sustainable and environmentally friendly, be sure to let your local community know about them. Advertise on your website or social media. Tell your diners when they come to your restaurant. Word will spread, and it’ll bring more and more eco-conscious diners to your door.</p>
+    <p>No matter what changes you make to your restaurant to make it more sustainable and environmentally friendly, be sure to let your local community know about them. Advertise on your website or social media. Tell your diners when they come to your restaurant. Word will spread, and it’ll bring more and more eco-conscious diners to your door.</p>
     <p>First, you have to make some changes. Here’s a step-by-step guide to running an ecologically conscious restaurant.</p>
     <section>
         <h2>Reduce</h2>

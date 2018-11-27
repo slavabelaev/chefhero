@@ -2,21 +2,25 @@
 	margin: 0;
 	text-align: center;
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	overflow: scroll;
 	img {
 		margin-bottom: 0;
 	}
 }
 .brands-figure__link {
-	margin: 0 .5rem .5rem;
-    width: 65px;
+	margin: 0 1rem;
+    min-width: 110px;
+    max-width: 110px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 960px) {
+	.brands-figure {
+		flex-wrap: wrap;
+		justify-content: center;
+		overflow: initial;
+	}
 	.brands-figure__link {
-		width: 110px;
 		margin: 0 1rem 1rem;
 	}
 }

@@ -188,7 +188,12 @@ article {
 .border-accent {
 	border-color: $accent;
 }
-
+.d-block {
+	display: block;
+}
+.w-100 {
+	width: 100%;
+}
 @media (min-width: 961px) {
 	article {
 		h1 {
@@ -220,5 +225,13 @@ article {
 
 	[columns="2"] {
 		column-count: 2;
+	}
+
+	
+	.p-large-2 {
+		padding: ($margin * 2)!important;
+	}
+	.pr-large-2 {
+		padding-right: ($margin * 2)!important;
 	}
 }
