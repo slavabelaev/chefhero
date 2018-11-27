@@ -31,7 +31,7 @@
         </a>
         <p>Another great way to deliver consistently excellent experiences is to personalize your customer service to each guest<sup><a href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[21]</a></sup>. Maintain a guest database and use it to offer special promotions to loyal customers. Encourage servers to get to know regulars and address them by name. Train your staff to know the menu well enough to offer suggestions based on what customers like or what they’ve already ordered. Recommending the perfect drink or dessert to compliment a meal will make a customer feel especially taken care of.</p>
         <figure class="figure mb-1">
-            <figcaption class="figure__title">Restaurants can experience a 216% increase in revenue for going above & beyond.</figcaption>
+            <figcaption class="figure__title">Restaurants can experience a 216% increase in revenue for going <br>above & beyond.</figcaption>
             <div class="md-layout">
                 <div class="md-layout-item md-small-size-100">
                     <a :href="require('../assets/images/chapter__6_image_2.png')" target="_blank" data-fancybox="gallery">
@@ -63,13 +63,13 @@
         <p>First, standardize your products and your process. Make sure you’re getting consistently fresh, high-quality ingredients from your suppliers, and if you’re not, change suppliers. Eliminate variability in how different chefs create your dishes by documenting recipes and making sure everyone follows them.</p>
         <p>It’s also a good idea to simplify your menu. The more complex your menu or any given dish is, the more opportunities there are for it to vary. Find ways to simplify recipes without sacrificing flavor. Consider that when it comes to the size of your menu, less is more — focus on a smaller number of dishes you know your staff can execute perfectly, rather than an overabundance of choice.</p>
         <p>In addition to standardization and simplification, train your staff. Make sure everyone involved in cooking and food preparation understands the menu and the standardization process, so there’s no human error causing variances in the food. Train servers to know the menu inside and out so they can answer questions guests may have about specific dishes or ingredients.</p>
-        <p>And lastly, like with general customer service, take advantage of feedback from your guests. Ask them for their comments and concerns, both to make them feel heard, and to gather information about whether your food is as consistent as it should be.</p>
+        <p class="mb-0">And lastly, like with general customer service, take advantage of feedback from your guests. Ask them for their comments and concerns, both to make them feel heard, and to gather information about whether your food is as consistent as it should be.</p>
+        <a :href="require('../assets/images/chapter__6_image_4.png')" target="_blank" data-fancybox="gallery">
+            <img :src="require('../assets/images/chapter__6_image_4.png')" alt="" class="figure has-border">
+        </a>
         <p>Use their comments to identify any problems with your food consistency and address them head-on.</p>
         <p>Modern customers, in all industries, have high expectations for customer service. But in restaurants, where there’s so much competition, providing customer service that wows your guests is necessary if you want to stand out. Restaurant owners know that repeat business is a vital part of any eatery’s success. Great customer service will beget happy, loyal customers who visit over and over again, which lays the foundation for years of success.</p>
         <p class="mb-0">Customer service is what motivates people to come back to your restaurant. But your menu is what makes it profitable (or not). In the next section, we will go over strategies to help you optimize your menu to be more profitable.</p>
     </section>
-    <a :href="require('../assets/images/chapter__6_image_4.png')" target="_blank" data-fancybox="gallery">
-        <img :src="require('../assets/images/chapter__6_image_4.png')" alt="" class="mb-0 figure">
-    </a>
 </article>
 </template>

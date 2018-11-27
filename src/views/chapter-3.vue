@@ -267,7 +267,7 @@
             <p>However, for someone just starting their business, there are great free-to-cheap options to be found with talented individuals on gig-based sites, such as Fiverr, Upwork and Freelancer. If you get frustrated when designing your logo, check out some of the portfolios by designers within your budget — you’ll be surprised at the quality of work you can find.</p>
             <p>If this seems overwhelming don’t let it be! Start with a simple design that you’re happy with and build out from there. If you hit a roadblock, there are thousands of free resources and professionals who can help assist in designing your logo.</p>
             <p>Try them out and see which one speaks to you.</p>
-            <p>We like Logojoy, not just for their reasonable prices, but also for the inspirational logo generation processes.</p>
+            <p>We like <a target="_blank" href="https://logojoy.com/">Logojoy</a>, not just for their reasonable prices, but also for the inspirational logo generation processes.</p>
             <p>Here are a few other fantastic options to get you started:</p>
             <ul columns="2">
                 <li><a target="_blank" href="https://www.designcrowd.com/">Designcrowd</a></li>

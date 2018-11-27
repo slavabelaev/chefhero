@@ -102,11 +102,18 @@ article {
 	}
 }
 
+.has-border {
+	border-radius: 3px;
+	border: $primary 4px solid;
+}
+
 .dl-inline {
-	display: flex;
+	dt,
 	dd {
-		margin-left: 12px;
-		margin-bottom: 0;
+		display: inline;
+	}
+	dd {
+		margin-left: .5rem;
 	}
 }
 
