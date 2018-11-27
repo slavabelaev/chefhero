@@ -5,7 +5,7 @@
         <h1>Restaurant Branding: <br>Concept, Brand Identity, Naming, and Logos</h1>
         <address>
             <dl>
-                <dt>Written by:</dt>
+                <dt>Written By:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>

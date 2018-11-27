@@ -5,7 +5,7 @@
         <h1>Location, Space and Personality: <br>Setting the Scene for a Winning Restaurant</h1>
         <address>
             <dl>
-                <dt>Written by:</dt>
+                <dt>Written By:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
         </address>        

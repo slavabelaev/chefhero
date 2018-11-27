@@ -5,7 +5,7 @@
         <h1>Taking Restaurant Customer Service to the Next Level: <br>Strategies and Results</h1>
         <address>
             <dl>
-                <dt>Written by:</dt>
+                <dt>Written By:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b8ebd7a03ce6447fa53656c">Ben Lucier</a></dd>
             </dl>
         </address>

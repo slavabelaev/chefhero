@@ -5,7 +5,7 @@
         <h1>A starter guide to Instagram marketing for restaurateurs</h1>
         <address>
             <dl>
-                <dt>Written by:</dt>
+                <dt>Written By:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin</a></dd>
             </dl>
         </address>
