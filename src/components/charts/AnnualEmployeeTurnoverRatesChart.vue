@@ -40,7 +40,8 @@ export default {
               fontSize: 16,
               fontColor: '#076A73',
               usePointStyle: true
-            }
+            },
+            onClick: (e) => e.stopPropagation()
           },
           title: {
             display: false,

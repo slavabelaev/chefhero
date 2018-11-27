@@ -27,7 +27,7 @@ export default new Router({
       path: '/',
       name: 'title',
       meta: {
-        title: 'Title',
+        title: 'Start',
         description: '',
         keywords: '',
         needToShowInNavigation: true
@@ -52,7 +52,7 @@ export default new Router({
       name: 'chapter-1',
       meta: {
         title: 'Restaurant Budgeting:',
-        description: 'Getting Your Numbers Right',
+        description: 'Getting your Numbers Right',
         keywords: '',
         needToShowInNavigation: true
       },
@@ -197,7 +197,8 @@ export default new Router({
       meta: {
         title: 'About ChefHero',
         description: '',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: About
       //component: () => import('./views/About.vue')

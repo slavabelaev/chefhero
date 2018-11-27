@@ -5,7 +5,7 @@
         <h1>14 Essential Restaurant Metrics Every Owner Should Measure and Track</h1>
         <address>
             <dl>
-                <dt>Written by:</dt>
+                <dt>Written By:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>
@@ -18,7 +18,7 @@
         </section>
     </header>
     <p>Whether you’re just starting to price out your dream restaurant or checking on the overall health of your business, there are several metrics you should continually keep track of.</p>
-    <p>These metrics represent different ways of looking at the health of a business-allowing you to set goals, identify trends both positive and negative, and accurately gauge results of the operational tweaks you may make to your restaurant.</p>
+    <p>These metrics represent different ways of looking at the health of a business allowing you to set goals, identify trends both positive and negative, and accurately gauge results of the operational tweaks you may make to your restaurant.</p>
     <section>
         <h2>Metric #1: Break-Even Point</h2>
         <section>
@@ -70,7 +70,7 @@
         </section>
         <section>
             <h3>When to calculate:</h3>
-            <p>Calculate your break-even point before you open your business, then adjust accordingly as you accrue various business expenses. Use this figure to quickly justify a big new pur-chase or launch a marketing campaign.</p>
+            <p>Calculate your break-even point before you open your business, then adjust accordingly as you accrue various business expenses. Use this figure to quickly justify a big new purchase or launch a marketing campaign.</p>
         </section>
         <section>
             <h3>Good to know:</h3>
@@ -88,7 +88,7 @@
         <h2>Metric #2: Overhead Rate</h2>
         <section>
             <h3>What it is:</h3>
-            <p>Fixed costs (or overhead) are just that — repeating, expect-ed business expenses that typically do not change in cost, which are invoiced then paid on a periodic basis. These could include rent, insurance, property taxes, equipment rentals, utilities, and monthly or non-rate driven employee salaries. When calculated as a rate, this tells you how much you are spending each day, week, month, or year just to keep the doors open.</p>
+            <p>Fixed costs (or overhead) are just that — repeating, expected business expenses that typically do not change in cost, which are invoiced then paid on a periodic basis. These could include rent, insurance, property taxes, equipment rentals, utilities, and monthly or non-rate driven employee salaries. When calculated as a rate, this tells you how much you are spending each day, week, month, or year just to keep the doors open.</p>
         </section>
         <section>
             <h3>Why it’s important:</h3>
@@ -219,7 +219,7 @@
         <section>
             <h3>How to calculate:</h3>
             <ol>
-                <li><strong>Determine a period</strong> — one way to go about this is to collect all the elements which will be included in your food cost calculations (gross sales, inventories, and purchases) and create your period based on this time frame. For example, if you purchase goods and do inventory twice per month, check your food cost percentage on a bi-weekly basis.</li>
+                <li><strong>Determine a period</strong> — one way to go about this is to collect all the elements which will be included in your food cost calculations (gross sales, inventories, and purchases) and create your period based on this time frame. For example, if you purchase goods and do inventory twice per month, check your food cost percentage on a biweekly basis.</li>
                 <li><strong>Determine your total gross sales</strong> — for this period let’s say you sold $20,000 worth of food and beverages.</li>
                 <li><strong>Determine your food cost (CoGS)</strong> using the calculation above.</li>
                 <li><strong></strong>Calculate your food cost % using the calculation below.</li>
@@ -259,7 +259,7 @@
         <h2>Metric #5: Labour Cost Percentage</h2>
         <section>
             <h3>What it is:</h3>
-            <p>Similar to food cost percentage, labour cost and its percent-age is the amount you spend on labour relative to the total sales for a given period. Minimum wage and tip amounts, beverage sales, quality of food and service, pricing, and hours of operation all greatly impact your food and labour costs.</p>
+            <p>Similar to food cost percentage, labour cost and its percentage is the amount you spend on labour relative to the total sales for a given period. Minimum wage and tip amounts, beverage sales, quality of food and service, pricing, and hours of operation all greatly impact your food and labour costs.</p>
             <p>Why it’s important: Much like food costs, labour costs, when analyzed month-over-month, can quickly help you identify operational issues within your business.</p>
         </section>
         <section>
@@ -470,7 +470,7 @@
         <section>
             <h3>How to calculate:</h3>
             <ol>
-                <li>To express your net profits as a profit margin percent-age, <strong>divide your net profit by your total gross monthly sales.</strong></li>
+                <li>To express your net profits as a profit margin percentage, <strong>divide your net profit by your total gross monthly sales.</strong></li>
                 <li><strong>Multiply by 100 to get a percentage.</strong></li>
             </ol>
         </section>
@@ -509,7 +509,7 @@
         </section>
         <section>
             <h3>Why it’s important:</h3>
-            <p>Based on the type of restaurant you’re running, turnover rates will be different. Fast casual restaurants with a lower price point will have a higher turnover rate, where a more laid back, but higher-in price establishment will have a lower one, often making the number of sales/time in drinks or desserts.</p>
+            <p>Based on the type of restaurant you’re running, turnover rates will be different. Fast casual restaurants with a lower price point will have a higher turnover rate, where a more laid back, but higher in price establishment will have a lower one, often making the number of sales/time in drinks or desserts.</p>
             <p>Keeping an eye on this metric can help you determine how much staff you’ll need during certain periods.</p>
         </section>
         <section>

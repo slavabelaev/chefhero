@@ -20,7 +20,7 @@
           <md-button v-if="supportPrint()" @click="printPage()" class="md-icon-button">
             <md-icon>print</md-icon>
           </md-button>
-          <md-button @click="isActiveAboutDialog = true" class="md-icon-button">
+          <md-button to="/about" class="md-icon-button">
             <md-icon>help_outline</md-icon>
           </md-button>
         </div>
@@ -62,20 +62,8 @@
                     v-if="$route.name != 'starter'">Back</md-button>
         <md-button class="md-raised md-primary button__go-next" 
                    @click="goNext()" 
-                   v-if="$route.name != 'conclusion'">Next</md-button>
+                   v-if="$route.name != 'about'">Next</md-button>
       </div>
-
-      <!-- About Dialog -->
-      <md-dialog :md-active.sync="isActiveAboutDialog">
-        <md-content id="app-about">
-          <app-about></app-about>
-        </md-content>
-        <md-dialog-actions>
-          <md-button target="_blank" href="https://www.chefhero.com/" class="md-primary md-raised">Get to know us</md-button>
-          <md-button class="md-primary" @click="isActiveAboutDialog = false">Close</md-button>
-        </md-dialog-actions>
-      </md-dialog>
-      <!-- /About Dialog -->
     </md-app-content>
   </md-app>
 </template>

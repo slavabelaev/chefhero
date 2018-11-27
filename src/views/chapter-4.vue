@@ -2,17 +2,17 @@
 <article id="chapter-4">
     <header>
         <div class="chapter-title">Chapter 4</div>
-        <h1>Kickstarting Your New Restaurant Business</h1>
+        <h1>5 Steps to Kickstart your New Restaurant Business</h1>
         <address>
             <dl>
-                <dt>Written by:</dt>
+                <dt>Written By:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
             </dl>
         </address>
         <section id="in-this-chapter">
             <h3>In this chapter:</h3>
             <ul>
-                <li>Getting your office back in order</li>
+                <li>Getting your back office in order</li>
                 <li>Establishing your online presence: website, social and more</li>
                 <li>Finding the right talent (sneak peak)</li>
             </ul>
@@ -21,7 +21,7 @@
     <p>Always dreamed of opening your own restaurant but weren’t sure where to start? Of course, there are many factors that go into planning your restaurant. But, getting the basics right is absolutely critical to success.</p>
     <p>Let’s look at five of the most important steps you can take to get off on the right foot and set yourself up for years of success in the restaurant industry.</p>
     <section>
-        <h2>Step #1: Get Your Office Back In Order</h2>
+        <h2>Step #1: Get your Back Office in Order</h2>
         <p>Before you take any steps with your restaurant, you want to get all of the legal and financial stuff sorted out. The worst situation to put yourself in is trying to scramble to figure out your accounting procedure 6 months after the restaurant is open.</p>
         <p>Get the basics figured out now and you won’t have to worry about them down the road.</p>
         <section>
@@ -68,13 +68,17 @@
             <p>Choosing the right domain name can have a huge impact on your web presence — and your entire business. You want something that’s short and memorable, but you also have to compete with other businesses all over the world to find just the right one.</p>
             <p>So you’ll need to get a bit creative in coming up with just the right domain name to capture your brand without making it so long or complex that it’s impossible to remember.</p>
             <p>There are a few factors to keep in mind when making the right choice.</p>
-            <dl>
+            <dl class="dl-inline">
                 <dt>Length:</dt>
                 <dd>Is it easy to remember? Keep it as short as you can.</dd>
+            </dl>
+            <dl class="dl-inline">
                 <dt>TLD (top-level domain):</dt>
-                <dd> - the characters after the “dot”: Examples would be .com, .ca, .food, etc<sup><a href="https://en.wikipedia.org/wiki/Top-level_domain" target="_blank">[13]</a></sup>. Now with more than a hundred TDL options to choose from, you can get really creative with the domain name you choose for your restaurant. Of course, getting a “.com” is probably still your first choice. But people are quickly getting used to other domain endings, so don’t be afraid to try another option.</dd>
+                <dd>The characters after the “dot”: Examples would be .com, .ca, .food, etc<sup><a href="https://en.wikipedia.org/wiki/Top-level_domain" target="_blank">[13]</a></sup>. Now with more than a hundred TDL options to choose from, you can get really creative with the domain name you choose for your restaurant. Of course, getting a “.com” is probably still your first choice. But people are quickly getting used to other domain endings, so don’t be afraid to try another option.</dd>
+            </dl>
+            <dl class="dl-inline">
                 <dt>Price:</dt>
-                <dd>Domain names should range from $9.99 to 59.99 for most common TLDs. This will cover your domain registration for 12 months. If you’re looking at a “premium” domain that will cost a lot more, you may want to wait until you have established your business further.</dd>
+                <dd>Domain names should range from $9.99 to $59.99 for most common TLDs. This will cover your domain registration for 12 months. If you’re looking at a “premium” domain that will cost a lot more, you may want to wait until you have established your business further.</dd>
             </dl>
             <p>Keep in mind that you can update your domain in the future. So, settling for something that’s less than perfect now may be a smart choice until you can get the name you really want.</p>
             <p>Providers: enon, NameCheap, GoDaddy, and many more.</p>
@@ -122,8 +126,8 @@
             <p>Without getting too technical, there are 3 main ways to build a modern website:</p>
             <ol>
                 <li><strong>Custom-built website</strong> - Hand-coded web page that is designed and uploaded directly to your web host</li>
-                <li><strong>Content management system (CMS)</strong> - Web editing software that lets you update content on your web-site just like you’re editing a text document; can use either pre-built templates or 100% custom designs.</li>
-                <li><strong>Website builder</strong> - Drag-and-drop or WYSIWYG editor that lets you build a website from pre-designed tem-plates and sections.</li>
+                <li><strong>Content management system (CMS)</strong> - Web editing software that lets you update content on your website just like you’re editing a text document; can use either pre-built templates or 100% custom designs.</li>
+                <li><strong>Website builder</strong> - Drag-and-drop or WYSIWYG editor that lets you build a website from pre-designed templates and sections.</li>
             </ol>
             <p>There’s no clear-cut winner on which one is best for every situation, but there are some key considerations that can help you decide which one is best for you.</p>
             <dl>
@@ -136,10 +140,10 @@
             </dl>
         </section>
     </section>
-    <section>
-        <h2>Step #4: Establish Your Social Media Presence</h2>
+    <section class="pt-1">
         <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
+                <h2>Step #4: Establish Your Social Media Presence</h2>
                 <p>Looking beyond just your website, you also need to start to build a brand for your restaurant online <sup><a href="https://www.chefhero.com/blog/2018/7/2/restaurant-branding-concept-brand-identity-naming-and-logos" target="_blank">[14]</a></sup>. You probably know that social media is a great way to connect with potential diners, share updates, and market your business.</p>
                 <p>For step 4, let’s walk through the basics of establishing your presence on social and what you need to know.</p>
             </div>
@@ -152,19 +156,19 @@
         <section>
             <h3>Decide Which Channels are for You</h3>
             <p>It seems like every week, there is a new app or social site that is taking over the world. Resist the urge to jump on every new trend or fad.</p>
-            <p>Don’t register for every social media platform under the sun. If you’re like most businesses, you don’t have the time, fo-cus, or resources to successfully manage more than 2 social channels really well. Since on social media it’s better to do nothing than haphazardly do very little, choose 1-2 channels wisely and focus all of your efforts here. For a restaurant, Instagram and Facebook are pretty straightforward choices.</p>
+            <p>Don’t register for every social media platform under the sun. If you’re like most businesses, you don’t have the time, focus, or resources to successfully manage more than 2 social channels really well. Since on social media it’s better to do nothing than haphazardly do very little, choose 1-2 channels wisely and focus all of your efforts here. For a restaurant, Instagram and Facebook are pretty straightforward choices.</p>
             <p>If you’re ambitious or you have a mobile food business, it may make sense to use a real-time platform like Twitter or Snapchat. But don’t feel compelled to use them if you’re not comfortable and familiar with them already.</p>
         </section>
         <section>
             <h3>Choose a Handle</h3>
             <p>When it comes time to select your social media accounts and set up your online presence, keep these few tips in mind to choose the perfect handle for your business.</p>
             <p>If possible, use the same handle across all channels. For example: facebook.com / AwesomeRestaurant,  @AwesomeRestaurant on Instagram & Twitter, and  www.awesomerestaurant.ca on the web. It’s just good for branding.</p>
-            <p>Double check the exact same name is available with all other channels you’re going to use to grow your brand before reg-istering an account with any platform. With any marketing or branding strategy, consistency across all channels is key.</p>
+            <p>Double check the exact same name is available with all other channels you’re going to use to grow your brand before registering an account with any platform. With any marketing or branding strategy, consistency across all channels is key.</p>
         </section>
     </section>
     <section>
         <h2>Step #5: Find the Right Talent</h2>
-        <p>Finding, hiring, and retaining the right talent isn't an easy task for any business. It has become an employee’s market — meaning there are currently more open available job positions being posted than there are top candidates avail-able to fill these positions. As an employer, you can’t and won’t ever win on compensation alone.</p>
+        <p>Finding, hiring, and retaining the right talent isn't an easy task for any business. It has become an employee’s market — meaning there are currently more open available job positions being posted than there are top candidates available to fill these positions. As an employer, you can’t and won’t ever win on compensation alone.</p>
         <p>That means getting smart about where and how you look to find team members.</p>
         <p>In the next section, we will go into all of the things that come with finding (and retaining) the right talent. From writing job descriptions to keeping your employees feeling challenged, we cover it all.</p>
     </section>

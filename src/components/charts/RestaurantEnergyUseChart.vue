@@ -18,10 +18,9 @@ export default {
         type: 'doughnut',
         data: {
           datasets: [{
-            data: [9.8, 3.7, 5.6, 16.6, 6.8, .5, .5, 24.4, 15.7, 16.4],
+            data: [9.8, 5.6, 16.6, 6.8, .5, .5, 24.4, 15.7, 16.4, 3.7],
             backgroundColor: [
               '#F2C9C9',
-              '#E8A6A6',
               '#FA5C66',
               '#42AB7D',
               '#8FCCB0',
@@ -29,13 +28,13 @@ export default {
               '#176B73',
               '#4F969E',
               '#176B73',
-              '#0D363B'
+              '#0D363B',
+              '#E8A6A6'
             ],
             borderWidth: 0
           }],
           labels: [
             'Lighting',
-            'Other',
             'Ventilation',
             'Heating',
             'Cooling',
@@ -43,7 +42,8 @@ export default {
             'Office Equipment',
             'Food Prep',
             'Sanitation',
-            'Refrigiration'
+            'Refrigiration',
+            'Other'
           ]
         },
         options: {
@@ -57,7 +57,8 @@ export default {
               fontSize: 16,
               usePointStyle: true,
               padding: 24
-            }
+            },
+            onClick: (e) => e.stopPropagation()
           },
           title: {
             display: false,
@@ -83,7 +84,7 @@ export default {
             labels: {
               render: 'percentage',
               precision: 2,
-              fontColor: (data) => (data.index === 6 ? 'transparent' : '#FFFFFF'),
+              fontColor: (data) => (data.index === 5 ? 'transparent' : '#FFFFFF'),
               fontStyle: 'bold',
               fontSize: 16
             }

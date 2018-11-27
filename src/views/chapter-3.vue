@@ -5,7 +5,7 @@
         <h1>Restaurant Branding: <br>Concept, Brand Identity, Naming, and Logos</h1>
         <address>
             <dl>
-                <dt>Written by:</dt>
+                <dt>Written By:</dt>
                 <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>
@@ -84,7 +84,7 @@
             <p>While some restaurateurs take to the branding and marketing quickly, others just want to get cooking and deal with the outward facing business stuff later. Trust us, taking the time to get your thoughts in order now is the best way to start on the right foot.</p>
             <p>Starting out with a clear idea of who you are will actually make life easier!</p>
             <p>When something doesn't quite fit with your brand or vision, instead of agonizing over the decision whether or not to keep it, you can immediately throw it out without hesitation. A clear brand identity and vision for your business can help you stay true to what brought you to the industry in the first place, while swiftly and simultaneously helping to neutralize competing interests.</p>
-            <p>When your “why” is your guiding principle, the brand identity makes up the visual and emotional components that convert non-believers to disciples. It will also allow you as an owner-operator to make clear, educated decisions regarding future design attributes, financing, and the hiring of a team that meet your values and messaging — key factors which will assist in controlling future labor costs.</p>
+            <p>When your “why” is your guiding principle, the brand identity makes up the visual and emotional components that convert nonbelievers to disciples. It will also allow you as an owner-operator to make clear, educated decisions regarding future design attributes, financing, and the hiring of a team that meet your values and messaging — key factors which will assist in controlling future labor costs.</p>
             <ol class="questions-figure figure__my">
                 <li>What?</li>
                 <li>How?</li>
@@ -102,7 +102,7 @@
                 <li>What demographic (who) does your restaurant appeal to?</li>
                 <li>What will be included in your menu? A continuously shifting seasonal menu, or a sit-down eatery offering a variety of cuisines?</li>
                 <li>What elements of service will you provide? Which  are the most important to you that must be present in your restaurant each day, and which elements can be sacrificed?</li>
-                <li>Are you a fast-casual establishment or leisurely escape? Dine-in only or will you also offer  take-out?</li>
+                <li>Are you a fast-casual establishment or leisurely escape? Dine in only or will you also offer  take-out?</li>
             </ul>
         </section>
         <section>
@@ -121,7 +121,7 @@
             <p>Here’s where it gets a little abstract — stay with us. This may feel a little weird but trust us, it helps.</p>
             <p>What’s your restaurant’s personality? Are you fun or serious? Making jokes all the time or sharing the joy of cooking through a reverence for your craft? Think of a celebrity chef, musician, or movie star that you admire. What are the other elements associated with their brand that you’d like to see reflected in yours?</p>
             <ul>
-                <li>What’s your relationship with your customers go-ing to be like? Are you an entertainer? A provider? Will you educate your customers about a particular  food movement, dietary style or technique, or perhaps hold open classes during off-hours for aspiring chefs?</li>
+                <li>What’s your relationship with your customers going to be like? Are you an entertainer? A provider? Will you educate your customers about a particular  food movement, dietary style or technique, or perhaps hold open classes during off-hours for aspiring chefs?</li>
                 <li>What’s your story? How did you start and where did you come from? What was the defining moment in your past when you decided this was the life you’d like to aspire to? Why? Understanding these key concepts is  another important part of building your “True North Star” — the driving force behind all of your organization’s key business decisions.</li>
             </ul>
         </section>
@@ -142,7 +142,7 @@
         <section>
             <h3>Choosing a Name</h3>
             <p>While the saying, "it’s all in a name" may be a little bit of an exaggeration, it’s also not entirely off base.</p>
-            <p>The name of your restaurant is something you’re going to stand behind for years to come. It should reflect who you are, what you want to portray to your future diners, and, most of all, give at least some indication of your business and ex-pected experience.</p>
+            <p>The name of your restaurant is something you’re going to stand behind for years to come. It should reflect who you are, what you want to portray to your future diners, and, most of all, give at least some indication of your business and expected experience.</p>
             <p>Sure, names can be all over the place in terms of actual restaurant experience, but think about it; naming your restaurant “Richard’s Eatery” conjures up different mental images than “Rick’s Eatery,” or even “Rick’s Pub.</p>
             <p>Here’s where to start:</p>
             <ul>
@@ -173,11 +173,11 @@
             <p>Choosing a logo can be a lengthy process, but it’s worth taking the time to get it right. First, try to decide what type of logo you want to use. There are three main types of logos:</p>
             <ol>
                 <li><strong>Font-based logos</strong> such as Licks, Coca-Cola,  Tim Hortons, and Google that use their company’s name right within their logo design.</li>
-                <li><strong>Illustration-based</strong> logos typically include a small cartoon-style image and somewhat illustrate what it is the company does. For example a men’s tie boutique may use a tie icon within their logo design, with real-life examples including most sports team logos.
+                <li><strong>Illustration-based</strong> logos typically include a small cartoon-style image and somewhat illustrate what it is the company does. For example a men’s tie boutique may use a tie icon within their logo design, with real life examples including most sports team logos.
                 </li>
                 <li><strong>Abstract logos</strong> usually contain obscure graphics or symbols which may or may not have anything to do with the business at all. That doesn’t mean that the logo is so far removed from the brand’s concept that consumers cannot make an association, but instead often has the opposite effect. Consider Nike’s swoosh or Adidas’ three stripes, both of which have very little to do with the act of selling shoes, but have become iconic in the minds of their consumers.</li>
             </ol>
-            <p>Just think of marketing your name and logo as setting your-self up for a great first impression. Keep in mind who you are and what you want the feel of the restaurant to be, then do your best to accurately set your customers expectations with this first touch-point.</p>
+            <p>Just think of marketing your name and logo as setting yourself up for a great first impression. Keep in mind who you are and what you want the feel of the restaurant to be, then do your best to accurately set your customers expectations with this first touchpoint.</p>
             <figure class="brands-figure figure">
                 <a :href="require('../assets/images/logos/Wendys_logo.svg')" target="_blank" data-fancybox="gallery" class="brands-figure__link">
                     <img :src="require('../assets/images/logos/Wendys_logo.svg')" alt="Wendys">
@@ -267,7 +267,7 @@
             <p>However, for someone just starting their business, there are great free-to-cheap options to be found with talented individuals on gig-based sites, such as Fiverr, Upwork and Freelancer. If you get frustrated when designing your logo, check out some of the portfolios by designers within your budget — you’ll be surprised at the quality of work you can find.</p>
             <p>If this seems overwhelming don’t let it be! Start with a simple design that you’re happy with and build out from there. If you hit a roadblock, there are thousands of free resources and professionals who can help assist in designing your logo.</p>
             <p>Try them out and see which one speaks to you.</p>
-            <p>We like Logojoy, not just for their reasonable prices, but also for the inspirational logo generation processes.</p>
+            <p>We like <a target="_blank" href="https://logojoy.com/">Logojoy</a>, not just for their reasonable prices, but also for the inspirational logo generation processes.</p>
             <p>Here are a few other fantastic options to get you started:</p>
             <ul columns="2">
                 <li><a target="_blank" href="https://www.designcrowd.com/">Designcrowd</a></li>
