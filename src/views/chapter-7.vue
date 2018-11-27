@@ -26,8 +26,8 @@
     <p>When it comes to the overall health and success of your business, it pays to be mindful of the costs associated  with them.</p>
     <section>
         <h2>The Importance of Cost Per Meal</h2>
-        <p>Cost per meal gives you the most accurate description of your food costs as they pertain to the volume of meals you’re selling. Cost per meal is also the gateway to unlocking oth-er powerful ways of looking at your business: Average cost per plate (the sum of all your dishes prices divided by the number of dishes), as well as quick-and-dirty calculations such as total costs vs profit per party (average dish price multiplied by number of seats filled).</p>
-        <p>You can also use a percentage approach per meal to under-stand the margin being driven by each individual dish. Even if you’re at a consistent 32% overall food cost, for example, it’s good to know if that cost is similar across all dishes, or if you have a number of dishes at varying percentages.</p>
+        <p>Cost per meal gives you the most accurate description of your food costs as they pertain to the volume of meals you’re selling. Cost per meal is also the gateway to unlocking other powerful ways of looking at your business: Average cost per plate (the sum of all your dishes prices divided by the number of dishes), as well as quick-and-dirty calculations such as total costs vs profit per party (average dish price multiplied by number of seats filled).</p>
+        <p>You can also use a percentage approach per meal to understand the margin being driven by each individual dish. Even if you’re at a consistent 32% overall food cost, for example, it’s good to know if that cost is similar across all dishes, or if you have a number of dishes at varying percentages.</p>
         <p>Having these numbers in mind can inform decisions such as which dishes to promote, which to redesign, and which to retire, depending on your overall strategy.</p>
     </section>
     <section>
@@ -38,7 +38,7 @@
         <p>For our purposes, we’re only going to analyze food costs when discussing cost per meal.</p>
         <p>Cost per meal is calculated by simply adding up the total cost of the ingredients used to make the dish. You can also turn this into a percentage by then dividing the cost by the menu price.</p>
         <p>Calculate your food costs at least twice: once before you start selling the item, then again about a week after you’ve added it to your menu. The second calculation will ensure (or show) that you’re actually spending the same amount as your initial calculation.</p>
-        <p>A dramatic change in overall food costs may also be a good time to revise your calculations. The more often you’re will-ing to run these numbers, the clearer a picture you’ll have.</p>
+        <p>A dramatic change in overall food costs may also be a good time to revise your calculations. The more often you’re willing to run these numbers, the clearer a picture you’ll have.</p>
     </section>
     <figure class="figure">
         <figcaption class="figure__title">Maximizing Revenue and profit</figcaption>
@@ -110,14 +110,14 @@
         </section>
         <section>
             <h3>Menu Pricing</h3>
-            <p>Pricing can be a matter of contrasts, with the second or third-most expensive menu items often being the top sellers (as opposed to the highest or lowest cost items).</p>
+            <p>Pricing can be a matter of contrasts, with the second- or third-most expensive menu items often being the top sellers (as opposed to the highest or lowest cost items).</p>
             <p>This is because the highest priced item on the menu sets the bar for a diner’s expectations.</p>
             <p>This phenomenon, known as price anchoring, is well known. Keep this in mind when pricing out your menu<sup><a href="https://www.priceintelligently.com/blog/bid/181199/price-anchoring-to-optimize-your-pricing-strategy" target="_blank">[27]</a></sup>.</p>
             <p>If your second- or third-highest priced dishes are also those with thin food cost margins, check to see how much of the remaining menu is being compromised. Consider an adjustment to either costs going into the dish, or the price being displayed to your customers.</p>
         </section>
         <section>
             <h3>Extremeness Aversion</h3>
-            <p>By the same token, the most and least expensive dishes on your menu may suffer from what is known as extremeness aversion — a documented phenomenon that essentially de-scribes human’s tendency to gravitate towards the middle of the pack when faced with choices representing a series of extremes<sup><a href="https://www.ezonomics.com/whatis/extremeness-aversion/" target="_blank">[28]</a></sup>.</p>
+            <p>By the same token, the most and least expensive dishes on your menu may suffer from what is known as extremeness aversion — a documented phenomenon that essentially describes human’s tendency to gravitate towards the middle of the pack when faced with choices representing a series of extremes<sup><a href="https://www.ezonomics.com/whatis/extremeness-aversion/" target="_blank">[28]</a></sup>.</p>
             <p>Keep this in mind when forecasting and planning your menu. Items on either side of the average may suffer from a lack of popularity, no matter how delicious they are.</p>
             <p>Consider listing items or sizes in an array that you can accommodate, and expect customers to gravitate towards the middle of the pack when presented with a range of choices.</p>
             <!-- Figure -->

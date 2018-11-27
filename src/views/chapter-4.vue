@@ -72,7 +72,7 @@
                 <dt>Length:</dt>
                 <dd>Is it easy to remember? Keep it as short as you can.</dd>
                 <dt>TLD (top-level domain):</dt>
-                <dd> - the characters after the “dot”: Examples would be .com, .ca, .food, etc<sup><a href="https://en.wikipedia.org/wiki/Top-level_domain" target="_blank">[13]</a></sup>. Now with more than a hundred TDL options to choose from, you can get really creative with the domain name you choose for your restaurant. Of course, getting a “.com” is probably still your first choice. But people are quickly getting used to other domain endings, so don’t be afraid to try another option.</dd>
+                <dd> The characters after the “dot”: Examples would be .com, .ca, .food, etc<sup><a href="https://en.wikipedia.org/wiki/Top-level_domain" target="_blank">[13]</a></sup>. Now with more than a hundred TDL options to choose from, you can get really creative with the domain name you choose for your restaurant. Of course, getting a “.com” is probably still your first choice. But people are quickly getting used to other domain endings, so don’t be afraid to try another option.</dd>
                 <dt>Price:</dt>
                 <dd>Domain names should range from $9.99 to 59.99 for most common TLDs. This will cover your domain registration for 12 months. If you’re looking at a “premium” domain that will cost a lot more, you may want to wait until you have established your business further.</dd>
             </dl>
@@ -122,8 +122,8 @@
             <p>Without getting too technical, there are 3 main ways to build a modern website:</p>
             <ol>
                 <li><strong>Custom-built website</strong> - Hand-coded web page that is designed and uploaded directly to your web host</li>
-                <li><strong>Content management system (CMS)</strong> - Web editing software that lets you update content on your web-site just like you’re editing a text document; can use either pre-built templates or 100% custom designs.</li>
-                <li><strong>Website builder</strong> - Drag-and-drop or WYSIWYG editor that lets you build a website from pre-designed tem-plates and sections.</li>
+                <li><strong>Content management system (CMS)</strong> - Web editing software that lets you update content on your website just like you’re editing a text document; can use either pre-built templates or 100% custom designs.</li>
+                <li><strong>Website builder</strong> - Drag-and-drop or WYSIWYG editor that lets you build a website from pre-designed templates and sections.</li>
             </ol>
             <p>There’s no clear-cut winner on which one is best for every situation, but there are some key considerations that can help you decide which one is best for you.</p>
             <dl>
@@ -152,19 +152,19 @@
         <section>
             <h3>Decide Which Channels are for You</h3>
             <p>It seems like every week, there is a new app or social site that is taking over the world. Resist the urge to jump on every new trend or fad.</p>
-            <p>Don’t register for every social media platform under the sun. If you’re like most businesses, you don’t have the time, fo-cus, or resources to successfully manage more than 2 social channels really well. Since on social media it’s better to do nothing than haphazardly do very little, choose 1-2 channels wisely and focus all of your efforts here. For a restaurant, Instagram and Facebook are pretty straightforward choices.</p>
+            <p>Don’t register for every social media platform under the sun. If you’re like most businesses, you don’t have the time, focus, or resources to successfully manage more than 2 social channels really well. Since on social media it’s better to do nothing than haphazardly do very little, choose 1-2 channels wisely and focus all of your efforts here. For a restaurant, Instagram and Facebook are pretty straightforward choices.</p>
             <p>If you’re ambitious or you have a mobile food business, it may make sense to use a real-time platform like Twitter or Snapchat. But don’t feel compelled to use them if you’re not comfortable and familiar with them already.</p>
         </section>
         <section>
             <h3>Choose a Handle</h3>
             <p>When it comes time to select your social media accounts and set up your online presence, keep these few tips in mind to choose the perfect handle for your business.</p>
             <p>If possible, use the same handle across all channels. For example: facebook.com / AwesomeRestaurant,  @AwesomeRestaurant on Instagram & Twitter, and  www.awesomerestaurant.ca on the web. It’s just good for branding.</p>
-            <p>Double check the exact same name is available with all other channels you’re going to use to grow your brand before reg-istering an account with any platform. With any marketing or branding strategy, consistency across all channels is key.</p>
+            <p>Double check the exact same name is available with all other channels you’re going to use to grow your brand before registering an account with any platform. With any marketing or branding strategy, consistency across all channels is key.</p>
         </section>
     </section>
     <section>
         <h2>Step #5: Find the Right Talent</h2>
-        <p>Finding, hiring, and retaining the right talent isn't an easy task for any business. It has become an employee’s market — meaning there are currently more open available job positions being posted than there are top candidates avail-able to fill these positions. As an employer, you can’t and won’t ever win on compensation alone.</p>
+        <p>Finding, hiring, and retaining the right talent isn't an easy task for any business. It has become an employee’s market — meaning there are currently more open available job positions being posted than there are top candidates available to fill these positions. As an employer, you can’t and won’t ever win on compensation alone.</p>
         <p>That means getting smart about where and how you look to find team members.</p>
         <p>In the next section, we will go into all of the things that come with finding (and retaining) the right talent. From writing job descriptions to keeping your employees feeling challenged, we cover it all.</p>
     </section>

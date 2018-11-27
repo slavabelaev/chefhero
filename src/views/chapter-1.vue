@@ -41,7 +41,7 @@
     <section>
         <h3>What Are The Main Goals In Restaurant Budget Planning?</h3>
         <p>It’s easy to fall into thinking the purpose of planning a budget is to keep expenses lower than income. In reality, there’s more to it than that.</p>
-        <p>You need a comprehensive budget plan to maximize your potential for profit while eliminating waste and  over-spending.</p>
+        <p>You need a comprehensive budget plan to maximize your potential for profit while eliminating waste and  overspending.</p>
         <p>A well-researched and carefully planned budget will keep you from overspending on food, ingredients, alcohol, kitchen supplies and cleaning supplies. It will also ensure you are keeping administrative costs like payroll and marketing cost-effective.</p>
         <p>A budget plan should also help you design a menu with good profit margins. If you’re designing your establishment’s menu from scratch, your budget plan can be instrumental in deciding what dishes to include.</p>
         <figure class="figure">
@@ -71,7 +71,7 @@
         <p>In some cases, opening a new 90-seat restaurant can run anywhere from $275,000 ($3,064 per seat) to $400,000 ($4,444 per seat). And those are just the ends of the median costs. Any unexpected setbacks could cause that cost to rise even more</p>
         <p>Opening a new restaurant is far from cheap, which is why it’s absolutely necessary to have a good business plan and a budget when you start. Here are just a few of the startup costs you need to plan for:</p>
         <p>First, your venue. Market cost for a restaurant-friendly commercial space will vary wildly depending on your chosen location. In Chicago, for example, commercial space is now trending over $40 per square foot<sup><a target="_blank" href="https://www.chicagotribune.com/business/columnists/ct-prime-office-rents-ryan-ori-0321-biz-20170317-column.html">[4]</a></sup>. Compare that to  Toronto, where restaurant real estate can be as high as $100 per square foot in high-traffic neighborhoods<sup><a target="_blank" href="https://www.theglobeandmail.com/news/toronto/rising-rent-is-starving-torontos-restaurateurs/article35061520/">[5]</a></sup>.</p>
-        <p>As a general rule to follow when picking a location, your rent or lease agreement should not exceed 6 to 10 percent of your projected gross annual sales. If you can, get an assignable lease. That way, if a restaurant goes under, you’re able to  re-assign your lease to someone else and avoid bearing the cost after you close your doors.</p>
+        <p>As a general rule to follow when picking a location, your rent or lease agreement should not exceed 6 to 10 percent of your projected gross annual sales. If you can, get an assignable lease. That way, if a restaurant goes under, you’re able to  reassign your lease to someone else and avoid bearing the cost after you close your doors.</p>
         <figure class="figure">
             <a :href="require('../assets/images/chapter__1_image_2.png')" target="_blank" data-fancybox="gallery">
                 <img :src="require('../assets/images/chapter__1_image_2.png')" alt="" class="figure__image">

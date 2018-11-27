@@ -45,7 +45,7 @@
         </section>
         <section>
             <h3><a href="https://www.letseat.at/" target="_blank">Let’s Eat Free Website Builder for Restaurants</a></h3>
-            <p class="mb-0">More than 15,000 restaurants use Let’s Eat for their web hosting and design, and it’s easy to see why. A simple in-terface and plenty of useful, restaurant industry-specific features make it user friendly and provide everything you need for your restaurant’s web presence.</p>
+            <p class="mb-0">More than 15,000 restaurants use Let’s Eat for their web hosting and design, and it’s easy to see why. A simple interface and plenty of useful, restaurant industry-specific features make it user friendly and provide everything you need for your restaurant’s web presence.</p>
         </section>
         <a :href="require('../assets/images/chapter__9_image_2.jpg')" target="_blank" data-fancybox="gallery">
             <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="" class="figure">
@@ -122,7 +122,7 @@
     <section>
         <header class="text-center">
             <h2>Make Point of Sale (POS) Efficient and Simple</h2>
-            <p>Ever been working when the POS went down? It’s a night-mare for everyone in the restaurant, from management to service staff to customers. Avoid that by getting the best POS software out there.</p>
+            <p>Ever been working when the POS went down? It’s a nightmare for everyone in the restaurant, from management to service staff to customers. Avoid that by getting the best POS software out there.</p>
         </header>
         <div class="md-layout">
             <section class="md-layout-item md-size-50 md-small-size-100">
@@ -194,7 +194,7 @@
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://quickbooks.intuit.com/industry/restaurants/" target="_blank">Quickbooks</a></h3>
-                <p>Most business owners are already familiar with Quickbooks, one of the most popular accounting platforms for all small business. With a host of restaurant-specific features, Quick-books is ready to streamline your restaurant accounting.</p>
+                <p>Most business owners are already familiar with Quickbooks, one of the most popular accounting platforms for all small business. With a host of restaurant-specific features, Quickbooks is ready to streamline your restaurant accounting.</p>
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.waveapps.com/" target="_blank">Wave</a></h3>
@@ -202,7 +202,7 @@
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://restaurant365.com/" target="_blank">Restaurant365</a></h3>
-                <p>Restaurant365 is, obviously, designed specifically for res-taurants, meaning it offers all the features that will make integration with your business as smooth as possible.</p>
+                <p>Restaurant365 is, obviously, designed specifically for restaurants, meaning it offers all the features that will make integration with your business as smooth as possible.</p>
             </section>
         </div>
         <section>
@@ -240,7 +240,7 @@
                         </tr>
                         <tr>
                             <td class="text-primary">Wave</td>
-                            <td class="bg-light">Free, with premium add-ons for online payments and payroll</td>
+                            <td class="bg-light">Free, with premium addons for online payments and payroll</td>
                             <td>Cloud accounting, bank syncing, automated reporting, invoicing, receipt scanning, payroll, integration with other popular restaurant management apps</td>
                         </tr>
                         <tr>
@@ -279,7 +279,7 @@
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.indeed.com/" target="_blank">Indeed</a></h3>
-                <p>One of the top job sites on the web, with 200 million visi-tors each month.</p>
+                <p>One of the top job sites on the web, with 200 million visitors each month.</p>
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.monster.com/" target="_blank">Monster</a></h3>
@@ -327,7 +327,7 @@
                                 <div>$329 Enchanced plan</div>
                                 <div>$529 Premium plan</div>
                             </td>
-                            <td>Job posting on partner and social networks, job posting on local newspaper sites, email alerts for job-seekers, AI-matched resumes, multi-user access for team collaboration</td>
+                            <td>Job posting on partner and social networks, job posting on local newspaper sites, email alerts for job-seekers, AI-matched resumes, multiuser access for team collaboration</td>
                         </tr>
                     </tbody>
                 </table>
@@ -406,11 +406,11 @@
         <div class="md-layout">
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.facebook.com/" target="_blank">Facebook</a></h3>
-                <p>The most-used social media platform allows you to share status updates, restaurant contact and location information, and customer reviews — all for free. You can also pay for ads and “boosted” posts, guaranteeing more potential custom-ers will see your content.</p>
+                <p>The most-used social media platform allows you to share status updates, restaurant contact and location information, and customer reviews — all for free. You can also pay for ads and “boosted” posts, guaranteeing more potential customers will see your content.</p>
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://www.instagram.com/" target="_blank">Instagram</a></h3>
-                <p>Great for posting dinner specials and mouth-watering cus-tomer pics, Instagram is a photo-based platform that will really let you show off how appetizing your wares look. With a business account, you can link straight to your website from your profile page.</p>
+                <p>Great for posting dinner specials and mouth-watering customer pics, Instagram is a photo-based platform that will really let you show off how appetizing your wares look. With a business account, you can link straight to your website from your profile page.</p>
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a href="https://twitter.com/" target="_blank">Twitter</a></h3>
@@ -423,15 +423,15 @@
         </div>
         <section>
             <h3>Comparison</h3>
-            <p>Almost all social media profiles are free, and since they all of-fer different features and reach a different kind of audience, the more of them you use, the better.</p>
+            <p>Almost all social media profiles are free, and since they all offer different features and reach a different kind of audience, the more of them you use, the better.</p>
         </section>
         <section>
             <h3>A Game-Changing Solution for your Supply Chain</h3>
             <p>Now that you’re set up to conquer everything from your web presence, to your approach, to delivery, it’s time to start rethinking about one of the most essential aspects of your business: your suppliers.</p>
-            <p>When it comes to their supply chain, virtually all restau-rants are looking to secure lower prices, better quality (and increasingly, local) ingredients, and to do so with as little hassle as possible.</p>
+            <p>When it comes to their supply chain, virtually all restaurants are looking to secure lower prices, better quality (and increasingly, local) ingredients, and to do so with as little hassle as possible.</p>
             <p><a href="http://www.chefhero.com" target="_blank">ChefHero</a> is a one-stop shop where you can get all of that done.</p>
             <p>If you’re looking to switch up your supply game and take your business forward, ChefHero is a key tech tool for your arsenal.</p>
-            <p>Now that you’ve got your restaurant up and running smooth-ly, it’s time to think about the environment and your restau-rants carbon footprint. In the next section, we’ll walk you through the simple changes you can make to your restaurant to make it more eco-friendly.</p>
+            <p>Now that you’ve got your restaurant up and running smoothly, it’s time to think about the environment and your restaurants carbon footprint. In the next section, we’ll walk you through the simple changes you can make to your restaurant to make it more eco-friendly.</p>
         </section>
     </section>
 </article>

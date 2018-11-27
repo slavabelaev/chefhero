@@ -19,7 +19,7 @@
         </section>
     </header>
     <p>From creating a concept that will succeed, to finding a killer space, to decorating and equipping and training. Starting a restaurant involves a lot of work, and a lot of moving pieces.</p>
-    <p>By far one of the greatest challenges would-be restaurateurs face is finding a superstar staff that will flawlessly execute their concept, all while making great food and providing top-tier customer service. The restaurant simply cannot run with-out a staff. But not just any staff will make your restaurant flourish. You want to best talent possible. Here’s how to find (and keep) them.</p>
+    <p>By far one of the greatest challenges would-be restaurateurs face is finding a superstar staff that will flawlessly execute their concept, all while making great food and providing top-tier customer service. The restaurant simply cannot run without a staff. But not just any staff will make your restaurant flourish. You want to best talent possible. Here’s how to find (and keep) them.</p>
     <section>
         <h3>When it Comes to Staffing your Restaurant…</h3>
         <p>First, some general tips for getting a high-quality staff in place — and then keeping them there.</p>
@@ -29,13 +29,13 @@
         <annual-employee-turnover-rates-chart></annual-employee-turnover-rates-chart>
         <!-- /Chart -->
         <p>You can consider hiring internally by promoting a sous chef, or externally by looking for personal or private chefs who might be interested in running a restaurant kitchen instead, scouting for soon-to-be graduates at cooking schools, or even going to a recruiting agency to help you entice a chef to make the jump from another restaurant to yours.</p>
-        <p>If you want to attract the best talent this starts with writing the best job description, clearly outlining an employee’s du-ties and salary expectations.</p>
+        <p>If you want to attract the best talent this starts with writing the best job description, clearly outlining an employee’s duties and salary expectations.</p>
         <p>Don’t be afraid to get creative with your job descriptions — you’ll never be the only fish ‘n’ chips place, or even the place that pays the most, so what makes your location unique and attractive?</p>
-        <p>Sell your vision and this opportunity to prospective employ-ees.</p>
-        <p>Do you share and pool tips, go on frequent team-building outings, or offer a mentorship program? Be sure to let peo-ple know!</p>
+        <p>Sell your vision and this opportunity to prospective employees.</p>
+        <p>Do you share and pool tips, go on frequent team-building outings, or offer a mentorship program? Be sure to let people know!</p>
         <p>Writing your job description is just the first step. You also need to ensure that potential employees actually see your job posting. Generally, most people choose to list job postings on every free available job board.</p>
         <p>While yes, you may get more applications this way, you’ll then have to weed through hundreds of applications spread over several different platforms to determine the top quality candidates for your industry.</p>
-        <p>Find the right job board and focus your efforts on 1-2 select-ed platforms to get better quality over quantity candidates.</p>
+        <p>Find the right job board and focus your efforts on 1-2 selected platforms to get better quality over quantity candidates.</p>
         <p>Some platforms to check out:</p>
         <ul columns="2">
             <li><a href="https://hired.com/" target="_blank">Hired</a></li>
@@ -49,17 +49,17 @@
             <li><a href="https://www.facebook.com/groups/" target="_blank">Facebook Groups</a></li>
         </ul>
         <p>Remember that when it comes down to it, the people you bring on will make or break your restaurant.</p>
-        <p>It doesn’t matter how cool your concept is or even how great your food tastes, if you don’t get the right people in the build-ing, you’ll never keep customers coming through the door. So, focus on finding, hiring, and keeping the right people.</p>
+        <p>It doesn’t matter how cool your concept is or even how great your food tastes, if you don’t get the right people in the building, you’ll never keep customers coming through the door. So, focus on finding, hiring, and keeping the right people.</p>
         <p>While all of these steps are critical to getting your restaurant off the ground, it’s especially important to spend extra time figuring out your recruiting and hiring practices.</p>
     </section>
     <section>
         <h3>Hiring Good Employees Goes Beyond a Competitive Salary</h3>
-        <p>Instead of trying to beat out your competition on salary, fo-cus on your culture — that’s what will keep good talent under your roof and away from your competitors. How can you fos-ter team engagement and culture? How can you reward your people in non-monetary ways? How can you provide helpful coaching and feedback to your staff to help them grow as they work for you? These should be your first considerations.</p>
+        <p>Instead of trying to beat out your competition on salary, focus on your culture — that’s what will keep good talent under your roof and away from your competitors. How can you foster team engagement and culture? How can you reward your people in non-monetary ways? How can you provide helpful coaching and feedback to your staff to help them grow as they work for you? These should be your first considerations.</p>
         <!-- Chart -->
         <top-reasons-employees-quit-chart></top-reasons-employees-quit-chart>
         <!-- /Chart -->
         <p>One of the main ways you can foster a culture that will lead you to loyal employees is to give your staff autonomy. Give them guidance to steer them in the right direction, but then let them figure out how to be successful on their own. They’re on the floor every shift. They know best. And if they’re talented people, they’ll create procedures that will have your restaurant running smoothly in no time.</p>
-        <p>An added bonus to this is you won’t end up with depend-ent employees. When you fill your restaurant with people you trust, who are empowered to do good work, you have the freedom to let them run the show, with or without your presence. Win-win.</p>
+        <p>An added bonus to this is you won’t end up with dependent employees. When you fill your restaurant with people you trust, who are empowered to do good work, you have the freedom to let them run the show, with or without your presence. Win-win.</p>
         <p>What’s important when it comes to retaining staff is to treat them well. Once you have a well-trained staff in place, especially if you hire people with experience and talent, there’s always the risk that they’ll get poached by another restaurant. The good news is that in the restaurant industry, many workers face long hours and low wages<sup><a href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[15]</a></sup>. You can beat out much of your competition for good staff just by offering a living wage and flexible hours.</p>
     </section>
     <section>
@@ -77,8 +77,8 @@
             <li>Close attention to detail for accurately following complex recipes</li>
             <li>Excellent teamwork skills for working well as a team member in the brigade de cuisine system</li>
             <li>Leadership abilities for advancing your position and leading others working in the kitchen under them</li>
-            <li>Clear and effective communication for constant-ly communicating to ensure that the kitchen runs smoothly and dishes get out on time</li>
-            <li>Multi-tasking for handling various components of a dish or recipe all at the same time</li>
+            <li>Clear and effective communication for constantly communicating to ensure that the kitchen runs smoothly and dishes get out on time</li>
+            <li>Multitasking for handling various components of a dish or recipe all at the same time</li>
             <li>Level-headedness for keeping cool under pressure and time constraints</li>
         </ul>
         <p>Starting to see why a great chef can be hard to find?</p>
@@ -86,7 +86,7 @@
         <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
                 <p>To give you a starting idea of what to budget for, though, Government of Canada statistics gathered between 2014 and 2015 showed that the national average salaries for full-time chefs ranged from around $16 per hour (about $33,280 annually) to $25 per hour (about $52,000 annually).</p>
-                <p>Remember though that these numbers don’t take into ac-count the different salaries between each type  of chef — for example, an executive chef's average salary is between $57,000 and $80,000 annually, while sous chefs are paid, on average, $40,000 to $53,000 per year.</p>
+                <p>Remember though that these numbers don’t take into account the different salaries between each type  of chef — for example, an executive chef's average salary is between $57,000 and $80,000 annually, while sous chefs are paid, on average, $40,000 to $53,000 per year.</p>
                 <p>You also have to take into consideration whether your prospective chef has any advanced training or certification, the cost of living where your restaurant is located, and the hours and environment in which your chef will be required to work.</p>
                 <p>A restaurant in a rural town with a low cost of living might be able to get away with a salary on the lower end of that range, but a restaurant in, say, Vancouver, B.C., where the cost of living is much higher, will have to pay a chef much more to compete with other restaurants and entice the best talent.</p>
             </div>
