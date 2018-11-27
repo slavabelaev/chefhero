@@ -1,10 +1,5 @@
 @import 'variables';
 
-#app-about {
-	padding: 24px;
-	overflow: auto;
-}
-#about h1,
 #conclusion h1 {
 	text-align: center;
 }
@@ -16,10 +11,12 @@
 	letter-spacing: 4px;
 }
 
-.large-button {
+.md-button.large-button {
 	width: 90%;
 	max-width: 360px;
 	height: 80px;
+	border-radius: 6px;
+	margin: 0;
 	font-size: $font-size;
 }
 
@@ -34,6 +31,7 @@ article {
 		color: #fff !important;
 	}
 }
+
 #chapter-1 {
 	& > header { background-color: #FF5C65; }
 	#in-this-chapter * { color: #FF5C65; }
@@ -79,6 +77,7 @@ article {
 	#in-this-chapter * { color: #FF5C66; }
 }
 
+#about,
 #starter > header {
 	background-color: $primary;
 	color: #fff;
@@ -105,11 +104,6 @@ article {
     }
 }
 
-#introduction .large-button {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
 #app-navigation .md-stepper {
 	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before,
 	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before,
@@ -120,6 +114,11 @@ article {
 	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "class" };
 	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "short_text" };
 	&:nth-child(14) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "flag" };
+	&:nth-child(15) .md-stepper-header:not(.md-done) .md-stepper-number:before {
+		font-family: 'Belbo-Book';
+		font-size: .875rem;
+		content: "?"; 
+	};
 
 	&:nth-child(3) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "1" };
 	&:nth-child(4) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "2" };
@@ -148,14 +147,14 @@ article {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 961px) {
 	article > header {
 		position: relative;
 		background-position: bottom right;
 		background-size: 280px;
 		background-repeat: no-repeat;
 	}
-
+	#about:before,
 	#starter > header:before,
 	article > header:after {
 		content: "";
@@ -168,7 +167,26 @@ article {
 		bottom: 50px;
 		right: 100px;
 	}
-
+	#about {
+		position: relative;
+		background-image: 
+			url(assets/images/chapters/about__bg.svg),
+			url(assets/images/about_image_1.png);
+		background-position:
+			20% 80%, 
+			95% 24px;
+		background-size:
+			240px, 
+			45% auto;
+		background-repeat: no-repeat;
+		&:before {
+			top: -50px;
+			left: 0;
+			right: initial;
+			bottom: initial;
+			opacity: .36;
+		}
+	}
 	#starter {
 		h1 {
 			margin-bottom: 2rem;
@@ -178,7 +196,6 @@ article {
 			align-items: center;
 			justify-content: center;
 			min-height: 550px;
-			margin-bottom: -1.5rem;
 			border-radius: $border-radius;
 			background-image: 
 				url(assets/images/chapters/starter__bg-1.svg),
@@ -232,9 +249,7 @@ article {
 	}
 	#introduction { background-image: url(assets/images/chapters/introduction__bg.svg); }
 	#conclusion { background-image: url(assets/images/chapters/conclusion__bg.svg); }
-}
 
-@media (min-width: 992px) {
 	#starter .logo {
 		position: absolute;
 		top: 40px;
@@ -246,6 +261,7 @@ article {
 }
 
 @media (min-width: 601px) {
+	#about,
 	article > header {
 		margin: -1.5rem;
 		margin-bottom: 1.5rem;
@@ -253,9 +269,15 @@ article {
 		border-radius: 4px 4px 0 0;
 		color: #fff;
 	}
+	#starter > header,
+	#about {
+		margin-bottom: -1.5rem;
+		border-radius: $border-radius!important;
+	}
 }
 
 @media (max-width: 600px) {
+	#about,
 	article > header {
 		margin: -1rem;
 		margin-bottom: 1.5rem;

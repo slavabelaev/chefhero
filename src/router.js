@@ -197,7 +197,8 @@ export default new Router({
       meta: {
         title: 'About ChefHero',
         description: '',
-        keywords: ''
+        keywords: '',
+        needToShowInNavigation: true
       },
       component: About
       //component: () => import('./views/About.vue')
