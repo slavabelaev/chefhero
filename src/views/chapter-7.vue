@@ -90,8 +90,8 @@
         <p>In addition, it’s great to maintain an informed perspective on your patrons and industry overall.</p>
         <section>
             <h3>Menu Colour</h3>                    
-            <p>The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
-            <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
+            <p>The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a rel="nofollow" href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
+            <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a rel="nofollow" href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
             <div class="md-layout mb-1 pt-1">
                 <div class="md-layout-item md-small-size-100">
                     <a :href="require('../assets/images/chapter__7_image_3.jpg')" target="_blank" data-fancybox="gallery">
@@ -112,12 +112,12 @@
             <h3>Menu Pricing</h3>
             <p>Pricing can be a matter of contrasts, with the second- or third-most expensive menu items often being the top sellers (as opposed to the highest or lowest cost items).</p>
             <p>This is because the highest priced item on the menu sets the bar for a diner’s expectations.</p>
-            <p>This phenomenon, known as price anchoring, is well known. Keep this in mind when pricing out your menu<sup><a href="https://www.priceintelligently.com/blog/bid/181199/price-anchoring-to-optimize-your-pricing-strategy" target="_blank">[27]</a></sup>.</p>
+            <p>This phenomenon, known as price anchoring, is well known. Keep this in mind when pricing out your menu<sup><a rel="nofollow" href="https://www.priceintelligently.com/blog/bid/181199/price-anchoring-to-optimize-your-pricing-strategy" target="_blank">[27]</a></sup>.</p>
             <p>If your second- or third-highest priced dishes are also those with thin food cost margins, check to see how much of the remaining menu is being compromised. Consider an adjustment to either costs going into the dish, or the price being displayed to your customers.</p>
         </section>
         <section>
             <h3>Extremeness Aversion</h3>
-            <p>By the same token, the most and least expensive dishes on your menu may suffer from what is known as extremeness aversion — a documented phenomenon that essentially describes human’s tendency to gravitate towards the middle of the pack when faced with choices representing a series of extremes<sup><a href="https://www.ezonomics.com/whatis/extremeness-aversion/" target="_blank">[28]</a></sup>.</p>
+            <p>By the same token, the most and least expensive dishes on your menu may suffer from what is known as extremeness aversion — a documented phenomenon that essentially describes human’s tendency to gravitate towards the middle of the pack when faced with choices representing a series of extremes<sup><a rel="nofollow" href="https://www.ezonomics.com/whatis/extremeness-aversion/" target="_blank">[28]</a></sup>.</p>
             <p>Keep this in mind when forecasting and planning your menu. Items on either side of the average may suffer from a lack of popularity, no matter how delicious they are.</p>
             <p>Consider listing items or sizes in an array that you can accommodate, and expect customers to gravitate towards the middle of the pack when presented with a range of choices.</p>
             <!-- Figure -->

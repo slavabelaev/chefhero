@@ -38,15 +38,15 @@
         <p>Find the right job board and focus your efforts on 1-2 selected platforms to get better quality over quantity candidates.</p>
         <p>Some platforms to check out:</p>
         <ul columns="2">
-            <li><a href="https://hired.com/" target="_blank">Hired</a></li>
-            <li><a href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></li>
-            <li><a href="https://www.indeed.com/" target="_blank">Indeed</a></li>
-            <li><a href="https://www.workopolis.com/" target="_blank">Workopolis</a></li>
-            <li><a href="http://jobshop.ca/" target="_blank">JobShop.ca</a></li>
-            <li><a href="https://www.jobbank.gc.ca/" target="_blank">Job Bank</a></li>
-            <li><a href="http://hireme.com/" target="_blank">HireMe</a></li>
-            <li><a href="http://www.working.com/" target="_blank">Working.com</a></li>
-            <li><a href="https://www.facebook.com/groups/" target="_blank">Facebook Groups</a></li>
+            <li><a rel="nofollow" href="https://hired.com/" target="_blank">Hired</a></li>
+            <li><a rel="nofollow" href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></li>
+            <li><a rel="nofollow" href="https://www.indeed.com/" target="_blank">Indeed</a></li>
+            <li><a rel="nofollow" href="https://www.workopolis.com/" target="_blank">Workopolis</a></li>
+            <li><a rel="nofollow" href="http://jobshop.ca/" target="_blank">JobShop.ca</a></li>
+            <li><a rel="nofollow" href="https://www.jobbank.gc.ca/" target="_blank">Job Bank</a></li>
+            <li><a rel="nofollow" href="http://hireme.com/" target="_blank">HireMe</a></li>
+            <li><a rel="nofollow" href="http://www.working.com/" target="_blank">Working.com</a></li>
+            <li><a rel="nofollow" href="https://www.facebook.com/groups/" target="_blank">Facebook Groups</a></li>
         </ul>
         <p>Remember that when it comes down to it, the people you bring on will make or break your restaurant.</p>
         <p>It doesn’t matter how cool your concept is or even how great your food tastes, if you don’t get the right people in the building, you’ll never keep customers coming through the door. So, focus on finding, hiring, and keeping the right people.</p>
@@ -60,12 +60,12 @@
         <!-- /Chart -->
         <p>One of the main ways you can foster a culture that will lead you to loyal employees is to give your staff autonomy. Give them guidance to steer them in the right direction, but then let them figure out how to be successful on their own. They’re on the floor every shift. They know best. And if they’re talented people, they’ll create procedures that will have your restaurant running smoothly in no time.</p>
         <p>An added bonus to this is you won’t end up with dependent employees. When you fill your restaurant with people you trust, who are empowered to do good work, you have the freedom to let them run the show, with or without your presence. Win-win.</p>
-        <p>What’s important when it comes to retaining staff is to treat them well. Once you have a well-trained staff in place, especially if you hire people with experience and talent, there’s always the risk that they’ll get poached by another restaurant. The good news is that in the restaurant industry, many workers face long hours and low wages<sup><a href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[15]</a></sup>. You can beat out much of your competition for good staff just by offering a living wage and flexible hours.</p>
+        <p>What’s important when it comes to retaining staff is to treat them well. Once you have a well-trained staff in place, especially if you hire people with experience and talent, there’s always the risk that they’ll get poached by another restaurant. The good news is that in the restaurant industry, many workers face long hours and low wages<sup><a rel="nofollow" href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[15]</a></sup>. You can beat out much of your competition for good staff just by offering a living wage and flexible hours.</p>
     </section>
     <section>
         <h3>What About the Chef?</h3>
         <p>Yep, finding your chef is one of your most important jobs when you’re getting your restaurant up and running. And it’s one of the hardest.</p>
-        <p>It’s expected that some servers, line cooks, dishwashers and other lower level staff are going to come and go. Ideally, though, your chef should be a long-term employee<sup><a href="https://www.webstaurantstore.com/article/119/how-to-hire-a-chef.html" target="_blank">[16]</a></sup>. This is the person who is going to take your concept and turn it into actual, delicious food. You should do everything you can to hire the best and then keep them under your roof.</p>
+        <p>It’s expected that some servers, line cooks, dishwashers and other lower level staff are going to come and go. Ideally, though, your chef should be a long-term employee<sup><a rel="nofollow" href="https://www.webstaurantstore.com/article/119/how-to-hire-a-chef.html" target="_blank">[16]</a></sup>. This is the person who is going to take your concept and turn it into actual, delicious food. You should do everything you can to hire the best and then keep them under your roof.</p>
         <p>One of the first things you should look for in your chef is experience and education. Certification isn’t required for all chefs, but if you can find someone who is certified, you know you’re getting a chef who has put in some serious time and work.</p>
         <!-- Chart -->
         <average-chef-salaries-by-position-chart></average-chef-salaries-by-position-chart>
@@ -96,7 +96,7 @@
                 </a>
             </div>
         </div>
-        <p>And if you plan on poaching a personal chef, you may need to be prepared to pay more<sup><a href="https://www.theglobeandmail.com/report-on-business/careers/career-advice/life-at-work/i-want-to-be-a-personal-chef-what-will-my-salary-be/article13112144/" target="_blank">[17]</a></sup> — personal chefs’ salaries average between $35,000 and $45,000 per year (but can be much higher) in addition to schedules that often include several days off each week and vacation time each year. It’ll take an attractive salary to lure a chef away from a position that has those kinds of hours.</p>
+        <p>And if you plan on poaching a personal chef, you may need to be prepared to pay more<sup><a rel="nofollow" href="https://www.theglobeandmail.com/report-on-business/careers/career-advice/life-at-work/i-want-to-be-a-personal-chef-what-will-my-salary-be/article13112144/" target="_blank">[17]</a></sup> — personal chefs’ salaries average between $35,000 and $45,000 per year (but can be much higher) in addition to schedules that often include several days off each week and vacation time each year. It’ll take an attractive salary to lure a chef away from a position that has those kinds of hours.</p>
         <p>Your staff is the backbone of your restaurant. Staffing is one of the most important decisions you’ll make as you get your establishment up and running. It’s part of what makes staffing (and staff retention) so difficult. But once you have a high-quality staff in place, it’ll pay off in spades with good food, excellent customer service and a restaurant that can run efficiently and autonomously.</p>
     </section>
 </article>

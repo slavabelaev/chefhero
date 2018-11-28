@@ -210,7 +210,7 @@
             <h3>What it is:</h3>
             <p>The percentage of a dish’s selling price that it costs to create it. Said differently, the percentage of your dishes’ prices that are taken up by the cost of the food used in that dish.</p>
             <p>Eventually you’ll want to compare your business’ food costs with industry standards, so the way in which you calculate these figures should be consistent with industry practices.</p>
-            <p>Industry averages are based on the Uniform System of Accounts for Restaurants: A Guide to Standardized Restaurant Accounting, Financial Controls, Record-Keeping and Relevant Tax Matters, a standard textbook for North American restaurant accounting since the late 50’s <sup><a href="https://www.amazon.com/Uniform-System-Accounts-Restaurants-Standardized/dp/1931400733" target="_blank">[29]</a></sup>.</p>
+            <p>Industry averages are based on the Uniform System of Accounts for Restaurants: A Guide to Standardized Restaurant Accounting, Financial Controls, Record-Keeping and Relevant Tax Matters, a standard textbook for North American restaurant accounting since the late 50’s <sup><a rel="nofollow" href="https://www.amazon.com/Uniform-System-Accounts-Restaurants-Standardized/dp/1931400733" target="_blank">[29]</a></sup>.</p>
         </section>
         <section>
             <h3>Why it’s important:</h3>
