@@ -167,6 +167,9 @@ article {
 .pt-1 {
 	padding-top: $margin!important;
 }
+.pt-2 {
+	padding-top: ($margin * 2)!important;
+}
 .mx-auto {
 	margin-left: auto!important;
 	margin-right: auto!important;
@@ -237,5 +240,8 @@ article {
 	}
 	.pr-large-2 {
 		padding-right: ($margin * 2)!important;
+	}
+	.pt-large-1 {
+		padding-top: $margin!important;
 	}
 }
