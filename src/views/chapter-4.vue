@@ -29,8 +29,8 @@
             <p>Before you get started with domain names, social, or even location, it’s important to make this business official. This means doing the necessary administrative work to register the business.</p>
             <p>This includes three main steps:</p>
             <ol>
-                <li><strong>Register your business entity</strong> - Steps for <a target="_blank" href="https://www.sba.gov/business-guide/launch-your-business/register-your-business">USA</a> or <a target="_blank" href="https://www.ontario.ca/page/register-business-name-limited-partnership">Canada</a></li>
-                <li><strong>Register for your tax ID</strong> - Steps for the <a target="_blank" href="https://www.sba.gov/business-guide/launch-your-business/get-federal-and-state-tax-id-numbers">USA</a> or <a target="_blank" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/register-a-gst-hst-account.html">Canada</a></li>
+                <li><strong>Register your business entity</strong> - Steps for <a target="_blank" rel="nofollow" href="https://www.sba.gov/business-guide/launch-your-business/register-your-business">USA</a> or <a target="_blank" rel="nofollow" href="https://www.ontario.ca/page/register-business-name-limited-partnership">Canada</a></li>
+                <li><strong>Register for your tax ID</strong> - Steps for the <a target="_blank" rel="nofollow" href="https://www.sba.gov/business-guide/launch-your-business/get-federal-and-state-tax-id-numbers">USA</a> or <a target="_blank" rel="nofollow" href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/register-a-gst-hst-account.html">Canada</a></li>
                 <li><strong>Register for business licenses</strong> - Check with your state/province for specific information Accounting Software</li>
             </ol>
         </section>
@@ -39,22 +39,22 @@
             <p>Before you start hiring, spending money, or tracking all of your finances it’s a great time to find an easy-to-use business accounting tool. This tool should connect to your business banking accounts, credit cards, payment tools, and everything else under the sun!</p>
             <dl class="dl-inline">
                 <dt>Free Option:</dt>
-                <dd><a target="_blank" href="https://www.waveapps.com/">Wave Account</a></dd>
+                <dd><a target="_blank" rel="nofollow" href="https://www.waveapps.com/">Wave Account</a></dd>
             </dl>
             <blockquote>
                 <p>“Not only is Wave the best free small business accounting website, but it's one of the best online resources period for its target small business audience.”</p>
                 <cite title="PCMAG.COM">
-                    <a href="https://www.pcmag.com/" target="_blank">- PCMAG.COM</a>
+                    <a rel="nofollow" href="https://www.pcmag.com/" target="_blank">- PCMAG.COM</a>
                 </cite>
             </blockquote>
             <dl class="dl-inline">
                 <dt>Paid Option:</dt>
-                <dd><a target="_blank" href="https://quickbooks.intuit.com/">Intuit Quickbooks</a></dd>
+                <dd><a target="_blank" rel="nofollow" href="https://quickbooks.intuit.com/">Intuit Quickbooks</a></dd>
             </dl>
             <blockquote>
                 <p>“Of all the accounting software we reviewed, QuickBooks Online offers some of the best pricing, with four service tiers designed to accommodate the needs of different business types.”</p>
                 <cite title="BUSINESSNEWSDAILY.COM">
-                    <a href="https://www.businessnewsdaily.com/" target="_blank">- BUSINESSNEWSDAILY.COM</a>
+                    <a rel="nofollow" href="https://www.businessnewsdaily.com/" target="_blank">- BUSINESSNEWSDAILY.COM</a>
                 </cite>
             </blockquote>
         </section>
@@ -74,7 +74,7 @@
             </dl>
             <dl class="dl-inline">
                 <dt>TLD (top-level domain):</dt>
-                <dd>The characters after the “dot”: Examples would be .com, .ca, .food, etc<sup><a href="https://en.wikipedia.org/wiki/Top-level_domain" target="_blank">[13]</a></sup>. Now with more than a hundred TDL options to choose from, you can get really creative with the domain name you choose for your restaurant. Of course, getting a “.com” is probably still your first choice. But people are quickly getting used to other domain endings, so don’t be afraid to try another option.</dd>
+                <dd>The characters after the “dot”: Examples would be .com, .ca, .food, etc<sup><a rel="nofollow" href="https://en.wikipedia.org/wiki/Top-level_domain" target="_blank">[13]</a></sup>. Now with more than a hundred TDL options to choose from, you can get really creative with the domain name you choose for your restaurant. Of course, getting a “.com” is probably still your first choice. But people are quickly getting used to other domain endings, so don’t be afraid to try another option.</dd>
             </dl>
             <dl class="dl-inline">
                 <dt>Price:</dt>
@@ -92,23 +92,23 @@
             <ul>
                 <li>
                     <strong>Google My Business</strong> - 
-                    <a href="https://www.google.com/business/" target="_blank">Set up your listing</a>
+                    <a rel="nofollow" href="https://www.google.com/business/" target="_blank">Set up your listing</a>
                 </li>
                 <li>
                     <strong>Yelp</strong> - 
-                    <a href="https://biz.yelp.com/" target="_blank">Set up your listing</a>
+                    <a rel="nofollow" href="https://biz.yelp.com/" target="_blank">Set up your listing</a>
                 </li>
                 <li>
                     <strong>Zomato (formerly UrbanSpoon)</strong> - 
-                    <a href="https://www.zomato.com/tr/business" target="_blank">Set up your listing</a>
+                    <a rel="nofollow" href="https://www.zomato.com/tr/business" target="_blank">Set up your listing</a>
                 </li>
                 <li>
                     <strong>TripAdvisor</strong> - 
-                    <a href="https://www.tripadvisor.com/Owners" target="_blank">Set up your listing</a>
+                    <a rel="nofollow" href="https://www.tripadvisor.com/Owners" target="_blank">Set up your listing</a>
                 </li>
                 <li>
                     <strong>OpenTable</strong> - 
-                    <a href="https://restaurant.opentable.com/get-started/" target="_blank">Set up your listing</a>
+                    <a rel="nofollow" href="https://restaurant.opentable.com/get-started/" target="_blank">Set up your listing</a>
                 </li>
             </ul>
             <p class="mb-0">Of course, there are a million other sites out there that maybe could list your restaurant. But these are the most popular and they’re critical to set up as early as possible.</p>
@@ -134,9 +134,9 @@
                 <dt>When to go custom-built:</dt>
                 <dd>Probably the best use case for a custom-built website without a CMS would be a “brochure” style website that you plan to build once and rarely (or never) update. Usually, changing things on a custom-built website will require changes to be made in the actual code, so it won’t be easy to do unless you’re tech-savvy.</dd>
                 <dt>When to use a CMS:</dt>
-                <dd>CMS is a great middle-ground option that lets you build a custom-looking website that you can easily update or change. So, if you plan to update your menu or post your newest specials each week, you can have a web developer build a custom theme/template for a CMS like <a href="https://wordpress.org/" target="_blank">Wordpress</a> and then you can update the website content using the backend editor.</dd>
+                <dd>CMS is a great middle-ground option that lets you build a custom-looking website that you can easily update or change. So, if you plan to update your menu or post your newest specials each week, you can have a web developer build a custom theme/template for a CMS like <a rel="nofollow" href="https://wordpress.org/" target="_blank">Wordpress</a> and then you can update the website content using the backend editor.</dd>
                 <dt>When to use a website builder:</dt>
-                <dd>The easiest (and cheapest) option for setting up and maintaining your website is the WYSIWYG website builder like <a href="https://wix.com" target="_blank">Wix</a> or <a href="https://www.squarespace.com/" target="_blank">Squarespace</a>. Especially if you are tight on funds and just want a basic website, this could be an easy way to get things up and running. The downside is that you’ll be working from templates and the website may not be 100% customized how you want it.</dd>
+                <dd>The easiest (and cheapest) option for setting up and maintaining your website is the WYSIWYG website builder like <a rel="nofollow" href="https://wix.com" target="_blank">Wix</a> or <a rel="nofollow" href="https://www.squarespace.com/" target="_blank">Squarespace</a>. Especially if you are tight on funds and just want a basic website, this could be an easy way to get things up and running. The downside is that you’ll be working from templates and the website may not be 100% customized how you want it.</dd>
             </dl>
         </section>
     </section>

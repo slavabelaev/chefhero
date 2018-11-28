@@ -44,11 +44,49 @@ import router from './router'
 
 Vue.config.productionTip = false;
 
-router.afterEach((to) => {
-  document.title = to.meta.title + ' ' + to.meta.description;
-  document.querySelector('meta[name="description"]').content = to.meta.description;
-  document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
-})
+// router.afterEach((to) => {
+//   document.title = to.meta.title + ' ' + to.meta.description;
+//   document.querySelector('meta[name="description"]').content = to.meta.description;
+//   document.querySelector('meta[name="keywords"]').content = to.meta.keywords;
+// })
+
+// This callback runs before every route change, including on page load.
+router.beforeEach((to, from, next) => {
+  // This goes through the matched routes from last to first, finding the closest route with a title.
+  // eg. if we have /some/deep/nested/route and /some, /deep, and /nested have titles, nested's will be chosen.
+  const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
+
+  // Find the nearest route element with meta tags.
+  const nearestWithMeta = to.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
+  const metaDescription = to.meta.metaTags.filter(item => item.name == 'description')[0].content;
+
+  // If a route with a title was found, set the document (page) title to that value.
+  if(nearestWithTitle) document.title = nearestWithTitle.meta.title + ' ' + metaDescription;
+
+  // Remove any stale meta tags from the document using the key attribute we set below.
+  Array.from(document.querySelectorAll('[data-vue-router-controlled]')).map(el => el.parentNode.removeChild(el));
+
+  // Skip rendering meta tags if there are none.
+  if(!nearestWithMeta) return next();
+
+  // Turn the meta tag definitions into actual elements in the head.
+  nearestWithMeta.meta.metaTags.map(tagDef => {
+    const tag = document.createElement('meta');
+
+    Object.keys(tagDef).forEach(key => {
+      tag.setAttribute(key, tagDef[key]);
+    });
+
+    // We use this to track which meta tags we create, so we don't interfere with other ones.
+    tag.setAttribute('data-vue-router-controlled', '');
+
+    return tag;
+  })
+  // Add the meta tags to the document head.
+  .forEach(tag => document.head.appendChild(tag));
+
+  next();
+});
 
 new Vue({
   router,

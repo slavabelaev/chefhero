@@ -7,7 +7,7 @@
         <small class="figure__note">Note: This is a representation of total waste generated and does not depict what is diverted from landfill through recycling and/or composting.</small>
       </div>
       <div class="md-layout-item md-small-size-100">
-        <cite class="figure__source">Source: <a target="_blank" href="https://possector.com/">possector.com</a></cite>
+        <cite class="figure__source">Source: <a target="_blank" rel="nofollow" href="https://possector.com/">possector.com</a></cite>
       </div>
     </div>
   </figure>

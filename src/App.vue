@@ -37,7 +37,7 @@
       <md-steppers :md-active-step="$route.name" md-vertical id="app-navigation">
         <md-step :id="route.name"
                  :md-label="route.meta.title" 
-                 :md-description="route.meta.description"
+                 :md-description="route.meta.metaTags[0].content"
                  :to="route.path"
                  :md-done="doneRoutes[route.name]"
                  v-for="route in $router.options.routes"
