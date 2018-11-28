@@ -291,7 +291,8 @@ article {
 	}
 	#app-content-actions,
 	.md-app-toolbar,
-	.md-app-drawer {
-		display: none;
+	.md-app-drawer,
+	.md-button {
+		display: none!important;
 	}
 }
