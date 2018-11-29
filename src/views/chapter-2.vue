@@ -48,38 +48,34 @@
         <p>How you decorate will depend a great deal on your restaurant concept. For example, a fast-casual restaurant and a fine dining establishment will not look the same.</p>
         <p>But there are some design principles that any restaurateur can implement to make a space look its best on a budget.</p>
         <p>Outfit the space with good-looking but low maintenance plants, like ferns or succulents. Greenery can make an indoor space look much brighter and more inviting.</p>
-        <div class="md-layout figure mt-1 mb-0">
-            <div class="md-layout-item md-small-size-100 p-0">
-                <p class="pt-large-1 pr-large-2">You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
+        <figure class="md-layout figure">
+            <div class="md-layout-item md-size-50 md-small-size-100 p-0">
+                <figcaption class="pr-large-2 mb-2">You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</figcaption>
             </div>
-            <div class="md-layout-item md-small-size-100 p-0">
+            <div class="md-layout-item md-size-50 md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_2.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_2.png')" alt="" class="mt-1 mb-0">
+                    <img :src="require('../assets/images/chapter__2_image_2.png')" alt="" class="mb-0">
                 </a>
             </div>
-        </div>
-         <div class="md-layout">
-            <div class="md-layout-item md-small-size-100 p-0">
+            <div class="md-layout-item md-size-50 md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_3.png')" target="_blank" data-fancybox="gallery">
                     <img :src="require('../assets/images/chapter__2_image_3.png')" alt="" class="mb-0">
                 </a>
             </div>
-            <div class="md-layout-item md-small-size-100 p-0">
+            <div class="md-layout-item md-size-50 md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_4.png')" target="_blank" data-fancybox="gallery">
                     <img :src="require('../assets/images/chapter__2_image_4.png')" alt="" class="mb-0">
                 </a>
             </div>
-        </div>
-         <div class="md-layout">
-            <div class="md-layout-item md-small-size-100 p-0">
+            <div class="md-layout-item md-size-50 md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_5.png')" target="_blank" data-fancybox="gallery">
                     <img :src="require('../assets/images/chapter__2_image_5.png')" alt="" class="mb-0">
                 </a>
             </div>
-            <div class="md-layout-item md-small-size-100 p-0">
-                <p class="pt-2 p-large-2 mb-0">Another way to add some life to your space is to offer nontraditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
+            <div class="md-layout-item md-size-50 md-small-size-100 p-0">
+                <figcaption class="pt-2 p-large-2 mb-0">Another way to add some life to your space is to offer nontraditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</figcaption>
             </div>
-        </div>
+        </figure>
     </section>
     <section>
         <figure class="figure figure_style_primary p-1">
@@ -105,7 +101,7 @@
         <p>Carefully time your move to have the least possible impact on your sales. If you’re able to move over a holiday break or your normal closed days to avoid having to shut the restaurant down during the move, that’s best. And when you move your equipment and furniture into the new space, it’s usually best to hire a professional moving company to help. Doing it yourself might seem like a good way to save money, but it’s possible you could damage something and end up spending more than you would had you just hired the movers. Most moving services will also come with insurance and all the boxes, trolleys, blankets and other supplies you need.</p>
         <p>Once you’re settled in the new space, host an event for your grand reopening. It’ll help get customers, old and new, excited about your new space. You could also offer giveaways or discounts during the opening to give loyal customers and locals to your new a spot an incentive to check it out.</p>
         <p>Something important to consider when designing your space is to define your restaurant's concept, identity, name and logo. Find an identity and concept that fits into the personality and vibe of your location (or vice versa).</p>
-        <p>Read on to learn about how to build a killer brand for your restaurant!</p>
+        <p class="mb-0">Read on to learn about how to build a killer brand for your restaurant!</p>
     </section>
 </article>
 </template>

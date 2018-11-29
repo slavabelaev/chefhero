@@ -81,7 +81,7 @@
         <p>Then there are the costs for fitting out your restaurant (on average, $300 to $500 per square foot) and supplying all the equipment for both the front and back of house (on average, $150 to $300 per square foot). We’re already over several hundred thousand dollars here.</p>
         <p>And don’t forget about your initial food costs. The first food and beverage order that’s placed will be larger than average, so budget up to $25,000, depending on the concept of the restaurant (this cost will be lower for something fast-casual and higher for something gourmet).</p>
         <p>And then, once you’ve dropped all that cash, there’s still the operating costs to cover. With all of these costs adding up, you see why it’s common for restaurants to operate in the red for their first several years, and why so many of them fail early on.</p>
-        <p>Once you've established your budget, you’ll get a better sense of what locations are possible options for you. In the next chapter, we’ll talk about how to pick your location and create a space with personality.</p>
+        <p class="mb-0">Once you've established your budget, you’ll get a better sense of what locations are possible options for you. In the next chapter, we’ll talk about how to pick your location and create a space with personality.</p>
     </section>
 </article>
 </template>

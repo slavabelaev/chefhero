@@ -53,7 +53,7 @@
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
-                <p>Looking for specific features or price point for your website? Find the platform that best suits <br>your needs here.</p>
+                <p>Looking for specific features or price point for your website? Find the platform that best suits your needs here.</p>
             </header>
             <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Restaurant Website Builders</figcaption>
@@ -208,7 +208,7 @@
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
-                <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, <br>see below.</p>
+                <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, see belowsee below.</p>
             </header>
             <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Accounting</figcaption>
@@ -289,7 +289,7 @@
         <section>
             <header class="text-center">
                 <h3>Comparison</h3>
-                <p>Find the best talent without having to shell out for a recruiter using these budget-friendly <br>online job boards.</p>
+                <p>Find the best talent without having to shell out for a recruiter using these budget-friendly online job boards.</p>
             </header>
             <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Hiring</figcaption>
@@ -431,7 +431,7 @@
             <p>When it comes to their supply chain, virtually all restaurants are looking to secure lower prices, better quality (and increasingly, local) ingredients, and to do so with as little hassle as possible.</p>
             <p><a rel="nofollow" href="http://www.chefhero.com" target="_blank">ChefHero</a> is a one-stop shop where you can get all of that done.</p>
             <p>If you’re looking to switch up your supply game and take your business forward, ChefHero is a key tech tool for your arsenal.</p>
-            <p>Now that you’ve got your restaurant up and running smoothly, it’s time to think about the environment and your restaurants carbon footprint. In the next section, we’ll walk you through the simple changes you can make to your restaurant to make it more eco-friendly.</p>
+            <p class="mb-0">Now that you’ve got your restaurant up and running smoothly, it’s time to think about the environment and your restaurants carbon footprint. In the next section, we’ll walk you through the simple changes you can make to your restaurant to make it more eco-friendly.</p>
         </section>
     </section>
 </article>

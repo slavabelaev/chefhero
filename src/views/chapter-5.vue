@@ -97,7 +97,7 @@
             </div>
         </div>
         <p>And if you plan on poaching a personal chef, you may need to be prepared to pay more<sup><a rel="nofollow" href="https://www.theglobeandmail.com/report-on-business/careers/career-advice/life-at-work/i-want-to-be-a-personal-chef-what-will-my-salary-be/article13112144/" target="_blank">[17]</a></sup> — personal chefs’ salaries average between $35,000 and $45,000 per year (but can be much higher) in addition to schedules that often include several days off each week and vacation time each year. It’ll take an attractive salary to lure a chef away from a position that has those kinds of hours.</p>
-        <p>Your staff is the backbone of your restaurant. Staffing is one of the most important decisions you’ll make as you get your establishment up and running. It’s part of what makes staffing (and staff retention) so difficult. But once you have a high-quality staff in place, it’ll pay off in spades with good food, excellent customer service and a restaurant that can run efficiently and autonomously.</p>
+        <p class="mb-0">Your staff is the backbone of your restaurant. Staffing is one of the most important decisions you’ll make as you get your establishment up and running. It’s part of what makes staffing (and staff retention) so difficult. But once you have a high-quality staff in place, it’ll pay off in spades with good food, excellent customer service and a restaurant that can run efficiently and autonomously.</p>
     </section>
 </article>
 </template>

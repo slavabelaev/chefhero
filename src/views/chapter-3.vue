@@ -288,7 +288,7 @@
         <p>In today’s tumultuous business climate, it’s imperative to copyright and trademark your work to deter others from stealing or recreating it in a detrimental manner.</p>
         <p>The good news is there are online legal services such as <a target="_blank" rel="nofollow" href="https://www.legalzoom.com/">LegalZoom</a> and <a target="_blank" rel="nofollow" href="https://www.lawdepot.com/">LawDepot</a> which can help you file the paperwork necessary to protect yourself from this type of infringement. In addition, systems like this are a great way to ensure you yourself have not unintentionally infringed upon someone else’s intellectual property.</p>
         <p>Your restaurant’s brand — from the concept to the logo — is extremely valuable. So it’s important to protect that investment by taking the proper steps here.</p>
-        <p>Not only does it take a lot of time and effort to develop your brand, but it embodies your entire business.</p>
+        <p class="mb-0">Not only does it take a lot of time and effort to develop your brand, but it embodies your entire business.</p>
     </section>
 </article>
 </template>

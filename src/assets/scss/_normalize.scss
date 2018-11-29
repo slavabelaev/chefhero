@@ -25,10 +25,17 @@ article {
 	* {
 		margin-top: 0;
 	}
+	p,
+	section {
+		font-family: 'Libre Baskerville', serif;
+	}
 	h1 {
-		font-family: "TiemposHeadline", sans-serif;
+		font-family: 'TiemposHeadline', serif;
 		color: #212121;
 		margin-top: 0;
+	}
+	h2, h3, h4, h5, h6, figcaption {
+		font-family: 'Belbo-Book', serif;
 	}
 	h2 {
 		font-size: $font-size * 1.5;
@@ -169,6 +176,9 @@ article {
 }
 .pt-2 {
 	padding-top: ($margin * 2)!important;
+}
+.mb-2 {
+	margin-bottom: ($margin * 2)!important;
 }
 .mx-auto {
 	margin-left: auto!important;

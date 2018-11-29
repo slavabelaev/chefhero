@@ -19,8 +19,8 @@
         </section>
     </header>
     <p>Always dreamed of opening your own restaurant but weren’t sure where to start? Of course, there are many factors that go into planning your restaurant. But, getting the basics right is absolutely critical to success.</p>
-    <p>Let’s look at five of the most important steps you can take to get off on the right foot and set yourself up for years of success in the restaurant industry.</p>
-    <section>
+    <p class="mb-0">Let’s look at five of the most important steps you can take to get off on the right foot and set yourself up for years of success in the restaurant industry.</p>
+    <section class="figure__mt">
         <h2>Step #1: Get your Back Office in Order</h2>
         <p>Before you take any steps with your restaurant, you want to get all of the legal and financial stuff sorted out. The worst situation to put yourself in is trying to scramble to figure out your accounting procedure 6 months after the restaurant is open.</p>
         <p>Get the basics figured out now and you won’t have to worry about them down the road.</p>
@@ -59,7 +59,7 @@
             </blockquote>
         </section>
     </section>
-    <section>
+    <section class="figure__mt">
         <h2>Step #2: Claim Your Place on the Web</h2>
         <p>We all live in the 21st century, so it should be obvious that one of the most important parts of running any business today is having a web presence. Most important: Your domain.</p>
         <p>You need a website that lists your hours, your location, your menu, and other details that will help diners decide they want to stop by. And that information lives on your website and other business listings.</p>
@@ -117,7 +117,7 @@
             <img :src="require('../assets/images/chapter__3_image_1.png')" alt="" class="figure">
         </a>
     </section>
-    <section>
+    <section class="figure__mt">
         <h2>Step #3: Decide How to Build Your Website</h2>
         <p>Buying the domain name for your website is really only the first step to getting set up online. You also need to build your actual site — or have someone build it for you.</p>
         <p>You need to decide what kind of site you need and how it should be created.</p>
@@ -140,7 +140,7 @@
             </dl>
         </section>
     </section>
-    <section class="pt-1">
+    <section class="figure__mt">
         <div class="md-layout">
             <div class="md-layout-item md-small-size-100">
                 <h2>Step #4: Establish Your Social Media Presence</h2>
@@ -166,11 +166,11 @@
             <p>Double check the exact same name is available with all other channels you’re going to use to grow your brand before registering an account with any platform. With any marketing or branding strategy, consistency across all channels is key.</p>
         </section>
     </section>
-    <section>
+    <section class="figure__mt">
         <h2>Step #5: Find the Right Talent</h2>
         <p>Finding, hiring, and retaining the right talent isn't an easy task for any business. It has become an employee’s market — meaning there are currently more open available job positions being posted than there are top candidates available to fill these positions. As an employer, you can’t and won’t ever win on compensation alone.</p>
         <p>That means getting smart about where and how you look to find team members.</p>
-        <p>In the next section, we will go into all of the things that come with finding (and retaining) the right talent. From writing job descriptions to keeping your employees feeling challenged, we cover it all.</p>
+        <p class="mb-0">In the next section, we will go into all of the things that come with finding (and retaining) the right talent. From writing job descriptions to keeping your employees feeling challenged, we cover it all.</p>
     </section>
 </article>
 </template>

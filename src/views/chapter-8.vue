@@ -628,7 +628,7 @@
         <section>
             <h3>Stay Diligent</h3>
             <p>Your metrics will only be as accurate as you are disciplined and diligent when creating them. The more effort you put into these calculations from the get-go, the easier they will be to update and maintain in the future. Carefully gather data and try to account for the wide array of variable costs and factors that may affect the overall health of your business. A seasoned restaurateur can tell you that keeping your analytical house in order is the most crucial step to having a full understanding of your business.</p>
-            <p>Lucky for you, we’re in the age of tech — there are several tools out there to help make running a restaurant easier. In the next section, we cover the 19 tech tools that will help your restaurant run more smoothly, and keep you sane from all of the craziness that comes with running a restaurant.</p>
+            <p class="mb-0">Lucky for you, we’re in the age of tech — there are several tools out there to help make running a restaurant easier. In the next section, we cover the 19 tech tools that will help your restaurant run more smoothly, and keep you sane from all of the craziness that comes with running a restaurant.</p>
         </section>
     </section>
 </article>

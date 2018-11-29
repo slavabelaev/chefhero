@@ -66,7 +66,7 @@
     <section>
         <h2>While you’re at it, rethink your supply chain</h2>
         <p>Having a supply chain that’s bringing in food from far away isn’t great for the environment, either. While you’re working to make your restaurant as sustainable as possible, maybe it’s time to reexamine your supply chain as well.</p>
-        <p><a href="https://www.chefhero.com/" target="_blank">ChefHero</a> makes it easy to secure local, sustainable ingredients, all while eliminating supply chain hassle and saving you money.</p>
+        <p class="mb-0"><a href="https://www.chefhero.com/" target="_blank">ChefHero</a> makes it easy to secure local, sustainable ingredients, all while eliminating supply chain hassle and saving you money.</p>
     </section>
 </article>
 </template>
