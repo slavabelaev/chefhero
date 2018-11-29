@@ -31,7 +31,7 @@
         </a>
         <p>Another great way to deliver consistently excellent experiences is to personalize your customer service to each guest<sup><a rel="nofollow" href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[21]</a></sup>. Maintain a guest database and use it to offer special promotions to loyal customers. Encourage servers to get to know regulars and address them by name. Train your staff to know the menu well enough to offer suggestions based on what customers like or what they’ve already ordered. Recommending the perfect drink or dessert to compliment a meal will make a customer feel especially taken care of.</p>
         <figure class="figure">
-            <figcaption class="figure__title">Restaurants can experience a 216% increase in revenue for going <br>above & beyond.</figcaption>
+            <figcaption class="figure__title">Restaurants can experience a 216% increase in revenue for going above & beyond.</figcaption>
             <div class="md-layout">
                 <div class="md-layout-item md-small-size-100">
                     <a :href="require('../assets/images/chapter__6_image_2.png')" target="_blank" data-fancybox="gallery">
