@@ -3,6 +3,10 @@
 .md-app-content.md-content.md-theme-default {
     height: initial;
 }
+.md-button.md-theme-default.md-raised:not([disabled]).md-pink {
+    background-color: $pink;
+    color: #fff;
+}
 
 .md-app {
     position: fixed;

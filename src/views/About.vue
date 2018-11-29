@@ -6,7 +6,7 @@
             <p>ChefHero is an online mobile and web application that allows businesses to order wholesale restaurant supplies from a network of dedicated regional suppliers. We are on a mission to build the world’s most trusted wholesale food network.</p>
             <p>Hundreds of restaurants, coffee shops, bars, etc have joined our community, helping you save time and money.</p>
             <p>If you’d like to learn more about how ChefHero can help you save time and money, please get in touch!</p>
-            <md-button target="_blank" href="https://www.chefhero.com/ultimate-guide-get-started-with-chefhero" class="md-accent md-raised large-button my-1">REQUEST DEMO</md-button>
+            <md-button target="_blank" href="https://www.chefhero.com/ultimate-guide-get-started-with-chefhero" class="md-pink md-raised large-button my-1">REQUEST DEMO</md-button>
         </div>
     </div>
 </article>
