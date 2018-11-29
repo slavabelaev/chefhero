@@ -53,7 +53,7 @@
             </div>
             <div class="md-layout-item md-small-size-100">
                 <a :href="require('../assets/images/chapter__11_image_3.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__11_image_3.png')" alt="">
+                    <img :src="require('../assets/images/chapter__11_image_3.png')" alt="" class="figure__my-small">
                 </a>
             </div>
         </div>

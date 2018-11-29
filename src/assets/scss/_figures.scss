@@ -58,3 +58,10 @@ $margin: $font-size * 4;
     text-align: center;
     color: #212121;
 }
+
+@media (max-width: 600px) {
+	.figure__my-small {
+		margin-bottom: $margin;
+		margin-top: $margin;
+	}
+}
