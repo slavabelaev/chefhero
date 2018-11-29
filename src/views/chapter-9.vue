@@ -337,12 +337,12 @@
     <section>
         <header>
             <h2>Get Food Out the Door… Fast</h2>
-            <p>In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
+            <p class="mb-0">In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
             <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery">
-                <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="mb-1">
+                <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="figure">
             </a>
         </header>
-        <div class="md-layout mb-1">
+        <div class="md-layout">
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a rel="nofollow" href="https://www.ubereats.com/" target="_blank">Ubereats</a></h3>
                 <p>Deliver meals to Uber customers quickly and conveniently. Orders can even be placed while riding in an Uber, and timed to arrive concurrently.</p>
@@ -353,14 +353,14 @@
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a rel="nofollow" href="https://postmates.com/" target="_blank">Postmates</a></h3>
-                <p>Postmates delivers from restaurants in major markets, but also from other types of retail stores, making it a go-to for many customers.</p>
+                <p class="mb-large-0">Postmates delivers from restaurants in major markets, but also from other types of retail stores, making it a go-to for many customers.</p>
             </section>
             <section class="md-layout-item md-size-50 md-small-size-100">
                 <h3><a rel="nofollow" href="https://www.doordash.com/" target="_blank">Doordash</a></h3>
-                <p>A delivery service that also puts effort into decreasing food waste.</p>
+                <p class="mb-large-0">A delivery service that also puts effort into decreasing food waste.</p>
             </section>
         </div>
-        <section>
+        <section class="figure__mt">
             <h3 class="text-center">Comparison</h3>
             <figure class="figure figure_is_table mt-0">
                 <figcaption class="figure__title">Delivery Aids</figcaption>

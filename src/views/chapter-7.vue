@@ -91,19 +91,19 @@
         <section>
             <h3>Menu Colour</h3>                    
             <p>The colour of your menu highlights can create powerful associations in a customer’s mind. Green can inspire feelings of fresh quality produce, whereas red is associated with speed and passion, and pastels can offer a calming effect while encouraging contemplation<sup><a rel="nofollow" href="https://www.psychologytoday.com/us/blog/habits-not-hacks/201408/color-psychology-how-colors-influence-the-mind" target="_blank">[25]</a></sup>.</p>
-            <p>There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a rel="nofollow" href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
-            <div class="md-layout mb-1 pt-1">
+            <p class="mb-0">There are a wealth of resources on colour theory and colour’s emotional psychology<sup><a rel="nofollow" href="https://www.colormatters.com/color-and-design/basic-color-theory" target="_blank">[26]</a></sup>. Consider these factors when deciding how and where to highlight on your menu, in addition to your overall decor.</p>
+            <div class="md-layout figure__my">
                 <div class="md-layout-item md-small-size-100">
                     <a :href="require('../assets/images/chapter__7_image_3.jpg')" target="_blank" data-fancybox="gallery">
                         <img :src="require('../assets/images/chapter__7_image_3.jpg')" alt="">
                     </a>
                     <a :href="require('../assets/images/chapter__7_image_4.jpg')" target="_blank" data-fancybox="gallery">
-                        <img :src="require('../assets/images/chapter__7_image_4.jpg')" alt="">
+                        <img :src="require('../assets/images/chapter__7_image_4.jpg')" alt="" class="mb-large-0">
                     </a>
                 </div>
                 <div class="md-layout-item md-small-size-100">
                     <a :href="require('../assets/images/chapter__7_image_2.jpg')" target="_blank" data-fancybox="gallery">
-                        <img :src="require('../assets/images/chapter__7_image_2.jpg')" alt="">
+                        <img :src="require('../assets/images/chapter__7_image_2.jpg')" alt="" class="mb-large-0">
                     </a>
                 </div>
             </div>

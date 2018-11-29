@@ -5,13 +5,13 @@
       <div class="md-layout-item md-small-size-100">
         <figure class="figure my-0">
           <canvas :id="chartId"></canvas>
-          <figcaption class="figure__title">{{chartConfig.options.title.text}}</figcaption>
+          <figcaption class="figure__title mb-large-0">{{chartConfig.options.title.text}}</figcaption>
         </figure>
       </div>
       <div class="md-layout-item md-small-size-100">
         <figure class="figure my-0">
           <canvas :id="secondChartId"></canvas>
-          <figcaption class="figure__title">{{secondChartConfig.options.title.text}}</figcaption>
+          <figcaption class="figure__title mb-large-0">{{secondChartConfig.options.title.text}}</figcaption>
         </figure>
       </div>
     </div>

@@ -1,10 +1,4 @@
-.figure.extreme-aversion-figure {
-    margin-bottom: 1rem;
-}
 .extreme-aversion-figure {
-    .md-layout-item {
-        margin-bottom: 1rem;
-    }
     .md-card {
         height: 100%;
         margin-left: 0;
@@ -38,6 +32,9 @@
     .extreme-aversion-figure {
         .md-title {
             margin-bottom: .5rem;
+        }
+        .md-layout-item {
+            margin-bottom: 1rem;
         }
     }
     .extreme-aversion-figure__media {
