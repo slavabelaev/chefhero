@@ -21,8 +21,8 @@
     <p>No matter how great you are with words, nothing can sell your food better than a mouth-watering photo.</p>
     <p>Diners eat with their eyes first, and that’s what makes Instagram a vital marketing tool for restaurants. It provides a cost-effective way for you to get images of your food in front of potential guests. By giving these hungry guests a craving for the real thing, you’ll have them lining up at your doorstep in no time.</p>
     <p class="mb-0">But if you think filters are for coffee, feeds are for farm animals, and hashtags are for… well, who knows what, you might need a little Insta-assistance. And that’s where this guide comes in. From setting up your Instagram to creating and curating the perfect posts, this post has everything you need to get started on your #InstaSuccess.</p>
-    <a :href="require('../assets/images/chapter__11_image_1.jpg')" target="_blank" data-fancybox="gallery">
-        <img :src="require('../assets/images/chapter__11_image_1.jpg')" alt="" class="figure">
+    <a :href="require('../assets/images/chapter__11_image_1.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+        <img :src="require('../assets/images/chapter__11_image_1.jpg')" alt="" class="my-0">
     </a>
     <section>
         <h2>Set your Instagram up for success</h2>
@@ -31,8 +31,8 @@
         <p>When you create your account, also take a moment to create a location page for your restaurant, which will allow other users to easily tag you in photos they post when they visit, as well as curate posts made at your restaurant onto one page.</p>
         <p>If you use other forms of social media, like Facebook and Twitter, integrate your Instagram with those accounts. Always make sure your Instagram photos are posting to your other social profiles, and cross promote your new Instagram account there to increase reach and follower counts. And consider embedding a stream of your most recent Instagram photos on your website, too.</p>
         <p class="mb-0">Finally, before you start posting, you should do a little bit of hashtag research. Instagram posts with at least one hashtag average 12.6 percent more engagement, according to a Simply Measured study <sup><a rel="nofollow" href="http://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253Dhttp://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253Dhttp://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253D" target="_blank">[36]</a></sup>. But that doesn’t mean any hashtag will work. Choose hashtags that will get you a lot of eyes, but be careful of being too vague and getting buried with millions of other posts. For example, #foodie is nearing 100 million posts on Instagram. Instead, try personalizing it with your city; for example, #chicagofood, which has more than half a million posts. This means that you have a higher chance of reaching new followers without getting buried by thousands of other posts. You should also create a hashtag specifically for your restaurant, and then use it in your Instagram bio and all your posts. You can even display it in your restaurant or print it on your menus to encourage diners to use it, too.</p>
-        <a :href="require('../assets/images/chapter__11_image_2.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__11_image_2.jpg')" alt="" class="figure">
+        <a :href="require('../assets/images/chapter__11_image_2.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__11_image_2.jpg')" alt="" class="my-0">
         </a> 
     </section>
     <section>
@@ -48,27 +48,28 @@
                 <p>Ideally, you should be posting to your Instagram daily, or even multiple times per day. Try out regular, daily posts, like posting photos and descriptions of your specials.</p>     
                 <p>But you should also definitely take advantage of Instagram when special events are happening.</p>
                 <p>If your restaurant is involved in a fair or festival, promote that on Instagram! Take photos of your setup at the event. Broadcast a live video showing crowds and excitement at the event, and encourage more followers to come out and find you there. You can even use photos or stories to chronicle something disastrous, like a rainstorm in the middle of a festival. Have fun with it, and your followers are sure to enjoy the content.</p>
-                <p>But also be on the lookout for day-to-day events that you can promote on Instagram. If you’re introducing a new food or signature drink, use your Instagram account to show it off and welcome your guests to try out new menu items.</p>
-                <p>You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
+   
             </div>
             <div class="md-layout-item md-small-size-100">
-                <a :href="require('../assets/images/chapter__11_image_3.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__11_image_3.png')" alt="" class="figure__my-small">
+                <a :href="require('../assets/images/chapter__11_image_3.png')" target="_blank" data-fancybox="gallery" class="figure__my-small">
+                    <img :src="require('../assets/images/chapter__11_image_3.png')" alt="" class="my-small-0">
                 </a>
             </div>
-        </div>
+        </div>             
+        <p>But also be on the lookout for day-to-day events that you can promote on Instagram. If you’re introducing a new food or signature drink, use your Instagram account to show it off and welcome your guests to try out new menu items.</p>
+        <p>You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
     </section>
     <section>
         <h2>What should you post?</h2>
         <p>While everything in this guide will help you create the best Instagram account possible, nothing matters as much as what you post. Your content is what will gain you followers, and turn those followers into guests who show up for your food.</p>
         <p class="mb-0">First and foremost, you have to post photos of your food and drinks. Remember that example at the beginning? What’s more effective: a really well-written description of a cheese-burger? Or this:</p>
-        <a :href="require('../assets/images/chapter__11_image_4.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__11_image_4.jpg')" alt="" class="figure w-100">
+        <a :href="require('../assets/images/chapter__11_image_4.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__11_image_4.jpg')" alt="" class="my-0 w-100">
         </a>
         <p>You’re getting hungry just looking at it, right?</p>
         <p class="mb-0">But if you’re going to post food pics, they have to look as great as the food tastes. That means you can’t just take any photo. Does this look as appetizing?</p>
-        <a :href="require('../assets/images/chapter__11_image_5.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__11_image_5.jpg')" alt="" class="figure w-100">
+        <a :href="require('../assets/images/chapter__11_image_5.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__11_image_5.jpg')" alt="" class="my-0 w-100">
         </a>
         <p>The answer is no. It’s dark. It’s blurry. The angle doesn’t show off the ingredients.</p>
         <p>A few tips for getting the best possible food photography, even as a novice:</p>
@@ -88,8 +89,8 @@
         <h2>Instagram is not a one-way street</h2>
         <p>Beware: Instagram isn’t a visual press conference for your brand.</p>
         <p class="mb-0">You should constantly be interacting, liking, commenting, and engaging with your followers. Take the time to dig into their relevant content that relates to your brand and engage with it.</p>
-        <a :href="require('../assets/images/chapter__11_image_6.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__11_image_6.jpg')" alt="" class="figure">
+        <a :href="require('../assets/images/chapter__11_image_6.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__11_image_6.jpg')" alt="" class="my-0">
         </a>
         <p>Aside from posting, use Instagram to have positive interactions with your fans. Post captions that inspire them to comment (a fill in the blank is a great option, like “The best burger topping is ___”), then start a dialogue. Answer questions. Encourage opinions. Engage respectfully, but with a fun tone.</p>
         <p class="mb-0">Armed with the right tips and tricks, it’s easy to see that Instagram is a powerful marketing tool — and that it isn’t nearly as scary as it might seem to a less-than-tech-savvy restaurateur. Use this guide to create a restaurant Instagram account that will not only show off the great work you’re doing, but will inspire diners to become followers.</p>

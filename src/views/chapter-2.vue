@@ -81,15 +81,15 @@
         <figure class="figure figure_style_primary p-1">
             <figcaption class="figure__description">An easy way to add decor to your restaurant without having to drop a lot of cash is to open your space to local artists to exhibit their work. You’ll get a rotating set of decor for free, and build goodwill in the community while you’re at it.</figcaption>
         </figure>
-        <div class="md-layout">
+        <div class="md-layout figure mt-0">
             <div class="md-layout-item md-small-size-100">
                 <a :href="require('../assets/images/chapter__2_image_6.jpg')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_6.jpg')" alt="" class="my-0">
+                    <img :src="require('../assets/images/chapter__2_image_6.jpg')" alt="" class="my-small-0">
                 </a>
             </div>
             <div class="md-layout-item md-small-size-100">
                 <a :href="require('../assets/images/chapter__2_image_7.png')" target="_blank" data-fancybox="gallery">
-                    <img :src="require('../assets/images/chapter__2_image_7.png')" alt="" class="figure mt-0">
+                    <img :src="require('../assets/images/chapter__2_image_7.png')" alt="" class="my-0">
                 </a>
             </div>
         </div>

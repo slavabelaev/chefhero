@@ -603,8 +603,8 @@
                 <li><strong>Divide the number of unique customers</strong> by the <strong>number of total customers</strong> within that time period.</li>
             </ol>
         </section>
-        <a :href="require('../assets/images/chapter__8_image_2.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__8_image_2.jpg')" alt="" class="figure">
+        <a :href="require('../assets/images/chapter__8_image_2.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__8_image_2.jpg')" alt="" class="my-0">
         </a>
     </section>
     <section>

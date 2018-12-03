@@ -8,8 +8,13 @@
 $font-size: 1.125rem;
 $margin: $font-size * 4;
 
+a.figure,
+a.figure__my-small {
+	display: block;
+}
 .figure {
-	margin: $margin 0;
+	margin-top: $margin;
+	margin-bottom: $margin;
     .figure .figure__title {
         font-size: $font-size;
     }
@@ -59,9 +64,17 @@ $margin: $font-size * 4;
     color: #212121;
 }
 
+
 @media (max-width: 600px) {
 	.figure__my-small {
 		margin-bottom: $margin;
 		margin-top: $margin;
+	}
+}
+
+@media (min-width: 601px) {
+	.figure {
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
 	}
 }

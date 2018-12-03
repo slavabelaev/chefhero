@@ -21,7 +21,8 @@ body {
 	line-height: 1.25;
 }
 article {
-	color: #535B5B;
+	color: #333333;
+	line-height: 1.75;
 	* {
 		margin-top: 0;
 	}
@@ -30,6 +31,10 @@ article {
 	section {
 		font-family: 'Libre Baskerville', serif;
 	}
+	li {
+		margin-bottom: 10px;
+	}
+
 	h1 {
 		font-family: 'TiemposHeadline', serif;
 		color: #212121;
@@ -212,6 +217,10 @@ article {
 .w-100 {
 	width: 100%;
 }
+
+[columns] li {
+	margin-bottom: 0;
+}
 @media (min-width: 961px) {
 	article {
 		h1 {
@@ -219,6 +228,14 @@ article {
 		}
 		dd {
 			margin-left: $margin * 2;
+		}	
+		ul {
+			dl {
+				padding-left: 40px;
+			}
+			dd {
+				margin-left: 0;
+			}
 		}
 	}
 	.md-layout-item { 
@@ -243,6 +260,7 @@ article {
 
 	[columns="2"] {
 		column-count: 2;
+
 	}
 
 	.mb-large-0 {

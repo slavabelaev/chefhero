@@ -19,8 +19,8 @@
         </section>
     </header>
     <p class="mb-0">Running a restaurant isn’t easy. Between the stress, the long hours, the startup costs and the razor-thin profit margins, you have enough on your plate.</p>
-    <a :href="require('../assets/images/chapter__9_image_1.png')" target="_blank" data-fancybox="gallery">
-        <img :src="require('../assets/images/chapter__9_image_1.png')" alt="" class="figure">
+    <a :href="require('../assets/images/chapter__9_image_1.png')" target="_blank" data-fancybox="gallery" class="figure">
+        <img :src="require('../assets/images/chapter__9_image_1.png')" alt="" class="my-0">
     </a>
     <p>There are there are countless applications and other technology tools that can help make the modern restaurateur’s job easier — or, at the very least, a little more efficient.</p>
     <p>Technology can’t run the restaurant for you (yet), but it can sure help. Here are some of our top picks for apps and tech tools that will help streamline the job.</p>
@@ -47,8 +47,8 @@
             <h3><a rel="nofollow" href="https://www.letseat.at/" target="_blank">Let’s Eat Free Website Builder for Restaurants</a></h3>
             <p class="mb-0">More than 15,000 restaurants use Let’s Eat for their web hosting and design, and it’s easy to see why. A simple interface and plenty of useful, restaurant industry-specific features make it user friendly and provide everything you need for your restaurant’s web presence.</p>
         </section>
-        <a :href="require('../assets/images/chapter__9_image_2.jpg')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="" class="figure">
+        <a :href="require('../assets/images/chapter__9_image_2.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="" class="my-0">
         </a>
         <section>
             <header class="text-center">
@@ -146,8 +146,8 @@
             <h3><a rel="nofollow" href="https://revelsystems.com/pos-systems/type/restaurant/" target="_blank">Revel Systems POS</a></h3>
             <p class="mb-0">Revel Systems offers one of the most customizable and scalable POS systems out there, allowing you to size your platform for your needs, and integrate only the features that will be most helpful for your business.</p>
         </section>
-        <a :href="require('../assets/images/chapter__9_image_3.png')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__9_image_3.png')" alt="" class="figure">
+        <a :href="require('../assets/images/chapter__9_image_3.png')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__9_image_3.png')" alt="" class="my-0">
         </a>
         <section>
             <header class="text-center">
@@ -338,8 +338,8 @@
         <header>
             <h2>Get Food Out the Door… Fast</h2>
             <p class="mb-0">In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
-            <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery">
-                <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="figure">
+            <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery" class="figure">
+                <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="my-0">
             </a>
         </header>
         <div class="md-layout">

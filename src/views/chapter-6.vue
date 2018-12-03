@@ -64,8 +64,8 @@
         <p>It’s also a good idea to simplify your menu. The more complex your menu or any given dish is, the more opportunities there are for it to vary. Find ways to simplify recipes without sacrificing flavor. Consider that when it comes to the size of your menu, less is more — focus on a smaller number of dishes you know your staff can execute perfectly, rather than an overabundance of choice.</p>
         <p>In addition to standardization and simplification, train your staff. Make sure everyone involved in cooking and food preparation understands the menu and the standardization process, so there’s no human error causing variances in the food. Train servers to know the menu inside and out so they can answer questions guests may have about specific dishes or ingredients.</p>
         <p class="mb-0">And lastly, like with general customer service, take advantage of feedback from your guests. Ask them for their comments and concerns, both to make them feel heard, and to gather information about whether your food is as consistent as it should be.</p>
-        <a :href="require('../assets/images/chapter__6_image_4.png')" target="_blank" data-fancybox="gallery">
-            <img :src="require('../assets/images/chapter__6_image_4.png')" alt="" class="figure has-border">
+        <a :href="require('../assets/images/chapter__6_image_4.png')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__6_image_4.png')" alt="" class="my-0 has-border">
         </a>
         <p>Use their comments to identify any problems with your food consistency and address them head-on.</p>
         <p>Modern customers, in all industries, have high expectations for customer service. But in restaurants, where there’s so much competition, providing customer service that wows your guests is necessary if you want to stand out. Restaurant owners know that repeat business is a vital part of any eatery’s success. Great customer service will beget happy, loyal customers who visit over and over again, which lays the foundation for years of success.</p>
