@@ -12,14 +12,6 @@ body {
 	font-size: $font-size;
 	line-height: 1.5;
 }
-
-.lead {
-	font-size: $font-size * 1.125;
-}
-.extra-lead {
-	font-size: $font-size * 1.25;
-	line-height: 1.25;
-}
 article {
 	color: #333333;
 	line-height: 1.75;
@@ -33,6 +25,10 @@ article {
 	}
 	li {
 		margin-bottom: 10px;
+	}
+
+	figure {
+		margin: 0;
 	}
 
 	h1 {
@@ -274,5 +270,15 @@ article {
 	}
 	.pt-large-1 {
 		padding-top: $margin!important;
+	}
+}
+
+@media (min-width: 601px) {
+	.lead {
+		font-size: $font-size * 1.125;
+	}
+	.extra-lead {
+		font-size: $font-size * 1.25;
+		line-height: 1.25;
 	}
 }
