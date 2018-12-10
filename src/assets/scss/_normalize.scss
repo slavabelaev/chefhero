@@ -44,6 +44,7 @@ article {
 		line-height: 1.25;
 		color: $primary;
 		margin-bottom: $margin;
+		margin-top: 3.125rem;
 	}
 	h3 {
 		font-size: $font-size * 1.25;
@@ -108,6 +109,10 @@ article {
 	}
 	cite {
 		font-style: normal;
+	}
+	
+	a:not(.md-button) {
+		text-decoration: underline;
 	}
 }
 

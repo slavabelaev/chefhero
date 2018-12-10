@@ -263,23 +263,23 @@ article {
 @media (min-width: 601px) {
 	#about,
 	article > header {
-		margin: -3rem;
-		margin: calc(-3rem - 1px);
+		margin: -3.125rem;
+		margin: calc(-3.125rem - 1px);
 		margin-bottom: 1.5rem;
-		padding: 3rem;
+		padding: 3.125rem;
 		border-radius: 4px 4px 0 0;
 		color: #fff;
 	}
 	#starter > header,
 	#about {
-		margin-bottom: -3rem;
-		margin-bottom: calc(-3rem - 1px);
+		margin-bottom: -3.125rem;
+		margin-bottom: calc(-3.125rem - 1px);
 		border-radius: $border-radius!important;
 	}
 	#in-this-chapter {
 		border-left: #e0e0e0 1px solid;
-		margin-left: -3rem;
-		padding-left: 3rem;
+		margin-left: -3.125rem;
+		padding-left: 3.125rem;
 		margin-bottom: 0;
 	}
 }
