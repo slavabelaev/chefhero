@@ -2,7 +2,7 @@
 <article id="chapter-10">
     <header>
         <div class="chapter-title">Chapter 10</div>
-        <h1>Greener Tomorrow: <br>A Step-By-Step Guide to Running an Eco-Conscious Restaurant</h1>
+        <h1>A Starter Guide to Instagram Marketing for Restaurateurs</h1>
         <address>
             <dl>
                 <dt>Written By:</dt>
@@ -12,61 +12,93 @@
         <section id="in-this-chapter">
             <h3>In this chapter:</h3>
             <ul>
-                <li>Learn about the ways to reduce your restaurant’s footprint</li>
-                <li>Food safe ways to reuse materials</li>
-                <li>How to improve your recycling program</li>
+                <li>Setting up your Instagram account</li>
+                <li>Types of content that drive engagement</li>
+                <li>How to engage and build relationships with guests</li>
             </ul>
         </section>
     </header>
-    <p>It’s no secret that consumers are becoming more eco-conscious. They want green products, sustainable manufacturing and ethically sourced products.</p>
-    <p>And restaurants can benefit from this push for sustainability<sup><a rel="nofollow" href="https://canadabusiness.ca/business-planning/writing-your-business-plan/#toc6" target="_blank">[30]</a></sup>. Many modern-day consumers are willing to pay more for ethically sourced, sustainably manufactured goods and services<sup><a rel="nofollow" href="https://www.sustridge.com/single-post/Sustainability-in-the-Restaurant-Industry-Time-to-Fire-It-Up" target="_blank">[31]</a></sup>. And that means diners are often willing to pay more to eat at restaurants that practice environmentalism.</p>
-    <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especially those who strive to reduce their impact in their own lives.</p>
-    <p>No matter what changes you make to your restaurant to make it more sustainable and environmentally friendly, be sure to let your local community know about them. Advertise on your website or social media. Tell your diners when they come to your restaurant. Word will spread, and it’ll bring more and more eco-conscious diners to your door.</p>
-    <p>First, you have to make some changes. Here’s a step-by-step guide to running an ecologically conscious restaurant.</p>
+    <p>No matter how great you are with words, nothing can sell your food better than a mouth-watering photo.</p>
+    <p>Diners eat with their eyes first, and that’s what makes Instagram a vital marketing tool for restaurants. It provides a cost-effective way for you to get images of your food in front of potential guests. By giving these hungry guests a craving for the real thing, you’ll have them lining up at your doorstep in no time.</p>
+    <p class="mb-0">But if you think filters are for coffee, feeds are for farm animals, and hashtags are for… well, who knows what, you might need a little Insta-assistance. And that’s where this guide comes in. From setting up your Instagram to creating and curating the perfect posts, this post has everything you need to get started on your #InstaSuccess.</p>
+    <a :href="require('../assets/images/chapter__10_image_1.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+        <img :src="require('../assets/images/chapter__10_image_1.jpg')" alt="" class="my-0">
+    </a>
     <section>
-        <h2>Reduce</h2>
-        <p>The first step is to reduce. There are a ton of usage numbers you can reduce, and each will reduce your overall footprint.</p>
-        <p>First, reduce your energy usage. One of the easiest ways to do this is to install energy efficient lighting. There’s a cost requirement upfront, but that can be offset in many places by government initiatives that incentivize businesses to install LEDs or other footprint-reducing lighting.</p>
-        <p>If you’re opening a new restaurant, try to choose a space that has large windows. This allows you to use natural light in lieu of electricity during the day. And opening the windows on warm days to let in a breeze can help you keep air conditioner use down.</p>
-        <p>If you happen to be renovating or making kitchen upgrades, go for Energy Star appliances. And perform routine maintenance on all appliances to make sure they’re in good shape and running efficiently. Energy Star also certifies roofing materials and window sealant, and using compliant products will help you regulate your indoor temperature through outdoor weather extremes.</p>
-        <p>You can also install a high-efficiency water heater in order to use less energy as you heat water for kitchen use. If possible, install energy efficient insulation, duct sealing and weather-stripping to cut down on heating and cooling consumption. And plan on keeping your indoor temperature moderate and using a programmable thermostat, so heating and cooling can be reduced during off hours.</p>
-        <p>Reduce water usage by using low-flow faucets and toilets and installing a water filtration system in house. Some restaurants even use rain barrels to catch water to reuse.</p>
-        <p>And reduce waste by carefully highlighting expirations dates, using digital inventory management tools, donating leftover food or ingredients and repurposing tonight’s leftovers and tomorrow night’s special<sup><a rel="nofollow" href="http://www.buzztime.com/business/blog/restaurant-sustainability-11-ways-limit-environmental-footprint/" target="_blank">[32]</a></sup>. Additionally, join the wave of restaurants pledging to cut down on plastic straw pollution in oceans by joining The Last Plastic Straw — and encourage your customers to take the pledge, too<sup><a rel="nofollow" href="http://www.plasticpollutioncoalition.org/no-straw-please/" target="_blank">[33]</a></sup>.</p>
-        <!-- Chart -->
-        <restaurant-energy-use-chart></restaurant-energy-use-chart>
-        <!-- /Chart -->
+        <h2>Set your Instagram up for success</h2>
+        <p>First things first: You need to set up a business Instagram account for your restaurant. There are a few tips for doing so that will make your account both professional, and the best possible marketing tool.</p>
+        <p>First, choose a handle that’s easily recognizable and searchable, so guests have no problem finding you on the platform. Your restaurant name is a good place to start, and if it’s not available, add your city to the name. Example: <a target="_blank" rel="nofollow" href="https://www.instagram.com/sweetgreen/">@sweetgreen</a> or <a target="_blank" rel="nofollow" href="https://www.instagram.com/deepellumboston/">@deepellumboston</a>. Pro-tip: Both of those accounts kill it, so check them out if you need some inspiration. When you set up your account, make sure you set it up as a business account, and not a personal one. This will allow you to access Insights, Instagram’s suite of business-friendly analytics tools to see how your posts are performing and where there’s room for growth in your reach. Having a business account also makes it easier for diners to contact you through Instagram.</p>
+        <p>When you create your account, also take a moment to create a location page for your restaurant, which will allow other users to easily tag you in photos they post when they visit, as well as curate posts made at your restaurant onto one page.</p>
+    </section>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
+    <section>
+        <p>If you use other forms of social media, like Facebook and Twitter, integrate your Instagram with those accounts. Always make sure your Instagram photos are posting to your other social profiles, and cross promote your new Instagram account there to increase reach and follower counts. And consider embedding a stream of your most recent Instagram photos on your website, too.</p>
+        <p class="mb-0">Finally, before you start posting, you should do a little bit of hashtag research. Instagram posts with at least one hashtag average 12.6 percent more engagement, according to a Simply Measured study <sup><a rel="nofollow" href="http://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253Dhttp://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253Dhttp://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253D" target="_blank">[36]</a></sup>. But that doesn’t mean any hashtag will work. Choose hashtags that will get you a lot of eyes, but be careful of being too vague and getting buried with millions of other posts. For example, #foodie is nearing 100 million posts on Instagram. Instead, try personalizing it with your city; for example, #chicagofood, which has more than half a million posts. This means that you have a higher chance of reaching new followers without getting buried by thousands of other posts. You should also create a hashtag specifically for your restaurant, and then use it in your Instagram bio and all your posts. You can even display it in your restaurant or print it on your menus to encourage diners to use it, too.</p>
+        <a :href="require('../assets/images/chapter__10_image_2.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__10_image_2.jpg')" alt="" class="my-0">
+        </a> 
     </section>
     <section>
-        <h2>Reuse</h2>
-        <p>The second step is to reuse as many resources as possible in your day-to-day operations. Consider using cloth tablecloths and napkins that can be washed and reused over and over. Purchase pre-owned kitchen appliances and furniture instead of buying brand new ones — you can even reupholster or refinish an old dining set to make it look brand new. And if you’re replacing any appliances or furniture in your restaurant, consider donating your old equipment for another kitchen to use.</p>
-        <p>Additionally, make sure you are carefully managing your inventory to ensure you’re using all of your products and ingredients before they spoil. An inventory management program can really help with this, and periodic menu and inventory audits will ensure you’re making inventory changes to keep your supplies as efficient as possible. Finding creative ways to reuse scraps and leftovers is a great idea; for example, start a composting program to support a restaurant garden.</p>
-        <!-- Chart -->
-        <restaurant-waste-profile-chart></restaurant-waste-profile-chart>
-        <!-- /Chart -->
+        <h2>Who should post?</h2>
+        <p>Once your Instagram is up and running, it’s time to determine who should post to it.</p>
+        <p>Ideally, posting should be the responsibility of a small handful of staff who know how to take great photos, understand Instagram business best practices, and can nail the company’s voice in captions and customer interactions. If you have someone in charge of marketing, this is a job for them.</p>
+        <p>But don’t limit your Instagram posts to just your staff. Encourage customers to post photos they take at your restaurant, then use your hashtag to find them and share the best on your own account. You can offer gift cards or discounts as an incentive to get customers posting great photos using your hashtag with your location tagged, which will help spread the word about your restaurant online. A good example of this comes from a Dunkin’ Donuts campaign called “UpgraDDe Your Sandwich”<sup><a rel="nofollow" href="https://aaronallen.com/blog/restaurant-promotions/10-great-ways-for-restaurants-to-use-instagram" target="_blank">[37]</a></sup>. It encouraged followers to share pictures of their lunches that needed a “Dunkin’ Donuts upgrade” along with the hashtag #UpgraDDe. Select participants won gift cards to Dunkin’ Donuts.</p>
     </section>
     <section>
-        <h2>Recycle</h2>
-        <p>Maybe you saw step three coming: Recycle. Recycling has never been easier, and your restaurant can take full advantage of the ample opportunities that exist to cut down on your ecological footprint this way<sup><a rel="nofollow" href="https://www.naturawater.com/buzz/eco-friendly-restaurant-ideas-5-ways-to-go-green" target="_blank">[34]</a></sup>.</p>
-        <p>Start by purchasing 100 percent recycled products whenever possible, including kitchen and bar mats that are made out of 100% recycled materials. You can also make the switch to recycled paper towels and toilet paper if you aren’t using them already — just make sure they’re chlorine free and made from kraft paper. Commit to recycling all your boxes and bottles, and sign up for a bottle return program if one is available in your area. If your restaurant serves fast food or fast-casual fare, add recycling stations to give your diners more options than just dumping their leftover tray contents into the trash. Given the option, many customers will choose to recycle, and they’ll appreciate that they can at your restaurant<sup><a rel="nofollow" href="https://www.recyclinglives.com/news/general/report-reveals-81-people-prefer-buy-sustainable-sellers" target="_blank">[35]</a></sup>.</p>
-        <p>For takeout and delivery, use compostable, recyclable or biodegradable containers that are made from recycled kraft paper, bamboo, corn or banana leaves — yes, banana leaf boxes exist! And only include condiments and cutlery with takeout orders if the customer requests them. Since most takeout customers just eat the food at home, they probably already have utensils and don’t need a plastic set.</p>
-        <section>
-            <h3>Clean Green</h3>
-            <p>Step four? Clean up your cleaning practices. Cleaning supplies, sadly, tend to be harsh on the environment, often even containing non-biodegradable materials, and when used on an industrial scale, those products can have a hugely negative impact on the planet. But there are sustainable options out there if you look for them.</p>
-            <p>When sourcing your cleaning products, look for cleaners that are environmentally friendly and biodegradable, like all of the products that are <a rel="nofollow" href="http://www.greenseal.org/" target="_blank">green seal certified</a>. A quick pro-tip: The green seal covers way more than just cleaning supplies.</p>
-            <p>You can also look there for paper products, takeout containers, paint, building supplies and more.</p>
-            <p>In addition to looking for the green seal on cleaning products, you can swap out harsh chemicals for natural cleaners like vinegar, borax and baking soda. Not sure where to start? <a rel="nofollow" href="https://greatist.com/health/27-chemical-free-products-diy-spring-cleaning" target="_blank">Check out these chemical-free cleansers.</a></p>
-        </section>
-        <section>
-            <h3>Keep Food Practices Sustainable</h3>
-            <p>Ready for the final step? It’s one of the biggest trends in restaurants this year. It’s time to make sure your food practices are sustainable.</p>
-            <p>You can do this by buying local, in-season produce from nearby producers, or even growing your own in a restaurant garden, if space and time allow. Aim to buy organic ingredients whenever possible.</p>
-            <p>If you serve seafood, making sure you’re sustainable gets a little trickier, since seafood can’t be certified organic. Over-fishing is a huge problem worldwide, so make use of a service like the <a rel="nofollow" href="http://www.seafoodwatch.org/" target="_blank">Monterey Bay Aquarium’s Seafood Watch</a>, which can help you make sure you’re getting sustainable seafood from the right places.</p>
-        </section>
+        <h2>When should you post?</h2>
+        <div class="md-layout">
+            <div class="md-layout-item md-small-size-100">
+                <p>Ideally, you should be posting to your Instagram daily, or even multiple times per day. Try out regular, daily posts, like posting photos and descriptions of your specials.</p>     
+                <p>But you should also definitely take advantage of Instagram when special events are happening.</p>
+                <p>If your restaurant is involved in a fair or festival, promote that on Instagram! Take photos of your setup at the event. Broadcast a live video showing crowds and excitement at the event, and encourage more followers to come out and find you there. You can even use photos or stories to chronicle something disastrous, like a rainstorm in the middle of a festival. Have fun with it, and your followers are sure to enjoy the content.</p>
+   
+            </div>
+            <div class="md-layout-item md-small-size-100">
+                <a :href="require('../assets/images/chapter__10_image_3.png')" target="_blank" data-fancybox="gallery" class="figure__my-small">
+                    <img :src="require('../assets/images/chapter__10_image_3.png')" alt="" class="my-small-0">
+                </a>
+            </div>
+        </div>             
+        <p>But also be on the lookout for day-to-day events that you can promote on Instagram. If you’re introducing a new food or signature drink, use your Instagram account to show it off and welcome your guests to try out new menu items.</p>
+        <p>You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
     </section>
     <section>
-        <h2>While you’re at it, rethink your supply chain</h2>
-        <p>Having a supply chain that’s bringing in food from far away isn’t great for the environment, either. While you’re working to make your restaurant as sustainable as possible, maybe it’s time to reexamine your supply chain as well.</p>
-        <p class="mb-0"><a href="https://www.chefhero.com/" target="_blank">ChefHero</a> makes it easy to secure local, sustainable ingredients, all while eliminating supply chain hassle and saving you money.</p>
+        <h2>What should you post?</h2>
+        <p>While everything in this guide will help you create the best Instagram account possible, nothing matters as much as what you post. Your content is what will gain you followers, and turn those followers into guests who show up for your food.</p>
+        <p class="mb-0">First and foremost, you have to post photos of your food and drinks. Remember that example at the beginning? What’s more effective: a really well-written description of a cheese-burger? Or this:</p>
+        <a :href="require('../assets/images/chapter__10_image_4.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__10_image_4.jpg')" alt="" class="my-0 w-100">
+        </a>
+        <p>You’re getting hungry just looking at it, right?</p>
+        <p class="mb-0">But if you’re going to post food pics, they have to look as great as the food tastes. That means you can’t just take any photo. Does this look as appetizing?</p>
+        <a :href="require('../assets/images/chapter__10_image_5.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__10_image_5.jpg')" alt="" class="my-0 w-100">
+        </a>
+        <p>The answer is no. It’s dark. It’s blurry. The angle doesn’t show off the ingredients.</p>
+        <p>A few tips for getting the best possible food photography, even as a novice:</p>
+        <ul>
+            <li>Use a real camera, or your phone camera app, rather than taking your photos with Instagram’s limited in-app camera.</li>
+            <li>Use the Rule of Thirds to get nice framing on your shots. If a grid were placed over your photo, dividing it into thirds both vertically and horizontally, the most visually interesting points should be where the lines of the grid intersect.</li>
+            <li>Aim for natural light. Always avoid flash and harsh overhead lights that can wash out your food.</li>
+            <li>Use props! A pair of chopsticks on a plate of sushi, a cork next to a wine glass, a spoon in a bowl of soup. They all add action to what could otherwise be pretty stale shots.</li>
+            <li>Add texture. If you’re shooting something like soup, garnish it with herbs or croutons. Add fresh berries  to a sorbet. These little details add some contrast  to your shots and make them more interesting  (and tasty!).</li>
+            <li>Embrace filters. Instagram comes with plenty of  preset filters that can help your photos pop, and apps like VSCO and Lightroom can also help you adjust colors and levels to make your shots look  even better.</li>
+        </ul>
+        <p>But food shouldn’t be all you post. Instagram is also a great way to show the behind-the-scenes workings of your restaurant. Show off your ambiance. Introduce your staff. Let your followers follow along with a renovation project. Instagram can make your restaurant and its staff seem a little more human, so let it do just that.</p>
+        <p>While Instagram has always been a photo sharing platform, it’s introduced new ways to create content with video and stories. Take advantage of these! A video of a glass of wine being poured is a lot more interesting — and mouth-watering — than a still shot. A video tour of your kitchen can allow followers to meet your chef and see them in their element.</p>
+        <p>When it comes to daily content, don’t feel like you have to create it all yourself. Embrace the art of regramming — posting customers’ photos that they took at your restaurant. Your hashtags and location tags will really help with this. One note: Be sure to tag the original poster. It will let them know that you posted their content and it builds a way for you to connect with a customer-making the relationship even stronger.</p>
+    </section>
+    <section>
+        <h2>Instagram is not a one-way street</h2>
+        <p>Beware: Instagram isn’t a visual press conference for your brand.</p>
+        <p class="mb-0">You should constantly be interacting, liking, commenting, and engaging with your followers. Take the time to dig into their relevant content that relates to your brand and engage with it.</p>
+        <a :href="require('../assets/images/chapter__10_image_6.jpg')" target="_blank" data-fancybox="gallery" class="figure">
+            <img :src="require('../assets/images/chapter__10_image_6.jpg')" alt="" class="my-0">
+        </a>
+        <p>Aside from posting, use Instagram to have positive interactions with your fans. Post captions that inspire them to comment (a fill in the blank is a great option, like “The best burger topping is ___”), then start a dialogue. Answer questions. Encourage opinions. Engage respectfully, but with a fun tone.</p>
+        <p class="mb-0">Armed with the right tips and tricks, it’s easy to see that Instagram is a powerful marketing tool — and that it isn’t nearly as scary as it might seem to a less-than-tech-savvy restaurateur. Use this guide to create a restaurant Instagram account that will not only show off the great work you’re doing, but will inspire diners to become followers.</p>
     </section>
 </article>
 </template>

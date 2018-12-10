@@ -33,6 +33,9 @@
         <p>Be flexible with your vision, because the location may be more important than the space itself. No matter how much you’ve envisioned what your dream restaurant looks like, it’s probably worth it to redesign it to fit a space in a great, lively location.</p>
         <p>And once you’ve chosen the perfect space, your work isn’t over. It’s important to do some legwork to make sure the space is as good as it appears to be. Talk to other tenants at that location, if there are any. Perform a background check on the landlord. And know exactly what’s included in your lease so there aren’t any disputes down the road over building maintenance or renovations. Legal counsel is probably a good idea at this step, just to help you sort through everything and know exactly what you’re signing.</p>
     </section>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
     <section>
         <h3>Make the Space your Own</h3>
         <p>Once you’ve signed the lease, the work is just beginning. It’s time to style your location in a way that will bring your restaurant vision to life, without getting too expensive.</p>
@@ -48,9 +51,9 @@
         <p>How you decorate will depend a great deal on your restaurant concept. For example, a fast-casual restaurant and a fine dining establishment will not look the same.</p>
         <p>But there are some design principles that any restaurateur can implement to make a space look its best on a budget.</p>
         <p>Outfit the space with good-looking but low maintenance plants, like ferns or succulents. Greenery can make an indoor space look much brighter and more inviting.</p>
-        <figure class="md-layout figure">
+        <figure class="md-layout figure figure__text-with-images">
             <div class="md-layout-item md-size-50 md-small-size-100 p-0">
-                <figcaption class="pr-large-2 mb-2">You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</figcaption>
+                <p>You can also get creative with your lighting. Edison bulbs or string lights are a few current design trends that are low-cost and look great in almost any space.</p>
             </div>
             <div class="md-layout-item md-size-50 md-small-size-100 p-0">
                 <a :href="require('../assets/images/chapter__2_image_2.png')" target="_blank" data-fancybox="gallery">
@@ -73,12 +76,12 @@
                 </a>
             </div>
             <div class="md-layout-item md-size-50 md-small-size-100 p-0">
-                <figcaption class="pt-2 p-large-2 mb-0">Another way to add some life to your space is to offer nontraditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</figcaption>
+                <p>Another way to add some life to your space is to offer nontraditional seating. Booths and stools are all too common, so think about going with colorful repurposed chairs, or mix-and-match seating styles all done in your color scheme.</p>
             </div>
         </figure>
     </section>
     <section>
-        <figure class="figure figure_style_primary p-1">
+        <figure class="figure figure_is_note figure_style_primary">
             <figcaption class="figure__description">An easy way to add decor to your restaurant without having to drop a lot of cash is to open your space to local artists to exhibit their work. You’ll get a rotating set of decor for free, and build goodwill in the community while you’re at it.</figcaption>
         </figure>
         <div class="md-layout figure mt-0">

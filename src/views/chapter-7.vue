@@ -24,6 +24,9 @@
     <p>The bottom line for any restaurant is that it’s a numbers game. In order to survive, you can’t just create great food, have stellar marketing, or provide an awesome experience; you have to nail the operations part, too. And that means knowing your numbers and understanding how to manipulate the numbers in order to keep your business profitable and sustainable.</p>
     <p>Many restaurant owners like to get right down to the nitty gritty; one of the most granular calculations you can get is the cost per meal. The reasoning is simple. You need to be aware of how much you’re making from each of your menu items to properly budget and monitor costs and profits. While an overall projected sales figure is a great measure of financial health of a business, calculating the margin you’re making per meal and menu item is one of the best ways to optimize your menu. We’re not suggesting you base your entire menu structure on the dishes that make you the most money; obviously the items you’re most passionate about will get special consideration.</p>
     <p>When it comes to the overall health and success of your business, it pays to be mindful of the costs associated  with them.</p>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
     <section>
         <h2>The Importance of Cost Per Meal</h2>
         <p>Cost per meal gives you the most accurate description of your food costs as they pertain to the volume of meals you’re selling. Cost per meal is also the gateway to unlocking other powerful ways of looking at your business: Average cost per plate (the sum of all your dishes prices divided by the number of dishes), as well as quick-and-dirty calculations such as total costs vs profit per party (average dish price multiplied by number of seats filled).</p>

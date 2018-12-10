@@ -8,8 +8,8 @@ window.jQuery = require('jquery/dist/jquery.slim');
 require('@fancyapps/fancybox/dist/jquery.fancybox');
 import '@fancyapps/fancybox/dist/jquery.fancybox.min.css';
 
-import AppAbout from './views/About.vue'
-Vue.component('app-about', AppAbout)
+import AccessToChapter from './components/Access-to-chapter.vue'
+Vue.component('access-to-chapter', AccessToChapter)
 
 import BudgetPlanChart from './components/charts/BudgetPlanChart.vue'
 Vue.component('budget-plan-chart', BudgetPlanChart)

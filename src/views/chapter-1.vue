@@ -38,6 +38,9 @@
         <p>Managers (which should include executive chefs and entertainment managers, if your restaurant employs those) should have a hands-on involvement in setting the monthly, quarterly or annual budgets that they need to run their departments.</p>
         <p>And when setting your budget, it might be a good idea to have an attorney or financial planner present to oversee agreements, spending reports and other pertinent information.</p>
     </section>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
     <section>
         <h3>What Are The Main Goals In Restaurant Budget Planning?</h3>
         <p>It’s easy to fall into thinking the purpose of planning a budget is to keep expenses lower than income. In reality, there’s more to it than that.</p>

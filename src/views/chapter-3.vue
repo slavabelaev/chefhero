@@ -69,6 +69,9 @@
             <p>Will your restaurant appeal to nearby residents or mainly commuters? Will you focus on being environmentally conscious by offering dishwashable dinnerware or compostable packaging? Will you cater to dietary restrictions or say no substitutions, ever?</p>
             <p>If ever you get lost answering the hundreds of questions in the wide world of restaurant management, use your concept plan as a true north star to always stay on track.</p>
         </section>
+        <!-- Access to Final Chapter -->
+        <access-to-chapter></access-to-chapter>
+        <!-- /Access to Final Chapter -->
         <section>
             <h3>Developing Your Restaurant’s Brand</h3>
             <p>Once you have a concept nailed down it’s time to decide on your brand and brand identity. What do you want your restaurant to look and feel like to the public? What are the most important aspects of your business that you’d like to get across?</p>

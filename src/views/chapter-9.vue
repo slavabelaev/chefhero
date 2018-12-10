@@ -2,437 +2,74 @@
 <article id="chapter-9">
     <header>
         <div class="chapter-title">Chapter 9</div>
-        <h1>The 19 Tech Tools You Need to Run a Successful Restaurant</h1>
+        <h1>Greener Tomorrow: <br>A Step-By-Step Guide to Running an Eco-Conscious Restaurant</h1>
         <address>
             <dl>
                 <dt>Written By:</dt>
-                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin</a></dd>
             </dl>
         </address>
         <section id="in-this-chapter">
             <h3>In this chapter:</h3>
             <ul>
-                <li>The tools you need to build and run a website</li>
-                <li>Technology tools to consider for your FoH and BoH operations</li>
-                <li>The applications you need to get social with customers</li>
+                <li>Learn about the ways to reduce your restaurant’s footprint</li>
+                <li>Food safe ways to reuse materials</li>
+                <li>How to improve your recycling program</li>
             </ul>
         </section>
     </header>
-    <p class="mb-0">Running a restaurant isn’t easy. Between the stress, the long hours, the startup costs and the razor-thin profit margins, you have enough on your plate.</p>
-    <a :href="require('../assets/images/chapter__9_image_1.png')" target="_blank" data-fancybox="gallery" class="figure">
-        <img :src="require('../assets/images/chapter__9_image_1.png')" alt="" class="my-0">
-    </a>
-    <p>There are there are countless applications and other technology tools that can help make the modern restaurateur’s job easier — or, at the very least, a little more efficient.</p>
-    <p>Technology can’t run the restaurant for you (yet), but it can sure help. Here are some of our top picks for apps and tech tools that will help streamline the job.</p>
+    <p>It’s no secret that consumers are becoming more eco-conscious. They want green products, sustainable manufacturing and ethically sourced products.</p>
+    <p>And restaurants can benefit from this push for sustainability<sup><a rel="nofollow" href="https://canadabusiness.ca/business-planning/writing-your-business-plan/#toc6" target="_blank">[30]</a></sup>. Many modern-day consumers are willing to pay more for ethically sourced, sustainably manufactured goods and services<sup><a rel="nofollow" href="https://www.sustridge.com/single-post/Sustainability-in-the-Restaurant-Industry-Time-to-Fire-It-Up" target="_blank">[31]</a></sup>. And that means diners are often willing to pay more to eat at restaurants that practice environmentalism.</p>
+    <p>Implementing good, eco-conscious practices can help give you an edge over your local competition. It can also help you build a positive rapport with your local community, especially those who strive to reduce their impact in their own lives.</p>
+    <p>No matter what changes you make to your restaurant to make it more sustainable and environmentally friendly, be sure to let your local community know about them. Advertise on your website or social media. Tell your diners when they come to your restaurant. Word will spread, and it’ll bring more and more eco-conscious diners to your door.</p>
+    <p>First, you have to make some changes. Here’s a step-by-step guide to running an ecologically conscious restaurant.</p>
     <section>
-        <h2>How to Develop a  Dazzling Website for  your Restaurant</h2>
-        <p>How to Develop a  Dazzling Website for  your RestaurantEvery restaurant needs an online presence. Luckily, there are tons of platforms geared specifically toward restaurants, offering both hosting and content management in a one-stop shop.</p>
+        <h2>Reduce</h2>
+        <p>The first step is to reduce. There are a ton of usage numbers you can reduce, and each will reduce your overall footprint.</p>
+        <p>First, reduce your energy usage. One of the easiest ways to do this is to install energy efficient lighting. There’s a cost requirement upfront, but that can be offset in many places by government initiatives that incentivize businesses to install LEDs or other footprint-reducing lighting.</p>
+        <p>If you’re opening a new restaurant, try to choose a space that has large windows. This allows you to use natural light in lieu of electricity during the day. And opening the windows on warm days to let in a breeze can help you keep air conditioner use down.</p>
+        <p>If you happen to be renovating or making kitchen upgrades, go for Energy Star appliances. And perform routine maintenance on all appliances to make sure they’re in good shape and running efficiently. Energy Star also certifies roofing materials and window sealant, and using compliant products will help you regulate your indoor temperature through outdoor weather extremes.</p>
+        <p>You can also install a high-efficiency water heater in order to use less energy as you heat water for kitchen use. If possible, install energy efficient insulation, duct sealing and weather-stripping to cut down on heating and cooling consumption. And plan on keeping your indoor temperature moderate and using a programmable thermostat, so heating and cooling can be reduced during off hours.</p>
+        <p>Reduce water usage by using low-flow faucets and toilets and installing a water filtration system in house. Some restaurants even use rain barrels to catch water to reuse.</p>
+        <p>And reduce waste by carefully highlighting expirations dates, using digital inventory management tools, donating leftover food or ingredients and repurposing tonight’s leftovers and tomorrow night’s special<sup><a rel="nofollow" href="http://www.buzztime.com/business/blog/restaurant-sustainability-11-ways-limit-environmental-footprint/" target="_blank">[32]</a></sup>. Additionally, join the wave of restaurants pledging to cut down on plastic straw pollution in oceans by joining The Last Plastic Straw — and encourage your customers to take the pledge, too<sup><a rel="nofollow" href="http://www.plasticpollutioncoalition.org/no-straw-please/" target="_blank">[33]</a></sup>.</p>
+        <!-- Chart -->
+        <restaurant-energy-use-chart></restaurant-energy-use-chart>
+        <!-- /Chart -->
+    </section>
+    <section>
+        <h2>Reuse</h2>
+        <p>The second step is to reuse as many resources as possible in your day-to-day operations. Consider using cloth tablecloths and napkins that can be washed and reused over and over. Purchase pre-owned kitchen appliances and furniture instead of buying brand new ones — you can even reupholster or refinish an old dining set to make it look brand new. And if you’re replacing any appliances or furniture in your restaurant, consider donating your old equipment for another kitchen to use.</p>
+        <p>Additionally, make sure you are carefully managing your inventory to ensure you’re using all of your products and ingredients before they spoil. An inventory management program can really help with this, and periodic menu and inventory audits will ensure you’re making inventory changes to keep your supplies as efficient as possible. Finding creative ways to reuse scraps and leftovers is a great idea; for example, start a composting program to support a restaurant garden.</p>
+        <!-- Chart -->
+        <restaurant-waste-profile-chart></restaurant-waste-profile-chart>
+        <!-- /Chart -->
+    </section>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
+    <section>
+        <h2>Recycle</h2>
+        <p>Maybe you saw step three coming: Recycle. Recycling has never been easier, and your restaurant can take full advantage of the ample opportunities that exist to cut down on your ecological footprint this way<sup><a rel="nofollow" href="https://www.naturawater.com/buzz/eco-friendly-restaurant-ideas-5-ways-to-go-green" target="_blank">[34]</a></sup>.</p>
+        <p>Start by purchasing 100 percent recycled products whenever possible, including kitchen and bar mats that are made out of 100% recycled materials. You can also make the switch to recycled paper towels and toilet paper if you aren’t using them already — just make sure they’re chlorine free and made from kraft paper. Commit to recycling all your boxes and bottles, and sign up for a bottle return program if one is available in your area. If your restaurant serves fast food or fast-casual fare, add recycling stations to give your diners more options than just dumping their leftover tray contents into the trash. Given the option, many customers will choose to recycle, and they’ll appreciate that they can at your restaurant<sup><a rel="nofollow" href="https://www.recyclinglives.com/news/general/report-reveals-81-people-prefer-buy-sustainable-sellers" target="_blank">[35]</a></sup>.</p>
+        <p>For takeout and delivery, use compostable, recyclable or biodegradable containers that are made from recycled kraft paper, bamboo, corn or banana leaves — yes, banana leaf boxes exist! And only include condiments and cutlery with takeout orders if the customer requests them. Since most takeout customers just eat the food at home, they probably already have utensils and don’t need a plastic set.</p>
         <section>
-            <h3><a rel="nofollow" href="https://www.restauranthill.com/" target="_blank">Restaurant Hill Website Builder for Restaurants</a></h3>
-            <p>Restaurant Hill provides an easy-to-use website builder with an intuitive interface and a ton of useful, advanced features. It offers hundreds of attractive, professionally designed templates and themes that will fit whatever your restaurant serves.</p>
+            <h3>Clean Green</h3>
+            <p>Step four? Clean up your cleaning practices. Cleaning supplies, sadly, tend to be harsh on the environment, often even containing non-biodegradable materials, and when used on an industrial scale, those products can have a hugely negative impact on the planet. But there are sustainable options out there if you look for them.</p>
+            <p>When sourcing your cleaning products, look for cleaners that are environmentally friendly and biodegradable, like all of the products that are <a rel="nofollow" href="http://www.greenseal.org/" target="_blank">green seal certified</a>. A quick pro-tip: The green seal covers way more than just cleaning supplies.</p>
+            <p>You can also look there for paper products, takeout containers, paint, building supplies and more.</p>
+            <p>In addition to looking for the green seal on cleaning products, you can swap out harsh chemicals for natural cleaners like vinegar, borax and baking soda. Not sure where to start? <a rel="nofollow" href="https://greatist.com/health/27-chemical-free-products-diy-spring-cleaning" target="_blank">Check out these chemical-free cleansers.</a></p>
         </section>
         <section>
-            <h3><a rel="nofollow" href="https://ru.wix.com/website/templates/html/restaurants-food" target="_blank">Wix Free Website Creator for Restaurants</a></h3>
-            <p>Wix is a popular free website builder that offers restaurant-specific templates and tools. Its easy interface makes designing your business website simple and quick.</p>
-        </section>
-        <section>
-            <h3><a rel="nofollow" href="http://www.happytables.com/" target="_blank">HappyTables Free Website Builder for Restaurants</a></h3>
-            <p>Tons of advanced, free features make HappyTables an easy choice for many restaurants, both new and established. Unlike many other free website builders, you can customize your template, allowing your shop to really stand out.</p>
-        </section>
-        <section>
-            <h3><a rel="nofollow" href="https://www.jimdo.com/" target="_blank">Jimdo Free Builder for Restaurants</a></h3>
-            <p>Jimdo might be one of the easiest website builders out there — all you need is a few photos of your restaurant, a menu, and some basic info. Once you plug it all in, Jimdo’s Dolphin AI website builder sets it into a sleek template and you have a functional website in three minutes.</p>
-        </section>
-        <section>
-            <h3><a rel="nofollow" href="https://www.letseat.at/" target="_blank">Let’s Eat Free Website Builder for Restaurants</a></h3>
-            <p class="mb-0">More than 15,000 restaurants use Let’s Eat for their web hosting and design, and it’s easy to see why. A simple interface and plenty of useful, restaurant industry-specific features make it user friendly and provide everything you need for your restaurant’s web presence.</p>
-        </section>
-        <a :href="require('../assets/images/chapter__9_image_2.jpg')" target="_blank" data-fancybox="gallery" class="figure">
-            <img :src="require('../assets/images/chapter__9_image_2.jpg')" alt="" class="my-0">
-        </a>
-        <section>
-            <header class="text-center">
-                <h3>Comparison</h3>
-                <p>Looking for specific features or price point for your website? Find the platform that best suits your needs here.</p>
-            </header>
-            <figure class="figure figure_is_table mt-0">
-                <figcaption class="figure__title">Restaurant Website Builders</figcaption>
-                <table class="table table-borderless">
-                    <thead class="text-white">
-                        <tr>
-                            <th width="120"></th>
-                            <th width="100" class="bg-primary">Price</th>
-                            <th width="150" class="bg-primary-light">Premium Plans</th>
-                            <th width="100" class="bg-success">Mobile Friendly?</th>
-                            <th class="bg-danger">Key Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-primary">Restaurant Hill</td>
-                            <td class="bg-light">FREE</td>
-                            <td>$29/mo. Pro plan</td>
-                            <td class="bg-light">Yes, with Pro plan</td>
-                            <td>Secure hosting, online menu, online ordering, table booking, pizza constructor tool, blog, events calendar, recipes</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Wix</td>
-                            <td class="bg-light">FREE</td>
-                            <td>
-                                <div>$5/mo. to connect domain</div>
-                                <div>$8.50/mo. eCommerce</div>
-                                <div>$25/mo. VIP</div>
-                            </td>
-                            <td class="bg-light">YES</td>
-                            <td>Online menus, OpenTable booking integration, Google Maps integration, social media integration, customer reviews, events calendar</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Happy Tables</td>
-                            <td class="bg-light">FREE</td>
-                            <td>
-                                <div>$39/mo. Pro</div>
-                                <div>$390/year Pro</div>
-                            </td>
-                            <td class="bg-light">YES</td>
-                            <td>Domain connection, online menus. With Professional plan, reservations, online ordering, daily menus, newsletters, priority support</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Jimdo</td>
-                            <td class="bg-light">FREE</td>
-                            <td>
-                                <div>$20/mo. Business</div>
-                                <div>$30/mo. SEO Plus</div>
-                                <div>$40/mo. Platinum</div>
-                            </td>
-                            <td class="bg-light">YES</td>
-                            <td>With premium plans, domain connection, online menu, online ordering, maps, events calendar</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Let's Eat</td>
-                            <td class="bg-light">Free for first 14 days, then $10/mo. Or $99/year</td>
-                            <td>N/A</td>
-                            <td class="bg-light">YES</td>
-                            <td>Domain connection, online menu, online ordering, online booking, events calendar, maps, social media integration, email newsletters</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </figure>
+            <h3>Keep Food Practices Sustainable</h3>
+            <p>Ready for the final step? It’s one of the biggest trends in restaurants this year. It’s time to make sure your food practices are sustainable.</p>
+            <p>You can do this by buying local, in-season produce from nearby producers, or even growing your own in a restaurant garden, if space and time allow. Aim to buy organic ingredients whenever possible.</p>
+            <p>If you serve seafood, making sure you’re sustainable gets a little trickier, since seafood can’t be certified organic. Over-fishing is a huge problem worldwide, so make use of a service like the <a rel="nofollow" href="http://www.seafoodwatch.org/" target="_blank">Monterey Bay Aquarium’s Seafood Watch</a>, which can help you make sure you’re getting sustainable seafood from the right places.</p>
         </section>
     </section>
     <section>
-        <header>
-            <h2>Make Point of Sale (POS) Efficient and Simple</h2>
-            <p>Ever been working when the POS went down? It’s a nightmare for everyone in the restaurant, from management to service staff to customers. Avoid that by getting the best POS software out there.</p>
-        </header>
-        <div class="md-layout">
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://pos.toasttab.com/" target="_blank">Toast</a></h3>
-                <p>Toast is one of the very few Android POS systems on the market, which gives it increased flexibility and affordability. Toast also comes with a community where users share best use tips.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.touchbistro.com/" target="_blank">TouchBistro</a></h3>
-                <p>TouchBistro is iPad based, which keeps hardware costs low. It also offers a free trial program so you can test run it before you commit.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://squareup.com/pos" target="_blank">Square POS</a></h3>
-                <p>Square supports Windows, Mac, Android and iOS to offer all the essential POS capabilities in a simple interface. There’s a reason it’s one of the most popular POS platforms on the market, and has been for years.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.lightspeedhq.com/pos/restaurant/" target="_blank">Lightspeed Restaurant</a></h3>
-                <p>Lightspeed Restaurant is cloud-based, and streamlines the entire process of managing your restaurant, with useful features and a built-in accounting system.</p>
-            </section>
-        </div>
-        <section>
-            <h3><a rel="nofollow" href="https://revelsystems.com/pos-systems/type/restaurant/" target="_blank">Revel Systems POS</a></h3>
-            <p class="mb-0">Revel Systems offers one of the most customizable and scalable POS systems out there, allowing you to size your platform for your needs, and integrate only the features that will be most helpful for your business.</p>
-        </section>
-        <a :href="require('../assets/images/chapter__9_image_3.png')" target="_blank" data-fancybox="gallery" class="figure">
-            <img :src="require('../assets/images/chapter__9_image_3.png')" alt="" class="my-0">
-        </a>
-        <section>
-            <header class="text-center">
-                <h3>Comparison</h3>
-                <p>Find the exact features and price point you’re looking for below.</p>
-            </header>
-            <figure class="figure figure_is_table mt-0">
-                <figcaption class="figure__title">P.O.S. Systems</figcaption>
-                <table class="table table-borderless">
-                    <thead class="text-white">
-                        <tr>
-                            <th width="150"></th>
-                            <th class="bg-primary">Price</th>
-                            <th class="bg-danger">Key Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-primary">Toast</td>
-                            <td class="bg-light">Varies by restaurant. Request a pricing plan quote.</td>
-                            <td>All-in-one platform, Android functionality, real-time reports on any internet enabled device, guest database, inventory management, gift cards, loyalty program, online ordering and delivery, expert installation and support</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">TouchBistro POS</td>
-                            <td class="bg-light">$69/mo. to $399/mo., depending on number of terminals needed. Starting at one, up to unlimited</td>
-                            <td>Tableside ordering, mobile payment processing, floor plan management, CRM, staff management, real-time reports on an internet enabled device, menu and inventory management, 24-7 support</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Square POS</td>
-                            <td class="bg-light">As little as 2.75 percent per transaction, with free hardware. Most advanced POS systems are available; see pricing info here.</td>
-                            <td>Invoicing, gift cards, customer feedback, customer profiles, email marketing, offline payments, next-day deposits, inventory managements, purchase orders, vendor lists, employee accounts and permissions, 24-7 support</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </figure>
-        </section>
-    </section>
-    <section>
-        <h2>Handle your Books, Don’t Let Them Handle you</h2>
-        <div class="md-layout figure__mb">
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.xero.com/us/" target="_blank">Xero</a></h3>
-                <p>Xero is one of the most popular small business accounting platforms available. It offers real-time reporting and features that will help streamline your entire accounting process.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://quickbooks.intuit.com/industry/restaurants/" target="_blank">Quickbooks</a></h3>
-                <p>Most business owners are already familiar with Quickbooks, one of the most popular accounting platforms for all small business. With a host of restaurant-specific features, Quickbooks is ready to streamline your restaurant accounting.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.waveapps.com/" target="_blank">Wave</a></h3>
-                <p>Wave makes it easy to handle your accounting essentials, all in the cloud so your information is accessible from anywhere.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://restaurant365.com/" target="_blank">Restaurant365</a></h3>
-                <p>Restaurant365 is, obviously, designed specifically for restaurants, meaning it offers all the features that will make integration with your business as smooth as possible.</p>
-            </section>
-        </div>
-        <section>
-            <header class="text-center">
-                <h3>Comparison</h3>
-                <p>The most important factor in choosing accounting software is whether it integrates with your existing platforms, like your POS. So check that first. If you’re looking for specific features or price points, see belowsee below.</p>
-            </header>
-            <figure class="figure figure_is_table mt-0">
-                <figcaption class="figure__title">Accounting</figcaption>
-                <table class="table table-borderless">
-                    <thead class="text-white">
-                        <tr>
-                            <th width="150"></th>
-                            <th class="bg-primary">Price</th>
-                            <th class="bg-danger">Key Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-primary">Xero</td>
-                            <td class="bg-light">
-                                <div>$9/mo. Starter plan</div>
-                                <div>$30/mo. Standard plan</div>
-                                <div>$70/mo. Premium plan</div>
-                            </td>
-                            <td>Invoicing, inventory, payroll, bank connections and reconciliation, bill paying, expenses, mobile app, real-time reporting, purchase orders, contacts, sales tax calculation, free 24-7 support</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Quickbooks</td>
-                            <td class="bg-light">
-                                <div>$17/mo. Essentials plan</div>
-                                <div>$30/mo. Plus plan</div>
-                            </td>
-                            <td>Automated accounting, cost management, instant and automatic reporting, integration with other popular restaurant management apps, receipt scanning, payroll, bank syncing, tax deductions</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Wave</td>
-                            <td class="bg-light">Free, with premium addons for online payments and payroll</td>
-                            <td>Cloud accounting, bank syncing, automated reporting, invoicing, receipt scanning, payroll, integration with other popular restaurant management apps</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Restaurant365</td>
-                            <td class="bg-light">
-                                <div>$249/mo. Essentials plan</div>
-                                <div>$299/mo. Professional plan</div>
-                                <div>Volume discounts available for franchises</div>
-                            </td>
-                            <td>
-                                <p>Budgeting, sales forecasting, inventory management, POS integration, bank syncing, payroll, reporting, vendor management</p>
-                                <dl>
-                                    <dt>With Professional plan:</dt>
-                                    <dd class="m-0">Scheduling, recipes, smart ordering and prep, catering, enterprise reporting access</dd>
-                                </dl>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </figure>
-        </section>
-    </section>
-    <section>
-        <header>
-            <h2>Find the Right Talent</h2>
-            <p>One of the most important parts of running your restaurant is having talented, skilled staff. Try these recruiting apps and sites to find the best.</p>
-        </header>
-        <div class="md-layout figure__mb">
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></h3>
-                <p>A job board, but also a roundup of crowdsourced  information on what it’s like to work for a company.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.linkedin.com/" target="_blank">LinkedIn</a></h3>
-                <p>LinkedIn is one of the most-utilized job-searching tools available, meaning you’ll find a ton of quality applicants.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.indeed.com/" target="_blank">Indeed</a></h3>
-                <p>One of the top job sites on the web, with 200 million visitors each month.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.monster.com/" target="_blank">Monster</a></h3>
-                <p>A popular, well-known job searching site where plenty of qualified applicants will see your posting.</p>
-            </section>
-        </div>
-        <section>
-            <header class="text-center">
-                <h3>Comparison</h3>
-                <p>Find the best talent without having to shell out for a recruiter using these budget-friendly online job boards.</p>
-            </header>
-            <figure class="figure figure_is_table mt-0">
-                <figcaption class="figure__title">Hiring</figcaption>
-                <table class="table table-borderless">
-                    <thead class="text-white">
-                        <tr>
-                            <th width="150"></th>
-                            <th class="bg-primary">Price</th>
-                            <th class="bg-danger">Key Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-primary">Glassdoor</td>
-                            <td class="bg-light">Free, with premium features for finding the best candidates</td>
-                            <td>Free job posting, precision targeting, analytics, posting boosts</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">LinkedIn</td>
-                            <td class="bg-light">Free, with premium features available</td>
-                            <td>Free job posting, large network of candidates, review and filter candidates, message prospective hires directly</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Indeed</td>
-                            <td class="bg-light">Free, with option to sponsor posts starting at $5/day</td>
-                            <td>
-                                <p>Free job posting, emails alerts for job-seekers, performance metrics.</p>
-                                <p>With sponsorship: placement on partner sites</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Monster</td>
-                            <td class="bg-light">
-                                <div>$295 Standart plan</div>
-                                <div>$329 Enchanced plan</div>
-                                <div>$529 Premium plan</div>
-                            </td>
-                            <td>Job posting on partner and social networks, job posting on local newspaper sites, email alerts for job-seekers, AI-matched resumes, multiuser access for team collaboration</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </figure>
-        </section>
-    </section>
-    <section>
-        <header>
-            <h2>Get Food Out the Door… Fast</h2>
-            <p class="mb-0">In 2018, no one needs to leave their house or office for a quality meal. If you plan to deliver to your customers, check out these partners.</p>
-            <a :href="require('../assets/images/chapter__9_image_4.png')" target="_blank" data-fancybox="gallery" class="figure">
-                <img :src="require('../assets/images/chapter__9_image_4.png')" alt="" class="my-0">
-            </a>
-        </header>
-        <div class="md-layout">
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.ubereats.com/" target="_blank">Ubereats</a></h3>
-                <p>Deliver meals to Uber customers quickly and conveniently. Orders can even be placed while riding in an Uber, and timed to arrive concurrently.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.seamless.com/" target="_blank">Seamless</a></h3>
-                <p>Customers order online to have their favorites brought to their door, with daily discounts and deals.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://postmates.com/" target="_blank">Postmates</a></h3>
-                <p class="mb-large-0">Postmates delivers from restaurants in major markets, but also from other types of retail stores, making it a go-to for many customers.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.doordash.com/" target="_blank">Doordash</a></h3>
-                <p class="mb-large-0">A delivery service that also puts effort into decreasing food waste.</p>
-            </section>
-        </div>
-        <section class="figure__mt">
-            <h3 class="text-center">Comparison</h3>
-            <figure class="figure figure_is_table mt-0">
-                <figcaption class="figure__title">Delivery Aids</figcaption>
-                <table class="table table-borderless">
-                    <thead class="text-white">
-                        <tr>
-                            <th width="150"></th>
-                            <th class="bg-primary">Price</th>
-                            <th class="bg-danger">Available In</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-primary">Ubereats</td>
-                            <td class="bg-light">A percentage of your sales on Ubereats.</td>
-                            <td>Cities in North and South America, Europe, Asia and Africa. See site for more details.</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Seamless</td>
-                            <td class="bg-light">A marketing percentage from every sale. The more you pay, the more views yours menu gets. Also a percentage from each delivery fee.</td>
-                            <td>660+ US cities. See site for more details.</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Postmates</td>
-                            <td class="bg-light">A commission on products sold using Postmates.</td>
-                            <td>More than 100 cities in the US and Mexico. See site for more details.</td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Doordash</td>
-                            <td class="bg-light">A percentage of your sales on Doordash.</td>
-                            <td>More than 250 US cities. See site for more details.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </figure>
-        </section>
-    </section>
-    <section>
-        <header>
-            <h2>Get Social with your Customers</h2>
-            <p>One of the most important parts of running your restaurant is having talented, skilled staff. Try these recruiting apps and sites to find the best.</p>
-        </header>
-        <div class="md-layout">
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.facebook.com/" target="_blank">Facebook</a></h3>
-                <p>The most-used social media platform allows you to share status updates, restaurant contact and location information, and customer reviews — all for free. You can also pay for ads and “boosted” posts, guaranteeing more potential customers will see your content.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.instagram.com/" target="_blank">Instagram</a></h3>
-                <p>Great for posting dinner specials and mouth-watering customer pics, Instagram is a photo-based platform that will really let you show off how appetizing your wares look. With a business account, you can link straight to your website from your profile page.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://twitter.com/" target="_blank">Twitter</a></h3>
-                <p>Good for short updates and interacting with customers, a strong Twitter presence will make your customer service stand out from the crowd.</p>
-            </section>
-            <section class="md-layout-item md-size-50 md-small-size-100">
-                <h3><a rel="nofollow" href="https://www.youtube.com/" target="_blank">YouTube</a></h3>
-                <p>Want to walk customers through your menu, give a video tour of the restaurant or introduce your staff? YouTube’s video sharing platform is the place to do it.</p>
-            </section>
-        </div>
-        <section>
-            <h3>Comparison</h3>
-            <p>Almost all social media profiles are free, and since they all offer different features and reach a different kind of audience, the more of them you use, the better.</p>
-        </section>
-        <section>
-            <h3>A Game-Changing Solution for your Supply Chain</h3>
-            <p>Now that you’re set up to conquer everything from your web presence, to your approach, to delivery, it’s time to start rethinking about one of the most essential aspects of your business: your suppliers.</p>
-            <p>When it comes to their supply chain, virtually all restaurants are looking to secure lower prices, better quality (and increasingly, local) ingredients, and to do so with as little hassle as possible.</p>
-            <p><a rel="nofollow" href="http://www.chefhero.com" target="_blank">ChefHero</a> is a one-stop shop where you can get all of that done.</p>
-            <p>If you’re looking to switch up your supply game and take your business forward, ChefHero is a key tech tool for your arsenal.</p>
-            <p class="mb-0">Now that you’ve got your restaurant up and running smoothly, it’s time to think about the environment and your restaurants carbon footprint. In the next section, we’ll walk you through the simple changes you can make to your restaurant to make it more eco-friendly.</p>
-        </section>
+        <h2>While you’re at it, rethink your supply chain</h2>
+        <p>Having a supply chain that’s bringing in food from far away isn’t great for the environment, either. While you’re working to make your restaurant as sustainable as possible, maybe it’s time to reexamine your supply chain as well.</p>
+        <p class="mb-0"><a href="https://www.chefhero.com/" target="_blank">ChefHero</a> makes it easy to secure local, sustainable ingredients, all while eliminating supply chain hassle and saving you money.</p>
     </section>
 </article>
 </template>

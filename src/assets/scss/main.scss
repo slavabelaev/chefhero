@@ -63,10 +63,15 @@
 	}
 	#app-content {
 		margin: 1rem auto;
-		padding: 3.125rem;
+		padding: 1.5rem;
 		border-width: 0;
 		border-radius: $border-radius;
 		border: #E0E0E0 1px solid;
+	}
+}
+@media (min-width: 961px) {
+	#app-content {
+		padding: 3.125rem;
 	}
 }
 

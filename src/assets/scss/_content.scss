@@ -60,22 +60,23 @@ article {
 	& > header { background-color: #2C7453; }
 	#in-this-chapter * { color: #2C7453; }
 }
-#chapter-8 {
+#chapter-11 {
 	& > header { background-color: #04494F; }
 	#in-this-chapter * { color: #04494F; }
 }
-#chapter-9 {
+#chapter-8 {
 	& > header { background-color: #77C2A1; }
 	#in-this-chapter * { color: #77C2A1; }
 }
-#chapter-10 {
+#chapter-9 {
 	& > header { background-color: #FFA257; }
 	#in-this-chapter * { color: #FFA257; }
 }
-#chapter-11 {
+#chapter-10 {
 	& > header { background-color: #FF5C66; }
 	#in-this-chapter * { color: #FF5C66; }
 }
+
 
 #about,
 #starter > header {
@@ -107,14 +108,14 @@ article {
 #app-navigation .md-stepper {
 	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before,
 	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before,
-	&:nth-child(14) .md-stepper-header:not(.md-done) .md-stepper-number:before {
+	&:nth-child(13) .md-stepper-header:not(.md-done) .md-stepper-number:before {
 		font-family: Material Icons;
 		font-size: 1rem;
 	}
 	&:nth-child(1) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "class" };
 	&:nth-child(2) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "short_text" };
-	&:nth-child(14) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "flag" };
-	&:nth-child(15) .md-stepper-header:not(.md-done) .md-stepper-number:before {
+	&:nth-child(13) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "flag" };
+	&:nth-child(14) .md-stepper-header:not(.md-done) .md-stepper-number:before {
 		font-family: 'Belbo-Book';
 		font-size: .875rem;
 		content: "?"; 
@@ -130,7 +131,6 @@ article {
 	&:nth-child(10) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "8" };
 	&:nth-child(11) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "9" };
 	&:nth-child(12) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "10" };
-	&:nth-child(13) .md-stepper-header:not(.md-done) .md-stepper-number:before { content: "11" };
 
 	.md-stepper-number {
 		position: relative;
@@ -147,6 +147,75 @@ article {
 	}
 }
 
+#access-to-chapter {
+	background-color: #DADEDC;
+	img {
+		max-width: 240px;
+	}
+	h2 {
+		margin-top: 0;
+		font-family: 'TiemposHeadline', serif;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+	h2 {
+		color: #333333;
+	}
+	.md-button {
+		font-family: 'Belbo-Book', serif;
+		box-shadow: none;
+		background-color: #FF5C65;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		font-weight: bold;
+	}
+}
+
+
+#access-to-chapter {
+	padding: 1rem;
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+
+@media (min-width: 601px) {
+	#about,
+	article > header {
+		margin: -3.125rem;
+		margin: calc(-3.125rem - 1px);
+		padding: 3.125rem;
+		color: #fff;
+	}
+	#access-to-chapter {
+		padding: 1.5rem;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+	}
+	article > header {
+		margin-bottom: 3.125rem;
+		border-radius: 4px 4px 0 0;
+	}
+	#starter > header,
+	#about {
+		margin-bottom: -3.125rem;
+		margin-bottom: calc(-3.125rem - 1px);
+		border-radius: $border-radius!important;
+	}
+	#in-this-chapter {
+		border-left: #e0e0e0 1px solid;
+		margin-left: -3.125rem;
+		padding-left: 3.125rem;
+		margin-bottom: 0;
+	}
+	#introduction,
+	#conclusion {
+		#access-to-chapter {
+			margin-bottom: -1.5rem;
+			border-radius: 0 0 $border-radius $border-radius;
+			margin-bottom: calc(-1.5rem - 1px);
+		}
+	}
+}
 @media (min-width: 961px) {
 	article > header {
 		position: relative;
@@ -236,16 +305,25 @@ article {
 	#chapter-5 > header { background-image: url(assets/images/chapters/chapter-5__bg.svg); }
 	#chapter-6 > header { background-image: url(assets/images/chapters/chapter-6__bg.svg); }
 	#chapter-7 > header { background-image: url(assets/images/chapters/chapter-7__bg.svg); }
-	#chapter-8 > header { background-image: url(assets/images/chapters/chapter-8__bg.svg); }
+	#chapter-8 > header { background-image: url(assets/images/chapters/chapter-11__bg.svg); }
 	#chapter-9 > header { background-image: url(assets/images/chapters/chapter-9__bg.svg); }
 	#chapter-10 > header { background-image: url(assets/images/chapters/chapter-10__bg.svg); }
 	#chapter-11 > header { background-image: url(assets/images/chapters/chapter-11__bg.svg); }
 
 	#introduction,
 	#conclusion {
-		background-size: auto 100%;
+		background-size: 100% auto;
 		background-position: center;
 		background-repeat: no-repeat;
+		#access-to-chapter {
+			margin-bottom: -3.125rem;
+			margin-bottom: calc(-3.125rem - 1px);
+		}
+	}
+	#access-to-chapter {
+		padding: 3.125rem;
+		margin-left: calc(-3.125rem - 1px);
+		margin-right: calc(-3.125rem - 1px);
 	}
 	#introduction { background-image: url(assets/images/chapters/introduction__bg.svg); }
 	#conclusion { background-image: url(assets/images/chapters/conclusion__bg.svg); }
@@ -260,36 +338,14 @@ article {
 	}
 }
 
-@media (min-width: 601px) {
-	#about,
-	article > header {
-		margin: -3.125rem;
-		margin: calc(-3.125rem - 1px);
-		margin-bottom: 1.5rem;
-		padding: 3.125rem;
-		border-radius: 4px 4px 0 0;
-		color: #fff;
-	}
-	#starter > header,
-	#about {
-		margin-bottom: -3.125rem;
-		margin-bottom: calc(-3.125rem - 1px);
-		border-radius: $border-radius!important;
-	}
-	#in-this-chapter {
-		border-left: #e0e0e0 1px solid;
-		margin-left: -3.125rem;
-		padding-left: 3.125rem;
-		margin-bottom: 0;
-	}
-}
-
 @media (max-width: 600px) {
 	#about,
 	article > header {
 		margin: -1rem;
-		margin-bottom: 1.5rem;
 		padding: 1rem;
+	}
+	article > header {
+		margin-bottom: 1.5rem;
 	}
 }
 

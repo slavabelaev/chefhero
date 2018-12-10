@@ -62,6 +62,9 @@
         <p>An added bonus to this is you won’t end up with dependent employees. When you fill your restaurant with people you trust, who are empowered to do good work, you have the freedom to let them run the show, with or without your presence. Win-win.</p>
         <p>What’s important when it comes to retaining staff is to treat them well. Once you have a well-trained staff in place, especially if you hire people with experience and talent, there’s always the risk that they’ll get poached by another restaurant. The good news is that in the restaurant industry, many workers face long hours and low wages<sup><a rel="nofollow" href="https://www.theglobeandmail.com/life/food-and-wine/food-trends/a-cycle-of-exploitation-how-restaurants-get-cooks-to-work-12-hour-days-for-minimum-wage-or-less/article26999168/" target="_blank">[15]</a></sup>. You can beat out much of your competition for good staff just by offering a living wage and flexible hours.</p>
     </section>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
     <section>
         <h3>What About the Chef?</h3>
         <p>Yep, finding your chef is one of your most important jobs when you’re getting your restaurant up and running. And it’s one of the hardest.</p>

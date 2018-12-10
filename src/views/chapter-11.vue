@@ -2,98 +2,634 @@
 <article id="chapter-11">
     <header>
         <div class="chapter-title">Chapter 11</div>
-        <h1>A Starter Guide to Instagram Marketing for Restaurateurs</h1>
+        <h1>14 Essential Restaurant Metrics Every Owner Should Measure and Track</h1>
         <address>
             <dl>
                 <dt>Written By:</dt>
-                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin</a></dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
             </dl>
         </address>
         <section id="in-this-chapter">
             <h3>In this chapter:</h3>
             <ul>
-                <li>Setting up your Instagram account</li>
-                <li>Types of content that drive engagement</li>
-                <li>How to engage and build relationships with guests</li>
+                <li>Calculations to help you understand how food costs are  affecting your bottom line</li>
+                <li>Tools to help you understand if you're putting the appropriate amount of money into each part of your business</li>
             </ul>
         </section>
     </header>
-    <p>No matter how great you are with words, nothing can sell your food better than a mouth-watering photo.</p>
-    <p>Diners eat with their eyes first, and that’s what makes Instagram a vital marketing tool for restaurants. It provides a cost-effective way for you to get images of your food in front of potential guests. By giving these hungry guests a craving for the real thing, you’ll have them lining up at your doorstep in no time.</p>
-    <p class="mb-0">But if you think filters are for coffee, feeds are for farm animals, and hashtags are for… well, who knows what, you might need a little Insta-assistance. And that’s where this guide comes in. From setting up your Instagram to creating and curating the perfect posts, this post has everything you need to get started on your #InstaSuccess.</p>
-    <a :href="require('../assets/images/chapter__11_image_1.jpg')" target="_blank" data-fancybox="gallery" class="figure">
-        <img :src="require('../assets/images/chapter__11_image_1.jpg')" alt="" class="my-0">
-    </a>
+    <p>Whether you’re just starting to price out your dream restaurant or checking on the overall health of your business, there are several metrics you should continually keep track of.</p>
+    <p>These metrics represent different ways of looking at the health of a business allowing you to set goals, identify trends both positive and negative, and accurately gauge results of the operational tweaks you may make to your restaurant.</p>
     <section>
-        <h2>Set your Instagram up for success</h2>
-        <p>First things first: You need to set up a business Instagram account for your restaurant. There are a few tips for doing so that will make your account both professional, and the best possible marketing tool.</p>
-        <p>First, choose a handle that’s easily recognizable and searchable, so guests have no problem finding you on the platform. Your restaurant name is a good place to start, and if it’s not available, add your city to the name. Example: <a target="_blank" rel="nofollow" href="https://www.instagram.com/sweetgreen/">@sweetgreen</a> or <a target="_blank" rel="nofollow" href="https://www.instagram.com/deepellumboston/">@deepellumboston</a>. Pro-tip: Both of those accounts kill it, so check them out if you need some inspiration. When you set up your account, make sure you set it up as a business account, and not a personal one. This will allow you to access Insights, Instagram’s suite of business-friendly analytics tools to see how your posts are performing and where there’s room for growth in your reach. Having a business account also makes it easier for diners to contact you through Instagram.</p>
-        <p>When you create your account, also take a moment to create a location page for your restaurant, which will allow other users to easily tag you in photos they post when they visit, as well as curate posts made at your restaurant onto one page.</p>
-        <p>If you use other forms of social media, like Facebook and Twitter, integrate your Instagram with those accounts. Always make sure your Instagram photos are posting to your other social profiles, and cross promote your new Instagram account there to increase reach and follower counts. And consider embedding a stream of your most recent Instagram photos on your website, too.</p>
-        <p class="mb-0">Finally, before you start posting, you should do a little bit of hashtag research. Instagram posts with at least one hashtag average 12.6 percent more engagement, according to a Simply Measured study <sup><a rel="nofollow" href="http://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253Dhttp://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253Dhttp://get.simplymeasured.com/rs/simplymeasured2/images/InstagramStudy2014Q3.pdf?mkt_tok=3RkMMJWWfF9wsRolua%252FAZKXonjHpfsX57%252BwtX6a2lMI%252F0ER3fOvrPUfGjI4CTsViI%252BSLDwEYGJlv6SgFQrDEMal41bgNWRM%253D" target="_blank">[36]</a></sup>. But that doesn’t mean any hashtag will work. Choose hashtags that will get you a lot of eyes, but be careful of being too vague and getting buried with millions of other posts. For example, #foodie is nearing 100 million posts on Instagram. Instead, try personalizing it with your city; for example, #chicagofood, which has more than half a million posts. This means that you have a higher chance of reaching new followers without getting buried by thousands of other posts. You should also create a hashtag specifically for your restaurant, and then use it in your Instagram bio and all your posts. You can even display it in your restaurant or print it on your menus to encourage diners to use it, too.</p>
+        <h2>Metric #1: Break-Even Point</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Simply put, your “break-even point” is the point at which your business revenue is equal to your restaurant’s expenses and operating costs.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Why it’s important:This calculation takes into account all the costs you’ll incur while running your business, then outlines your sales threshold. A sales threshold is the amount of monthly sales you’ll have to make in order to turn a profit.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li>Say your restaurant sells <strong>$20,000 worth</strong> of products for the month of July</li>
+                <li>If you paid <strong>$5,000</strong> in variable costs, and <strong>$7,000</strong> in fixed costs, your break-even point for the month would be <strong>$9,333.33</strong>.</li>
+                <li>This means that your restaurant begins turning a profit after selling <strong>$9,333.33</strong> worth of goods or services.</li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Break Even Point</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Total Fixed Costs</span>
+                        <hr class="formula__delimiter">
+                        <div class="formula__expression-item">
+                            <span>[(</span>
+                            <span class="formula__variable">Total Sales</span>
+                            <span class="formula__operator">-</span>
+                            <span class="formula__variable">Total Variable Costs</span>
+                            <span>)</span>
+                            <span class="formula__operator">/</span>
+                            <span class="formula__variable">Total Sales</span>
+                            <span>]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <section>
+            <h3>Example:</h3>
+            <ul>
+                <li>In this example, <strong>$20,000 - $5,000</strong> (Sales minus Variable Cost) equals <strong>$15,000</strong>.</li>
+                <li><strong>$15,000</strong> divided by <strong>$20,000</strong> equals <strong>0.75</strong>.</li>
+                <li><strong>$7,000 (fixed costs)</strong> divided by <strong>0.75</strong> gives you a  break-even point of <strong>$9,333.33</strong>.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>Calculate your break-even point before you open your business, then adjust accordingly as you accrue various business expenses. Use this figure to quickly justify a big new purchase or launch a marketing campaign.</p>
+        </section>
+        <section>
+            <h3>Good to know:</h3>
+            <ul>
+                <li>
+                    <p><strong>Variable Costs = </strong>Costs that may change due to business or environmental factors. These could include food and labor costs based on how busy your restaurant is, heating and cooling in winter and summer months, or advertising and marketing.</p>
+                </li>
+                <li>
+                    <p><strong>Fixed Costs = </strong>Costs which typically do not change, such as rent, utilities, and salary, also known as ‘overhead’ as outlined below.</p>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #2: Overhead Rate</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Fixed costs (or overhead) are just that — repeating, expected business expenses that typically do not change in cost, which are invoiced then paid on a periodic basis. These could include rent, insurance, property taxes, equipment rentals, utilities, and monthly or non-rate driven employee salaries. When calculated as a rate, this tells you how much you are spending each day, week, month, or year just to keep the doors open.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Calculating an overhead rate helps you understand just how much it costs just to keep your doors open on a day-to-day, or even hourly basis.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ul>
+                <li><strong>Go through all the monthly bills</strong> your prospective restaurant may receive and total the cost for these expenses. This gives you a total fixed cost.</li>
+                <li><strong>Determine a fiscal period</strong> — many restaurants use 13, 28-day periods.</li>
+                <li><strong>Calculate how many total hours your business will be open</strong> for the specified month.</li>
+                <li>*<strong>Be sure to pay attention to the number of days in each month</strong> to accurately calculate your overhead rate. “Thirty days hath September, April, June, and November; all the rest have thirty-one, except for February alone.”</li>
+                <li><strong>Divide the total fixed cost by the total number of hours</strong> your business will be open for the month to determine an overhead rate.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Example:</h3>
+            <ul>
+                <li>Say your total fixed costs for the month are <strong>$7,000</strong> and your restaurant is open <strong>8 hours a day, 7 days a week</strong>.</li>
+                <li>For a 31-day month, 8 (hours) x 31 (days) means your business is open for a total of 248 hours.</li>
+                <li>For a <strong>28-day month, 8 (hours) x 28 (days)</strong> means <strong>your business is open for a total of 224 hours</strong>.</li>
+            </ul>
+            <p>Take the total fixed costs and divide by the total number of hours your restaurant will be open for the month.</p>
+            <ul>
+                <li><strong>$7,000 (fixed costs)</strong> divided by<strong> 248 (hours)</strong> gives an overhead of <strong>$1,580.88 per week, $225.84 per day</strong>, and <strong>$28.23 per hour</strong>.</li>
+                <li><strong>$7,000 (fixed costs)</strong> divided by <strong>224 (hours)</strong> gives an overhead of <strong>$1750.00 per week, $250.00 per day</strong>, and <strong>$31.25 per hour</strong>.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>One’s overhead can be calculated using actual figures (from past bills and receipts) or projected figures (by making an educated guess). Using projected figures is a great way to determine a forecasted overhead rate, which can be useful when mapping out operational processes before opening your business. Using actual figures shows how the operational tweaks you make impact your day-to-day business.</p>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Total Hours Open for Month</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total hours open per day</span>
+                        <span class="formula__operator">X</span>
+                        <span class="formula__variable">Total days in month</span>
+                    </div>
+                </div>
+            </div>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Overhead Rate</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Total Fixed Costs</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Total Hours Open for Month</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </section>
+    <section>
+        <h2>Metric #3: Food Costs</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Your food cost is the amount you spend on food per month, taking into account inventory at the beginning of the month, purchases made within the month, and any goods left over at the end of the month.</p>
+            <p>Food costs are one aspect of the total cost of goods sold (CoGS), but may not include all of the costs that go into the equation.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Use this calculation to continuously monitor your supply of ingredients and inventory.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Determine a period to measure</strong> — a good way to go about this is once each month, or each time you purchase goods.</li>
+                <li><strong>Determine the value of the inventory</strong> you have left over from the <strong>previous period</strong>.</li>
+                <li><strong>Calculate the sum of your total purchases for the period.</strong> This is typically the food you’ve purchased for the month.</li>
+                <li><strong>Determine the value of the inventory</strong> you have left over at the <strong>end of the period</strong>.</li>
+                <li><strong>Subtract the total you have left over</strong> at the end of the period, from the <strong>total you had left over at the beginning of the period</strong>.</li>
+                <li><strong>Add this new number</strong> (the difference) to your total purchases to determine your CoGS.</li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Food Cost</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total Purchases</span> 
+                        <span class="formula__operator">+</span> 
+                        <span>(</span>
+                        <span class="formula__variable">Total Leftover Inventory from Previous Month</span> 
+                        <span class="formula__operator">-</span> 
+                        <span class="formula__variable">Total Ending Inventory</span>
+                        <span>)</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <section>
+            <h3>Example:</h3>
+            <ul>
+                <li>At the beginning of July, <strong>your inventory was worth $1,500</strong> (leftover from June’s inventory).</li>
+                <li>At the end of July, <strong>your inventory was worth $500</strong> (meaning you used up $1,000 worth of inventory goods during July).</li>
+                <li>During this same period, <strong>you also purchased $2,000 worth of goods</strong> for your business.</li>
+                <li><strong>$2,000 [Total Purchases] + ($1500 [Starting Inventory] - $500 [Ending Inventory]) = $3,000</strong>, meaning your total food costs or CoGS during the month of July would  be $3,000.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>At least once per month, or each time you purchase a large amount of goods.</p>
+        </section>
+        <!-- Chart -->
+        <total-restaurant-operating-costs-chart></total-restaurant-operating-costs-chart>
+        <!-- /Chart -->
+    </section>
+    <section>
+        <h2>Metric #4: Food Cost Percentage (Theoretical)</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>The percentage of a dish’s selling price that it costs to create it. Said differently, the percentage of your dishes’ prices that are taken up by the cost of the food used in that dish.</p>
+            <p>Eventually you’ll want to compare your business’ food costs with industry standards, so the way in which you calculate these figures should be consistent with industry practices.</p>
+            <p>Industry averages are based on the Uniform System of Accounts for Restaurants: A Guide to Standardized Restaurant Accounting, Financial Controls, Record-Keeping and Relevant Tax Matters, a standard textbook for North American restaurant accounting since the late 50’s <sup><a rel="nofollow" href="https://www.amazon.com/Uniform-System-Accounts-Restaurants-Standardized/dp/1931400733" target="_blank">[29]</a></sup>.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Determining a food cost percentage allows you to know how much you’re spending on the food used in your meals and use that to determine or update pricing. Generally speaking, food cost percentages should account for 25%-35% of an individual dish. For example, if it costs $1 to create a taco, it’s wise to sell this item for around $2.90 (35%) to $4.00 (25%). Food costs and labor costs combined should account for 50%-65% of total sales.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Determine a period</strong> — one way to go about this is to collect all the elements which will be included in your food cost calculations (gross sales, inventories, and purchases) and create your period based on this time frame. For example, if you purchase goods and do inventory twice per month, check your food cost percentage on a biweekly basis.</li>
+                <li><strong>Determine your total gross sales</strong> — for this period let’s say you sold $20,000 worth of food and beverages.</li>
+                <li><strong>Determine your food cost (CoGS)</strong> using the calculation above.</li>
+                <li><strong></strong>Calculate your food cost % using the calculation below.</li>
+                <li><strong>Multiple by 100 to get a percentage.</strong></li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Food Cost %</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Estimated Food Cost</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Menu Price</span>
+                    </div>
+                    <span class="formula__operator">X</span>
+                    <span class="formula__variable">100</span>
+                </div>
+            </div>
+        </figure>
+        <section>
+            <h3>Example:</h3>
+            <ul>
+                <li>For the month of July, let’s say your <strong>gross food sales were $20,000</strong> and your <strong>food costs (COGS) was $3,000</strong></li>
+                <li><strong>3,000 (food costs) / $20,000 (total gross sales) = .15</strong></li>
+                <li><strong>Multiply by 100</strong> to get a <strong>food cost percentage of 15%</strong></li>
+            </ul>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>Before you open your business, then routinely as your costs fluctuate.</p>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #5: Labour Cost Percentage</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Similar to food cost percentage, labour cost and its percentage is the amount you spend on labour relative to the total sales for a given period. Minimum wage and tip amounts, beverage sales, quality of food and service, pricing, and hours of operation all greatly impact your food and labour costs.</p>
+            <p>Why it’s important: Much like food costs, labour costs, when analyzed month-over-month, can quickly help you identify operational issues within your business.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Determine a period</strong> — a good way to go about this is once each month, or each time you pay  your employees.</li>
+                <li><strong>Determine your total labour costs</strong>, taking into account your company’s payroll, taxes, and benefits.</li>
+                <li><strong>Determine your total sales</strong> - for this period let’s say you sold $20,000.</li>
+                <li><strong>Calculate your labour cost %</strong> using the calculation below.</li>
+                <li><strong>Move decimal 2 places</strong> to the right to get a percentage.</li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Labour Cost %</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Labour Cost</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Total Gross Sales</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <section>
+            <h3>Example:</h3>
+            <p>Let’s continue using the month of July where your total gross food sales were $20,000. For this same period, you determined your labour costs were $2,000.</p>
+            <ul>
+                <li><strong>$2,000 (labour costs) / $20,000 (total gross sales) = 0.10</strong></li>
+                <li>Move the decimal 2 places to the right to get a labour cost percentage of 10%</li>
+            </ul>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>At least once per month, or each time you pay your employees.</p>
+        </section>
+        <section>
+            <h3>Good to know:</h3>
+            <p>Neither food nor labour costs alone will give you an accurate measurement of success. To determine this figure, combine both your food and labour costs to get what’s known as your “prime costs” for the month.</p>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #6: “Prime” Costs</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Combined, your food and labour costs are often referred to as Prime Costs.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Why it’s important:This combined total displays all the money and manpower necessary to run your business. When maintained, this figure can quickly inform future buying or operational decisions by letting you know your expected spend for the month.</p>
+            <p>*The industry consensus is that prime costs should make up around 60% of your total restaurant costs in order to be consistently profitable.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Determine a period</strong> — it’s wise to sync this up to your existing food and labour cost periods.</li>
+                <li><strong>Determine your total food costs (CoGS)</strong> using the calculation above.</li>
+                <li><strong>Determine your total labour costs</strong>, taking into account your company’s payroll, taxes, and benefits.</li>
+                <li><strong>Calculate your prime cost %</strong> using the calculation below.</li>
+                <li><strong>Move decimal 2 places</strong> to the right to get a percentage.</li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Prime Cost</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">CoGS</span>
+                        <span class="formula__operator">+</span>
+                        <span class="formula__variable">Labour Cost</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <!-- Chart -->
+        <restaurant-prime-cost-chart></restaurant-prime-cost-chart>
+        <!-- /Chart -->
+        <section>
+            <h3>Example:</h3>
+            <p>As determined above, for the month of July, your food costs totalled $3,000, and your labour costs totalled $2,000.</p>
+            <ul>
+                <li><strong>$3,000 (CoGS) + $2,000 (Labour Costs) = $5,000 (Prime Costs)</strong></li>
+                <li><strong>$5,000 / $20,000 = .25</strong></li>
+                <li><strong>Move the decimal 2 places</strong> to the right to get a labour cost percentage of 25%</li>
+            </ul>
+            <p>Prime costs should hover around 60% or lower to be consistently profitable.</p>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>At least once per month, or each time you need to make a crucial purchase for your business.</p>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #7: Gross Margin</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Gross margin is your total gross sales minus your total cost of goods sold.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Gross margin is another way of measuring your CoGS percentage and gives you insight about changes you may need to make in purchasing or pricing your dishes. Keep in mind that this is not your profit, because it does not include additional costs like labour and overhead.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Determine a period</strong> — it’s wise to sync this up to an existing fiscal period such as inventory, accounting, or delivery dates.</li>
+                <li><strong>Determine your total gross monthly sales</strong> by collecting receipts and figures from the sale of all goods for the month (food, beverages, merchandise). </li>
+                <li><strong>Determine your total food costs (CoGS)</strong> using the calculation above.</li>
+                <li><strong>Subtract your CoGS from your total gross sales</strong> to determine a gross margin.</li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Gross Margin</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total Gross Sales</span>
+                        <span class="formula__operator">-</span>
+                        <span class="formula__variable">CoGS</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <section>
+            <h3>Example:</h3>
+            <ul>
+                <li>During the month of July, let’s say <strong>your restaurant sold $20,000 in total gross sales</strong>.</li>
+                <li>We’ve already determined that <strong>our COGS is $3,000</strong>.</li>
+                <li><strong>20,000 (total gross sales) - $3,000 (COGS) = $17,000 (gross margin)</strong></li>
+                <li>Expressed as a percentage: <strong>$17,000 / $20,000 = .85</strong></li>
+                <li><strong>Multiply by 100 to get a percentage.</strong> Gross margin is <strong>85% of your gross sales</strong>. Your expenses (in this case food costs) would <strong>make up 15% of your gross sales</strong>.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>At the end of each fiscal period, or whenever you’d like a pulse on your business’ finances.</p>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #8: Net profit</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Your net profit is the total revenue earned for the fiscal period after deducting all expenses. This is the amount you’ll have left in your pocket once all is said and done.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Net profit tells you how much money you have left after you account for all expenses.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Determine a period</strong> — it’s wise to sync this up to your prime cost period.</li>
+                <li><strong>Determine your total gross monthly sales</strong> by collecting receipts and figures from the sale of all goods for the month (food, beverages, merchandise).</li>
+                <li><strong>Determine your prime costs</strong> using the calculation.</li>
+                <li><strong>Determine your overhead costs</strong> using the calculation.</li>
+                <li><strong>Subtract your total costs from your total gross sales</strong> to determine a net profit.</li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Net profit</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression formula__expression-item">
+                        <span class="formula__variable">Total Gross Sales</span>
+                        <span class="formula__operator">-</span>
+                        <span class="formula__variable">Prime Costs</span>
+                        <span class="formula__operator">-</span>
+                        <span class="formula__variable">Overhead</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <section>
+            <h3>Example:</h3>
+            <ol>
+                <li><strong>Let’s use this same $20,000</strong>, and the <strong>prime cost of $5,000</strong> listed above for the month of July to determine our net profit.</li>
+                <li><strong>20,000 (total gross sales) - $5,000 (prime costs) - $7,000 (overhead) = $8,000 (net profit)</strong></li>
+                <li>Expressed as a percentage: <strong>$8,000 (net profit) / $20,000 (total gross sales) = .40</strong></li>
+                <li><strong>Multiply by 100 to get a percentage. Net profit is 40% of your gross sales.</strong> Your total expenses (prime costs plus overhead) would make up <strong>60% of your gross sales</strong>.</li>
+            </ol>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>At the end of each fiscal period, or whenever you’d like a pulse on your business’ finances.</p>
+        </section>
+        <!-- Chart -->
+        <average-restaurant-operating-costs-chart></average-restaurant-operating-costs-chart>
+        <!-- /Chart -->
+    </section>
+    <section>
+        <h2>Metric #9: Profit Margin</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Your profit margin is the percentage of your gross sales that then become net profit.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>This is a final tally on what portion of your restaurant’s revenue is left over after accounting for all of the costs that go into making the food and running the business.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li>To express your net profits as a profit margin percentage, <strong>divide your net profit by your total gross monthly sales.</strong></li>
+                <li><strong>Multiply by 100 to get a percentage.</strong></li>
+            </ol>
+        </section>
+        <figure class="figure figure_is_formula">
+            <figcaption class="figure__title">Equation:</figcaption>
+            <div class="formula__wrapper">
+                <div class="formula">
+                    <span class="formula__variable">Profit Margin %</span>
+                    <span class="formula__equals-sign">=</span>
+                    <div class="formula__expression">
+                        <span class="formula__variable">Net profit</span>
+                        <hr class="formula__delimiter">
+                        <span class="formula__variable">Total Gross Sales</span>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <section>
+            <h3>Example:</h3>
+            <ol>
+                <li><strong>$8,000 (net profit) / $20,000 (gross sales) = .40</strong></li>
+                <li><strong>Multiply by 100</strong> to get a percentage — <strong>net profit margin of 40%</strong></li>
+                <li>Notice that profit margin and net profit percentage is the same calculation</li>
+            </ol>
+        </section>
+        <section>
+            <h3>When to calculate:</h3>
+            <p>At the end of each fiscal period, or whenever you’d like a pulse on your business’ finances.</p>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #10: Table Turnover Rate</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>Table turnover rate is a measure of how many dining parties are served within a specified period.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Based on the type of restaurant you’re running, turnover rates will be different. Fast casual restaurants with a lower price point will have a higher turnover rate, where a more laid back, but higher in price establishment will have a lower one, often making the number of sales/time in drinks or desserts.</p>
+            <p>Keeping an eye on this metric can help you determine how much staff you’ll need during certain periods.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li>For a given time period, <strong>count the number of dining parties served at a given table, for several tables.</strong></li>
+                <li><strong>Add the number of parties served together</strong> and <strong>divide by the number of tables.</strong></li>
+            </ol>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #11: Employee Turnover Rate</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>The percentage of employees that leave (quit or fired) within a given time period.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>This figure gives you insight into how quickly employees are coming and going from your restaurant and allow you to plan for future hiring based on estimated turnover.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Choose a time period</strong> (1 month, 3 months, 6 months, etc).</li>
+                <li><strong>Determine the number of employees</strong> at the beginning of the period.</li>
+                <li><strong>Add the number of employees hired</strong> within that period.</li>
+                <li><strong>Subtract the number of employees remaining</strong> at the end of the period.</li>
+                <li><strong>Divide by the number of employees</strong> from the beginning of the period.</li>
+                <li><strong>Multiply by 100 to get a percentage.</strong></li>
+            </ol>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #12: Guest Check Average</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>This number gives you the average amount spent per guest in your restaurant.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>With your guest check average, you can forecast future revenues based on changes like increased traffic or larger tables. This allows you to decide the relative value of investments like marketing and advertising based on their estimated effect in total diner traffic.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Choose a time period.</strong></li>
+                <li><strong>Calculate your gross sales</strong> over that time period.</li>
+                <li><strong>Divide your gross sales</strong> by the <strong>total number of seats/tickets</strong> within that same time period.</li>
+            </ol>
+        </section>
+    </section>
+    <section>
+        <h2>Metric #13: Seating Capacity</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>An estimate of the number of diners that can be seated in your restaurant at the same time.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Taken together with your table turnover rate and average ticket size, this number will tell you the maximum revenue your restaurant can possibly generate within a given time period. This is also a valuable way to compare your restaurant’s actual seating versus the theoretical capacity in order to maximize the space.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol>
+                <li><strong>Measure the total square footage</strong> of your restaurant’s front of house area.</li>
+                <li><strong>Measure and subtract the square footage</strong> of any non-dining space (e.g., waiting area, beverage station, cash register, etc).</li>
+                <li><strong>Divide the total amount of space by 15 (assuming 15 square feet of space per average diner).</strong></li>
+            </ol>
+        </section>
+        <!-- Figure -->
+        <how-to-optimize-seating-capacity-figure></how-to-optimize-seating-capacity-figure>
+        <!-- /Figure -->
+    </section>
+    <section>
+        <h2>Metric #14: Percentage of  Repeat Customers</h2>
+        <section>
+            <h3>What it is:</h3>
+            <p>The proportion of customers that come back to your restaurant within a certain time period.</p>
+        </section>
+        <section>
+            <h3>Why it’s important:</h3>
+            <p>Measures the loyalty of your patrons and how likely individual diners are to come back to your restaurant after dining there once.</p>
+            <p>This is a great metric for restaurants that’ve been keeping diligent records. If you haven't, that's alright, but keep it in mind when it comes time to upgrade your technology so you don't miss the opportunity.</p>
+        </section>
+        <section>
+            <h3>How to calculate:</h3>
+            <ol class="mb-0">
+                <li><strong>Choose a time period (3 months, 6 months, 12 months).</strong></li>
+                <li><strong>Calculate the total number of customers</strong> served within that time period.</li>
+                <li><strong>Use your POS, CRM</strong>, or other technology to <strong>calculate the number of unique customers</strong> within that  time period.</li>
+                <li><strong>Divide the number of unique customers</strong> by the <strong>number of total customers</strong> within that time period.</li>
+            </ol>
+        </section>
         <a :href="require('../assets/images/chapter__11_image_2.jpg')" target="_blank" data-fancybox="gallery" class="figure">
             <img :src="require('../assets/images/chapter__11_image_2.jpg')" alt="" class="my-0">
-        </a> 
-    </section>
-    <section>
-        <h2>Who should post?</h2>
-        <p>Once your Instagram is up and running, it’s time to determine who should post to it.</p>
-        <p>Ideally, posting should be the responsibility of a small handful of staff who know how to take great photos, understand Instagram business best practices, and can nail the company’s voice in captions and customer interactions. If you have someone in charge of marketing, this is a job for them.</p>
-        <p>But don’t limit your Instagram posts to just your staff. Encourage customers to post photos they take at your restaurant, then use your hashtag to find them and share the best on your own account. You can offer gift cards or discounts as an incentive to get customers posting great photos using your hashtag with your location tagged, which will help spread the word about your restaurant online. A good example of this comes from a Dunkin’ Donuts campaign called “UpgraDDe Your Sandwich”<sup><a rel="nofollow" href="https://aaronallen.com/blog/restaurant-promotions/10-great-ways-for-restaurants-to-use-instagram" target="_blank">[37]</a></sup>. It encouraged followers to share pictures of their lunches that needed a “Dunkin’ Donuts upgrade” along with the hashtag #UpgraDDe. Select participants won gift cards to Dunkin’ Donuts.</p>
-    </section>
-    <section>
-        <h2>When should you post?</h2>
-        <div class="md-layout">
-            <div class="md-layout-item md-small-size-100">
-                <p>Ideally, you should be posting to your Instagram daily, or even multiple times per day. Try out regular, daily posts, like posting photos and descriptions of your specials.</p>     
-                <p>But you should also definitely take advantage of Instagram when special events are happening.</p>
-                <p>If your restaurant is involved in a fair or festival, promote that on Instagram! Take photos of your setup at the event. Broadcast a live video showing crowds and excitement at the event, and encourage more followers to come out and find you there. You can even use photos or stories to chronicle something disastrous, like a rainstorm in the middle of a festival. Have fun with it, and your followers are sure to enjoy the content.</p>
-   
-            </div>
-            <div class="md-layout-item md-small-size-100">
-                <a :href="require('../assets/images/chapter__11_image_3.png')" target="_blank" data-fancybox="gallery" class="figure__my-small">
-                    <img :src="require('../assets/images/chapter__11_image_3.png')" alt="" class="my-small-0">
-                </a>
-            </div>
-        </div>             
-        <p>But also be on the lookout for day-to-day events that you can promote on Instagram. If you’re introducing a new food or signature drink, use your Instagram account to show it off and welcome your guests to try out new menu items.</p>
-        <p>You can even use Instagram to host a contest where you allow a guest to name a new food or drink item.</p>
-    </section>
-    <section>
-        <h2>What should you post?</h2>
-        <p>While everything in this guide will help you create the best Instagram account possible, nothing matters as much as what you post. Your content is what will gain you followers, and turn those followers into guests who show up for your food.</p>
-        <p class="mb-0">First and foremost, you have to post photos of your food and drinks. Remember that example at the beginning? What’s more effective: a really well-written description of a cheese-burger? Or this:</p>
-        <a :href="require('../assets/images/chapter__11_image_4.jpg')" target="_blank" data-fancybox="gallery" class="figure">
-            <img :src="require('../assets/images/chapter__11_image_4.jpg')" alt="" class="my-0 w-100">
         </a>
-        <p>You’re getting hungry just looking at it, right?</p>
-        <p class="mb-0">But if you’re going to post food pics, they have to look as great as the food tastes. That means you can’t just take any photo. Does this look as appetizing?</p>
-        <a :href="require('../assets/images/chapter__11_image_5.jpg')" target="_blank" data-fancybox="gallery" class="figure">
-            <img :src="require('../assets/images/chapter__11_image_5.jpg')" alt="" class="my-0 w-100">
-        </a>
-        <p>The answer is no. It’s dark. It’s blurry. The angle doesn’t show off the ingredients.</p>
-        <p>A few tips for getting the best possible food photography, even as a novice:</p>
-        <ul>
-            <li>Use a real camera, or your phone camera app, rather than taking your photos with Instagram’s limited in-app camera.</li>
-            <li>Use the Rule of Thirds to get nice framing on your shots. If a grid were placed over your photo, dividing it into thirds both vertically and horizontally, the most visually interesting points should be where the lines of the grid intersect.</li>
-            <li>Aim for natural light. Always avoid flash and harsh overhead lights that can wash out your food.</li>
-            <li>Use props! A pair of chopsticks on a plate of sushi, a cork next to a wine glass, a spoon in a bowl of soup. They all add action to what could otherwise be pretty stale shots.</li>
-            <li>Add texture. If you’re shooting something like soup, garnish it with herbs or croutons. Add fresh berries  to a sorbet. These little details add some contrast  to your shots and make them more interesting  (and tasty!).</li>
-            <li>Embrace filters. Instagram comes with plenty of  preset filters that can help your photos pop, and apps like VSCO and Lightroom can also help you adjust colors and levels to make your shots look  even better.</li>
-        </ul>
-        <p>But food shouldn’t be all you post. Instagram is also a great way to show the behind-the-scenes workings of your restaurant. Show off your ambiance. Introduce your staff. Let your followers follow along with a renovation project. Instagram can make your restaurant and its staff seem a little more human, so let it do just that.</p>
-        <p>While Instagram has always been a photo sharing platform, it’s introduced new ways to create content with video and stories. Take advantage of these! A video of a glass of wine being poured is a lot more interesting — and mouth-watering — than a still shot. A video tour of your kitchen can allow followers to meet your chef and see them in their element.</p>
-        <p>When it comes to daily content, don’t feel like you have to create it all yourself. Embrace the art of regramming — posting customers’ photos that they took at your restaurant. Your hashtags and location tags will really help with this. One note: Be sure to tag the original poster. It will let them know that you posted their content and it builds a way for you to connect with a customer-making the relationship even stronger.</p>
     </section>
     <section>
-        <h2>Instagram is not a one-way street</h2>
-        <p>Beware: Instagram isn’t a visual press conference for your brand.</p>
-        <p class="mb-0">You should constantly be interacting, liking, commenting, and engaging with your followers. Take the time to dig into their relevant content that relates to your brand and engage with it.</p>
-        <a :href="require('../assets/images/chapter__11_image_6.jpg')" target="_blank" data-fancybox="gallery" class="figure">
-            <img :src="require('../assets/images/chapter__11_image_6.jpg')" alt="" class="my-0">
-        </a>
-        <p>Aside from posting, use Instagram to have positive interactions with your fans. Post captions that inspire them to comment (a fill in the blank is a great option, like “The best burger topping is ___”), then start a dialogue. Answer questions. Encourage opinions. Engage respectfully, but with a fun tone.</p>
-        <p class="mb-0">Armed with the right tips and tricks, it’s easy to see that Instagram is a powerful marketing tool — and that it isn’t nearly as scary as it might seem to a less-than-tech-savvy restaurateur. Use this guide to create a restaurant Instagram account that will not only show off the great work you’re doing, but will inspire diners to become followers.</p>
+        <h2>How to Measure and Use These Metrics</h2>
+        <p>Numbers are great, but how you use them is what ultimately matters.</p>
+        <p>When you measure these metrics, they give you impactful of insights into your restaurant business and how it’s running. But you need to know how to use that data in order to learn and improve.</p>
+        <p>Here are some general rules to follow:</p>
+        <section>
+            <h3>Always Use Apples to Apples Comparisons</h3>
+            <p>In most cases, it’s wise to establish a period that you’d like to analyze, and keep it consistent across all metrics. This could be a weekly period, 28-day cycle, or quarterly basis usually determined by the fiscal demands of your business. This allows you to set a baseline for your calculations, sync goals and achievements, and ensures you’re always comparing apples to apples when discussing different metrics.</p>
+        </section>
+        <section>
+            <h3>Take a Full View of Restaurant Operations</h3>
+            <p>Don’t use singular metrics, instead, analyze several aspects of your business at once. One metric alone won’t give you an overall picture of your business’ health but using several in conjunction will give further insight.</p>
+        </section>
+        <section>
+            <h3>Measure from the Bottom Up</h3>
+            <p>When it comes to calculating metrics, begin with the more specific calculations first. Once that’s completed it’s easy to use these figures to do your high-level equations next. Most restaurant accounting software will help you make these calculations in real-time.</p>
+            <p>For example, when calculating break-even point, one would start by subtracting variable costs from sales, then dividing this by your total sales to get a percentage. Carry this percentage further into the equation to easily determine your break-even point!</p>
+        </section>
+        <section>
+            <h3>Stay Diligent</h3>
+            <p>Your metrics will only be as accurate as you are disciplined and diligent when creating them. The more effort you put into these calculations from the get-go, the easier they will be to update and maintain in the future. Carefully gather data and try to account for the wide array of variable costs and factors that may affect the overall health of your business. A seasoned restaurateur can tell you that keeping your analytical house in order is the most crucial step to having a full understanding of your business.</p>
+            <p class="mb-0">Lucky for you, we’re in the age of tech — there are several tools out there to help make running a restaurant easier. In the next section, we cover the 19 tech tools that will help your restaurant run more smoothly, and keep you sane from all of the craziness that comes with running a restaurant.</p>
+        </section>
     </section>
 </article>
 </template>

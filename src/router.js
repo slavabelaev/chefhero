@@ -13,7 +13,7 @@ import Chapter7 from './views/Chapter-7.vue';
 import Chapter8 from './views/Chapter-8.vue';
 import Chapter9 from './views/Chapter-9.vue';
 import Chapter10 from './views/Chapter-10.vue';
-import Chapter11 from './views/Chapter-11.vue';
+//import Chapter11 from './views/Chapter-11.vue';
 import Conclusion from './views/Conclusion.vue';
 import About from './views/About.vue';
 import NotFound from './views/NotFound.vue';
@@ -226,29 +226,6 @@ export default new Router({
       path: '/chapter/8',
       name: 'chapter-8',
       meta: {
-        title: '14 Essential Restaurant Metrics Every Owner',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Should Measure and Track'
-          },
-          {
-            name: 'keywords',
-            content: ''
-          },
-          {
-            name: 'author',
-            content: 'Chris Arnett'
-          }
-        ],
-        needToShowInNavigation: true
-      },
-      component: Chapter8
-    },
-    {
-      path: '/chapter/9',
-      name: 'chapter-9',
-      meta: {
         title: 'The 19 Tech Tools You Need to Run',
         metaTags: [
           {
@@ -266,11 +243,11 @@ export default new Router({
         ],
         needToShowInNavigation: true
       },
-      component: Chapter9
+      component: Chapter8
     },
     {
-      path: '/chapter/10',
-      name: 'chapter-10',
+      path: '/chapter/9',
+      name: 'chapter-9',
       meta: {
         title: 'Greener Tomorrow:',
         metaTags: [
@@ -289,11 +266,11 @@ export default new Router({
         ],
         needToShowInNavigation: true
       },
-      component: Chapter10
+      component: Chapter9
     },
     {
-      path: '/chapter/11',
-      name: 'chapter-11',
+      path: '/chapter/10',
+      name: 'chapter-10',
       meta: {
         title: 'A Starter Guide to Instagram',
         metaTags: [
@@ -312,8 +289,31 @@ export default new Router({
         ],
         needToShowInNavigation: true
       },
-      component: Chapter11
+      component: Chapter10
     },
+    // {
+    //   path: '/chapter/11',
+    //   name: 'chapter-11',
+    //   meta: {
+    //     title: '14 Essential Restaurant Metrics Every Owner',
+    //     metaTags: [
+    //       {
+    //         name: 'description',
+    //         content: 'Should Measure and Track'
+    //       },
+    //       {
+    //         name: 'keywords',
+    //         content: ''
+    //       },
+    //       {
+    //         name: 'author',
+    //         content: 'Chris Arnett'
+    //       }
+    //     ],
+    //     needToShowInNavigation: true
+    //   },
+    //   component: Chapter11
+    // },
     {
       path: '/conclusion',
       name: 'conclusion',

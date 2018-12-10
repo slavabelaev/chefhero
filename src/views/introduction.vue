@@ -8,5 +8,8 @@
         <p>So, when it comes to the ones that make it past the first 5 years, what are they doing right and what steps can you take to ensure that you’re on the path to success?</p>
         <p>This ultimate guide will provide you with the tools and knowledge you need to succeed as a restaurateur, from  prelaunch to actually running your establishment.</p>
     </div>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
 </article>
 </template>

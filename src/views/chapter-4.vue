@@ -83,6 +83,9 @@
             <p>Keep in mind that you can update your domain in the future. So, settling for something that’s less than perfect now may be a smart choice until you can get the name you really want.</p>
             <p>Providers: enon, NameCheap, GoDaddy, and many more.</p>
         </section>
+        <!-- Access to Final Chapter -->
+        <access-to-chapter></access-to-chapter>
+        <!-- /Access to Final Chapter -->
         <section>
             <h3>Setting Up Your Business Listing</h3>
             <p>When you start any new business, people will come out of the woodwork trying to sell you products and services to help you with marketing. One of the most common services you’ll be pitched is reputation management or setting up directory listings.</p>
@@ -130,14 +133,9 @@
                 <li><strong>Website builder</strong> - Drag-and-drop or WYSIWYG editor that lets you build a website from pre-designed templates and sections.</li>
             </ol>
             <p>There’s no clear-cut winner on which one is best for every situation, but there are some key considerations that can help you decide which one is best for you.</p>
-            <dl>
-                <dt>When to go custom-built:</dt>
-                <dd>Probably the best use case for a custom-built website without a CMS would be a “brochure” style website that you plan to build once and rarely (or never) update. Usually, changing things on a custom-built website will require changes to be made in the actual code, so it won’t be easy to do unless you’re tech-savvy.</dd>
-                <dt>When to use a CMS:</dt>
-                <dd>CMS is a great middle-ground option that lets you build a custom-looking website that you can easily update or change. So, if you plan to update your menu or post your newest specials each week, you can have a web developer build a custom theme/template for a CMS like <a rel="nofollow" href="https://wordpress.org/" target="_blank">Wordpress</a> and then you can update the website content using the backend editor.</dd>
-                <dt>When to use a website builder:</dt>
-                <dd>The easiest (and cheapest) option for setting up and maintaining your website is the WYSIWYG website builder like <a rel="nofollow" href="https://wix.com" target="_blank">Wix</a> or <a rel="nofollow" href="https://www.squarespace.com/" target="_blank">Squarespace</a>. Especially if you are tight on funds and just want a basic website, this could be an easy way to get things up and running. The downside is that you’ll be working from templates and the website may not be 100% customized how you want it.</dd>
-            </dl>
+            <p><strong>When to go custom-built:</strong> Probably the best use case for a custom-built website without a CMS would be a “brochure” style website that you plan to build once and rarely (or never) update. Usually, changing things on a custom-built website will require changes to be made in the actual code, so it won’t be easy to do unless you’re tech-savvy.</p>
+            <p><strong>When to use a CMS:</strong> CMS is a great middle-ground option that lets you build a custom-looking website that you can easily update or change. So, if you plan to update your menu or post your newest specials each week, you can have a web developer build a custom theme/template for a CMS like <a rel="nofollow" href="https://wordpress.org/" target="_blank">Wordpress</a> and then you can update the website content using the backend editor.</p>
+            <p><strong>When to use a website builder:</strong> The easiest (and cheapest) option for setting up and maintaining your website is the WYSIWYG website builder like <a rel="nofollow" href="https://wix.com" target="_blank">Wix</a> or <a rel="nofollow" href="https://www.squarespace.com/" target="_blank">Squarespace</a>. Especially if you are tight on funds and just want a basic website, this could be an easy way to get things up and running. The downside is that you’ll be working from templates and the website may not be 100% customized how you want it.</p>
         </section>
     </section>
     <section>

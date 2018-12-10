@@ -2,7 +2,7 @@
 <article id="chapter-6">
     <header>
         <div class="chapter-title">Chapter 6</div>
-        <h1>Taking Restaurant Customer Service to the Next Level: <br>Strategies and Results</h1>
+        <h1>Taking Restaurant Customer <br class="show-on-large">Service to the Next Level: <br>Strategies and Results</h1>
         <address>
             <dl>
                 <dt>Written By:</dt>
@@ -55,6 +55,9 @@
         <p>So what about the flip side? A Customer Experience Report survey found that rude customer service was one of the top reasons customers will abandon a brand, beating out other reasons by 18 percent <sup><a rel="nofollow" href="https://www.slideshare.net/RightNow/2010-customer-experience-impact" target="_blank">[23]</a></sup>.</p>
         <p>These two studies show why customer service is so vital for restaurants: it truly can make or break your brand.</p>
     </section>
+    <!-- Access to Final Chapter -->
+    <access-to-chapter></access-to-chapter>
+    <!-- /Access to Final Chapter -->
     <section>
         <h3>How Restaurants Need to Take Customer Service Further</h3>
         <p>Of course, customer service varies a bit across industries.</p>
