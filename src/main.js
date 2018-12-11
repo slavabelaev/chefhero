@@ -10,6 +10,8 @@ import '@fancyapps/fancybox/dist/jquery.fancybox.min.css';
 
 import AccessToChapter from './components/Access-to-chapter.vue'
 Vue.component('access-to-chapter', AccessToChapter)
+import GetTheFullGuideDialog from './components/Get-the-full-guide-dialog.vue'
+Vue.component('get-the-full-guide-dialog', GetTheFullGuideDialog);
 
 import BudgetPlanChart from './components/charts/BudgetPlanChart.vue'
 Vue.component('budget-plan-chart', BudgetPlanChart)

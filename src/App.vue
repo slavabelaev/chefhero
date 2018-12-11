@@ -10,11 +10,10 @@
         </div>
         <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
         <div class="md-toolbar-section-end">
-          <md-button download target="_blank" href="https://gallery.mailchimp.com/03cd0c9f95408ab054f81b5d8/files/55917a52-a951-4ca5-96f5-92bbc4a90376/ChefHero_UltimateGuide.pdf" v-if="isLargeScreen" class="md-raised md-default">
-            <md-icon>save_alt</md-icon>
-            <span>Download the guide</span>
+          <md-button @click="toggleDialog()" v-if="isLargeScreen" class="md-raised md-default md-button__get-the-full-guide">
+            <span>Get the full guide</span>
           </md-button>
-          <md-button download target="_blank" href="https://gallery.mailchimp.com/03cd0c9f95408ab054f81b5d8/files/55917a52-a951-4ca5-96f5-92bbc4a90376/ChefHero_UltimateGuide.pdf'" class="md-icon-button" v-if="!isLargeScreen">
+          <md-button @click="toggleDialog()" class="md-icon-button" v-if="!isLargeScreen">
             <md-icon>save_alt</md-icon>
           </md-button>
           <md-button v-if="supportPrint()" @click="printPage()" class="md-icon-button">
@@ -64,6 +63,38 @@
                    @click="goNext()" 
                    v-if="$route.name != 'about'">Next</md-button>
       </div>
+      <!-- Dialog -->
+      <md-dialog :md-active.sync="isActiveDialog" class="md-dialog__get-the-full-guide">
+        <img :src="require('./assets/images/dialog__image.png')" alt="Ultimate Guide" class="md-dialog__image">
+        <md-dialog-title class="title_theme_dark">Unlock your restaurant growth! Get access to the final chapter.</md-dialog-title>
+        <form method="POST" action="https://chefhero.activehosted.com/proc.php">
+          <input type="hidden" name="u" value="5C0FF6C051FB8">
+          <input type="hidden" name="f" value="3">
+          <input type="hidden" name="s">
+          <input type="hidden" name="c" value="0">
+          <input type="hidden" name="m" value="0">
+          <input type="hidden" name="act" value="sub">
+          <input type="hidden" name="v" value="2">
+
+          <md-field>
+              <label for="name">Your Name</label>
+              <md-input name="name" id="name" required />
+          </md-field>
+
+          <md-field>
+              <label for="email">Your Email</label>
+              <md-input type="email" name="email" id="email" autocomplete="email" required />
+          </md-field>
+
+          <md-button class="md-accent md-raised md-button_size_middle" type="submit">Unlock chapter</md-button>
+        </form>
+        <div v-if="!isLargeScreen">
+          <md-button class="md-icon-button md-raised md-dialog__close-button" @click="toggleDialog()">
+            <md-icon>clear</md-icon>
+          </md-button>
+        </div>
+      </md-dialog>
+      <!-- /Dialog -->
     </md-app-content>
   </md-app>
 </template>
@@ -74,7 +105,7 @@ export default {
     return {
       isLargeScreen: true,
       isInitializedApp: false,
-      isActiveAboutDialog: false,
+      isActiveDialog: false,
       isActiveDrawer: false,
       doneRoutes: {}
     } 
@@ -137,6 +168,9 @@ export default {
         routeIndex--;
         this.$router.push(routes[routeIndex]);
       }
+    },
+    toggleDialog() {
+      this.isActiveDialog = !this.isActiveDialog;
     }
   }
 }

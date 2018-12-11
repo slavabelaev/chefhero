@@ -148,26 +148,54 @@ article {
 }
 
 #access-to-chapter {
-	background-color: #DADEDC;
+	background-color: #f0f7f7;
 	img {
 		max-width: 240px;
 	}
 	h2 {
 		margin-top: 0;
-		font-family: 'TiemposHeadline', serif;
-		font-weight: bold;
-		font-size: 1.5rem;
 	}
 	h2 {
 		color: #333333;
 	}
-	.md-button {
-		font-family: 'Belbo-Book', serif;
-		box-shadow: none;
-		background-color: #FF5C65;
-		padding-left: 1rem;
-		padding-right: 1rem;
-		font-weight: bold;
+}
+
+.title_theme_dark {
+	font-family: 'TiemposHeadline', serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.25;
+}
+.md-button_size_middle {
+	font-size: 1rem;
+	font-family: 'Belbo-Book', serif;
+	box-shadow: none!important;
+	background-color: #FF5C65!important;
+	min-width: 220px;
+	min-height: 40px;
+	font-weight: bold;
+}
+.md-dialog__get-the-full-guide {
+	max-width: 500px;
+	text-align: center;
+	overflow: auto;
+	.md-dialog-container {
+		padding: 1.5rem;
+	}
+}
+.md-dialog__image {
+	max-width: 250px;
+	margin: auto;
+}
+.md-button__get-the-full-guide {
+	min-width: 170px;
+}
+.md-dialog__close-button {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	&.md-button {
+		border-radius: 50%;
 	}
 }
 
@@ -212,7 +240,6 @@ article {
 		#access-to-chapter {
 			margin-bottom: -1.5rem;
 			border-radius: 0 0 $border-radius $border-radius;
-			margin-bottom: calc(-1.5rem - 1px);
 		}
 	}
 }
@@ -317,13 +344,12 @@ article {
 		background-repeat: no-repeat;
 		#access-to-chapter {
 			margin-bottom: -3.125rem;
-			margin-bottom: calc(-3.125rem - 1px);
 		}
 	}
 	#access-to-chapter {
 		padding: 3.125rem;
-		margin-left: calc(-3.125rem - 1px);
-		margin-right: calc(-3.125rem - 1px);
+		margin-left: -3.125rem;
+		margin-right: -3.125rem;
 	}
 	#introduction { background-image: url(assets/images/chapters/introduction__bg.svg); }
 	#conclusion { background-image: url(assets/images/chapters/conclusion__bg.svg); }
