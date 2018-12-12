@@ -11,16 +11,13 @@
         <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
         <div class="md-toolbar-section-end">
           <md-button 
-            @click="toggleDialog()" 
-            onclick="clickOnButtonGetTheFullGuide(this)" 
-            data-name="buttonInNavigation"
-            v-if="isLargeScreen" class="md-raised md-default md-button__get-the-full-guide">
+            @click="toggleDialog()"
+            v-if="isLargeScreen" 
+            class="md-raised md-default md-button__get-the-full-guide">
             <span>Get the full guide</span>
           </md-button>
           <md-button 
-            @click="toggleDialog()" 
-            onclick="clickOnButtonGetTheFullGuide(this)" 
-            data-name="buttonInNavigation"
+            @click="toggleDialog()"
             class="md-icon-button" 
             v-if="!isLargeScreen">
             <md-icon>save_alt</md-icon>
@@ -95,7 +92,11 @@
               <md-input type="email" name="email" id="email" autocomplete="email" required />
           </md-field>
 
-          <md-button class="md-accent md-raised md-button_size_middle" type="submit">Unlock chapter</md-button>
+          <md-button 
+            onclick="clickOnButtonGetTheFullGuide(this)" 
+            :data-name="$route.name"
+            class="md-accent md-raised md-button_size_middle" 
+            type="submit">Unlock chapter</md-button>
         </form>
         <div v-if="!isLargeScreen">
           <md-button class="md-icon-button md-raised md-dialog__close-button" @click="toggleDialog()">

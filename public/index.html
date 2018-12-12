@@ -54,18 +54,8 @@
 
       function clickOnButtonGetTheFullGuide(button) {
         var route = button.dataset.name;
-        if (route == 'introduction') console.log(route);
-        if (route == 'chapter-1') console.log(route);
-        if (route == 'chapter-2') console.log(route);
-        if (route == 'chapter-3') console.log(route);
-        if (route == 'chapter-4') console.log(route);
-        if (route == 'chapter-5') console.log(route);
-        if (route == 'chapter-6') console.log(route);
-        if (route == 'chapter-7') console.log(route);
-        if (route == 'chapter-8') console.log(route);
-        if (route == 'chapter-9') console.log(route);
-        if (route == 'chapter-10') console.log(route);
-        if (route == 'conclusion') console.log(route);
+        ga('send', 'event', 'UltimateGuide', 'SignUp', route);
+        console.log('Unlock chapter was clicked');
       }
     </script>
 
