@@ -10,10 +10,19 @@
         </div>
         <span class="md-title">The Ultimate Guide to <strong>Running a Restaurant</strong></span>
         <div class="md-toolbar-section-end">
-          <md-button @click="toggleDialog()" v-if="isLargeScreen" class="md-raised md-default md-button__get-the-full-guide">
+          <md-button 
+            @click="toggleDialog()" 
+            onclick="clickOnButtonGetTheFullGuide(this)" 
+            data-name="buttonInNavigation"
+            v-if="isLargeScreen" class="md-raised md-default md-button__get-the-full-guide">
             <span>Get the full guide</span>
           </md-button>
-          <md-button @click="toggleDialog()" class="md-icon-button" v-if="!isLargeScreen">
+          <md-button 
+            @click="toggleDialog()" 
+            onclick="clickOnButtonGetTheFullGuide(this)" 
+            data-name="buttonInNavigation"
+            class="md-icon-button" 
+            v-if="!isLargeScreen">
             <md-icon>save_alt</md-icon>
           </md-button>
           <md-button v-if="supportPrint()" @click="printPage()" class="md-icon-button">
