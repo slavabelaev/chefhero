@@ -16,7 +16,7 @@
     right: 0;	
     opacity: 0;
 	transition: .7s;
-	&.initialized {
+	&.md-app_is_initialized {
 		opacity: 1;
 	}
 }

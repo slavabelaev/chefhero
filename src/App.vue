@@ -1,5 +1,5 @@
 <template>
-  <md-app md-mode="fixed" :class="{ 'initialized': isInitializedApp }">
+  <md-app md-mode="fixed" :class="{ 'md-app_is_initialized': isInitializedApp }">
     <!-- Toolbar -->
     <md-app-toolbar class="md-primary">
       <div class="md-toolbar-row">
@@ -123,7 +123,7 @@ export default {
     } 
   },
   created() {
-    this.isInitializedApp = true
+    setTimeout(() => this.isInitializedApp = true, 1);
     this._isLargeScreen();
     setTimeout(this.adaptDataTables, 1);
     window.addEventListener('resize', this._isLargeScreen);
