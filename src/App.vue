@@ -73,7 +73,11 @@
       <md-dialog :md-active.sync="isActiveDialog" class="md-dialog__get-the-full-guide">
         <img :src="require('./assets/images/dialog__image.png')" alt="Ultimate Guide" class="md-dialog__image">
         <md-dialog-title class="title_theme_dark">Unlock your restaurant growth! Get access to the final chapter.</md-dialog-title>
-        <form method="POST" action="https://chefhero.activehosted.com/proc.php">
+        <form 
+          onsubmit="onSubmitUnlockChapterForm(this)" 
+          :data-route="$route.name"
+          method="POST" 
+          action="https://chefhero.activehosted.com/proc.php">
           <input type="hidden" name="u" value="5C0FF6C051FB8">
           <input type="hidden" name="f" value="3">
           <input type="hidden" name="s">
@@ -93,8 +97,6 @@
           </md-field>
 
           <md-button 
-            onclick="clickOnButtonGetTheFullGuide(this)" 
-            :data-name="$route.name"
             class="md-accent md-raised md-button_size_middle" 
             type="submit">Unlock chapter</md-button>
         </form>
