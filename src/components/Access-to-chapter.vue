@@ -7,7 +7,7 @@
            <h2 class="title_theme_dark">Get access to the final chapter!</h2>
            <p>These 14 essential metrics will give you the tools you need to measure your success. Learn about how to grow your business!</p>
            <md-button class="md-accent md-raised md-button_size_middle m-0"
-                @click="getTheFullGuide()">GET THE FULL GUIDE</md-button>
+                @click="toggleDialog()">GET THE FULL GUIDE</md-button>
         </figcaption>
     </figure>
 </template>
@@ -15,8 +15,8 @@
 <script>
 export default {
     methods: {
-        getTheFullGuide() {
-            document.querySelector('.md-button__get-the-full-guide').click();
+        toggleDialog() {
+            window.toggleDialog();
         }
     }
 }

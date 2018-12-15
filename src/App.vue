@@ -70,43 +70,8 @@
                    v-if="$route.name != 'about'">Next</md-button>
       </div>
       <!-- Dialog -->
-      <md-dialog :md-active.sync="isActiveDialog" class="md-dialog__get-the-full-guide">
-        <img :src="require('./assets/images/dialog__image.png')" alt="Ultimate Guide" class="md-dialog__image">
-        <md-dialog-title class="title_theme_dark">Unlock your restaurant growth! Get access to the final chapter.</md-dialog-title>
-        <form 
-          onsubmit="onSubmitUnlockChapterForm(this)" 
-          :data-route="$route.name"
-          method="POST" 
-          action="https://chefhero.activehosted.com/proc.php">
-          <input type="hidden" name="u" value="5C0FF6C051FB8">
-          <input type="hidden" name="f" value="3">
-          <input type="hidden" name="s">
-          <input type="hidden" name="c" value="0">
-          <input type="hidden" name="m" value="0">
-          <input type="hidden" name="act" value="sub">
-          <input type="hidden" name="v" value="2">
-
-          <md-field>
-              <label for="name">Your Name</label>
-              <md-input name="name" id="name" required />
-          </md-field>
-
-          <md-field>
-              <label for="email">Your Email</label>
-              <md-input type="email" name="email" id="email" autocomplete="email" required />
-          </md-field>
-
-          <md-button 
-            class="md-accent md-raised md-button_size_middle" 
-            type="submit">Unlock chapter</md-button>
-        </form>
-        <div v-if="!isLargeScreen">
-          <md-button class="md-icon-button md-raised md-dialog__close-button" @click="toggleDialog()">
-            <md-icon>clear</md-icon>
-          </md-button>
-        </div>
-      </md-dialog>
-      <!-- /Dialog -->
+      <get-the-full-guide-dialog></get-the-full-guide-dialog>
+      <!-- Dialog -->
     </md-app-content>
   </md-app>
 </template>
@@ -117,7 +82,6 @@ export default {
     return {
       isLargeScreen: true,
       isInitializedApp: false,
-      isActiveDialog: false,
       isActiveDrawer: false,
       doneRoutes: {}
     } 
@@ -127,6 +91,7 @@ export default {
     this._isLargeScreen();
     setTimeout(this.adaptDataTables, 1);
     window.addEventListener('resize', this._isLargeScreen);
+    window.toggleDialog = this.toggleDialog;
   },
   watch: {
     $route () {
@@ -182,7 +147,7 @@ export default {
       }
     },
     toggleDialog() {
-      this.isActiveDialog = !this.isActiveDialog;
+      window.toggleDialog();
     }
   }
 }
