@@ -6,7 +6,7 @@
         <address>
             <dl>
                 <dt>Written By:</dt>
-                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b8ebd7a03ce6447fa53656c">Ben Lucier</a></dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b8ebd7a03ce6447fa53656c">Ben Lucier — VP Operations, ChefHero</a></dd>
             </dl>
         </address>
         <section id="in-this-chapter">

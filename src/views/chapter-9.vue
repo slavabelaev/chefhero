@@ -6,7 +6,7 @@
         <address>
             <dl>
                 <dt>Written By:</dt>
-                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin</a></dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5b4f9f66cd99afe7f0314939">Hiba Amin — Marketing Specialist, ChefHero</a></dd>
             </dl>
         </address>
         <section id="in-this-chapter">

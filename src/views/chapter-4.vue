@@ -6,7 +6,7 @@
         <address>
             <dl>
                 <dt>Written By:</dt>
-                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley</a></dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5a7340df5e0ed8068fe8a2e8">Sean Hurley — VP Growth, ChefHero</a></dd>
             </dl>
         </address>
         <section id="in-this-chapter">

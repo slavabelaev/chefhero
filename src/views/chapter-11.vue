@@ -6,7 +6,7 @@
         <address>
             <dl>
                 <dt>Written By:</dt>
-                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett</a></dd>
+                <dd><a target="_blank" href="https://www.chefhero.com/blog/?author=5aa6be895ce35050d2e84e88">Chris Arnett — Growth Manager, ChefHero</a></dd>
             </dl>
         </address>
         <section id="in-this-chapter">

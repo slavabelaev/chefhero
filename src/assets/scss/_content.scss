@@ -161,12 +161,7 @@ article {
 	}
 }
 
-.title_theme_dark {
-	font-family: 'TiemposHeadline', serif;
-	font-weight: bold;
-	font-size: 1.5rem;
-	line-height: 1.25;
-}
+
 .md-button_size_middle {
 	font-size: 1rem;
 	font-family: 'Belbo-Book', serif;
@@ -180,12 +175,24 @@ article {
 	max-width: 500px;
 	text-align: center;
 	overflow: auto;
-	.md-dialog-container {
-		padding: 1.5rem;
-	}
+}
+.md-dialog__header,
+.md-dialog__body {
+	padding: 1.5rem;
+}
+.md-dialog__header {
+	background-color: $primary;
+	display: block;
+	color: #fff;
+}
+.md-dialog__title {
+	font-family: 'TiemposHeadline', serif;
+	font-weight: bold;
+	font-size: 1.75rem;
+	line-height: 1.25;
 }
 .md-dialog__image {
-	max-width: 250px;
+	max-width: 240px;
 	margin: auto;
 }
 .md-button__get-the-full-guide {
@@ -356,12 +363,15 @@ article {
 	#conclusion { background-image: url(assets/images/chapters/conclusion__bg.svg); }
 
 	#starter .logo {
-		position: absolute;
-		top: 40px;
-		left: 40px;
+		margin: auto;
+		max-width: 200px;
 	}
 	#starter > header h1 small {
 		font-size: $font-size * 2;
+	}
+
+	.md-dialog__get-the-full-guide {
+		max-height: 90%;
 	}
 }
 
