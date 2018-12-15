@@ -18,6 +18,8 @@ import Conclusion from './views/Conclusion.vue';
 import About from './views/About.vue';
 import NotFound from './views/NotFound.vue';
 
+const pathPrefix = '';
+
 Vue.use(Router)
 export default new Router({
   mode: process.env.NODE_ENV === 'production' ? 'hash' : 'hash',
@@ -43,7 +45,7 @@ export default new Router({
       component: Title
     },
     {
-      path: '/introduction',
+      path: pathPrefix + '/introduction',
       name: 'introduction',
       meta: {
         title: 'Introduction',
@@ -62,7 +64,7 @@ export default new Router({
       component: Introduction
     },
     {
-      path: '/chapter/1',
+      path: pathPrefix + '/chapter/1',
       name: 'chapter-1',
       meta: {
         title: 'Restaurant Budgeting:',
@@ -85,7 +87,7 @@ export default new Router({
       component: Chapter1
     },
     {
-      path: '/chapter/2',
+      path: pathPrefix + '/chapter/2',
       name: 'chapter-2',
       meta: {
         title: 'Location, Space, & Personality:',
@@ -108,7 +110,7 @@ export default new Router({
       component: Chapter2
     },
     {
-      path: '/chapter/3',
+      path: pathPrefix + '/chapter/3',
       name: 'chapter-3',
       meta: {
         title: 'Restaurant Branding:',
@@ -131,7 +133,7 @@ export default new Router({
       component: Chapter3
     },
     {
-      path: '/chapter/4',
+      path: pathPrefix + '/chapter/4',
       name: 'chapter-4',
       meta: {
         title: '5 Steps to Kickstart',
@@ -154,7 +156,7 @@ export default new Router({
       component: Chapter4
     },
     {
-      path: '/chapter/5',
+      path: pathPrefix + '/chapter/5',
       name: 'chapter-5',
       meta: {
         title: 'Build the Best Team:',
@@ -177,7 +179,7 @@ export default new Router({
       component: Chapter5
     },
     {
-      path: '/chapter/6',
+      path: pathPrefix + '/chapter/6',
       name: 'chapter-6',
       meta: {
         title: 'Taking Restaurant Customer Service to the Next Level:',
@@ -200,7 +202,7 @@ export default new Router({
       component: Chapter6
     },
     {
-      path: '/chapter/7',
+      path: pathPrefix + '/chapter/7',
       name: 'chapter-7',
       meta: {
         title: 'Menu Hacking:',
@@ -223,7 +225,7 @@ export default new Router({
       component: Chapter7
     },
     {
-      path: '/chapter/8',
+      path: pathPrefix + '/chapter/8',
       name: 'chapter-8',
       meta: {
         title: 'The 19 Tech Tools You Need to Run',
@@ -246,7 +248,7 @@ export default new Router({
       component: Chapter8
     },
     {
-      path: '/chapter/9',
+      path: pathPrefix + '/chapter/9',
       name: 'chapter-9',
       meta: {
         title: 'Greener Tomorrow:',
@@ -269,7 +271,7 @@ export default new Router({
       component: Chapter9
     },
     {
-      path: '/chapter/10',
+      path: pathPrefix + '/chapter/10',
       name: 'chapter-10',
       meta: {
         title: 'A Starter Guide to Instagram',
@@ -292,7 +294,7 @@ export default new Router({
       component: Chapter10
     },
     // {
-    //   path: '/chapter/11',
+    //   path: pathPrefix + '/chapter/11',
     //   name: 'chapter-11',
     //   meta: {
     //     title: '14 Essential Restaurant Metrics Every Owner',
@@ -315,7 +317,7 @@ export default new Router({
     //   component: Chapter11
     // },
     {
-      path: '/conclusion',
+      path: pathPrefix + '/conclusion',
       name: 'conclusion',
       meta: {
         title: 'Conclusion',
@@ -334,7 +336,7 @@ export default new Router({
       component: Conclusion
     },
     {
-      path: '/about',
+      path: pathPrefix + '/about',
       name: 'about',
       meta: {
         title: 'About ChefHero',
@@ -353,7 +355,7 @@ export default new Router({
       component: About
     },
     { 
-      path: '/404',
+      path: pathPrefix + '/404',
       name: 'not-found',
       meta: {
         title: 'Not Found',

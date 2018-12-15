@@ -88,6 +88,7 @@ router.beforeEach((to, from, next) => {
   .forEach(tag => document.head.appendChild(tag));
 
   next();
+  window.onUrlChange();
 });
 
 new Vue({

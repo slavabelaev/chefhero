@@ -57,9 +57,17 @@
       gtag('js', new Date());
       gtag('config', 'UA-62767319-4');
       
+      
       // On Submit Unlock Chapter Form
       function onSubmitUnlockChapterForm(form) {
         ga('send', 'event', 'UltimateGuide', 'SignUp', form.dataset.route);
+      }
+
+      // On Url Change
+      function onUrlChange() {
+        ga('send', 'pageview', {
+          'page': location.href
+        });
       }
     </script>
 
