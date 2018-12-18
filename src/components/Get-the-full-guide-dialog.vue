@@ -7,6 +7,7 @@
     </header>
     <div class="md-dialog__body">
         <form
+            class="unlock-chapter-form"
             onsubmit="onSubmitUnlockChapterForm(this)" 
             :data-route="$route.name"
             method="POST" 
